@@ -1,0 +1,63 @@
+.register-wish .text-lable {
+    width: 25%;
+    color: #222222;
+    text-align: left;
+    padding-top: 0;
+    line-height: 19px;
+    font-size: 14px;
+    flex-shrink: 0;
+}
+
+.btn-dask-blue {
+    background-color: var(--dask-blue);
+    color: white;
+}
+
+.btn-dask-blue:hover {
+    background-color: #112358;
+    color: white;
+}
+
+.title-under-line {
+    border-bottom: solid 1px #e1e1e1;
+    padding-bottom: 10px;
+}
+
+.title-under-line span {
+    position: relative;
+}
+
+.title-under-line span::after {
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: var(--dask-blue);
+    position: absolute;
+    bottom: -14px;
+    left: 0;
+}
+
+.register-wish .btn {
+    min-width: 200px;
+}
+
+.register-wish {
+    margin: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.register-wish .table {
+    border: solid 1px #e1e1e1;
+}
+
+.register-wish .table th,
+.register-wish .table td {
+    padding: 12px 0.5rem;
+    vertical-align: middle;
+}
+
+.register-wish thead th {
+    background-color: #f4f4f4;
+    border-bottom: none;
+}

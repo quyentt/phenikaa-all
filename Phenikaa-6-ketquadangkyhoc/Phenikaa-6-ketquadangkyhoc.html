@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education management</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+
+<body>
+    <div class="wrapper ">
+        <div class="left-sidebar">
+            <div class="sidebar-top">
+                <a href="javascript:void(0)" class="menu-icon">
+                    <i class="fal fa-indent"></i>
+                </a>
+                <a href="javascript:void(0)" class="menu-icon-mobi">
+                    <i class="fal fa-indent"></i>
+                </a>
+                <a class="logo" href="#">
+                    <img class="logo-icon" src="../assets/images/logo.png">
+                    <img class="logo-name" src="../assets/images/logo-name.png">
+                </a>
+                <div class="line-1"></div>
+                <div class="line-2"></div>
+                <div class="line-hiden"></div>
+            </div>
+
+            <div class="sidebar-menu">
+                <div class="accordion" id="sidebar-menu">
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header" href="">
+                            <i class="fas fa-house item-icon"></i>
+                            <span>Trang chủ</span>
+                        </a>
+                    </div>
+                    <!-- siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header" data-bs-toggle="collapse" data-bs-target="#collapse1" href="javascrip:void(0)">
+                            <i class="fal fa-id-card item-icon"></i>
+                            <span>Profile</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse " id="collapse1" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1 co the dai hon</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse2" href="javascrip:void(0)">
+                            <i class="fal fa-book-reader item-icon"></i>
+                            <span>Góc học tập</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse2" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse3" href="javascrip:void(0)">
+                            <i class="fal fa-hospital-user item-icon"></i>
+                            <span>Ký túc xá</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse3" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item active">
+                        <a class="sidebar-menu-header " data-bs-toggle="collapse" data-bs-target="#collapse4" href="javascrip:void(0)">
+                            <i class="fal fa-users-class item-icon"></i>
+                            <span>Đăng ký học</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse show" id="collapse4" data-bs-parent="#sidebar-menu">
+                            <a href="#" class="active">Đăng ký</a>
+                            <a href="#">Nguyện vọng</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse5" href="javascrip:void(0)">
+                            <i class="fal fa-calendar-alt item-icon"></i>
+                            <span>Thời khóa biểu</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse5" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse6" href="javascrip:void(0)">
+                            <i class="fal fa-sack-dollar item-icon"></i>
+                            <span>Tài chính</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse6" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse7" href="javascrip:void(0)">
+                            <i class="fal fa-book item-icon"></i>
+                            <span>Thư viện</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse7" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse8" href="javascrip:void(0)">
+                            <i class="fal fa-user-graduate item-icon"></i>
+                            <span>Hệ thống 1 cửa sinh viên</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse8" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+
+
+                </div>
+
+
+            </div>
+        </div>
+        <div class="content-page ">
+            <!-- navbar -->
+            <div class="navbar">
+                <div class="search-group-in-mobi">
+                    <i class="fal fa-search mobi-search-icon"></i>
+                    <form class="search-group">
+                        <input type="email" class="search-form" placeholder="Tìm kiếm thông tin">
+                        <button><i class="fal fa-search"></i></button>
+                    </form>
+                </div>
+                <div class="in-mobi-group">
+                    <div class="nav-menu-group">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                            <i class="fal fa-ellipsis-h-alt"></i>
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-notification">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                            <i class="fal fa-bell"><span class="noti-count">3</span></i>
+
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-setting">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                            <i class="fal fa-cog"></i>
+
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-account">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                            <div class="user-image">
+                                <i class="fas fa-user user-icon"></i>
+                            </div>
+                            <span>Admin</span>
+                            <i class="fal fa-chevron-down user-arrow"></i>
+
+
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end navbar -->
+            <!-- content -->
+            <div class="content one-door study-space">
+                <div class="overlay"></div>
+                <div class="content-tab no-tab">
+                    <div class="d-flex justify-content-between">
+                        <div class="nav-content-left">
+
+                            <p class="link"><a href="#">Đăng ký học</a><i class="fal fa-angle-right"></i><a href="#">Đăng ký</a></p>
+
+                        </div>
+                        <div class="nav-content-right">
+                            <a class="d-block text-right" href=""><i class="fas fa-question-circle"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row register-school">
+                    <div class="col-12 col-md-3 register-school-left">
+                        <!--Thông các khoản tiền và đang ký học-->
+                        <div class="reg-money box-shadow pd-15">
+                            <div class="avata-name d-flex ">
+                                <div class="avata-img">
+                                    <img src="../assets/images/avata-form.jpg">
+                                </div>
+                                <div class="name-tt">
+                                    <p class="name"><b>Lê Trọng An</b></p>
+                                    <p>Mã số: 21010389</p>
+                                    <p>Lớp: TIN23</p>
+                                </div>
+                            </div>
+                            <div class="money-class">
+                                <ul class="money-class-ul">
+                                    <li class=""> <i class="fal fa-ballot"></i>Chương trình: <b> Tên trương trình</b> </li>
+                                    <li class=""> <i class="fal fa-users-class"></i>Khóa học: <b> Tên khóa học</b> </li>
+                                    <li class=""> <i class="fal fa-user-graduate"></i>Hệ đào tạo: <b> Tên hệ đào tạo</b> </li>
+
+                                </ul>
+                                <button class="btn btn-light-blue w-100"><i class="fal fa-print me-1"></i> In lịch</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-md-9 register-school-right">
+                        <!--  Chọn đợt-->
+                        <div class="plan box-shadow pd-15">
+                            <div class="row">
+                                <div class="col-12 col-md-2 lable">Chọn đợt</div>
+                                <div class="col-12 col-md-10 plan-list"><a href="#">DKH2022_2023_1,1 - Đăng ký học 2022_2023, kỳ 1, đợt 1</a>
+                                    <button class="btn btn-light-blue"><i class="fal fa-calendar-alt me-2"></i>Xem lịch</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--  Học phần-->
+                        <div class="term box-shadow pd-15">
+                            <div class="row">
+                                <div class="col-12 col-md-2 lable">Học phần đã đăng ký</div>
+                                <div class="col-12 col-md-10 term-list-box">
+                                    <div class="search-term">
+                                        <input type="email" class="search-form" placeholder="Tìm kiếm học phần">
+                                        <button><i class="fal fa-search"></i></button>
+                                    </div>
+                                    <ul class="term-list">
+                                        <li class="active"><a href="#" title="MEM703001 - CAD/CAM/CNC(Học đi)"><i
+                                            class="fal fa-angle-right"></i> <span>MEM703001 - CAD/CAM/CNC(Học đi)</span></a>
+                                        </li>
+
+                                        <li><a href="#"><i class="fal fa-angle-right"></i><span> FFS703008 - Giải tích(Học đi)</span></a>
+                                        </li>
+
+                                        <li><a href="#"><i class="fal fa-angle-right"></i> <span>FEL702004 - Kỹ năng viết và
+                                        thuyết trình bằng tiếng Anh(Học đi)</span></a></li>
+                                        <li><a href="#"><i class="fal fa-angle-right"></i> <span>CSE702003 - Nhập môn Khoa học dữ
+                                        liệu và trí tuệ nhân tạo(Học đi)</span></a></li>
+                                        <li><a href="#"><i class="fal fa-angle-right"></i> <span>FFS702011 - Phương pháp tính(Học
+                                        đi)</span></a></li>
+                                        <li><a href="#"><i class="fal fa-angle-right"></i><span>MEM702036 - Kỹ thuật lập trình
+                                        robot công nghiệp(Học đi)</span></a></li>
+                                        <li><a href="#"><i class="fal fa-angle-right"></i><span>MEM703039 - Kỹ thuật robot(Học
+                                        đi)</span></a></li>
+                                        <li><a href="#"><i class="fal fa-angle-right"></i> <span>MEM702043 - Lập trình mô phỏng
+                                        robot và các hệ Cơ điện tử(Học đi)</span></a></li>
+                                        <li><a href="#"><i class="fal fa-angle-right"></i><span>CSE703006 - Cấu trúc dữ liệu và
+                                        thuật toán(Học đi)</span> </a></li>
+                                        <li><a href="#"><i class="fal fa-angle-right"></i> <span>FFS702005 - Lịch sử Đảng cộng sản
+                                        Việt Nam(Học đi)</span></a></li>
+                                        <li><a href="#"><i class="fal fa-angle-right"></i> <span>EEE703054 - Lý thuyết điều khiển
+                                        tự động(Học đi)</span></a></li>
+                                        <li><a href="#"><i class="fal fa-angle-right"></i> <span>FEL703001 - Tiếng Anh 1(Học
+                                        đi)</span></a></li>
+                                        <li><a href="#"><i class="fal fa-angle-right"></i> <span>FEL703001 - Tiếng Anh 1(Học đi)</span></a>
+                                        </li>
+                                        <li><a href="#"><i class="fal fa-angle-right"></i> <span>MEM702041 - Vi cơ điện tử(Học đi)</span></a>
+                                        </li>
+                                        <li><a href="#"><i class="fal fa-angle-right"></i> <span>FFS703014 - Vật lý 2(Học đi)</span></a>
+                                        </li>
+                                        <li><a href="#"><i class="fal fa-angle-right"></i> <span>MEM703001 - CAD/CAM/CNC(Học đi)</span></a>
+                                        </li>
+                                        <li><a href="#"><i class="fal fa-angle-right"></i> <span>MEM702065 - Vật liệu học đại cương(Học đi)</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--  Lớp học phần-->
+                        <div class="classroom-section pd-15">
+                            <div class="row">
+                                <div class="col-12 col-md-2 lable">Lớp học phần</div>
+                                <div class="col-12 col-md-10 classroom-section-list">
+                                    <div class="row">
+                                        <div class="col-12 col-md-4 classroom-section-item">
+                                            <div class="box-classroom-section box-shadow">
+                                                <div class="lable">
+                                                    <a href="#" title="Chủ nghĩa xã hội khoa học-1-2-21(N04)/CNTY 52Pohe" data-bs-toggle="modal" data-bs-target="#detail-classroom">Chủ
+                                                    nghĩa xã hội khoa học-1-2-21(N04)/CNTY 52Pohe</a>
+                                                    <button class="btn btn-close-1"><i class="fal fa-times"></i></button>
+                                                </div>
+                                                <div class="classroom-detail">
+                                                    <ul class="classroom-detail-list">
+                                                        <li>Lý thuyết</li>
+                                                        <li>Thứ: 2,4,5</li>
+                                                        <li>Tổng số: 30</li>
+                                                        <li>Đã đăng ký: 30</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="classroom-button d-flex justify-content-between">
+                                                    <div class="price"><b>1.000.000</b> đ</div>
+                                                    <div class="btn-group">
+                                                        <button class="btn btn-view-detail me-0" data-bs-toggle="modal" data-bs-target="#detail-classroom">Xem chi tiết
+                                                    </button>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end content -->
+
+        <!-- copy right -->
+        <div class="copyright ">
+            <marquee>
+                Đơn vị phát triển: Công ty Cổ Phần dịch vụ Công nghệ APIS - Địa chỉ: Tầng 6 Tháp Tây, Tòa nhà Hancorp, Số, 72 Trần Đăng Ninh, P, Cầu Giấy, Hà Nội - Điện thoại: 024 3204 5867
+            </marquee>
+        </div>
+        <!-- end copy right -->
+    </div>
+
+
+
+</body>
+<script src="../assets/js/bootstrap.bundle.min.js "></script>
+<script src="../assets/js/swiper-bundle.min.js"></script>
+<script src="../assets/js/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="../assets/js/slick.js"></script>
+<script src="../assets/js/custom.js"></script>
+<script src="../assets/js/masonry.pkgd.min.js"></script>
+
+
+</html>

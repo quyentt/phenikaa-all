@@ -1,0 +1,1632 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education management</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+
+
+</head>
+
+<body>
+    <div class="wrapper ">
+        <div class="left-sidebar">
+            <div class="sidebar-top">
+                <a href="javascript:void(0)" class="menu-icon">
+                    <i class="fal fa-indent"></i>
+                </a>
+                <a href="javascript:void(0)" class="menu-icon-mobi">
+                    <i class="fal fa-indent"></i>
+                </a>
+                <a class="logo" href="#">
+                    <img class="logo-icon" src="../assets/images/logo.png">
+                    <img class="logo-name" src="../assets/images/logo-name.png">
+                </a>
+                <div class="line-1"></div>
+                <div class="line-2"></div>
+                <div class="line-hiden"></div>
+            </div>
+
+            <div class="sidebar-menu">
+                <div class="accordion" id="sidebar-menu">
+                    <div class="sidebar-menu-item ">
+                        <a class="sidebar-menu-header" href="">
+                            <i class="fas fa-house item-icon"></i>
+                            <span>Trang chủ</span>
+                        </a>
+                    </div>
+                    <!-- siderbar menu  item -->
+                    <div class="sidebar-menu-item active">
+                        <a class="sidebar-menu-header" data-bs-toggle="collapse" data-bs-target="#collapse1" href="javascrip:void(0)">
+                            <i class="fal fa-id-card item-icon"></i>
+                            <span>Profile</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse show" id="collapse1" data-bs-parent="#sidebar-menu">
+                            <a href="#" class="active">Tự nhập hồ sơ</a>
+                            <a href="#">Minh chứng nhập học</a>
+                            <a href="#">Xin xác nhận</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse2" href="javascrip:void(0)">
+                            <i class="fal fa-book-reader item-icon"></i>
+                            <span>Góc học tập</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse2" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse3" href="javascrip:void(0)">
+                            <i class="fal fa-hospital-user item-icon"></i>
+                            <span>Ký túc xá</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse3" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse4" href="javascrip:void(0)">
+                            <i class="fal fa-users-class item-icon"></i>
+                            <span>Đăng ký học</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse4" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse5" href="javascrip:void(0)">
+                            <i class="fal fa-calendar-alt item-icon"></i>
+                            <span>Thời khóa biểu</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse5" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse6" href="javascrip:void(0)">
+                            <i class="fal fa-sack-dollar item-icon"></i>
+                            <span>Tài chính</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse6" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse7" href="javascrip:void(0)">
+                            <i class="fal fa-book item-icon"></i>
+                            <span>Thư viện</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse7" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse8" href="javascrip:void(0)">
+                            <i class="fal fa-user-graduate item-icon"></i>
+                            <span>Hệ thống 1 cửa sinh viên</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse8" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+
+
+                </div>
+
+
+            </div>
+        </div>
+        <div class="content-page ">
+            <!-- navbar -->
+            <div class="navbar">
+                <div class="search-group-in-mobi">
+                    <i class="fal fa-search mobi-search-icon"></i>
+                    <form class="search-group">
+                        <input type="email" class="search-form" placeholder="Tìm kiếm thông tin">
+                        <button><i class="fal fa-search"></i></button>
+                    </form>
+                </div>
+                <div class="in-mobi-group">
+                    <div class="nav-menu-group">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                            <i class="fal fa-ellipsis-h-alt"></i>
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-notification">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                            <i class="fal fa-bell"><span class="noti-count">3</span></i>
+
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-setting">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                            <i class="fal fa-cog"></i>
+
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-account">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                            <div class="user-image">
+                                <i class="fas fa-user user-icon"></i>
+                            </div>
+                            <span>Admin</span>
+                            <i class="fal fa-chevron-down user-arrow"></i>
+
+
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end navbar -->
+            <!-- content -->
+            <div class="content one-door">
+                <div class="overlay"></div>
+                <div class="content-tab">
+                    <p class="link"><a href="#">Profile</a><i class="fal fa-angle-right"></i> <a href="#">Đăng ký</a></p>
+                    <div class="tab-list swiper service-slider tab-profile">
+                        <div class="swiper-wrapper">
+                            <div class="tab-item swiper-slide">
+                                <a href="#"><i class="fal fa-user"></i>
+                                <p>Thông tin cá nhân</p></a>
+                            </div>
+
+                            <div class="tab-item swiper-slide">
+                                <a href="#"><i class="fal fa-file-signature"></i>
+                                <p>Điểm, kết quả học tập</p></a>
+                            </div>
+
+                            <div class="tab-item swiper-slide">
+                                <a href="#"><i class="fal fa-users-medical"></i>
+                                <p>Thành phần gia đình</p></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper service-content-slider">
+                    <div class="swiper-wrapper">
+
+
+                        <!-- Thông tin cá nhân-->
+                        <div class="swiper-slide">
+                            <!-- dashboad -->
+                            <div class="dashboad">
+                                <div class="sv-add-info">
+                                    <div class="sv-lable">
+                                        <h3>Thông tin cá nhân</h3>
+                                    </div>
+                                    <div class="sv-add-info-content sv-info-profile">
+                                        <div class="row sv-info-base">
+                                            <div class="col-12 col-md-2 sv-info-base-avata">
+                                                <div class="avata-img">
+                                                    <img src="../assets/images/avata-form.jpg">
+                                                    <a href="#" class="upload-avata"><i
+                                                        class="fal fa-camera color-dask-blue"></i></a>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-10 sv-info-base-text">
+                                                <div class="row">
+                                                    <div class="col-12 col-md-2"><span>Họ và tên:</span></div>
+                                                    <div class="col-12 col-md-10"><b>Lê Trọng An</b></div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-12 col-md-2"><span>Ngày sinh:</span></div>
+                                                    <div class="col-12 col-md-10">15/01/1985</div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-12 col-md-2"><span>CMND/CCCD:</span></div>
+                                                    <div class="col-12 col-md-10">038203007938</div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-12 col-md-2"><span>Mã sinh viên:</span></div>
+                                                    <div class="col-12 col-md-10">1234</div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-12 col-md-2"><span>Ngành học:</span></div>
+                                                    <div class="col-12 col-md-10">CNTT</div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-12 col-md-2"><span>Mã ngành:</span></div>
+                                                    <div class="col-12 col-md-10">123</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="sv-info-detail">
+                                            <div class="row sv-info-detail-lable">
+                                                <div class="col-12 col-md-2 col-lable-groud">Nhóm</div>
+                                                <div class="col-12 col-md-2 text-right col-name-tt">Tên thông tin</div>
+                                                <div class="col-12 col-md-5">Dữ liệu cần nhập</div>
+                                                <div class="col-12 col-md-3 col-upload"><i class="fal fa-file-upload"></i> Tải file minh chứng
+                                                </div>
+                                            </div>
+                                            <div class="sv-info-detail-form">
+                                                <div class="row sv-info-detail-item">
+                                                    <div class="col-12 col-md-2 text-lable-groud"></div>
+                                                    <div class="col-12 col-md-2 text-lable">Ngày sinh</div>
+                                                    <div class="col-12 col-md-5">
+                                                        <div class="form-item d-flex mb-15 form-add-info">
+                                                            <div class="input-group">
+                                                                <i class="fal fa-calendar-alt"></i>
+                                                                <input type="email" class="form-control" placeholder="12/05/2003">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-md-3 col-upload"></div>
+                                                </div>
+                                                <div class="row sv-info-detail-item">
+                                                    <div class="col-12 col-md-2 text-lable-groud"></div>
+                                                    <div class="col-12 col-md-2 text-lable">Giới tính</div>
+                                                    <div class="col-12 col-md-5">
+                                                        <div class="form-item d-flex mb-15 form-add-info">
+                                                            <div class="input-group">
+                                                                <i class="fal fa-restroom"></i>
+                                                                <i class="fal fa-angle-down"></i>
+                                                                <select class="form-select" aria-label="Default select example">
+                                                                <option selected>Chọn giới tính</option>
+                                                                <option value="1">Nam</option>
+                                                                <option value="2">Nữ</option>
+                                                                <option value="3">Khác</option>
+                                                            </select>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="col-12 col-md-3 col-upload"></div>
+                                                </div>
+                                                <hr>
+                                                <div class="ho-khau-thuong-tru">
+                                                    <div class="row sv-info-detail-item">
+                                                        <div class="col-12 col-md-2 text-lable-groud"><b>Hộ khẩu thường
+                                                        trú</b>
+                                                        </div>
+                                                        <div class="col-12 col-md-2 text-lable">Tỉnh/Thành phố</div>
+                                                        <div class="col-12 col-md-5">
+                                                            <div class="form-item d-flex mb-15 form-add-info">
+                                                                <div class="input-group">
+                                                                    <i class="fal fa-map"></i>
+                                                                    <i class="fal fa-angle-down"></i>
+                                                                    <select class="form-select" aria-label="Default select example">
+                                                                    <option selected>Chọn khoa</option>
+                                                                    <option value="1">Công nghệ thông tin</option>
+                                                                    <option value="2">Kế toán</option>
+                                                                    <option value="3">Điện tử</option>
+                                                                </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-md-3 d-flex col-upload">
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="row sv-info-detail-item">
+                                                        <div class="col-12 col-md-2 text-lable-groud"><b></b>
+                                                        </div>
+                                                        <div class="col-12 col-md-2 text-lable">Quận/Huyện</div>
+                                                        <div class="col-12 col-md-5">
+                                                            <div class="form-item d-flex mb-15 form-add-info">
+                                                                <div class="input-group">
+                                                                    <i class="fal fa-map-marker-alt"></i>
+                                                                    <i class="fal fa-angle-down"></i>
+                                                                    <select class="form-select" aria-label="Default select example">
+                                                                    <option selected>Chọn Quận/Huyện</option>
+                                                                    <option value="1">Công nghệ thông tin</option>
+                                                                    <option value="2">Kế toán</option>
+                                                                    <option value="3">Điện tử</option>
+                                                                </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-md-3 d-flex col-upload">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row sv-info-detail-item">
+                                                        <div class="col-12 col-md-2 text-lable-groud"><b></b>
+                                                        </div>
+                                                        <div class="col-12 col-md-2 text-lable">Phường xã</div>
+                                                        <div class="col-12 col-md-5">
+                                                            <div class="form-item d-flex mb-15 form-add-info">
+                                                                <div class="input-group">
+                                                                    <i class="fal fa-map-pin"></i>
+                                                                    <i class="fal fa-angle-down"></i>
+                                                                    <select class="form-select" aria-label="Default select example">
+                                                                    <option selected>Chọn Phường xã</option>
+                                                                    <option value="1">Công nghệ thông tin</option>
+                                                                    <option value="2">Kế toán</option>
+                                                                    <option value="3">Điện tử</option>
+                                                                </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-md-3 d-flex col-upload">
+                                                            <a href="#" class="file-upload file-upload-btn "><i
+                                                                class="fal fa-file-upload"></i> Upload</a>
+                                                            <div class="file-upload file-data">
+                                                                <a href="#" class="file-w-e"><i
+                                                                    class="fal fa-file-word"></i>
+                                                                <span>Thông tin cá nhân của</span></a>
+                                                                <a class="btn btn-default btn-delete-file"><i
+                                                                    class="fa fa-times-circle"></i></a>
+                                                            </div>
+                                                            <div class="file-upload file-data">
+                                                                <a href="#" class="file-w-e"><i
+                                                                    class="fal fa-file-excel"></i>
+                                                                <span>Thông tin cá nhân của</span></a>
+                                                                <a class="btn btn-default btn-delete-file"><i
+                                                                    class="fa fa-times-circle"></i></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="box-cmnd">
+                                                    <div class="row sv-info-detail-item">
+                                                        <div class="col-12 col-md-2 text-lable-groud"><b>CMND/CCCD</b></div>
+                                                        <div class="col-12 col-md-2 text-lable">Số CMND/CCCD</div>
+                                                        <div class="col-12 col-md-5">
+                                                            <div class="form-item d-flex mb-15 form-add-info">
+                                                                <div class="input-group">
+                                                                    <i class="fal fa-address-card"></i>
+                                                                    <input type="email" class="form-control" placeholder="038203007938">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-md-3 d-flex col-upload">
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="row sv-info-detail-item">
+                                                        <div class="col-12 col-md-2 text-lable-groud"><b></b></div>
+                                                        <div class="col-12 col-md-2 text-lable">Ngày cấp</div>
+                                                        <div class="col-12 col-md-5">
+                                                            <div class="form-item d-flex mb-15 form-add-info">
+                                                                <div class="input-group">
+                                                                    <i class="fal fa-calendar-alt"></i>
+                                                                    <input type="email" class="form-control" placeholder="038203007938">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-md-3 col-upload"></div>
+                                                    </div>
+                                                    <div class="row sv-info-detail-item">
+                                                        <div class="col-12 col-md-2 text-lable-groud"><b></b></div>
+                                                        <div class="col-12 col-md-2 text-lable">Nơi cấp</div>
+                                                        <div class="col-12 col-md-5">
+                                                            <div class="form-item d-flex mb-15 form-add-info">
+                                                                <div class="input-group">
+                                                                    <i class="fal fa-map-marker-alt"></i>
+                                                                    <i class="fal fa-angle-down"></i>
+                                                                    <select class="form-select" aria-label="Default select example">
+                                                                    <option selected>Chọn khoa</option>
+                                                                    <option value="1">Công nghệ thông tin</option>
+                                                                    <option value="2">Kế toán</option>
+                                                                    <option value="3">Điện tử</option>
+                                                                </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-md-3 d-flex col-upload">
+                                                            <a href="#" class="file-upload file-upload-btn"><i
+                                                                class="fal fa-file-upload"></i> Upload</a>
+                                                            <div class="file-upload">
+                                                                <a href="#"><img src="../assets/images/CMT-1.jpg"></a>
+                                                                <a class="btn btn-default btn-delete-file"><i
+                                                                    class="fa fa-times-circle"></i></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="row sv-info-detail-item">
+                                                    <div class="col-12 col-md-2 text-lable-groud"><b></b></div>
+                                                    <div class="col-12 col-md-2 text-lable">Dân tộc</div>
+                                                    <div class="col-12 col-md-5">
+                                                        <div class="form-item d-flex mb-15 form-add-info">
+                                                            <div class="input-group">
+                                                                <i class="fal fa-users-crown"></i>
+                                                                <input type="email" class="form-control" placeholder="Kinh">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-md-3 col-upload"></div>
+                                                </div>
+                                                <div class="row sv-info-detail-item">
+                                                    <div class="col-12 col-md-2 text-lable-groud"><b></b></div>
+                                                    <div class="col-12 col-md-2 text-lable">Tôn giáo</div>
+                                                    <div class="col-12 col-md-5">
+                                                        <div class="form-item d-flex mb-15 form-add-info">
+                                                            <div class="input-group">
+                                                                <i class="fal fa-bible"></i>
+                                                                <input type="email" class="form-control" placeholder="Kinh">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-md-3 col-upload"></div>
+                                                </div>
+                                                <div class="row sv-info-detail-item">
+                                                    <div class="col-12 col-md-2 text-lable-groud"><b></b></div>
+                                                    <div class="col-12 col-md-2 text-lable">Thành phần xuất thân</div>
+                                                    <div class="col-12 col-md-5">
+                                                        <div class="form-item d-flex mb-15 form-add-info">
+                                                            <div class="input-group">
+                                                                <i class="fal fa-street-view"></i>
+                                                                <input type="email" class="form-control" placeholder="Kinh">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-md-3 col-upload"></div>
+                                                </div>
+                                                <div class="row sv-info-detail-item">
+                                                    <div class="col-12 col-md-2 text-lable-groud"><b></b></div>
+                                                    <div class="col-12 col-md-2 text-lable">Dân tộc</div>
+                                                    <div class="col-12 col-md-5">
+                                                        <div class="form-item d-flex mb-15 form-add-info">
+                                                            <div class="input-group">
+                                                                <i class="fal fa-users-crown"></i>
+                                                                <input type="email" class="form-control" placeholder="Kinh">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-md-3 col-upload"></div>
+                                                </div>
+
+                                                <div class="row sv-info-detail-item">
+                                                    <div class="col-12 col-md-2 text-lable-groud"><b></b></div>
+                                                    <div class="col-12 col-md-2 text-lable">Khu vực</div>
+                                                    <div class="col-12 col-md-5">
+                                                        <div class="form-item d-flex mb-15 form-add-info">
+                                                            <div class="input-group">
+                                                                <i class="fal fa-map-marker-check"></i>
+                                                                <input type="email" class="form-control" placeholder="Kinh">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-md-3 col-upload"></div>
+                                                </div>
+
+                                                <div class="row sv-info-detail-item">
+                                                    <div class="col-12 col-md-2 text-lable-groud"><b></b></div>
+                                                    <div class="col-12 col-md-2 text-lable">Đối tượng dự thi</div>
+                                                    <div class="col-12 col-md-5">
+                                                        <div class="form-item d-flex mb-15 form-add-info">
+                                                            <div class="input-group">
+                                                                <i class="fal fa-address-card"></i>
+                                                                <input type="email" class="form-control" placeholder="Kinh">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-md-3 col-upload"></div>
+                                                </div>
+
+                                                <div class="row sv-info-detail-item">
+                                                    <div class="col-12 col-md-2 text-lable-groud"><b></b></div>
+                                                    <div class="col-12 col-md-2 text-lable">Ký hiệu trường</div>
+                                                    <div class="col-12 col-md-5">
+                                                        <div class="form-item d-flex mb-15 form-add-info">
+                                                            <div class="input-group">
+                                                                <i class="fal fa-school"></i>
+                                                                <input type="email" class="form-control" placeholder="Kinh">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-md-3 col-upload"></div>
+                                                </div>
+                                                <div class="row sv-info-detail-item">
+                                                    <div class="col-12 col-md-2 text-lable-groud"><b></b></div>
+                                                    <div class="col-12 col-md-2 text-lable">Số báo danh dự thi tốt nghiệp THPT
+                                                    </div>
+                                                    <div class="col-12 col-md-5">
+                                                        <div class="form-item d-flex mb-15 form-add-info">
+                                                            <div class="input-group">
+                                                                <i class="fal fa-map-marker-check"></i>
+                                                                <input type="email" class="form-control" placeholder="Kinh">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-md-3 col-upload"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sv-ground-button">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-8"></div>
+                                            <div class="col-12 col-sm-4 sv-button">
+
+                                                <button type="submit" class="btn btn-continue">Lưu thông tin <i
+                                                    class="fal fa-save"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Điểm, kết quả học tập-->
+                        <div class="swiper-slide">
+                            <!-- dashboad -->
+                            <div class="dashboad">
+                                <div class="sv-add-info">
+                                    <div class="sv-lable">
+                                        <h3>Điểm, kết quả học tập</h3>
+                                    </div>
+                                    <div class="sv-add-info-content sv-info-profile">
+                                        <div class="sv-info-detail mt-0">
+                                            <div class="row sv-info-detail-lable">
+                                                <div class="col-12 col-md-2 col-lable-groud">Nhóm</div>
+                                                <div class="col-12 col-md-2 text-right col-name-tt">Tên thông tin</div>
+                                                <div class="col-12 col-md-5">Dữ liệu cần nhập</div>
+                                                <div class="col-12 col-md-3 col-upload"><i class="fal fa-file-upload"></i> Tải file minh chứng
+                                                </div>
+                                            </div>
+                                            <div class="sv-info-detail-form">
+                                                <div class="diem-tuyen-sinh">
+                                                    <div class="row sv-info-detail-item">
+                                                        <div class="col-12 col-md-2 text-lable-groud"><b>Điểm thi tuyển
+                                                        sinh</b></div>
+                                                        <div class="col-12 col-md-2 text-lable">Tổng điểm</div>
+                                                        <div class="col-12 col-md-5">
+                                                            <div class="form-item d-flex mb-15 form-add-info">
+                                                                <div class="input-group">
+                                                                    <input type="email" class="form-control" style="padding-left: 12px" placeholder="0">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-md-3 d-flex col-upload">
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="row sv-info-detail-item">
+                                                        <div class="col-12 col-md-2 text-lable-groud"></div>
+                                                        <div class="col-12 col-md-2 text-lable">Môn 1</div>
+                                                        <div class="col-12 col-md-5">
+                                                            <div class="form-item d-flex mb-15 form-add-info">
+                                                                <div class="input-group">
+                                                                    <input type="email" class="form-control" style="padding-left: 12px" placeholder="0">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-md-3 col-upload"></div>
+                                                    </div>
+                                                    <div class="row sv-info-detail-item">
+                                                        <div class="col-12 col-md-2 text-lable-groud"></div>
+                                                        <div class="col-12 col-md-2 text-lable">Điểm môn 1</div>
+                                                        <div class="col-12 col-md-5">
+                                                            <div class="form-item d-flex mb-15 form-add-info">
+                                                                <div class="input-group">
+                                                                    <input type="email" class="form-control" style="padding-left: 12px" placeholder="0">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-md-3 col-upload"></div>
+                                                    </div>
+
+                                                    <div class="row sv-info-detail-item">
+                                                        <div class="col-12 col-md-2 text-lable-groud"></div>
+                                                        <div class="col-12 col-md-2 text-lable">Môn 2</div>
+                                                        <div class="col-12 col-md-5">
+                                                            <div class="form-item d-flex mb-15 form-add-info">
+                                                                <div class="input-group">
+                                                                    <input type="email" class="form-control" style="padding-left: 12px" placeholder="0">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-md-3 col-upload"></div>
+                                                    </div>
+                                                    <div class="row sv-info-detail-item">
+                                                        <div class="col-12 col-md-2 text-lable-groud"></div>
+                                                        <div class="col-12 col-md-2 text-lable">Điểm môn 3</div>
+                                                        <div class="col-12 col-md-5">
+                                                            <div class="form-item d-flex mb-15 form-add-info">
+                                                                <div class="input-group">
+                                                                    <input type="email" class="form-control" style="padding-left: 12px" placeholder="0">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-md-3 col-upload"></div>
+                                                    </div>
+                                                    <div class="row sv-info-detail-item">
+                                                        <div class="col-12 col-md-2 text-lable-groud"></div>
+                                                        <div class="col-12 col-md-2 text-lable">Môn 3</div>
+                                                        <div class="col-12 col-md-5">
+                                                            <div class="form-item d-flex mb-15 form-add-info">
+                                                                <input type="email" class="form-control" style="padding-left: 12px" placeholder="0">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-md-3 col-upload"></div>
+                                                    </div>
+                                                    <div class="row sv-info-detail-item">
+                                                        <div class="col-12 col-md-2 text-lable-groud"></div>
+                                                        <div class="col-12 col-md-2 text-lable">Điểm môn 3</div>
+                                                        <div class="col-12 col-md-5">
+                                                            <div class="form-item d-flex mb-15 form-add-info">
+                                                                <input type="email" class="form-control" style="padding-left: 12px" placeholder="0">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-md-3 col-upload"></div>
+                                                    </div>
+                                                    <div class="row sv-info-detail-item">
+                                                        <div class="col-12 col-md-2 text-lable-groud"></div>
+                                                        <div class="col-12 col-md-2 text-lable">Điểm ưu tiên Nếu có</div>
+                                                        <div class="col-12 col-md-5">
+                                                            <div class="form-item d-flex mb-15 form-add-info">
+                                                                <input type="email" class="form-control" style="padding-left: 12px" placeholder="0">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-md-3 col-upload"></div>
+                                                    </div>
+                                                    <div class="row sv-info-detail-item">
+                                                        <div class="col-12 col-md-2 text-lable-groud"></div>
+                                                        <div class="col-12 col-md-2 text-lable">Lý do để được tuyển thẳng và được thưởng điểm
+                                                        </div>
+                                                        <div class="col-12 col-md-5">
+                                                            <div class="form-item d-flex mb-15 form-add-info">
+                                                                <textarea class="form-control form-textarea" placeholder="" id="floatingTextarea"></textarea>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-md-3 col-upload d-flex">
+                                                            <a href="#" class="file-upload file-upload-btn "><i
+                                                                class="fal fa-file-upload"></i> Upload</a>
+                                                            <div class="file-upload file-data">
+                                                                <a href="#" class="file-w-e"><i
+                                                                    class="fal fa-file-word"></i>
+                                                                <span>Thông tin cá nhân của</span></a>
+                                                                <a class="btn btn-default btn-delete-file"><i
+                                                                    class="fa fa-times-circle"></i></a>
+                                                            </div>
+                                                            <div class="file-upload file-data">
+                                                                <a href="#" class="file-w-e"><i
+                                                                    class="fal fa-file-excel"></i>
+                                                                <span>Thông tin cá nhân của</span></a>
+                                                                <a class="btn btn-default btn-delete-file"><i
+                                                                    class="fa fa-times-circle"></i></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="ket-qua-hoc-tap">
+                                                    <div class="row sv-info-detail-item">
+                                                        <div class="col-12 col-md-2 text-lable-groud"><b>Kết quả học lớp
+                                                        cuối cấp ở THPT hoặc THBT</b></div>
+                                                        <div class="col-12 col-md-2 text-lable">Xếp loại về học tập</div>
+                                                        <div class="col-12 col-md-5">
+                                                            <div class="form-item d-flex mb-15 form-add-info">
+                                                                <input type="email" class="form-control" style="padding-left: 12px" placeholder="0">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-md-3 d-flex col-upload">
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="row sv-info-detail-item">
+                                                        <div class="col-12 col-md-2 text-lable-groud"><b></b>
+                                                        </div>
+                                                        <div class="col-12 col-md-2 text-lable">Xếp loại về hạnh kiểm</div>
+                                                        <div class="col-12 col-md-5">
+                                                            <div class="form-item d-flex mb-15 form-add-info">
+                                                                <input type="email" class="form-control" style="padding-left: 12px" placeholder="0">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-md-3 d-flex col-upload">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row sv-info-detail-item">
+                                                        <div class="col-12 col-md-2 text-lable-groud"><b></b>
+                                                        </div>
+                                                        <div class="col-12 col-md-2 text-lable">Xếp loại về tốt nghiệp</div>
+                                                        <div class="col-12 col-md-5">
+                                                            <div class="form-item d-flex mb-15 form-add-info">
+                                                                <input type="email" class="form-control" style="padding-left: 12px" placeholder="0">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-md-3 d-flex col-upload">
+                                                            <a href="#" class="file-upload file-upload-btn "><i
+                                                                class="fal fa-file-upload"></i> Upload</a>
+                                                            <div class="file-upload file-data">
+                                                                <a href="#" class="file-w-e"><i
+                                                                    class="fal fa-file-word"></i>
+                                                                <span>Thông tin cá nhân của</span></a>
+                                                                <a class="btn btn-default btn-delete-file"><i
+                                                                    class="fa fa-times-circle"></i></a>
+                                                            </div>
+                                                            <div class="file-upload file-data">
+                                                                <a href="#" class="file-w-e"><i
+                                                                    class="fal fa-file-excel"></i>
+                                                                <span>Thông tin cá nhân của</span></a>
+                                                                <a class="btn btn-default btn-delete-file"><i
+                                                                    class="fa fa-times-circle"></i></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="row sv-info-detail-item">
+                                                    <div class="col-12 col-md-2 text-lable-groud"><b></b>
+                                                    </div>
+                                                    <div class="col-12 col-md-2 text-lable">Ngày vào Đoàn TNCSHCM</div>
+                                                    <div class="col-12 col-md-5">
+                                                        <div class="form-item d-flex mb-15 form-add-info">
+                                                            <div class="input-group">
+                                                                <a href="#"><i class="fal fa-calendar-alt"
+                                                                           style="right: 10px; left: auto;"></i></a>
+                                                                <input type="email" class="form-control" style="padding-left: 12px" placeholder="0">
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-md-3 d-flex col-upload">
+                                                    </div>
+                                                </div>
+
+                                                <div class="row sv-info-detail-item">
+                                                    <div class="col-12 col-md-2 text-lable-groud"><b></b>
+                                                    </div>
+                                                    <div class="col-12 col-md-2 text-lable">Ngày vào Đảng CSVN</div>
+                                                    <div class="col-12 col-md-5">
+                                                        <div class="form-item d-flex mb-15 form-add-info">
+                                                            <div class="input-group">
+                                                                <a href="#"><i class="fal fa-calendar-alt"
+                                                                           style="right: 10px; left: auto;"></i></a>
+                                                                <input type="email" class="form-control" style="padding-left: 12px" placeholder="0">
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-md-3 d-flex col-upload">
+                                                    </div>
+                                                </div>
+
+                                                <div class="row sv-info-detail-item">
+                                                    <div class="col-12 col-md-2 text-lable-groud"><b></b>
+                                                    </div>
+                                                    <div class="col-12 col-md-2 text-lable">Năm tốt nghiệp THPT</div>
+                                                    <div class="col-12 col-md-5">
+                                                        <div class="form-item d-flex mb-15 form-add-info">
+                                                            <div class="input-group">
+                                                                <input type="email" class="form-control" style="padding-left: 12px" placeholder="0">
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-md-3 d-flex col-upload">
+                                                    </div>
+                                                </div>
+
+
+                                                <div class="row sv-info-detail-item">
+                                                    <div class="col-12 col-md-2 text-lable-groud"><b></b>
+                                                    </div>
+                                                    <div class="col-12 col-md-2 text-lable">Năng khiếu của bản thân</div>
+                                                    <div class="col-12 col-md-5">
+                                                        <div class="form-item d-flex mb-15 form-add-info">
+                                                            <div class="input-group">
+                                                                <textarea class="form-control form-textarea" placeholder="" id="floatingTextarea"></textarea>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-md-3 d-flex col-upload">
+                                                    </div>
+                                                </div>
+
+                                                <div class="row sv-info-detail-item">
+                                                    <div class="col-12 col-md-2 text-lable-groud"><b></b>
+                                                    </div>
+                                                    <div class="col-12 col-md-2 text-lable">Khen thưởng kỷ luật</div>
+                                                    <div class="col-12 col-md-5">
+                                                        <div class="form-item d-flex mb-15 form-add-info">
+                                                            <div class="input-group">
+                                                                <textarea class="form-control form-textarea" placeholder="" id="floatingTextarea"></textarea>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-md-3 d-flex col-upload">
+                                                    </div>
+                                                </div>
+
+
+                                                <div class="row sv-info-detail-item">
+                                                    <div class="col-12 col-md-2 text-lable-groud"><b></b>
+                                                    </div>
+                                                    <div class="col-12 col-md-2 text-lable">Tóm tắt quá trình học tập(ghi rõ thời gian, nơi học tập, công tác, lao động hoặc đơn vị phục vụ, chức vụ, danh hiệu nghề nghiệp, bậc lương)
+                                                    </div>
+                                                    <div class="col-12 col-md-5">
+                                                        <div class="form-item d-flex mb-15 form-add-info">
+                                                            <div class="input-group">
+                                                                <textarea class="form-control form-textarea" placeholder="" id="floatingTextarea"></textarea>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-md-3 d-flex col-upload">
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sv-ground-button">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-8"></div>
+                                            <div class="col-12 col-sm-4 sv-button">
+
+                                                <button type="submit" class="btn btn-continue">Lưu thông tin <i
+                                                    class="fal fa-save"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Thành phần gia đình-->
+                        <div class="swiper-slide">
+                            <!-- dashboad -->
+                            <div class="dashboad">
+                                <div class="sv-add-info">
+                                    <div class="sv-lable">
+                                        <h3>Thành phần gia đình</h3>
+                                    </div>
+                                    <div class="sv-add-info-content sv-info-profile">
+                                        <div class="sv-info-detail mt-0">
+                                            <div class="row sv-info-detail-lable">
+                                                <div class="col-12 col-md-2 col-lable-groud">Nhóm</div>
+                                                <div class="col-12 col-md-2 text-right col-name-tt">Tên thông tin</div>
+                                                <div class="col-12 col-md-5">Dữ liệu cần nhập</div>
+                                                <div class="col-12 col-md-3 col-upload"><i class="fal fa-file-upload"></i> Tải file minh chứng
+                                                </div>
+                                            </div>
+                                            <div class="sv-info-detail-form">
+                                                <div class="thanhphan-gd">
+                                                    <div class="row sv-info-detail-item">
+                                                        <div class="col-12 col-md-2 text-lable-groud"><b>Cha</b></div>
+                                                        <div class="col-12 col-md-2 text-lable">Họ và tên</div>
+                                                        <div class="col-12 col-md-5">
+                                                            <div class="form-item d-flex mb-15 form-add-info">
+                                                                <div class="input-group">
+                                                                    <input type="email" class="form-control" style="padding-left: 12px" placeholder="Trần Thế Quyền">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-md-3 d-flex col-upload">
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="row sv-info-detail-item">
+                                                        <div class="col-12 col-md-2 text-lable-groud"></div>
+                                                        <div class="col-12 col-md-2 text-lable">Ngày sinh</div>
+                                                        <div class="col-12 col-md-5">
+                                                            <div class="form-item d-flex mb-15 form-add-info">
+                                                                <div class="input-group">
+                                                                    <a href="#"><i class="fal fa-calendar-alt" style="right: 10px; left: auto;"></i></a>
+                                                                    <input type="email" class="form-control" style="padding-left: 12px" placeholder="15/01/1985">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-md-3 col-upload"></div>
+                                                    </div>
+                                                    <div class="row sv-info-detail-item">
+                                                        <div class="col-12 col-md-2 text-lable-groud"></div>
+                                                        <div class="col-12 col-md-2 text-lable">Dân tộc</div>
+                                                        <div class="col-12 col-md-5">
+                                                            <div class="form-item d-flex mb-15 form-add-info">
+                                                                <div class="input-group">
+                                                                    <i class="fal fa-angle-down"></i>
+                                                                    <select class="form-select" aria-label="Default select example" style="padding-left: 12px">
+                                                                    <option selected="">Chọn khoa dân tộc</option>
+                                                                    <option value="1">Công nghệ thông tin</option>
+                                                                    <option value="2">Kế toán</option>
+                                                                    <option value="3">Điện tử</option>
+                                                                </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-md-3 col-upload"></div>
+                                                    </div>
+
+                                                    <div class="row sv-info-detail-item">
+                                                        <div class="col-12 col-md-2 text-lable-groud"></div>
+                                                        <div class="col-12 col-md-2 text-lable">Tôn giáo</div>
+                                                        <div class="col-12 col-md-5">
+                                                            <div class="form-item d-flex mb-15 form-add-info">
+                                                                <div class="input-group">
+                                                                    <i class="fal fa-angle-down"></i>
+                                                                    <select class="form-select" aria-label="Default select example" style="padding-left: 12px">
+                                                                    <option selected="">Chọn Tôn giáo</option>
+                                                                    <option value="1">Công nghệ thông tin</option>
+                                                                    <option value="2">Kế toán</option>
+                                                                    <option value="3">Điện tử</option>
+                                                                </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-md-3 col-upload"></div>
+                                                    </div>
+
+
+                                                    <div class="row sv-info-detail-item">
+                                                        <div class="col-12 col-md-2 text-lable-groud"></div>
+                                                        <div class="col-12 col-md-2 text-lable">Điểm ưu tiên Nếu có</div>
+                                                        <div class="col-12 col-md-5">
+                                                            <div class="form-item d-flex mb-15 form-add-info">
+                                                                <input type="email" class="form-control" style="padding-left: 12px" placeholder="0">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-md-3 col-upload"></div>
+                                                    </div>
+                                                    <div class="row sv-info-detail-item">
+                                                        <div class="col-12 col-md-2 text-lable-groud"></div>
+                                                        <div class="col-12 col-md-2 text-lable">Hoạt động kinh tế, chính trị, xã hội(làm gì, ở đâu?)(Trước 30/04/1975)
+                                                        </div>
+                                                        <div class="col-12 col-md-5">
+                                                            <div class="form-item d-flex mb-15 form-add-info">
+                                                                <textarea class="form-control form-textarea" placeholder="" id="floatingTextarea"></textarea>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-md-3 col-upload"></div>
+                                                    </div>
+                                                    <div class="row sv-info-detail-item">
+                                                        <div class="col-12 col-md-2 text-lable-groud"></div>
+                                                        <div class="col-12 col-md-2 text-lable">Hoạt động kinh tế, chính trị, xã hội(làm gì, ở đâu?)(Từ 30/04/1975 đến nay)
+                                                        </div>
+                                                        <div class="col-12 col-md-5">
+                                                            <div class="form-item d-flex mb-15 form-add-info">
+                                                                <textarea class="form-control form-textarea" placeholder="" id="floatingTextarea"></textarea>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-md-3 col-upload d-flex">
+                                                            <a href="#" class="file-upload file-upload-btn "><i
+                                                                class="fal fa-file-upload"></i> Upload</a>
+                                                            <div class="file-upload file-data">
+                                                                <a href="#" class="file-w-e"><i
+                                                                    class="fal fa-file-word"></i>
+                                                                <span>Thông tin cá nhân của</span></a>
+                                                                <a class="btn btn-default btn-delete-file"><i
+                                                                    class="fa fa-times-circle"></i></a>
+                                                            </div>
+                                                            <div class="file-upload file-data">
+                                                                <a href="#" class="file-w-e"><i
+                                                                    class="fal fa-file-excel"></i>
+                                                                <span>Thông tin cá nhân của</span></a>
+                                                                <a class="btn btn-default btn-delete-file"><i
+                                                                    class="fa fa-times-circle"></i></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="thanhphan-gd">
+                                                    <div class="row sv-info-detail-item">
+                                                        <div class="col-12 col-md-2 text-lable-groud"><b>Mẹ</b></div>
+                                                        <div class="col-12 col-md-2 text-lable">Họ và tên</div>
+                                                        <div class="col-12 col-md-5">
+                                                            <div class="form-item d-flex mb-15 form-add-info">
+                                                                <div class="input-group">
+                                                                    <input type="email" class="form-control" style="padding-left: 12px" placeholder="Trần Thế Quyền">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-md-3 d-flex col-upload">
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="row sv-info-detail-item">
+                                                        <div class="col-12 col-md-2 text-lable-groud"></div>
+                                                        <div class="col-12 col-md-2 text-lable">Ngày sinh</div>
+                                                        <div class="col-12 col-md-5">
+                                                            <div class="form-item d-flex mb-15 form-add-info">
+                                                                <div class="input-group">
+                                                                    <a href="#"><i class="fal fa-calendar-alt" style="right: 10px; left: auto;"></i></a>
+                                                                    <input type="email" class="form-control" style="padding-left: 12px" placeholder="15/01/1985">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-md-3 col-upload"></div>
+                                                    </div>
+                                                    <div class="row sv-info-detail-item">
+                                                        <div class="col-12 col-md-2 text-lable-groud"></div>
+                                                        <div class="col-12 col-md-2 text-lable">Dân tộc</div>
+                                                        <div class="col-12 col-md-5">
+                                                            <div class="form-item d-flex mb-15 form-add-info">
+                                                                <div class="input-group">
+                                                                    <i class="fal fa-angle-down"></i>
+                                                                    <select class="form-select" aria-label="Default select example" style="padding-left: 12px">
+                                                                    <option selected="">Chọn khoa dân tộc</option>
+                                                                    <option value="1">Công nghệ thông tin</option>
+                                                                    <option value="2">Kế toán</option>
+                                                                    <option value="3">Điện tử</option>
+                                                                </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-md-3 col-upload"></div>
+                                                    </div>
+
+                                                    <div class="row sv-info-detail-item">
+                                                        <div class="col-12 col-md-2 text-lable-groud"></div>
+                                                        <div class="col-12 col-md-2 text-lable">Tôn giáo</div>
+                                                        <div class="col-12 col-md-5">
+                                                            <div class="form-item d-flex mb-15 form-add-info">
+                                                                <div class="input-group">
+                                                                    <i class="fal fa-angle-down"></i>
+                                                                    <select class="form-select" aria-label="Default select example" style="padding-left: 12px">
+                                                                    <option selected="">Chọn Tôn giáo</option>
+                                                                    <option value="1">Công nghệ thông tin</option>
+                                                                    <option value="2">Kế toán</option>
+                                                                    <option value="3">Điện tử</option>
+                                                                </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-md-3 col-upload"></div>
+                                                    </div>
+
+
+                                                    <div class="row sv-info-detail-item">
+                                                        <div class="col-12 col-md-2 text-lable-groud"></div>
+                                                        <div class="col-12 col-md-2 text-lable">Điểm ưu tiên Nếu có</div>
+                                                        <div class="col-12 col-md-5">
+                                                            <div class="form-item d-flex mb-15 form-add-info">
+                                                                <input type="email" class="form-control" style="padding-left: 12px" placeholder="0">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-md-3 col-upload"></div>
+                                                    </div>
+                                                    <div class="row sv-info-detail-item">
+                                                        <div class="col-12 col-md-2 text-lable-groud"></div>
+                                                        <div class="col-12 col-md-2 text-lable">Hoạt động kinh tế, chính trị, xã hội(làm gì, ở đâu?)(Trước 30/04/1975)
+                                                        </div>
+                                                        <div class="col-12 col-md-5">
+                                                            <div class="form-item d-flex mb-15 form-add-info">
+                                                                <textarea class="form-control form-textarea" placeholder="" id="floatingTextarea"></textarea>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-md-3 col-upload"></div>
+                                                    </div>
+                                                    <div class="row sv-info-detail-item">
+                                                        <div class="col-12 col-md-2 text-lable-groud"></div>
+                                                        <div class="col-12 col-md-2 text-lable">Hoạt động kinh tế, chính trị, xã hội(làm gì, ở đâu?)(Từ 30/04/1975 đến nay)
+                                                        </div>
+                                                        <div class="col-12 col-md-5">
+                                                            <div class="form-item d-flex mb-15 form-add-info">
+                                                                <textarea class="form-control form-textarea" placeholder="" id="floatingTextarea"></textarea>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-md-3 col-upload d-flex">
+                                                            <a href="#" class="file-upload file-upload-btn "><i
+                                                                class="fal fa-file-upload"></i> Upload</a>
+                                                            <div class="file-upload file-data">
+                                                                <a href="#" class="file-w-e"><i
+                                                                    class="fal fa-file-word"></i>
+                                                                <span>Thông tin cá nhân của</span></a>
+                                                                <a class="btn btn-default btn-delete-file"><i
+                                                                    class="fa fa-times-circle"></i></a>
+                                                            </div>
+                                                            <div class="file-upload file-data">
+                                                                <a href="#" class="file-w-e"><i
+                                                                    class="fal fa-file-excel"></i>
+                                                                <span>Thông tin cá nhân của</span></a>
+                                                                <a class="btn btn-default btn-delete-file"><i
+                                                                    class="fa fa-times-circle"></i></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="thanhphan-gd">
+                                                    <div class="row sv-info-detail-item">
+                                                        <div class="col-12 col-md-2 text-lable-groud"><b>Vợ hoặc chồng(nếu có)</b></div>
+                                                        <div class="col-12 col-md-2 text-lable">Họ và tên</div>
+                                                        <div class="col-12 col-md-5">
+                                                            <div class="form-item d-flex mb-15 form-add-info">
+                                                                <div class="input-group">
+                                                                    <input type="email" class="form-control" style="padding-left: 12px" placeholder="Trần Thế Quyền">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-md-3 d-flex col-upload">
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="row sv-info-detail-item">
+                                                        <div class="col-12 col-md-2 text-lable-groud"></div>
+                                                        <div class="col-12 col-md-2 text-lable">Ngày sinh</div>
+                                                        <div class="col-12 col-md-5">
+                                                            <div class="form-item d-flex mb-15 form-add-info">
+                                                                <div class="input-group">
+                                                                    <a href="#"><i class="fal fa-calendar-alt" style="right: 10px; left: auto;"></i></a>
+                                                                    <input type="email" class="form-control" style="padding-left: 12px" placeholder="15/01/1985">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-md-3 col-upload"></div>
+                                                    </div>
+                                                    <div class="row sv-info-detail-item">
+                                                        <div class="col-12 col-md-2 text-lable-groud"></div>
+                                                        <div class="col-12 col-md-2 text-lable">Dân tộc</div>
+                                                        <div class="col-12 col-md-5">
+                                                            <div class="form-item d-flex mb-15 form-add-info">
+                                                                <div class="input-group">
+                                                                    <i class="fal fa-angle-down"></i>
+                                                                    <select class="form-select" aria-label="Default select example" style="padding-left: 12px">
+                                                                    <option selected="">Chọn khoa dân tộc</option>
+                                                                    <option value="1">Công nghệ thông tin</option>
+                                                                    <option value="2">Kế toán</option>
+                                                                    <option value="3">Điện tử</option>
+                                                                </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-md-3 col-upload"></div>
+                                                    </div>
+
+                                                    <div class="row sv-info-detail-item">
+                                                        <div class="col-12 col-md-2 text-lable-groud"></div>
+                                                        <div class="col-12 col-md-2 text-lable">Tôn giáo</div>
+                                                        <div class="col-12 col-md-5">
+                                                            <div class="form-item d-flex mb-15 form-add-info">
+                                                                <div class="input-group">
+                                                                    <i class="fal fa-angle-down"></i>
+                                                                    <select class="form-select" aria-label="Default select example" style="padding-left: 12px">
+                                                                    <option selected="">Chọn Tôn giáo</option>
+                                                                    <option value="1">Công nghệ thông tin</option>
+                                                                    <option value="2">Kế toán</option>
+                                                                    <option value="3">Điện tử</option>
+                                                                </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-md-3 col-upload"></div>
+                                                    </div>
+
+
+                                                    <div class="row sv-info-detail-item">
+                                                        <div class="col-12 col-md-2 text-lable-groud"></div>
+                                                        <div class="col-12 col-md-2 text-lable">Điểm ưu tiên Nếu có</div>
+                                                        <div class="col-12 col-md-5">
+                                                            <div class="form-item d-flex mb-15 form-add-info">
+                                                                <input type="email" class="form-control" style="padding-left: 12px" placeholder="0">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-md-3 col-upload"></div>
+                                                    </div>
+                                                    <div class="row sv-info-detail-item">
+                                                        <div class="col-12 col-md-2 text-lable-groud"></div>
+                                                        <div class="col-12 col-md-2 text-lable">Hoạt động kinh tế, chính trị, xã hội(làm gì, ở đâu?)(Trước 30/04/1975)
+                                                        </div>
+                                                        <div class="col-12 col-md-5">
+                                                            <div class="form-item d-flex mb-15 form-add-info">
+                                                                <textarea class="form-control form-textarea" placeholder="" id="floatingTextarea"></textarea>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-md-3 col-upload"></div>
+                                                    </div>
+                                                    <div class="row sv-info-detail-item">
+                                                        <div class="col-12 col-md-2 text-lable-groud"></div>
+                                                        <div class="col-12 col-md-2 text-lable">Hoạt động kinh tế, chính trị, xã hội(làm gì, ở đâu?)(Từ 30/04/1975 đến nay)
+                                                        </div>
+                                                        <div class="col-12 col-md-5">
+                                                            <div class="form-item d-flex mb-15 form-add-info">
+                                                                <textarea class="form-control form-textarea" placeholder="" id="floatingTextarea"></textarea>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-md-3 col-upload"></div>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="thanhphan-gd">
+                                                    <div class="row sv-info-detail-item">
+                                                        <div class="col-12 col-md-2 text-lable-groud"><b>Anh chị em ruột</b></div>
+                                                        <div class="col-12 col-md-2 text-lable">Họ và tên</div>
+                                                        <div class="col-12 col-md-5">
+                                                            <div class="form-item d-flex mb-15 form-add-info">
+                                                                <div class="input-group">
+                                                                    <input type="email" class="form-control" style="padding-left: 12px" placeholder="Trần Thế Quyền">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-md-3 d-flex col-upload">
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="row sv-info-detail-item">
+                                                        <div class="col-12 col-md-2 text-lable-groud"></div>
+                                                        <div class="col-12 col-md-2 text-lable">Ngày sinh</div>
+                                                        <div class="col-12 col-md-5">
+                                                            <div class="form-item d-flex mb-15 form-add-info">
+                                                                <div class="input-group">
+                                                                    <a href="#"><i class="fal fa-calendar-alt" style="right: 10px; left: auto;"></i></a>
+                                                                    <input type="email" class="form-control" style="padding-left: 12px" placeholder="15/01/1985">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-md-3 col-upload"></div>
+                                                    </div>
+                                                    <div class="row sv-info-detail-item">
+                                                        <div class="col-12 col-md-2 text-lable-groud"></div>
+                                                        <div class="col-12 col-md-2 text-lable">Dân tộc</div>
+                                                        <div class="col-12 col-md-5">
+                                                            <div class="form-item d-flex mb-15 form-add-info">
+                                                                <div class="input-group">
+                                                                    <i class="fal fa-angle-down"></i>
+                                                                    <select class="form-select" aria-label="Default select example" style="padding-left: 12px">
+                                                                    <option selected="">Chọn khoa dân tộc</option>
+                                                                    <option value="1">Công nghệ thông tin</option>
+                                                                    <option value="2">Kế toán</option>
+                                                                    <option value="3">Điện tử</option>
+                                                                </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-md-3 col-upload"></div>
+                                                    </div>
+
+                                                    <div class="row sv-info-detail-item">
+                                                        <div class="col-12 col-md-2 text-lable-groud"></div>
+                                                        <div class="col-12 col-md-2 text-lable">Tôn giáo</div>
+                                                        <div class="col-12 col-md-5">
+                                                            <div class="form-item d-flex mb-15 form-add-info">
+                                                                <div class="input-group">
+                                                                    <i class="fal fa-angle-down"></i>
+                                                                    <select class="form-select" aria-label="Default select example" style="padding-left: 12px">
+                                                                    <option selected="">Chọn Tôn giáo</option>
+                                                                    <option value="1">Công nghệ thông tin</option>
+                                                                    <option value="2">Kế toán</option>
+                                                                    <option value="3">Điện tử</option>
+                                                                </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-md-3 col-upload"></div>
+                                                    </div>
+
+
+                                                    <div class="row sv-info-detail-item">
+                                                        <div class="col-12 col-md-2 text-lable-groud"></div>
+                                                        <div class="col-12 col-md-2 text-lable">Điểm ưu tiên Nếu có</div>
+                                                        <div class="col-12 col-md-5">
+                                                            <div class="form-item d-flex mb-15 form-add-info">
+                                                                <input type="email" class="form-control" style="padding-left: 12px" placeholder="0">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-md-3 col-upload"></div>
+                                                    </div>
+                                                    <div class="row sv-info-detail-item">
+                                                        <div class="col-12 col-md-2 text-lable-groud"></div>
+                                                        <div class="col-12 col-md-2 text-lable">Hoạt động kinh tế, chính trị, xã hội(làm gì, ở đâu?)(Trước 30/04/1975)
+                                                        </div>
+                                                        <div class="col-12 col-md-5">
+                                                            <div class="form-item d-flex mb-15 form-add-info">
+                                                                <textarea class="form-control form-textarea" placeholder="" id="floatingTextarea"></textarea>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-md-3 col-upload"></div>
+                                                    </div>
+                                                    <div class="row sv-info-detail-item">
+                                                        <div class="col-12 col-md-2 text-lable-groud"></div>
+                                                        <div class="col-12 col-md-2 text-lable">Hoạt động kinh tế, chính trị, xã hội(làm gì, ở đâu?)(Từ 30/04/1975 đến nay)
+                                                        </div>
+                                                        <div class="col-12 col-md-5">
+                                                            <div class="form-item d-flex mb-15 form-add-info">
+                                                                <textarea class="form-control form-textarea" placeholder="" id="floatingTextarea"></textarea>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-md-3 col-upload"></div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sv-ground-button">
+                                        <div class="row">
+                                            <div class="col-12 col-sm-8"></div>
+                                            <div class="col-12 col-sm-4 sv-button">
+                                                <button type="submit" class="btn btn-continue">Lưu thông tin <i
+                                                    class="fal fa-save"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+        <!-- end content -->
+
+        <!-- copy right -->
+        <div class="copyright ">
+            <marquee>
+                Đơn vị phát triển: Công ty Cổ Phần dịch vụ Công nghệ APIS - Địa chỉ: Tầng 6 Tháp Tây, Tòa nhà Hancorp, Số, 72 Trần Đăng Ninh, P, Cầu Giấy, Hà Nội - Điện thoại: 024 3204 5867
+            </marquee>
+        </div>
+        <!-- end copy right -->
+    </div>
+    </div>
+    <!-- Modal edit-tt -->
+    <div class="modal fade modal-edit-file" id="modal-edit-file" tabindex="-1" aria-labelledby="exampleModalLabeledit-tt" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabeledit-tt">Sửa ĐƠN XIN CẤP LẠI THẺ SINH VIÊN</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <div class="sv-add-info-content">
+                        <div class="sv-add-info-left col-12">
+                            <div class="button-ground">
+                                <button type="button" class="btn btn-zoom" data-bs-toggle="modal" data-bs-target="#zoom-file"><i class="fal fa-search-plus"></i>
+                            </button>
+                                <button type="button" class="btn btn-download" data-toggle="modal"><i
+                                    class="fal fa-download"></i></button>
+                                <button type="button" class="btn btn-download" data-toggle="modal"><i
+                                    class="fal fa-print"></i></button>
+                                <!-- Button trigger modal -->
+                            </div>
+                            <div class="single-sheet-img">
+                                <img src="../assets/images/1CuaSV/Don_de_nghi_bao_luu_ket_qua_tuyen_sinh.jpg">
+                            </div>
+
+                        </div>
+                        <div class="sv-add-info-right">
+                            <form>
+                                <div class="sv-add-info-1">
+                                    <div class="form-item">
+                                        <!--form item-->
+                                        <div class="form-item d-flex mb-15 form-add-info">
+                                            <label class="form-label">Họ và tên <span>*</span></label>
+                                            <div class="input-group">
+                                                <i class="fal fa-user color-dask-blue"></i>
+                                                <input type="email" class="form-control" placeholder="Nguyễn Thị Bích">
+                                            </div>
+                                        </div>
+                                        <!--form item-->
+                                        <div class="form-item d-flex mb-15 form-add-info">
+                                            <label class="form-label">Năm Sinh<span>*</span></label>
+                                            <div class="input-group">
+                                                <i class="fal fa-calendar-alt"></i>
+                                                <input type="email" class="form-control" placeholder="">
+                                            </div>
+                                        </div>
+                                        <!--form item-->
+                                        <div class="form-item d-flex mb-15 form-add-info">
+                                            <label class="form-label">Nơi sinh <span>*</span></label>
+                                            <div class="input-group">
+                                                <i class="fal fa-map"></i>
+                                                <i class="fal fa-angle-down"></i>
+                                                <select class="form-select form-cty" aria-label="Default select example">
+                                                <option selected>Tỉnh/Thành phố</option>
+                                                <option value="1">Nam Từ Liêm</option>
+                                                <option value="2">Bắc Từ Liêm</option>
+                                                <option value="3">Hà Động</option>
+                                            </select>
+                                            </div>
+                                            <div class="input-group">
+                                                <i class="fal fa-angle-down"></i>
+                                                <select class="form-select form-district" aria-label="Default select example">
+                                                <option selected>Quận/huyện</option>
+                                                <option value="1">Nam Từ Liêm</option>
+                                                <option value="2">Bắc Từ Liêm</option>
+                                                <option value="3">Hà Động</option>
+                                            </select>
+
+                                            </div>
+                                        </div>
+                                        <!--form item-->
+                                        <div class="form-item d-flex mb-15 form-add-info">
+                                            <label class="form-label">CCCD/CMT<span>*</span></label>
+                                            <div class="input-group">
+                                                <i class="fal fa-address-card"></i>
+                                                <input type="email" class="form-control" placeholder="">
+                                            </div>
+                                        </div>
+                                        <!--form item-->
+                                        <div class="form-item d-flex mb-15 form-add-info">
+                                            <label class="form-label">Lớp học <span>*</span></label>
+                                            <div class="input-group">
+                                                <i class="fal fa-users-class"></i>
+                                                <input type="email" class="form-control" placeholder="">
+
+                                            </div>
+                                        </div>
+                                        <!--form item-->
+                                        <div class="form-item d-flex mb-15 form-add-info">
+                                            <label class="form-label">Thuộc khóa <span>*</span></label>
+                                            <div class="input-group">
+                                                <i class="fal fa-sitemap"></i>
+                                                <i class="fal fa-angle-down"></i>
+                                                <select class="form-select" aria-label="Default select example">
+                                                <option selected>Chọn khóa học</option>
+                                                <option value="1">T5K6</option>
+                                                <option value="2">T6K6</option>
+                                                <option value="3">T7K6</option>
+                                            </select>
+
+                                            </div>
+                                        </div>
+                                        <!--form item-->
+                                        <div class="form-item d-flex mb-15 form-add-info">
+                                            <label class="form-label">Thuộc khoa <span>*</span></label>
+                                            <div class="input-group">
+                                                <i class="fal fa-sitemap"></i>
+                                                <i class="fal fa-angle-down"></i>
+                                                <select class="form-select" aria-label="Default select example">
+                                                <option selected>Chọn khoa</option>
+                                                <option value="1">Công nghệ thông tin</option>
+                                                <option value="2">Kế toán</option>
+                                                <option value="3">Điện tử</option>
+                                            </select>
+
+                                            </div>
+                                        </div>
+                                        <!--form item-->
+                                        <div class="form-item d-flex mb-15 form-add-info">
+                                            <label class="form-label">Nội dung <span>*</span></label>
+                                            <div class="input-group">
+                                                <i class="fal fa-edit"></i>
+                                                <textarea class="form-control form-textarea" placeholder="" id="floatingTextarea"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="sv-ground-button">
+                                <div class="sv-button">
+                                    <button type="submit" class="btn btn-come-back"><i
+                                        class="fal fa-arrow-left"></i> Quay lại
+                                </button>
+                                    <button type="submit" class="btn btn-continue">Tiếp tục <i
+                                        class="fal fa-arrow-right"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    <!-- Modal delete-file -->
+    <div class="modal fade modal-delete-file" id="modal-delete-file" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Xác nhận xóa</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="../assets/images/1CuaSV/delete-file.png" style="margin-top: 20px">
+                    <h2>XÁC NHẬN XÓA MỤC ĐÃ CHỌN</h2>
+                    <p>Hãy kiểm tra lại thông tin mục đã chọn để xóa.<br> Mọi thao tác đều không thể hoàn tác</p>
+                    <div class="modal-button">
+                        <button type="button" class="btn btn-come-back" data-toggle="modal"><i
+                            class="fal fa-arrow-left"></i> Quay lại
+                    </button>
+                        <button type="button" class="btn btn-trash" data-toggle="modal"> Xóa <i class="fal fa-trash"></i>
+                    </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Modal zoom-single-sheet-->
+    <div class="modal fade zoom-single-sheet" id="zoom-file" tabindex="-1" aria-labelledby="zoomfileLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="zoomfileLabel">Đơn vay vốn sinh viên Đơn vay vốn sinh viên</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="../assets/images/1CuaSV/Don_de_nghi_bao_luu_ket_qua_tuyen_sinh.jpg">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-download" data-toggle="modal"><i class="fal fa-download"></i> Tải
+                    về
+                </button>
+                    <button type="button" class="btn btn-print" data-toggle="modal"><i class="fal fa-print"></i> In đơn
+                </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="../assets/js/bootstrap.bundle.min.js "></script>
+<script src="../assets/js/swiper-bundle.min.js"></script>
+<script src="../assets/js/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="../assets/js/slick.js"></script>
+<script src="../assets/js/custom.js"></script>
+<script src="../assets/js/jquery-searchbox.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+
+
+</html>

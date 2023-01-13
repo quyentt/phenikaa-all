@@ -1,0 +1,35 @@
+@import "bootstrap.min.css";
+@import "jquery-ui.min.css";
+@import url('fonts.css');
+@import url('swiper-bundle.min.css');
+@import "awesome-5.min.css";
+@import "slick.css";
+@import "select2.min.css?v=1";
+@import "all.css?v=6.2";
+@import "login.css?v=1";
+@import "1cuaSV.css?v=1";
+@import "register-school.css?v=1";
+@import "gochoctap.css?v=1";
+@import "tai-chinh.css?v=1";
+@import "ketquadangky.css?v=1";
+@import "news.css?v=1";
+@import "chat.css?v=2";
+@import "study-program.css?v=1";
+@import "my-calendar.css?v=10";
+@import "dangkyhoc-nguyenvong.css?v=1";
+@import "danhSachMonDangKyHoc.css?v=2";
+@import "select-2-custom.css?v=6";
+@import "responsive.css?v=7";
+.td-center {
+    text-align: center !important
+}
+table > tbody > tr:hover {
+    background-color:#eeeef0;
+}
+.btn-lg {
+    padding: 0.35rem 1rem;
+    font-size: 1rem;
+}
+.pointer {
+    cursor: pointer
+}

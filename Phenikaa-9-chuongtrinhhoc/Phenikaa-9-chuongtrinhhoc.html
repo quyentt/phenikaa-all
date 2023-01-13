@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education management</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+
+<body>
+    <div class="wrapper ">
+        <div class="left-sidebar">
+            <div class="sidebar-top">
+                <a href="javascript:void(0)" class="menu-icon">
+                    <i class="fal fa-indent"></i>
+                </a>
+                <a href="javascript:void(0)" class="menu-icon-mobi">
+                    <i class="fal fa-indent"></i>
+                </a>
+                <a class="logo" href="#">
+                    <img class="logo-icon" src="../assets/images/logo.png">
+                    <img class="logo-name" src="../assets/images/logo-name.png">
+                </a>
+                <div class="line-1"></div>
+                <div class="line-2"></div>
+                <div class="line-hiden"></div>
+            </div>
+
+            <div class="sidebar-menu">
+                <div class="accordion" id="sidebar-menu">
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header" href="">
+                            <i class="fas fa-house item-icon"></i>
+                            <span>Trang chủ</span>
+                        </a>
+                    </div>
+                    <!-- siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header" data-bs-toggle="collapse" data-bs-target="#collapse1" href="javascrip:void(0)">
+                            <i class="fal fa-id-card item-icon"></i>
+                            <span>Profile</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse " id="collapse1" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1 co the dai hon</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse2" href="javascrip:void(0)">
+                            <i class="fal fa-book-reader item-icon"></i>
+                            <span>Góc học tập</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse2" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse3" href="javascrip:void(0)">
+                            <i class="fal fa-hospital-user item-icon"></i>
+                            <span>Ký túc xá</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse3" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item active">
+                        <a class="sidebar-menu-header " data-bs-toggle="collapse" data-bs-target="#collapse4" href="javascrip:void(0)">
+                            <i class="fal fa-users-class item-icon"></i>
+                            <span>Đăng ký học</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse show" id="collapse4" data-bs-parent="#sidebar-menu">
+                            <a href="#" class="active">Đăng ký</a>
+                            <a href="#">Nguyện vọng</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse5" href="javascrip:void(0)">
+                            <i class="fal fa-calendar-alt item-icon"></i>
+                            <span>Thời khóa biểu</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse5" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse6" href="javascrip:void(0)">
+                            <i class="fal fa-sack-dollar item-icon"></i>
+                            <span>Tài chính</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse6" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse7" href="javascrip:void(0)">
+                            <i class="fal fa-book item-icon"></i>
+                            <span>Thư viện</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse7" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse8" href="javascrip:void(0)">
+                            <i class="fal fa-user-graduate item-icon"></i>
+                            <span>Hệ thống 1 cửa sinh viên</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse8" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+
+
+                </div>
+
+
+            </div>
+        </div>
+        <div class="content-page ">
+            <!-- navbar -->
+            <div class="navbar">
+                <div class="search-group-in-mobi">
+                    <i class="fal fa-search mobi-search-icon"></i>
+                    <form class="search-group">
+                        <input type="email" class="search-form" placeholder="Tìm kiếm thông tin">
+                        <button><i class="fal fa-search"></i></button>
+                    </form>
+                </div>
+                <div class="in-mobi-group">
+                    <div class="nav-menu-group">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                            <i class="fal fa-ellipsis-h-alt"></i>
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-notification">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                            <i class="fal fa-bell"><span class="noti-count">3</span></i>
+
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-setting">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                            <i class="fal fa-cog"></i>
+
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-account">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                            <div class="user-image">
+                                <i class="fas fa-user user-icon"></i>
+                            </div>
+                            <span>Admin</span>
+                            <i class="fal fa-chevron-down user-arrow"></i>
+
+
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end navbar -->
+            <!-- content -->
+            <div class="content one-door study-space">
+                <div class="overlay"></div>
+                <div class="content-tab no-tab">
+                    <p class="link">
+                        <a href="#">Góc học tập</a><i class="fal fa-angle-right"></i>
+                        <a href="#">Chương trình học</a></p>
+                </div>
+
+                <div class="row register-school study-program">
+
+                    <div class="col-12 col-md-9 register-school-right">
+                        <div class="box-shadow p-3 ">
+                            <div class="table-title mb-3">
+                                Nội dung học phần theo chương trình: Công nghệ sinh học
+                            </div>
+                            <table class="table transcrip-table border-e1 border tabs-scores has-scoll">
+
+                                <thead>
+                                    <tr>
+                                        <th class="text-center" scope="col">STT</th>
+                                        <th scope="col">Mã học phần</th>
+                                        <th scope="col">Tên học phần</th>
+                                        <th class="text-center" scope="col">Số tín học phần</th>
+                                        <th class="text-center" scope="col">Học kỳ dự kiến</th>
+                                        <th class="text-center" scope="col">Học kỳ thực tế</th>
+                                        <th class="text-center" scope="col">LT</th>
+                                        <th class="text-center" scope="col">TH</th>
+
+                                        <th class="text-center" scope="col">Chi tiết</th>
+                                    </tr>
+                                </thead>
+
+
+                                <tbody>
+
+
+                                    <tr>
+                                        <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                        <td><em class="show-in-mobi">Mã học phần:</em><span>450820989</span></td>
+                                        <td><em class="show-in-mobi">Tên học phần:</em><span>Bảo dưỡng sửa chữa hệ thống truyền lực</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">Số tín học phần:</em><span>5</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">Học phần dự kiến:</em><span>2021_2022, Ky 1</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">Thực tế:</em><span>2021_2022, Ky 1, Đợt 1</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">LT:</em><span>45</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">TH:</em><span>0</span></td>
+
+                                        <td class="text-center"><em class="show-in-mobi">Chi tiết:</em><a href="#study_program" data-bs-toggle="modal"><i class="fal fa-file-contract"></i></a></td>
+
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                        <td><em class="show-in-mobi">Mã học phần:</em><span>450820989</span></td>
+                                        <td><em class="show-in-mobi">Tên học phần:</em><span>Bảo dưỡng sửa chữa hệ thống truyền lực</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">Số tín học phần:</em><span>5</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">Học phần dự kiến:</em><span>2021_2022, Ky 1</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">Thực tế:</em><span>2021_2022, Ky 1, Đợt 1</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">LT:</em><span>45</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">TH:</em><span>0</span></td>
+
+                                        <td class="text-center"><em class="show-in-mobi">Chi tiết:</em><a href="#study_program" data-bs-toggle="modal"><i class="fal fa-file-contract"></i></a></td>
+
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                        <td><em class="show-in-mobi">Mã học phần:</em><span>450820989</span></td>
+                                        <td><em class="show-in-mobi">Tên học phần:</em><span>Bảo dưỡng sửa chữa hệ thống truyền lực</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">Số tín học phần:</em><span>5</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">Học phần dự kiến:</em><span>2021_2022, Ky 1</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">Thực tế:</em><span>2021_2022, Ky 1, Đợt 1</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">LT:</em><span>45</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">TH:</em><span>0</span></td>
+
+                                        <td class="text-center"><em class="show-in-mobi">Chi tiết:</em><a href="#study_program" data-bs-toggle="modal"><i class="fal fa-file-contract"></i></a></td>
+
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                        <td><em class="show-in-mobi">Mã học phần:</em><span>450820989</span></td>
+                                        <td><em class="show-in-mobi">Tên học phần:</em><span>Bảo dưỡng sửa chữa hệ thống truyền lực</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">Số tín học phần:</em><span>5</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">Học phần dự kiến:</em><span>2021_2022, Ky 1</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">Thực tế:</em><span>2021_2022, Ky 1, Đợt 1</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">LT:</em><span>45</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">TH:</em><span>0</span></td>
+
+                                        <td class="text-center"><em class="show-in-mobi">Chi tiết:</em><a href="#study_program" data-bs-toggle="modal"><i class="fal fa-file-contract"></i></a></td>
+
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                        <td><em class="show-in-mobi">Mã học phần:</em><span>450820989</span></td>
+                                        <td><em class="show-in-mobi">Tên học phần:</em><span>Bảo dưỡng sửa chữa hệ thống truyền lực</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">Số tín học phần:</em><span>5</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">Học phần dự kiến:</em><span>2021_2022, Ky 1</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">Thực tế:</em><span>2021_2022, Ky 1, Đợt 1</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">LT:</em><span>45</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">TH:</em><span>0</span></td>
+
+                                        <td class="text-center"><em class="show-in-mobi">Chi tiết:</em><a href="#study_program" data-bs-toggle="modal"><i class="fal fa-file-contract"></i></a></td>
+
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                        <td><em class="show-in-mobi">Mã học phần:</em><span>450820989</span></td>
+                                        <td><em class="show-in-mobi">Tên học phần:</em><span>Bảo dưỡng sửa chữa hệ thống truyền lực</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">Số tín học phần:</em><span>5</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">Học phần dự kiến:</em><span>2021_2022, Ky 1</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">Thực tế:</em><span>2021_2022, Ky 1, Đợt 1</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">LT:</em><span>45</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">TH:</em><span>0</span></td>
+
+                                        <td class="text-center"><em class="show-in-mobi">Chi tiết:</em><a href="#study_program" data-bs-toggle="modal"><i class="fal fa-file-contract"></i></a></td>
+
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                        <td><em class="show-in-mobi">Mã học phần:</em><span>450820989</span></td>
+                                        <td><em class="show-in-mobi">Tên học phần:</em><span>Bảo dưỡng sửa chữa hệ thống truyền lực</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">Số tín học phần:</em><span>5</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">Học phần dự kiến:</em><span>2021_2022, Ky 1</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">Thực tế:</em><span>2021_2022, Ky 1, Đợt 1</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">LT:</em><span>45</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">TH:</em><span>0</span></td>
+
+                                        <td class="text-center"><em class="show-in-mobi">Chi tiết:</em><a href="#study_program" data-bs-toggle="modal"><i class="fal fa-file-contract"></i></a></td>
+
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                        <td><em class="show-in-mobi">Mã học phần:</em><span>450820989</span></td>
+                                        <td><em class="show-in-mobi">Tên học phần:</em><span>Bảo dưỡng sửa chữa hệ thống truyền lực</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">Số tín học phần:</em><span>5</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">Học phần dự kiến:</em><span>2021_2022, Ky 1</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">Thực tế:</em><span>2021_2022, Ky 1, Đợt 1</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">LT:</em><span>45</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">TH:</em><span>0</span></td>
+
+                                        <td class="text-center"><em class="show-in-mobi">Chi tiết:</em><a href="#study_program" data-bs-toggle="modal"><i class="fal fa-file-contract"></i></a></td>
+
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                        <td><em class="show-in-mobi">Mã học phần:</em><span>450820989</span></td>
+                                        <td><em class="show-in-mobi">Tên học phần:</em><span>Bảo dưỡng sửa chữa hệ thống truyền lực</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">Số tín học phần:</em><span>5</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">Học phần dự kiến:</em><span>2021_2022, Ky 1</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">Thực tế:</em><span>2021_2022, Ky 1, Đợt 1</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">LT:</em><span>45</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">TH:</em><span>0</span></td>
+
+                                        <td class="text-center"><em class="show-in-mobi">Chi tiết:</em><a href="#study_program" data-bs-toggle="modal"><i class="fal fa-file-contract"></i></a></td>
+
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                        <td><em class="show-in-mobi">Mã học phần:</em><span>450820989</span></td>
+                                        <td><em class="show-in-mobi">Tên học phần:</em><span>Bảo dưỡng sửa chữa hệ thống truyền lực</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">Số tín học phần:</em><span>5</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">Học phần dự kiến:</em><span>2021_2022, Ky 1</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">Thực tế:</em><span>2021_2022, Ky 1, Đợt 1</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">LT:</em><span>45</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">TH:</em><span>0</span></td>
+
+                                        <td class="text-center"><em class="show-in-mobi">Chi tiết:</em><a href="#study_program" data-bs-toggle="modal"><i class="fal fa-file-contract"></i></a></td>
+
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                        <td><em class="show-in-mobi">Mã học phần:</em><span>450820989</span></td>
+                                        <td><em class="show-in-mobi">Tên học phần:</em><span>Bảo dưỡng sửa chữa hệ thống truyền lực</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">Số tín học phần:</em><span>5</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">Học phần dự kiến:</em><span>2021_2022, Ky 1</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">Thực tế:</em><span>2021_2022, Ky 1, Đợt 1</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">LT:</em><span>45</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">TH:</em><span>0</span></td>
+
+                                        <td class="text-center"><em class="show-in-mobi">Chi tiết:</em><a href="#study_program" data-bs-toggle="modal"><i class="fal fa-file-contract"></i></a></td>
+
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                        <td><em class="show-in-mobi">Mã học phần:</em><span>450820989</span></td>
+                                        <td><em class="show-in-mobi">Tên học phần:</em><span>Bảo dưỡng sửa chữa hệ thống truyền lực</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">Số tín học phần:</em><span>5</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">Học phần dự kiến:</em><span>2021_2022, Ky 1</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">Thực tế:</em><span>2021_2022, Ky 1, Đợt 1</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">LT:</em><span>45</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">TH:</em><span>0</span></td>
+
+                                        <td class="text-center"><em class="show-in-mobi">Chi tiết:</em><a href="#study_program" data-bs-toggle="modal"><i class="fal fa-file-contract"></i></a></td>
+
+                                    </tr>
+
+
+
+                                </tbody>
+
+
+                            </table>
+                            <div class="pagination mt-4">
+                                <p class=" color-66">Tổng 20 trang</p>
+                                <nav aria-label="Page navigation example">
+                                    <ul class="pagination justify-content-center">
+                                        <li class="page-item disabled">
+                                            <a class="page-link" href="#" tabindex="-1" aria-disabled="true"><i class="fal fa-chevron-left"></i></a>
+                                        </li>
+                                        <li class="page-item active"><a class="page-link " href="#">1</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                        <li class="page-item">
+                                            <a class="page-link" href="#"><i class="fal fa-chevron-right"></i></a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="line"></div>
+                            <div class="d-flex justify-content-between flex-wrap fs-14 ">
+                                <b class="mt-4">Tổng số học phần: 81</b>
+                                <b class="mt-4">Tổng số tín chỉ: 81</b>
+                                <b class="mt-4">Tổng số tín chỉ theo khối: 81</b>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 register-school-left">
+
+                        <!--   Box -->
+                        <div class=" box-shadow box-scores p-0 study-program-block">
+                            <div class="block-label top-radius bg-dask-blue">
+                                <i class="fal fa-chevron-down fs-13"></i>
+
+                                <span>Các khối lựa chọn bắt buộc</span>
+                            </div>
+                            <ul class="list-unstyled mb-0 ">
+                                <li class="justify-content-start" data-bs-toggle="modal" data-bs-target="#khoikienthucchuyennganh">
+                                    <i class="fal fa-book"></i>
+                                    <div class="meta ms-2">
+                                        <p class="m-0">Khối kiến thức chuyên ngành</p>
+                                        <p class="text-primary fs-13 mb-0">(Tổng số HP: 1; Tổng số TC: 3)</p>
+                                    </div>
+                                </li>
+                                <li class="justify-content-start" data-bs-toggle="modal" data-bs-target="#khoikienthucchuyennganh">
+                                    <i class="fal fa-book"></i>
+                                    <div class="meta ms-2">
+                                        <p class="m-0">Khối kiến thức chuyên ngành</p>
+                                        <p class="text-primary fs-13 mb-0">(Tổng số HP: 1; Tổng số TC: 3)</p>
+                                    </div>
+                                </li>
+                                <li class="justify-content-start" data-bs-toggle="modal" data-bs-target="#khoikienthucchuyennganh">
+                                    <i class="fal fa-book"></i>
+                                    <div class="meta ms-2">
+                                        <p class="m-0">Khối kiến thức chuyên ngành</p>
+                                        <p class="text-primary fs-13 mb-0">(Tổng số HP: 1; Tổng số TC: 3)</p>
+                                    </div>
+                                </li>
+                                <li class="justify-content-start" data-bs-toggle="modal" data-bs-target="#khoikienthucchuyennganh">
+                                    <i class="fal fa-book"></i>
+                                    <div class="meta ms-2">
+                                        <p class="m-0">Khối kiến thức chuyên ngành</p>
+                                        <p class="text-primary fs-13 mb-0">(Tổng số HP: 1; Tổng số TC: 3)</p>
+                                    </div>
+                                </li>
+                                <li class="justify-content-start" data-bs-toggle="modal" data-bs-target="#khoikienthucchuyennganh">
+                                    <i class="fal fa-book"></i>
+                                    <div class="meta ms-2">
+                                        <p class="m-0">Khối kiến thức chuyên ngành</p>
+                                        <p class="text-primary fs-13 mb-0">(Tổng số HP: 1; Tổng số TC: 3)</p>
+                                    </div>
+                                </li>
+                                <li class="justify-content-start" data-bs-toggle="modal" data-bs-target="#khoikienthucchuyennganh">
+                                    <i class="fal fa-book"></i>
+                                    <div class="meta ms-2">
+                                        <p class="m-0">Khối kiến thức chuyên ngành</p>
+                                        <p class="text-primary fs-13 mb-0">(Tổng số HP: 1; Tổng số TC: 3)</p>
+                                    </div>
+                                </li>
+                                <li class="justify-content-start" data-bs-toggle="modal" data-bs-target="#khoikienthucchuyennganh">
+                                    <i class="fal fa-book"></i>
+                                    <div class="meta ms-2">
+                                        <p class="m-0">Khối kiến thức chuyên ngành</p>
+                                        <p class="text-primary fs-13 mb-0">(Tổng số HP: 1; Tổng số TC: 3)</p>
+                                    </div>
+                                </li>
+                                <li class="justify-content-start" data-bs-toggle="modal" data-bs-target="#khoikienthucchuyennganh">
+                                    <i class="fal fa-book"></i>
+                                    <div class="meta ms-2">
+                                        <p class="m-0">Khối kiến thức chuyên ngành</p>
+                                        <p class="text-primary fs-13 mb-0">(Tổng số HP: 1; Tổng số TC: 3)</p>
+                                    </div>
+                                </li>
+                                <li class="justify-content-start" data-bs-toggle="modal" data-bs-target="#khoikienthucchuyennganh">
+                                    <i class="fal fa-book"></i>
+                                    <div class="meta ms-2">
+                                        <p class="m-0">Khối kiến thức chuyên ngành</p>
+                                        <p class="text-primary fs-13 mb-0">(Tổng số HP: 1; Tổng số TC: 3)</p>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <!--   Box -->
+                        <div class="mt-4 box-shadow box-scores p-0 study-program-block">
+                            <div class="block-label top-radius">
+                                <i class="fal fa-chevron-down fs-13"></i>
+                                <span>Các khối lựa chọn đơn</span>
+                            </div>
+                            <ul class="list-unstyled mb-0 ">
+
+                                <li class="justify-content-start" data-bs-toggle="modal" data-bs-target="#khoikienthucchuyennganh">
+                                    <i class="fal fa-book"></i>
+                                    <div class="meta ms-2">
+                                        <p class="m-0">Khối kiến thức chuyên ngành</p>
+                                        <p class="text-primary fs-13 mb-0">(Tổng số HP: 1; Tổng số TC: 3)</p>
+                                    </div>
+                                </li>
+                                <li class="justify-content-start" data-bs-toggle="modal" data-bs-target="#khoikienthucchuyennganh">
+                                    <i class="fal fa-book"></i>
+                                    <div class="meta ms-2">
+                                        <p class="m-0">Khối kiến thức chuyên ngành</p>
+                                        <p class="text-primary fs-13 mb-0">(Tổng số HP: 1; Tổng số TC: 3)</p>
+                                    </div>
+                                </li>
+                                <li class="justify-content-start" data-bs-toggle="modal" data-bs-target="#khoikienthucchuyennganh">
+                                    <i class="fal fa-book"></i>
+                                    <div class="meta ms-2">
+                                        <p class="m-0">Khối kiến thức chuyên ngành</p>
+                                        <p class="text-primary fs-13 mb-0">(Tổng số HP: 1; Tổng số TC: 3)</p>
+                                    </div>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end content -->
+
+        <!-- copy right -->
+        <div class="copyright ">
+            <marquee>
+                Đơn vị phát triển: Công ty Cổ Phần dịch vụ Công nghệ APIS - Địa chỉ: Tầng 6 Tháp Tây, Tòa nhà Hancorp, Số, 72 Trần Đăng Ninh, P, Cầu Giấy, Hà Nội - Điện thoại: 024 3204 5867
+            </marquee>
+        </div>
+        <!-- end copy right -->
+    </div>
+    <!-- modal study program-->
+    <div class="modal fade finance-modal study-program-modal" id="study_program" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="finance-user-info in-modal">
+                        <p><b>Chi tiết "Các hoạt chất thiên nhiên"</b></p>
+
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <div class="label-bottom-line"><span>Thông tin học phần</span></div>
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <p><span>Mã học phần:</span> <b>ABCDEF</b></p>
+                            <p><span>Tên học phần học phần:</span> <b>ABCDEF</b></p>
+                            <p><span>Số tín học phần:</span> 1</p>
+                            <p><span>Số tín học phí:</span> 3</p>
+                            <p><span>Là môn tính điểm:</span> Tính điểm</p>
+                            <p><span>Học kỳ dự kiến:</span> Học kỳ dự kiến</p>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <p><span>Học kỳ thực tế:</span> <b>học kỳ thực tế</b></p>
+                            <p><span>Tên học phần học phần:</span> <b>ABCDEF</b></p>
+                            <p><span>Số tín học phần:</span> 1</p>
+                            <p><span>Số tín học phí:</span> 3</p>
+                            <p><span>Là môn tính điểm:</span> Tính điểm</p>
+                            <p><span>Học kỳ dự kiến:</span> Tính điểm</p>
+                        </div>
+
+                    </div>
+                    <div class="label-bottom-line mt-4"><span>Quan hệ học phần</span></div>
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <p><span>Loại quan hệ:</span> <b>Loại quan hệ</b></p>
+                            <p><span>Học phần:</span> <b>Học phần</b></p>
+
+                        </div>
+                        <div class="col-12 col-md-6">
+
+                            <p><span>Học phần tương đương:</span> <b>Mức điều kiện</b></p>
+
+                        </div>
+                    </div>
+                    <div class="label-bottom-line mt-4"><span>Bài học</span></div>
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <p><span>Tên bài:</span> <b>Tên bài</b></p>
+                            <p><span>Ký hiệu:</span> <b>Ký hiệu</b></p>
+
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <p><span>Số tiết:</span> <b>Số tiết</b></p>
+                            <p><span>Nội dung:</span> <b>Nội dung</b></p>
+
+                        </div>
+                    </div>
+                    <div class="label-bottom-line mt-4"><span>Phân bổ học phần</span></div>
+                    <table class="table tabs-scores ">
+                        <thead class="table-light border-0">
+                            <tr>
+                                <th scope="col">STT</th>
+                                <th scope="col">Loại phân bổ</th>
+                                <th scope="col">Số tiết</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row"><em class="show-in-mobi">STT:</em><span>1</span></th>
+                                <td><em class="show-in-mobi">Loại phân bổ:</em><span>Lý thuyết</span></td>
+
+                                <td><em class="show-in-mobi">Số tín chỉ:</em><span>30</span></td>
+
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal"><i class="fal fa-arrow-left me-2"></i>Quay lại</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal khối kiến thức chuyên ngành-->
+    <div class="modal fade finance-modal study-program-modal" id="khoikienthucchuyennganh" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="finance-user-info in-modal">
+                        <p><b>Khối kiến thức chuyên ngành</b></p>
+
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+
+                    <table class="table tabs-scores">
+                        <thead class="table-light border-0">
+                            <tr>
+                                <th scope="col">STT</th>
+                                <th scope="col">Mã học phần</th>
+                                <th scope="col">Tên học phần</th>
+                                <th scope="col">Số tín chỉ</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row"><em class="show-in-mobi">STT:</em><span>1</span></th>
+                                <td><em class="show-in-mobi">Mã học phần:</em><span>ABC123</span></td>
+                                <td><em class="show-in-mobi">Tên học phần:</em><span>Lý thuyết</span></td>
+                                <td><em class="show-in-mobi">Số tín chỉ:</em><span>30</span></td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row"><em class="show-in-mobi">STT:</em><span>1</span></th>
+                                <td><em class="show-in-mobi">Mã học phần:</em><span>ABC123</span></td>
+                                <td><em class="show-in-mobi">Tên học phần:</em><span>Lý thuyết</span></td>
+                                <td><em class="show-in-mobi">Số tín chỉ:</em><span>30</span></td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row"><em class="show-in-mobi">STT:</em><span>1</span></th>
+                                <td><em class="show-in-mobi">Mã học phần:</em><span>ABC123</span></td>
+                                <td><em class="show-in-mobi">Tên học phần:</em><span>Lý thuyết</span></td>
+                                <td><em class="show-in-mobi">Số tín chỉ:</em><span>30</span></td>
+
+                            </tr>
+
+
+
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal"><i class="fal fa-arrow-left me-2"></i>Quay lại</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script src="../assets/js/bootstrap.bundle.min.js "></script>
+<script src="../assets/js/swiper-bundle.min.js"></script>
+<script src="../assets/js/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="../assets/js/slick.js"></script>
+<script src="../assets/js/custom.js"></script>
+<script src="../assets/js/masonry.pkgd.min.js"></script>
+
+
+
+</html>

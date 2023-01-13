@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education management</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+
+<body>
+<div class="wrapper ">
+    <div class="left-sidebar">
+        <div class="sidebar-top">
+            <a href="javascript:void(0)" class="menu-icon">
+                <i class="fal fa-indent"></i>
+            </a>
+            <a href="javascript:void(0)" class="menu-icon-mobi">
+                <i class="fal fa-indent"></i>
+            </a>
+            <a class="logo" href="#">
+                <img class="logo-icon" src="../assets/images/logo.png">
+                <img class="logo-name" src="../assets/images/logo-name.png">
+            </a>
+            <div class="line-1"></div>
+            <div class="line-2"></div>
+            <div class="line-hiden"></div>
+        </div>
+
+        <div class="sidebar-menu">
+            <div class="accordion" id="sidebar-menu">
+                <div class="sidebar-menu-item active">
+                    <a class="sidebar-menu-header" href="">
+                        <i class="fas fa-house item-icon"></i>
+                        <span>Trang chủ</span>
+                    </a>
+                </div>
+                <!-- siderbar menu  item -->
+                <div class="sidebar-menu-item">
+                    <a class="sidebar-menu-header" data-bs-toggle="collapse" data-bs-target="#collapse1"
+                       href="javascrip:void(0)">
+                        <i class="fal fa-id-card item-icon"></i>
+                        <span>Profile</span>
+                        <i class="fal fa-chevron-right item-arrow-icon"></i>
+                        <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                    </a>
+                    <div class="sidebar-menu-sub collapse show" id="collapse1" data-bs-parent="#sidebar-menu">
+                        <a href="#">Profile demo 1 co the dai hon</a>
+                        <a href="#">Profile demo 2</a>
+                        <a href="#">Profile demo 3</a>
+                    </div>
+                </div>
+                <!-- end siderbar menu  item -->
+                <!-- siderbar menu  item -->
+                <div class="sidebar-menu-item">
+                    <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse2"
+                       href="javascrip:void(0)">
+                        <i class="fal fa-book-reader item-icon"></i>
+                        <span>Góc học tập</span>
+                        <i class="fal fa-chevron-right item-arrow-icon"></i>
+                        <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                    </a>
+                    <div class="sidebar-menu-sub collapse" id="collapse2" data-bs-parent="#sidebar-menu">
+                        <a href="#">Profile demo 1</a>
+                        <a href="#">Profile demo 2</a>
+                        <a href="#">Profile demo 3</a>
+                    </div>
+                </div>
+                <!-- end siderbar menu  item -->
+                <div class="sidebar-menu-item">
+                    <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse3"
+                       href="javascrip:void(0)">
+                        <i class="fal fa-hospital-user item-icon"></i>
+                        <span>Ký túc xá</span>
+                        <i class="fal fa-chevron-right item-arrow-icon"></i>
+                        <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                    </a>
+                    <div class="sidebar-menu-sub collapse" id="collapse3" data-bs-parent="#sidebar-menu">
+                        <a href="#">Profile demo 1</a>
+                        <a href="#">Profile demo 2</a>
+                        <a href="#">Profile demo 3</a>
+                    </div>
+                </div>
+                <!-- end siderbar menu  item -->
+                <!-- end siderbar menu  item -->
+                <div class="sidebar-menu-item">
+                    <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse4"
+                       href="javascrip:void(0)">
+                        <i class="fal fa-users-class item-icon"></i>
+                        <span>Đăng ký học</span>
+                        <i class="fal fa-chevron-right item-arrow-icon"></i>
+                        <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                    </a>
+                    <div class="sidebar-menu-sub collapse" id="collapse4" data-bs-parent="#sidebar-menu">
+                        <a href="#">Profile demo 1</a>
+                        <a href="#">Profile demo 2</a>
+                        <a href="#">Profile demo 3</a>
+                    </div>
+                </div>
+                <!-- end siderbar menu  item -->
+                <!-- end siderbar menu  item -->
+                <div class="sidebar-menu-item">
+                    <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse5"
+                       href="javascrip:void(0)">
+                        <i class="fal fa-calendar-alt item-icon"></i>
+                        <span>Thời khóa biểu</span>
+                        <i class="fal fa-chevron-right item-arrow-icon"></i>
+                        <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                    </a>
+                    <div class="sidebar-menu-sub collapse" id="collapse5" data-bs-parent="#sidebar-menu">
+                        <a href="#">Profile demo 1</a>
+                        <a href="#">Profile demo 2</a>
+                        <a href="#">Profile demo 3</a>
+                    </div>
+                </div>
+                <!-- end siderbar menu  item -->
+                <!-- end siderbar menu  item -->
+                <div class="sidebar-menu-item">
+                    <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse6"
+                       href="javascrip:void(0)">
+                        <i class="fal fa-sack-dollar item-icon"></i>
+                        <span>Tài chính</span>
+                        <i class="fal fa-chevron-right item-arrow-icon"></i>
+                        <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                    </a>
+                    <div class="sidebar-menu-sub collapse" id="collapse6" data-bs-parent="#sidebar-menu">
+                        <a href="#">Profile demo 1</a>
+                        <a href="#">Profile demo 2</a>
+                        <a href="#">Profile demo 3</a>
+                    </div>
+                </div>
+                <!-- end siderbar menu  item -->
+                <!-- end siderbar menu  item -->
+                <div class="sidebar-menu-item">
+                    <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse7"
+                       href="javascrip:void(0)">
+                        <i class="fal fa-book item-icon"></i>
+                        <span>Thư viện</span>
+                        <i class="fal fa-chevron-right item-arrow-icon"></i>
+                    </a>
+                    <div class="sidebar-menu-sub collapse" id="collapse7" data-bs-parent="#sidebar-menu">
+                        <a href="#">Profile demo 1</a>
+                        <a href="#">Profile demo 2</a>
+                        <a href="#">Profile demo 3</a>
+                    </div>
+                </div>
+                <!-- end siderbar menu  item -->
+                <!-- end siderbar menu  item -->
+                <div class="sidebar-menu-item">
+                    <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse8"
+                       href="javascrip:void(0)">
+                        <i class="fal fa-user-graduate item-icon"></i>
+                        <span>Hệ thống 1 cửa sinh viên</span>
+                        <i class="fal fa-chevron-right item-arrow-icon"></i>
+                        <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                    </a>
+                    <div class="sidebar-menu-sub collapse" id="collapse8" data-bs-parent="#sidebar-menu">
+                        <a href="#">Profile demo 1</a>
+                        <a href="#">Profile demo 2</a>
+                        <a href="#">Profile demo 3</a>
+                    </div>
+                </div>
+                <!-- end siderbar menu  item -->
+
+
+            </div>
+
+
+        </div>
+    </div>
+    <div class="content-page ">
+        <!-- navbar -->
+        <div class="navbar">
+            <div class="search-group-in-mobi">
+                <i class="fal fa-search mobi-search-icon"></i>
+                <form class="search-group">
+                    <input type="email" class="search-form" placeholder="Tìm kiếm thông tin">
+                    <button><i class="fal fa-search"></i></button>
+                </form>
+            </div>
+            <div class="in-mobi-group">
+                <div class="nav-menu-group">
+                    <div class="dropdown">
+                        <button class=" " type="button" data-bs-toggle="dropdown">
+                            <i class="fal fa-ellipsis-h-alt"></i>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="nav-notification">
+                    <div class="dropdown">
+                        <button class=" " type="button" data-bs-toggle="dropdown">
+                            <i class="fal fa-bell"><span class="noti-count">3</span></i>
+
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="nav-setting">
+                    <div class="dropdown">
+                        <button class=" " type="button" data-bs-toggle="dropdown">
+                            <i class="fal fa-cog"></i>
+
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="nav-account">
+                    <div class="dropdown">
+                        <button class=" " type="button" data-bs-toggle="dropdown">
+                            <div class="user-image">
+                                <i class="fas fa-user user-icon"></i>
+                            </div>
+                            <span>Admin</span>
+                            <i class="fal fa-chevron-down user-arrow"></i>
+
+
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end navbar -->
+        <!-- content -->
+        <div class="content one-door">
+            <div class="overlay"></div>
+            <div class="content-tab">
+                <p class="link"><a href="#">Hệ thống 1 cửa sinh viên</a><i class="fal fa-angle-right"></i> <a href="#">Thêm
+                    mới</a></p>
+                <div class="tab-list swiper service-slider">
+                    <div class="swiper-wrapper">
+                        <div class="tab-item swiper-slide item-setting">
+                            <a href="#"><i class="fal fa-cogs"></i>
+                                <p>Các<br> Dịch vụ</p></a>
+                        </div>
+                        <div class="tab-item swiper-slide">
+                            <a href="#"><i class="fal fa-alarm-clock"></i><span>3</span>
+                                <p>Chờ xác nhận</p></a>
+                        </div>
+
+                        <div class="tab-item swiper-slide">
+                            <a href="#"><i class="fal fa-file-import"></i><span>3</span>
+                                <p>Đã tiếp nhận</p></a>
+                        </div>
+
+                        <div class="tab-item swiper-slide">
+                            <a href="#"><i class="fal fa-alarm-clock"></i><span>3</span>
+                                <p>Đang xử lý</p></a>
+                        </div>
+
+                        <div class="tab-item swiper-slide">
+                            <a href="#"><i class="fal fa-books"></i>
+                                <p>Thư viện xác nhận</p></a>
+                        </div>
+
+                        <div class="tab-item swiper-slide">
+                            <a href="#"><i class="fal fa-users"></i>
+                                <p>Đoàn thanh niên xác nhận</p></a>
+                        </div>
+
+                        <div class="tab-item swiper-slide">
+                            <a href="#"><i class="fal fa-money-check-edit-alt"></i>p <p>Tài chính xác nhận</p></a>
+                        </div>
+
+                        <div class="tab-item swiper-slide">
+                            <a href="#"><i class="fal fa-user-chart"></i>
+                                <p>Đào tạo xác nhận</p></a>
+                        </div>
+
+                        <div class="tab-item swiper-slide">
+                            <a href="#"><i class="fal fa-hospital-user"></i>
+                                <p>Kí túc xá xác nhận</p></a>
+                        </div>
+
+                        <div class="tab-item swiper-slide">
+                            <a href="#"><i class="fal fa-users"></i>
+                                <p>Đã xử lý xong</p></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper service-content-slider">
+                <div class="swiper-wrapper">
+                    <!-- Các dịch vụ-->
+                    <div class="swiper-slide">
+                        <!-- dashboad -->
+                        <div class="dashboad">
+                            <div class="sv-add-info">
+                                <div class="sv-lable"><h3>Bổ sung thông tin</h3></div>
+                                <div class="sv-add-info-content">
+                                    <div class="sv-add-info-left">
+                                        <div class="button-ground">
+                                            <button type="button" class="btn btn-zoom" data-bs-toggle="modal"
+                                                    data-bs-target="#zoom-file"><i class="fal fa-search-plus"></i>
+                                            </button>
+                                            <button type="button" class="btn btn-download" data-toggle="modal"><i
+                                                    class="fal fa-download"></i></button>
+                                            <button type="button" class="btn btn-download" data-toggle="modal"><i
+                                                    class="fal fa-print"></i></button>
+                                            <!-- Button trigger modal -->
+                                        </div>
+                                        <div class="single-sheet-img">
+                                            <img src="../assets/images/1CuaSV/Don_de_nghi_bao_luu_ket_qua_tuyen_sinh.jpg">
+                                        </div>
+
+                                    </div>
+                                    <div class="sv-add-info-right">
+                                        <form>
+                                            <div class="sv-add-info-1">
+                                                <div class="form-item-1">
+                                                    <!--form item-->
+                                                    <div class="form-item d-flex mb-15 form-add-info">
+                                                        <label class="form-label">Họ và tên <span>*</span></label>
+                                                        <div class="input-group">
+                                                            <i class="fal fa-user color-dask-blue"></i>
+                                                            <input type="email" class="form-control"
+                                                                   placeholder="Nguyễn Thị Bích">
+                                                        </div>
+                                                    </div>
+                                                    <!--form item-->
+                                                    <div class="form-item d-flex mb-15 form-add-info">
+                                                        <label class="form-label">Tỉnh/thành phố <span>*</span></label>
+                                                        <div class="input-group">
+                                                            <i class="fal fa-map"></i>
+                                                            <input type="email" class="form-control" placeholder="">
+                                                        </div>
+                                                    </div>
+                                                    <!--form item-->
+                                                    <div class="form-item d-flex mb-15 form-add-info">
+                                                        <label class="form-label">CCCD/CMT<span>*</span></label>
+                                                        <div class="input-group">
+                                                            <i class="fal fa-address-card"></i>
+                                                            <input type="email" class="form-control" placeholder="">
+                                                        </div>
+                                                    </div>
+                                                    <!--form item-->
+                                                    <div class="form-item d-flex mb-15 form-add-info">
+                                                        <label class="form-label">Thuộc khoa <span>*</span></label>
+                                                        <div class="input-group">
+                                                            <i class="fal fa-sitemap"></i>
+                                                            <i class="fal fa-angle-down"></i>
+                                                            <select class="form-select"
+                                                                    aria-label="Default select example">
+                                                                <option selected>Chọn khoa</option>
+                                                                <option value="1">Công nghệ thông tin</option>
+                                                                <option value="2">Kế toán</option>
+                                                                <option value="3">Điện tử</option>
+                                                            </select>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-item-1">
+                                                    <!--form item-->
+                                                    <div class="form-item d-flex mb-15 form-add-info">
+                                                        <label class="form-label">Năm Sinh<span>*</span></label>
+                                                        <div class="input-group">
+                                                            <i class="fal fa-calendar-alt"></i>
+                                                            <input type="email" class="form-control" placeholder="">
+                                                        </div>
+                                                    </div>
+                                                    <!--form item-->
+                                                    <div class="form-item d-flex mb-15 form-add-info">
+                                                        <label class="form-label">Quận/huyện <span>*</span></label>
+                                                        <div class="input-group">
+                                                            <i class="fal fa-map-marker-alt"></i>
+                                                            <i class="fal fa-angle-down"></i>
+                                                            <select class="form-select"
+                                                                    aria-label="Default select example">
+                                                                <option selected>Quận huyện</option>
+                                                                <option value="1">Nam Từ Liêm</option>
+                                                                <option value="2">Bắc Từ Liêm</option>
+                                                                <option value="3">Hà Động</option>
+                                                            </select>
+
+                                                        </div>
+                                                    </div>
+                                                    <!--form item-->
+                                                    <div class="form-item d-flex mb-15 form-add-info">
+                                                        <label class="form-label">Lớp học <span>*</span></label>
+                                                        <div class="input-group">
+                                                            <i class="fal fa-users-class"></i>
+                                                            <input type="email" class="form-control" placeholder="">
+
+                                                        </div>
+                                                    </div>
+                                                    <!--form item-->
+                                                    <div class="form-item d-flex mb-15 form-add-info">
+                                                        <label class="form-label">Thuộc khóa <span>*</span></label>
+                                                        <div class="input-group">
+                                                            <i class="fal fa-sitemap"></i>
+                                                            <i class="fal fa-angle-down"></i>
+                                                            <select class="form-select"
+                                                                    aria-label="Default select example">
+                                                                <option selected>Chọn khóa học</option>
+                                                                <option value="1">T5K6</option>
+                                                                <option value="2">T6K6</option>
+                                                                <option value="3">T7K6</option>
+                                                            </select>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="sv-add-info-full">
+                                                <!--form item-->
+                                                <div class="form-item d-flex mb-15 form-add-info">
+                                                    <label class="form-label">Nội dung <span>*</span></label>
+                                                    <div class="input-group">
+                                                        <i class="fal fa-edit"></i>
+                                                        <textarea class="form-control form-textarea" placeholder=""
+                                                                  id="floatingTextarea"></textarea>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="sv-add-info-full sv-add-info-check">
+                                                <!--form item-->
+                                                <div class="form-item d-flex mb-10 form-add-info">
+                                                    <label class="form-label"></label>
+                                                    <div class="input-group group-checkbox">
+                                                        <input type="checkbox" class="form-check-input"
+                                                               id="exampleCheck1">
+                                                        <label class="form-check-label" for="exampleCheck1">Tôi xác nhận
+                                                            thông tin kê khai trong đơn đều chính xác. Nếu có sai sót
+                                                            tôi xin chịu hoàn toàn
+                                                            mọi trách nhiệm</label>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </form>
+                                        <div class="sv-note">
+                                            <p class="d-none">
+                                                Sau khi đơn xử lý xong.<br>
+                                                Sinh viên đến lấy hồ sơ trực tiếp tại:<br>
+                                                Tòa D2, Phòng 506, trường Đại học PHENIKAA
+                                            </p>
+                                            <div class="sv-note-add">
+                                                <p class="" style="margin-bottom: 0px; padding-bottom: 5px">
+                                                    DO TÌNH HÌNH DỊCH BỆNH DIỄN BIẾN PHỨC TẠP<br>
+                                                    ĐƠN SAU KHI ĐƯỢC XỬ LÝ SẼ CHUYỂN THẲNG ĐẾN SINH VIÊN THEO ĐỊA
+                                                    CHỈ:<br>
+                                                </p>
+                                                <div class="input-group">
+                                                    <i class="fal fa-map"></i>
+                                                    <input type="email" class="form-control" placeholder="Địa chỉ nhận đơn">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sv-ground-button">
+                                    <div class="row">
+                                        <div class="col-12 col-sm-8 sv-alert"><i
+                                                class="fal fa-exclamation-triangle"></i> Giữ liệu nhập cần đúng thông
+                                            tin, viết đúng chính tả, không viết tắt. Thông tin không đúng yêu cầu đều
+                                            không hợp lệ
+                                        </div>
+                                        <div class="col-12 col-sm-4 sv-button">
+                                            <button type="submit" class="btn btn-come-back"><i
+                                                    class="fal fa-arrow-left"></i> Quay lại
+                                            </button>
+                                            <button type="submit" class="btn btn-continue">Tiếp tục <i
+                                                    class="fal fa-arrow-right"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end dashboad -->
+                    </div>
+                    <!--Chờ xác nhận-->
+                    <div class="swiper-slide letters-block ">
+                        <div class="dashboad">
+                            <div class="dashboad-search-filter justify-content-between">
+                                <div class="search-group-don justify-content-between">
+                                    <div class="form-outline">
+                                        <!-- <label class="form-label" for="form1">Search</label>-->
+                                        <input type="search" id="form1" class="form-control"
+                                               placeholder="Tìm kiếm thông tin"/>
+                                    </div>
+                                    <button type="button" class="btn btn-primary btn-search">
+                                        <i class="fal fa-search"></i>
+                                    </button>
+                                </div>
+                                <div class="filter-group d-flex">
+                                    <span class="form-label">Lọc theo dịch vụ:</span>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>Tất cả</option>
+                                        <option value="1">Đơn vay vốn sinh viên</option>
+                                        <option value="2">Đơn xin thôi học</option>
+                                        <option value="3">Phiếu thanh toán ra trường</option>
+                                    </select>
+                                    <i class="fal fa-angle-down"></i>
+                                </div>
+                            </div>
+                            <div class="dashboad-item">
+                                <div class="dashboad-item-box ">
+                                    <div class="letters-item-title is-loan justify-content-between">
+                                        <div class="title-loan" title="Đơn vay vốn sinh viên Đơn vay vốn sinh viên"> Đơn
+                                            vay vốn sinh viên Đơn vay vốn sinh viên
+                                        </div>
+                                        <div class="edit-delete">
+                                            <a href="#" title="Xóa thông tin" class="delete-file"><i
+                                                    class="fal fa-trash"></i></a>
+                                            <a href="#" title="Sửa thông tin" class="edit-file"><i
+                                                    class="fal fa-pen"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="letters-item-content" style="padding-top: 15px">
+                                        <i class="fal fa-sack-dollar"></i>
+                                        <span>Số tiền:</span> 0 vnđ
+                                    </div>
+                                    <div class="letters-item-content">
+                                        <i class="fal fa-calendar-alt"></i>
+                                        <span>Thời gian xin:</span> 20/01/2022
+                                    </div>
+                                    <div class="letters-item-content d-flex short-desc">
+                                        <i class="fal fa-edit" style="margin-top: 3px"></i>
+                                        <div class="content-short-desc">
+                                            <span>Mô tả:</span> Đơn xin vay vốn sinh viên · Vay vốn tín dụng đào tạo là
+                                            hình
+                                            thức cho vay của Ngân hàng chính sách xã hội...
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dashboad-item">
+                                <div class="dashboad-item-box">
+                                    <div class="letters-item-title is-loan justify-content-between"
+                                         style="background: #41926d">
+                                        <div class="title-loan" title="Đơn xin thôi học"> Đơn xin thôi học</div>
+                                        <div class="edit-delete">
+                                            <a href="#" title="Xóa thông tin" class="delete-file"><i
+                                                    class="fal fa-trash"></i></a>
+                                            <a href="#" title="Sửa thông tin" class="edit-file"><i
+                                                    class="fal fa-pen"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="letters-item-content" style="padding-top: 15px">
+                                        <i class="fal fa-sack-dollar"></i>
+                                        <span>Số tiền:</span> 0 vnđ
+                                    </div>
+                                    <div class="letters-item-content">
+                                        <i class="fal fa-calendar-alt"></i>
+                                        <span>Thời gian xin:</span> 20/01/2022
+                                    </div>
+                                    <div class="letters-item-content d-flex short-desc">
+                                        <i class="fal fa-edit" style="margin-top: 3px"></i>
+                                        <div class="content-short-desc">
+                                            <span>Mô tả:</span> Đơn xin vay vốn sinh viên · Vay vốn tín dụng đào tạo là
+                                            hình
+                                            thức cho vay của Ngân hàng chính sách xã hội...
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dashboad-item">
+                                <div class="dashboad-item-box ">
+                                    <div class="letters-item-title is-loan justify-content-between"
+                                         style="background: #4d9dda">
+                                        <div class="title-loan" title="Đơn vay vốn sinh viên Đơn vay vốn sinh viên"> Đơn
+                                            vay vốn sinh viên Đơn vay vốn sinh viên
+                                        </div>
+                                        <div class="edit-delete">
+                                            <a href="#" title="Xóa thông tin" class="delete-file"><i
+                                                    class="fal fa-trash"></i></a>
+                                            <a href="#" title="Sửa thông tin" class="edit-file"><i
+                                                    class="fal fa-pen"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="letters-item-content" style="padding-top: 15px">
+                                        <i class="fal fa-sack-dollar"></i>
+                                        <span>Số tiền:</span> 0 vnđ
+                                    </div>
+                                    <div class="letters-item-content">
+                                        <i class="fal fa-calendar-alt"></i>
+                                        <span>Thời gian xin:</span> 20/01/2022
+                                    </div>
+                                    <div class="letters-item-content d-flex short-desc">
+                                        <i class="fal fa-edit" style="margin-top: 3px"></i>
+                                        <div class="content-short-desc">
+                                            <span>Mô tả:</span> Đơn xin vay vốn sinh viên · Vay vốn tín dụng đào tạo là
+                                            hình
+                                            thức cho vay của Ngân hàng chính sách xã hội...
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dashboad-item">
+                                <div class="dashboad-item-box">
+                                    <div class="letters-item-title is-loan justify-content-between"
+                                         style="background: #0234bf">
+                                        <div class="title-loan" title="Đơn vay vốn sinh viên Đơn vay vốn sinh viên"> Đơn
+                                            vay vốn sinh viên Đơn vay vốn sinh viên
+                                        </div>
+                                        <div class="edit-delete">
+                                            <a href="#" title="Xóa thông tin" class="delete-file"><i
+                                                    class="fal fa-trash"></i></a>
+                                            <a href="#" title="Sửa thông tin" class="edit-file"><i
+                                                    class="fal fa-pen"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="letters-item-content" style="padding-top: 15px">
+                                        <i class="fal fa-sack-dollar"></i>
+                                        <span>Số tiền:</span> 0 vnđ
+                                    </div>
+                                    <div class="letters-item-content">
+                                        <i class="fal fa-calendar-alt"></i>
+                                        <span>Thời gian xin:</span> 20/01/2022
+                                    </div>
+                                    <div class="letters-item-content d-flex short-desc">
+                                        <i class="fal fa-edit" style="margin-top: 3px"></i>
+                                        <div class="content-short-desc">
+                                            <span>Mô tả:</span> Đơn xin vay vốn sinh viên · Vay vốn tín dụng đào tạo là
+                                            hình
+                                            thức cho vay của Ngân hàng chính sách xã hội...
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dashboad-item">
+                                <div class="dashboad-item-box ">
+                                    <div class="letters-item-title is-loan justify-content-between"
+                                         style="background: #0234bf">
+                                        <div class="title-loan" title="Đơn vay vốn sinh viên Đơn vay vốn sinh viên"> Đơn
+                                            vay vốn sinh viên Đơn vay vốn sinh viên
+                                        </div>
+                                        <div class="edit-delete">
+                                            <a href="#" title="Xóa thông tin" class="delete-file"><i
+                                                    class="fal fa-trash"></i></a>
+                                            <a href="#" title="Sửa thông tin" class="edit-file"><i
+                                                    class="fal fa-pen"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="letters-item-content" style="padding-top: 15px">
+                                        <i class="fal fa-sack-dollar"></i>
+                                        <span>Số tiền:</span> 0 vnđ
+                                    </div>
+                                    <div class="letters-item-content">
+                                        <i class="fal fa-calendar-alt"></i>
+                                        <span>Thời gian xin:</span> 20/01/2022
+                                    </div>
+                                    <div class="letters-item-content d-flex short-desc">
+                                        <i class="fal fa-edit" style="margin-top: 3px"></i>
+                                        <div class="content-short-desc">
+                                            <span>Mô tả:</span> Đơn xin vay vốn sinh viên · Vay vốn tín dụng đào tạo là
+                                            hình
+                                            thức cho vay của Ngân hàng chính sách xã hội...
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dashboad-item">
+                                <div class="dashboad-item-box ">
+                                    <div class="letters-item-title is-loan justify-content-between"
+                                         style="background: #667fbc">
+                                        <div class="title-loan" title="Đơn vay vốn sinh viên Đơn vay vốn sinh viên">
+                                            Phiếu thanh toán ra trường
+                                        </div>
+                                        <div class="edit-delete">
+                                            <a href="#" title="Xóa thông tin" class="delete-file"><i
+                                                    class="fal fa-trash"></i></a>
+                                            <a href="#" title="Sửa thông tin" class="edit-file"><i
+                                                    class="fal fa-pen"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="letters-item-content" style="padding-top: 15px">
+                                        <i class="fal fa-sack-dollar"></i>
+                                        <span>Số tiền:</span> 0 vnđ
+                                    </div>
+                                    <div class="letters-item-content">
+                                        <i class="fal fa-calendar-alt"></i>
+                                        <span>Thời gian xin:</span> 20/01/2022
+                                    </div>
+                                    <div class="letters-item-content d-flex short-desc">
+                                        <i class="fal fa-edit" style="margin-top: 3px"></i>
+                                        <div class="content-short-desc">
+                                            <span>Mô tả:</span> Đơn xin vay vốn sinh viên · Vay vốn tín dụng đào tạo là
+                                            hình
+                                            thức cho vay của Ngân hàng chính sách xã hội...
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dashboad-item">
+                                <div class="dashboad-item-box ">
+                                    <div class="letters-item-title is-loan justify-content-between"
+                                         style="background: #00a8bf">
+                                        <div class="title-loan" title="Đơn vay vốn sinh viên Đơn vay vốn sinh viên"> Đơn
+                                            vay vốn sinh viên Đơn vay vốn sinh viên
+                                        </div>
+                                        <div class="edit-delete">
+                                            <a href="#" title="Xóa thông tin" class="delete-file"><i
+                                                    class="fal fa-trash"></i></a>
+                                            <a href="#" title="Sửa thông tin" class="edit-file"><i
+                                                    class="fal fa-pen"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="letters-item-content" style="padding-top: 15px">
+                                        <i class="fal fa-sack-dollar"></i>
+                                        <span>Số tiền:</span> 0 vnđ
+                                    </div>
+                                    <div class="letters-item-content">
+                                        <i class="fal fa-calendar-alt"></i>
+                                        <span>Thời gian xin:</span> 20/01/2022
+                                    </div>
+                                    <div class="letters-item-content d-flex short-desc">
+                                        <i class="fal fa-edit" style="margin-top: 3px"></i>
+                                        <div class="content-short-desc">
+                                            <span>Mô tả:</span> Đơn xin vay vốn sinh viên · Vay vốn tín dụng đào tạo là
+                                            hình
+                                            thức cho vay của Ngân hàng chính sách xã hội...
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dashboad-item">
+                                <div class="dashboad-item-box ">
+                                    <div class="letters-item-title is-loan justify-content-between"
+                                         style="background: #ff8400">
+                                        <div class="title-loan" title="Đơn vay vốn sinh viên Đơn vay vốn sinh viên"> Đơn
+                                            vay vốn sinh viên Đơn vay vốn sinh viên
+                                        </div>
+                                        <div class="edit-delete">
+                                            <a href="#" title="Xóa thông tin" class="delete-file"><i
+                                                    class="fal fa-trash"></i></a>
+                                            <a href="#" title="Sửa thông tin" class="edit-file"><i
+                                                    class="fal fa-pen"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="letters-item-content" style="padding-top: 15px">
+                                        <i class="fal fa-sack-dollar"></i>
+                                        <span>Số tiền:</span> 0 vnđ
+                                    </div>
+                                    <div class="letters-item-content">
+                                        <i class="fal fa-calendar-alt"></i>
+                                        <span>Thời gian xin:</span> 20/01/2022
+                                    </div>
+                                    <div class="letters-item-content d-flex short-desc">
+                                        <i class="fal fa-edit" style="margin-top: 3px"></i>
+                                        <div class="content-short-desc">
+                                            <span>Mô tả:</span> Đơn xin vay vốn sinh viên
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="dashboad">
+                            Đã xác nhận
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        Đang xử lý
+                    </div>
+                    <div class="swiper-slide">
+                        thư viện xn
+                    </div>
+                    <div class="swiper-slide">
+                        Đoàn thanh niên
+                    </div>
+                    <div class="swiper-slide">
+                        Tài chính
+                    </div>
+                    <div class="swiper-slide">
+                        Đào tạo xn
+                    </div>
+                    <div class="swiper-slide">
+                        Ký túc
+                    </div>
+                    <div class="swiper-slide">
+                        complate
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- end content -->
+
+    <!-- copy right -->
+    <div class="copyright ">
+        <marquee>
+            Đơn vị phát triển: Công ty Cổ Phần dịch vụ Công nghệ APIS - Địa chỉ: Tầng 6 Tháp Tây, Tòa nhà Hancorp, Số,
+            72 Trần Đăng Ninh, P, Cầu Giấy, Hà Nội - Điện thoại: 024 3204 5867
+        </marquee>
+    </div>
+    <!-- end copy right -->
+</div>
+
+<!-- Modal -->
+<div class="modal fade zoom-single-sheet" id="zoom-file" tabindex="-1" aria-labelledby="zoomfileLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="zoomfileLabel">Đơn vay vốn sinh viên Đơn vay vốn sinh viên</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="../assets/images/1CuaSV/Don_de_nghi_bao_luu_ket_qua_tuyen_sinh.jpg">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-download" data-toggle="modal"><i class="fal fa-download"></i> Tải
+                    về
+                </button>
+                <button type="button" class="btn btn-print" data-toggle="modal"><i class="fal fa-print"></i> In đơn
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="../assets/js/bootstrap.bundle.min.js "></script>
+<script src="../assets/js/swiper-bundle.min.js"></script>
+<script src="../assets/js/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="../assets/js/slick.js"></script>
+<script src="../assets/js/custom.js"></script>
+</html>

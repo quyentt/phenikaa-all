@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education management</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+
+<body>
+    <div class="wrapper ">
+        <div class="left-sidebar">
+            <div class="sidebar-top">
+                <a href="javascript:void(0)" class="menu-icon">
+                    <i class="fal fa-indent"></i>
+                </a>
+                <a href="javascript:void(0)" class="menu-icon-mobi">
+                    <i class="fal fa-indent"></i>
+                </a>
+                <a class="logo" href="#">
+                    <img class="logo-icon" src="../assets/images/logo.png">
+                    <img class="logo-name" src="../assets/images/logo-name.png">
+                </a>
+                <div class="line-1"></div>
+                <div class="line-2"></div>
+                <div class="line-hiden"></div>
+            </div>
+
+            <div class="sidebar-menu">
+                <div class="accordion" id="sidebar-menu">
+                    <div class="sidebar-menu-item ">
+                        <a class="sidebar-menu-header" href="">
+                            <i class="fas fa-tachometer-alt item-icon"></i>
+                            <span>dashboad</span>
+                        </a>
+                    </div>
+                    <!-- siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse1" href="javascrip:void(0)">
+                            <i class="fal fa-id-card item-icon"></i>
+                            <span>Hò sơ cá nhân</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse1" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1 co the dai hon</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse2" href="javascrip:void(0)">
+                            <i class="fal fa-user-chart item-icon"></i>
+                            <span>Lịch giảng</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse2" data-bs-parent="#sidebar-menu">
+
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item active">
+                        <a class="sidebar-menu-header" data-bs-toggle="collapse" data-bs-target="#collapse3" href="javascrip:void(0)">
+                            <i class="fal fa-address-book item-icon"></i>
+                            <span>Quản lý điểm</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse show" id="collapse3" data-bs-parent="#sidebar-menu">
+                            <a class="active" href="#">Bảng điểm</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse4" href="javascrip:void(0)">
+                            <i class="fal fa-file-invoice-dollar item-icon"></i>
+                            <span>Bảng lương</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse4" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse5" href="javascrip:void(0)">
+                            <i class="fal fa-analytics item-icon"></i>
+                            <span>Báo cáo thống kê</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse5" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+
+
+
+                </div>
+
+
+            </div>
+        </div>
+        <div class="content-page ">
+            <!-- navbar -->
+            <div class="navbar">
+                <div class="search-group-in-mobi">
+                    <i class="fal fa-search mobi-search-icon"></i>
+                    <form class="search-group">
+                        <input type="email" class="search-form" placeholder="Tìm kiếm thông tin">
+                        <button><i class="fal fa-search"></i></button>
+                    </form>
+                </div>
+                <div class="in-mobi-group">
+                    <div class="nav-menu-group">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                            <i class="fal fa-ellipsis-h-alt"></i>
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-notification">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                            <i class="fal fa-bell"><span class="noti-count">3</span></i>
+
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-setting">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                            <i class="fal fa-cog"></i>
+
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-account">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                            <div class="user-image">
+                                <i class="fas fa-user user-icon"></i>
+                            </div>
+                            <span>Admin</span>
+                            <i class="fal fa-chevron-down user-arrow"></i>
+
+
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end navbar -->
+            <!-- content -->
+            <div class="content one-door">
+                <div class="overlay"></div>
+                <div class="content-tab no-tab">
+                    <div class="d-flex justify-content-between">
+                        <div class="nav-content-left">
+
+                            <p class="link"><a href="#">Lịch giảng</a><i class="fal fa-angle-right"></i><a href="#">Lịch giảng đào tạo</a></p>
+
+                        </div>
+
+                        <div class="nav-content-right">
+                            <a class="d-block text-right" href=""><i class="fas fa-question-circle"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- đăng ký nguyện vọng -->
+                <div class="box-shadow register-wish  pt-0">
+                    <div class="form-top calendar-top">
+                        <div class="left">
+                            <div class="w-25p">
+                                <div class="form-item d-flex  form-add-info">
+                                    <div class="input-group no-icon">
+
+                                        <i class="fal fa-angle-down"></i>
+                                        <select class="form-select" aria-label="Default select example">
+                                        <option selected>Chọn học kỳ</option>
+                                        <option value="1">Công nghệ thông tin</option>
+                                        <option value="2">Kế toán</option>
+                                        <option value="3">Điện tử</option>
+                                    </select>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="w-25p">
+                                <div class="form-item d-flex  form-add-info">
+                                    <div class="input-group no-icon">
+
+                                        <i class="fal fa-angle-down"></i>
+                                        <select class="form-select" aria-label="Default select example">
+                                        <option selected>Chọn khoa chuyên môn</option>
+                                        <option value="1">Công nghệ thông tin</option>
+                                        <option value="2">Kế toán</option>
+                                        <option value="3">Điện tử</option>
+                                    </select>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="w-50p">
+
+                                <div class="form-group-cover">
+                                    <div class="main-label">
+                                        Thời gian gửi yêu cầu
+                                    </div>
+                                    <div class="form-group date-input">
+                                        <label for="end_date_input" class="form-label"><i class="fal fa-calendar-alt color-dask-blue"></i></label>
+                                        <input type="email" class="form-control" id="start_date_input" placeholder="Đến ngày" value="">
+
+                                    </div>
+                                    <div class="form-group date-input">
+                                        <label for="end_date_input" class="form-label"><i class="fal fa-calendar-alt color-dask-blue"></i></label>
+                                        <input type="email" class="form-control" id="end_date_input" placeholder="Đến ngày" value="">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w-25p">
+                                <div class="form-item d-flex  form-add-info">
+                                    <div class="input-group no-icon">
+
+                                        <i class="fal fa-angle-down"></i>
+                                        <select class="form-select" aria-label="Default select example">
+                                        <option selected>Chọn học phần</option>
+                                        <option value="1">Công nghệ thông tin</option>
+                                        <option value="2">Kế toán</option>
+                                        <option value="3">Điện tử</option>
+                                    </select>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="w-25p">
+                                <div class="form-item d-flex  form-add-info">
+                                    <div class="input-group no-icon">
+
+                                        <i class="fal fa-angle-down"></i>
+                                        <select class="form-select" aria-label="Default select example">
+                                        <option selected>Chọn người gửi</option>
+                                        <option value="1">Công nghệ thông tin</option>
+                                        <option value="2">Kế toán</option>
+                                        <option value="3">Điện tử</option>
+                                    </select>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="w-25p">
+                                <div class="form-item d-flex  form-add-info">
+                                    <div class="input-group no-icon">
+
+                                        <i class="fal fa-angle-down"></i>
+                                        <select class="form-select" aria-label="Default select example">
+                                        <option selected>Chọn trạng thái duyệt yêu cầu</option>
+                                        <option value="1">Công nghệ thông tin</option>
+                                        <option value="2">Kế toán</option>
+                                        <option value="3">Điện tử</option>
+                                    </select>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="w-25p">
+                                <div class="form-item d-flex  form-add-info">
+                                    <div class="input-group no-icon">
+
+                                        <i class="fal fa-angle-down"></i>
+                                        <select class="form-select" aria-label="Default select example">
+                                        <option selected>Chọn kết quả xử lý</option>
+                                        <option value="1">Công nghệ thông tin</option>
+                                        <option value="2">Kế toán</option>
+                                        <option value="3">Điện tử</option>
+                                    </select>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="btn btn-dask-blue"><i class="fal fa-tasks-alt me-3"></i>Xem</div>
+                        </div>
+
+                    </div>
+
+                    <div class="container-fluid px-20 ">
+                        <div class="d-flex justify-content-end pt-3 pb-2">
+                            <div class="min-w-auto btn btn-success" data-bs-toggle="modal" data-bs-target="#my_calendar"><i class="fas fa-external-link me-2"></i>Duyệt</div>
+
+                        </div>
+                        <table class="table transcrip-table tabs-scores ">
+                            <thead>
+                                <tr>
+                                    <th class="text-center" scope="col">STT</th>
+                                    <th scope="col">Học phần</th>
+                                    <th scope="col">Lớp học phần</th>
+                                    <th scope="col">Người gửi yêu cầu</th>
+
+                                    <th class="text-center" scope="col">Thời gian gửi yêu cầu</th>
+                                    <th class="" scope="col">Người duyệt yêu cầu</th>
+                                    <th class="text-center" scope="col">Thời gian - trạng thái duyệt yêu cầu</th>
+                                    <th class="" scope="col">Người xử lý</th>
+                                    <th class="text-center" scope="col">Thời gian kết quả xử lý</th>
+                                    <th class="text-center" scope="col">Xem chi tiết yêu cầu</th>
+                                    <th class="text-center" scope="col"><span>Chọn</span><input type="checkbox" name="" id=""></th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                    <td><em class="show-in-mobi">Học phần:</em><span>An toàn và bảo mật thông tin</span></td>
+                                    <td><em class="show-in-mobi">Lớp học phần:</em><span>QLSV_Tenlop</span></td>
+                                    <td><em class="show-in-mobi">Người gửi yêu cầu:</em><span>Trần Thế Bảo</span></td>
+
+                                    <td class="text-center"><em class="show-in-mobi">Thời gian gửi yêu cầu:</em><span>06/12/2022</span></td>
+                                    <td class=""><em class="show-in-mobi">Người duyệt yêu cầu:</em><span>Trần Thế Quyền</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Thời gian - trạng thái duyệt yêu cầu:</em><span>06/12/2022</span></td>
+                                    <td class=""><em class="show-in-mobi">Người xử lý:</em><span>Trần Thế Quyền</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Thời gian kết quả xử lý:</em><span>06/12/2022</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Chi tiết:</em><a href="#detail" data-bs-toggle="modal"><i class="fal fa-external-link color-dask-blue"></i></a></td>
+                                    <td class="text-center"><em class="show-in-mobi">Chọn:</em><span><input type="checkbox" name="" id=""></span></td>
+                                </tr>
+                                <tr>
+                                    <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                    <td><em class="show-in-mobi">Học phần:</em><span>An toàn và bảo mật thông tin</span></td>
+                                    <td><em class="show-in-mobi">Lớp học phần:</em><span>QLSV_Tenlop</span></td>
+                                    <td><em class="show-in-mobi">Người gửi yêu cầu:</em><span>Trần Thế Bảo</span></td>
+
+                                    <td class="text-center"><em class="show-in-mobi">Thời gian gửi yêu cầu:</em><span>06/12/2022</span></td>
+                                    <td class=""><em class="show-in-mobi">Người duyệt yêu cầu:</em><span>Trần Thế Quyền</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Thời gian - trạng thái duyệt yêu cầu:</em><span>06/12/2022</span></td>
+                                    <td class=""><em class="show-in-mobi">Người xử lý:</em><span>Trần Thế Quyền</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Thời gian kết quả xử lý:</em><span>06/12/2022</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Chi tiết:</em><a href="#detail" data-bs-toggle="modal"><i class="fal fa-external-link color-dask-blue"></i></a></td>
+                                    <td class="text-center"><em class="show-in-mobi">Chọn:</em><span><input type="checkbox" name="" id=""></span></td>
+                                </tr>
+                                <tr>
+                                    <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                    <td><em class="show-in-mobi">Học phần:</em><span>An toàn và bảo mật thông tin</span></td>
+                                    <td><em class="show-in-mobi">Lớp học phần:</em><span>QLSV_Tenlop</span></td>
+                                    <td><em class="show-in-mobi">Người gửi yêu cầu:</em><span>Trần Thế Bảo</span></td>
+
+                                    <td class="text-center"><em class="show-in-mobi">Thời gian gửi yêu cầu:</em><span>06/12/2022</span></td>
+                                    <td class=""><em class="show-in-mobi">Người duyệt yêu cầu:</em><span>Trần Thế Quyền</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Thời gian - trạng thái duyệt yêu cầu:</em><span>06/12/2022</span></td>
+                                    <td class=""><em class="show-in-mobi">Người xử lý:</em><span>Trần Thế Quyền</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Thời gian kết quả xử lý:</em><span>06/12/2022</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Chi tiết:</em><a href="#detail" data-bs-toggle="modal"><i class="fal fa-external-link color-dask-blue"></i></a></td>
+                                    <td class="text-center"><em class="show-in-mobi">Chọn:</em><span><input type="checkbox" name="" id=""></span></td>
+                                </tr>
+                                <tr>
+                                    <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                    <td><em class="show-in-mobi">Học phần:</em><span>An toàn và bảo mật thông tin</span></td>
+                                    <td><em class="show-in-mobi">Lớp học phần:</em><span>QLSV_Tenlop</span></td>
+                                    <td><em class="show-in-mobi">Người gửi yêu cầu:</em><span>Trần Thế Bảo</span></td>
+
+                                    <td class="text-center"><em class="show-in-mobi">Thời gian gửi yêu cầu:</em><span>06/12/2022</span></td>
+                                    <td class=""><em class="show-in-mobi">Người duyệt yêu cầu:</em><span>Trần Thế Quyền</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Thời gian - trạng thái duyệt yêu cầu:</em><span>06/12/2022</span></td>
+                                    <td class=""><em class="show-in-mobi">Người xử lý:</em><span>Trần Thế Quyền</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Thời gian kết quả xử lý:</em><span>06/12/2022</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Chi tiết:</em><a href="#detail" data-bs-toggle="modal"><i class="fal fa-external-link color-dask-blue"></i></a></td>
+                                    <td class="text-center"><em class="show-in-mobi">Chọn:</em><span><input type="checkbox" name="" id=""></span></td>
+                                </tr>
+                                <tr>
+                                    <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                    <td><em class="show-in-mobi">Học phần:</em><span>An toàn và bảo mật thông tin</span></td>
+                                    <td><em class="show-in-mobi">Lớp học phần:</em><span>QLSV_Tenlop</span></td>
+                                    <td><em class="show-in-mobi">Người gửi yêu cầu:</em><span>Trần Thế Bảo</span></td>
+
+                                    <td class="text-center"><em class="show-in-mobi">Thời gian gửi yêu cầu:</em><span>06/12/2022</span></td>
+                                    <td class=""><em class="show-in-mobi">Người duyệt yêu cầu:</em><span>Trần Thế Quyền</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Thời gian - trạng thái duyệt yêu cầu:</em><span>06/12/2022</span></td>
+                                    <td class=""><em class="show-in-mobi">Người xử lý:</em><span>Trần Thế Quyền</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Thời gian kết quả xử lý:</em><span>06/12/2022</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Chi tiết:</em><a href="#detail" data-bs-toggle="modal"><i class="fal fa-external-link color-dask-blue"></i></a></td>
+                                    <td class="text-center"><em class="show-in-mobi">Chọn:</em><span><input type="checkbox" name="" id=""></span></td>
+                                </tr>
+                                <tr>
+                                    <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                    <td><em class="show-in-mobi">Học phần:</em><span>An toàn và bảo mật thông tin</span></td>
+                                    <td><em class="show-in-mobi">Lớp học phần:</em><span>QLSV_Tenlop</span></td>
+                                    <td><em class="show-in-mobi">Người gửi yêu cầu:</em><span>Trần Thế Bảo</span></td>
+
+                                    <td class="text-center"><em class="show-in-mobi">Thời gian gửi yêu cầu:</em><span>06/12/2022</span></td>
+                                    <td class=""><em class="show-in-mobi">Người duyệt yêu cầu:</em><span>Trần Thế Quyền</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Thời gian - trạng thái duyệt yêu cầu:</em><span>06/12/2022</span></td>
+                                    <td class=""><em class="show-in-mobi">Người xử lý:</em><span>Trần Thế Quyền</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Thời gian kết quả xử lý:</em><span>06/12/2022</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Chi tiết:</em><a href="#detail" data-bs-toggle="modal"><i class="fal fa-external-link color-dask-blue"></i></a></td>
+                                    <td class="text-center"><em class="show-in-mobi">Chọn:</em><span><input type="checkbox" name="" id=""></span></td>
+                                </tr>
+                                <tr>
+                                    <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                    <td><em class="show-in-mobi">Học phần:</em><span>An toàn và bảo mật thông tin</span></td>
+                                    <td><em class="show-in-mobi">Lớp học phần:</em><span>QLSV_Tenlop</span></td>
+                                    <td><em class="show-in-mobi">Người gửi yêu cầu:</em><span>Trần Thế Bảo</span></td>
+
+                                    <td class="text-center"><em class="show-in-mobi">Thời gian gửi yêu cầu:</em><span>06/12/2022</span></td>
+                                    <td class=""><em class="show-in-mobi">Người duyệt yêu cầu:</em><span>Trần Thế Quyền</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Thời gian - trạng thái duyệt yêu cầu:</em><span>06/12/2022</span></td>
+                                    <td class=""><em class="show-in-mobi">Người xử lý:</em><span>Trần Thế Quyền</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Thời gian kết quả xử lý:</em><span>06/12/2022</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Chi tiết:</em><a href="#detail" data-bs-toggle="modal"><i class="fal fa-external-link color-dask-blue"></i></a></td>
+                                    <td class="text-center"><em class="show-in-mobi">Chọn:</em><span><input type="checkbox" name="" id=""></span></td>
+                                </tr>
+                                <tr>
+                                    <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                    <td><em class="show-in-mobi">Học phần:</em><span>An toàn và bảo mật thông tin</span></td>
+                                    <td><em class="show-in-mobi">Lớp học phần:</em><span>QLSV_Tenlop</span></td>
+                                    <td><em class="show-in-mobi">Người gửi yêu cầu:</em><span>Trần Thế Bảo</span></td>
+
+                                    <td class="text-center"><em class="show-in-mobi">Thời gian gửi yêu cầu:</em><span>06/12/2022</span></td>
+                                    <td class=""><em class="show-in-mobi">Người duyệt yêu cầu:</em><span>Trần Thế Quyền</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Thời gian - trạng thái duyệt yêu cầu:</em><span>06/12/2022</span></td>
+                                    <td class=""><em class="show-in-mobi">Người xử lý:</em><span>Trần Thế Quyền</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Thời gian kết quả xử lý:</em><span>06/12/2022</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Chi tiết:</em><a href="#detail" data-bs-toggle="modal"><i class="fal fa-external-link color-dask-blue"></i></a></td>
+                                    <td class="text-center"><em class="show-in-mobi">Chọn:</em><span><input type="checkbox" name="" id=""></span></td>
+                                </tr>
+                                <tr>
+                                    <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                    <td><em class="show-in-mobi">Học phần:</em><span>An toàn và bảo mật thông tin</span></td>
+                                    <td><em class="show-in-mobi">Lớp học phần:</em><span>QLSV_Tenlop</span></td>
+                                    <td><em class="show-in-mobi">Người gửi yêu cầu:</em><span>Trần Thế Bảo</span></td>
+
+                                    <td class="text-center"><em class="show-in-mobi">Thời gian gửi yêu cầu:</em><span>06/12/2022</span></td>
+                                    <td class=""><em class="show-in-mobi">Người duyệt yêu cầu:</em><span>Trần Thế Quyền</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Thời gian - trạng thái duyệt yêu cầu:</em><span>06/12/2022</span></td>
+                                    <td class=""><em class="show-in-mobi">Người xử lý:</em><span>Trần Thế Quyền</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Thời gian kết quả xử lý:</em><span>06/12/2022</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Chi tiết:</em><a href="#detail" data-bs-toggle="modal"><i class="fal fa-external-link color-dask-blue"></i></a></td>
+                                    <td class="text-center"><em class="show-in-mobi">Chọn:</em><span><input type="checkbox" name="" id=""></span></td>
+                                </tr>
+                                <tr>
+                                    <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                    <td><em class="show-in-mobi">Học phần:</em><span>An toàn và bảo mật thông tin</span></td>
+                                    <td><em class="show-in-mobi">Lớp học phần:</em><span>QLSV_Tenlop</span></td>
+                                    <td><em class="show-in-mobi">Người gửi yêu cầu:</em><span>Trần Thế Bảo</span></td>
+
+                                    <td class="text-center"><em class="show-in-mobi">Thời gian gửi yêu cầu:</em><span>06/12/2022</span></td>
+                                    <td class=""><em class="show-in-mobi">Người duyệt yêu cầu:</em><span>Trần Thế Quyền</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Thời gian - trạng thái duyệt yêu cầu:</em><span>06/12/2022</span></td>
+                                    <td class=""><em class="show-in-mobi">Người xử lý:</em><span>Trần Thế Quyền</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Thời gian kết quả xử lý:</em><span>06/12/2022</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Chi tiết:</em><a href="#detail" data-bs-toggle="modal"><i class="fal fa-external-link color-dask-blue"></i></a></td>
+                                    <td class="text-center"><em class="show-in-mobi">Chọn:</em><span><input type="checkbox" name="" id=""></span></td>
+                                </tr>
+                                <tr>
+                                    <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                    <td><em class="show-in-mobi">Học phần:</em><span>An toàn và bảo mật thông tin</span></td>
+                                    <td><em class="show-in-mobi">Lớp học phần:</em><span>QLSV_Tenlop</span></td>
+                                    <td><em class="show-in-mobi">Người gửi yêu cầu:</em><span>Trần Thế Bảo</span></td>
+
+                                    <td class="text-center"><em class="show-in-mobi">Thời gian gửi yêu cầu:</em><span>06/12/2022</span></td>
+                                    <td class=""><em class="show-in-mobi">Người duyệt yêu cầu:</em><span>Trần Thế Quyền</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Thời gian - trạng thái duyệt yêu cầu:</em><span>06/12/2022</span></td>
+                                    <td class=""><em class="show-in-mobi">Người xử lý:</em><span>Trần Thế Quyền</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Thời gian kết quả xử lý:</em><span>06/12/2022</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Chi tiết:</em><a href="#detail" data-bs-toggle="modal"><i class="fal fa-external-link color-dask-blue"></i></a></td>
+                                    <td class="text-center"><em class="show-in-mobi">Chọn:</em><span><input type="checkbox" name="" id=""></span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="col-12">
+                            <p></p>
+                            <div class="gv-paging-group justify-content-end">
+
+                                <div class="gv-paging">
+                                    <span class="me-4 fs-14 fst-italic">1 đến 10 trong 1210 dữ liệu</span>
+                                    <ul class="gv-pagination">
+                                        <li class="gv-page-item disabled">
+                                            <a class="page-link" href="#" tabindex="-1" aria-disabled="true"><i class="fal fa-backward"></i></a>
+                                        </li>
+                                        <li class="gv-page-item active"><a class="page-link " href="#">1</a></li>
+                                        <li class="gv-page-item"><a class="page-link" href="#">2</a></li>
+                                        <li class="gv-page-item"><a class="page-link" href="#">3</a></li>
+                                        <li class="gv-page-item paging-hidden"><a class="page-link" href="#">...</a></li>
+                                        <li class="gv-page-item"><a class="page-link" href="#">99</a></li>
+                                        <li class="gv-page-item"><a class="page-link" href="#">100</a></li>
+                                        <li class="gv-page-item">
+                                            <a class="page-link" href="#"><i class="fal fa-forward"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- end đăng ký nguyện vọng -->
+            </div>
+        </div>
+        <!-- end content -->
+
+        <!-- copy right -->
+        <div class="copyright ">
+            <marquee>
+                Đơn vị phát triển: Công ty Cổ Phần dịch vụ Công nghệ APIS - Địa chỉ: Tầng 6 Tháp Tây, Tòa nhà Hancorp, Số, 72 Trần Đăng Ninh, P, Cầu Giấy, Hà Nội - Điện thoại: 024 3204 5867
+            </marquee>
+        </div>
+        <!-- end copy right -->
+
+    </div>
+    <div class="modal fade finance-modal my-calendar" id="my_calendar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="finance-user-info in-modal ">
+                        <p><b>Đào tạo đổi lịch</b> </p>
+
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body change-calendar">
+                    <form class="" action="">
+                        <div class="khoa-sldl">
+                            <div class="wrp">
+                                <label for="">Trạng thái</label>
+                                <div class="form-item d-flex  form-add-info">
+                                    <div class="input-group no-icon">
+
+                                        <i class="fal fa-angle-down"></i>
+                                        <select class="form-select" aria-label="Default select example">
+                                    <option selected>Chọn trạng thái duyệt yêu cầu</option>
+                                    <option value="1">Công nghệ thông tin</option>
+                                    <option value="2">Kế toán</option>
+                                    <option value="3">Điện tử</option>
+                                </select>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="line-1 bg-e1"></div>
+                        <div class="gv-button-group">
+                            <button class="btn btn-outline-orange ms-auto">
+                                <i class="fas fa-save me-2"></i>
+                                <span>Lưu</span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+<script src="../assets/js/bootstrap.bundle.min.js "></script>
+<script src="../assets/js/swiper-bundle.min.js"></script>
+<script src="../assets/js/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="../assets/js/slick.js"></script>
+<script src="../assets/js/jquery-searchbox.js"></script>
+<script src="../assets/js/custom.js"></script>
+<script src="../assets/js/masonry.pkgd.min.js"></script>
+
+
+</html>

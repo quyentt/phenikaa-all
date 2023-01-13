@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education management</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <div class="wrapper ">
+        <div class="left-sidebar">
+            <div class="sidebar-top">
+                <a href="javascript:void(0)" class="menu-icon">
+                    <i class="fal fa-indent"></i>
+                </a>
+                <a href="javascript:void(0)" class="menu-icon-mobi">
+                    <i class="fal fa-indent"></i>
+                </a>
+                <a class="logo" href="#">
+                    <img class="logo-icon" src="assets/images/logo.png">
+                    <img class="logo-name" src="assets/images/logo-name.png">
+                </a>
+                <div class="line-1"></div>
+                <div class="line-2"></div>
+                <div class="line-hiden"></div>
+            </div>
+
+            <div class="sidebar-menu">
+                <div class="accordion" id="sidebar-menu">
+                    <div class="sidebar-menu-item active">
+                        <a class="sidebar-menu-header" href="">
+                            <i class="fas fa-tachometer-alt item-icon"></i>
+                            <span>dashboad</span>
+                        </a>
+                    </div>
+                    <!-- siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header" data-bs-toggle="collapse" data-bs-target="#collapse1" href="javascrip:void(0)">
+                            <i class="fal fa-id-card item-icon"></i>
+                            <span>Hò sơ cá nhân</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse show" id="collapse1" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1 co the dai hon</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse2" href="javascrip:void(0)">
+                            <i class="fal fa-user-chart item-icon"></i>
+                            <span>Lịch giảng</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse2" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse3" href="javascrip:void(0)">
+                            <i class="fal fa-address-book item-icon"></i>
+                            <span>Điểm chuyên cần</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse3" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse4" href="javascrip:void(0)">
+                            <i class="fal fa-file-invoice-dollar item-icon"></i>
+                            <span>Bảng lương</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse4" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse5" href="javascrip:void(0)">
+                            <i class="fal fa-analytics item-icon"></i>
+                            <span>Báo cáo thống kê</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse5" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+
+
+
+                </div>
+
+
+            </div>
+        </div>
+        <div class="content-page ">
+            <!-- navbar -->
+            <div class="navbar">
+                <div class="search-group-in-mobi">
+                    <i class="fal fa-search mobi-search-icon"></i>
+                    <form class="search-group">
+                        <input type="email" class="search-form" placeholder="Tìm kiếm thông tin">
+                        <button><i class="fal fa-search"></i></button>
+
+
+                    </form>
+                </div>
+                <div class="in-mobi-group">
+                    <div class="nav-menu-group">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                            <i class="fal fa-ellipsis-h-alt"></i>
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-notification">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                            <i class="fal fa-bell"><span class="noti-count">3</span></i>
+
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-setting">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                            <i class="fal fa-cog"></i>
+
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-account">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                            <div class="user-image">
+                                <i class="fas fa-user user-icon"></i>
+                            </div>
+                            <span>Admin</span>
+                            <i class="fal fa-chevron-down user-arrow"></i>
+                        </button>
+                            <ul class="dropdown-menu user-drop">
+                                <li>
+                                    <div class="img-user"><img src="assets/images/avata-user.png" class="user-avata-img">
+                                        <span>Admin</span>
+                                        <p>Cập nhật lần cuối 28/10/2021 </p>
+                                    </div>
+                                </li>
+                                <li><a class="dropdown-item" href="#"><i class="fal fa-address-book"></i> Hồ Sơ</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="fal fa-key-skeleton"></i> Thay đổi mật khẩu</a>
+                                </li>
+                                <li><a class="dropdown-item" href="#"><i class="fal fa-comment-dots"></i> Đóng góp ý
+                                kiến</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="fal fa-sign-out"></i> Đăng xuất</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- end navbar -->
+            <!-- content -->
+            <div class="content">
+                <div class="overlay"></div>
+                <p class="hello-user">Xin chào Admin!</p>
+                <!-- dashboad -->
+                <div class="dashboad teach-dashboad">
+                    <div class="dashboad-item">
+                        <a href=" # " class="dashboad-item-box " style="border-color:#008080">
+                            <div class="dashboad-item-meta">
+                                <div class="teach-dashboard-title" style="color: #008080;">Tổng số tiết dạy</div>
+                                <p> <span>Ngày</span>2</p>
+                                <p> <span>Tuần</span>10</p>
+                                <p> <span>Tháng</span>20</p>
+                            </div>
+                            <img src="assets/images/teach-dashboad/conference.png " alt=" ">
+
+                        </a>
+
+                    </div>
+                    <div class="dashboad-item">
+                        <a href=" # " class="dashboad-item-box " style="border-color:#0094d9">
+                            <div class="dashboad-item-meta">
+                                <div class="teach-dashboard-title" style="color: #0094d9;">Quản lý lớp, Sinh viên</div>
+                                <div class="teach-db-row">
+                                    <span>T5K6</span>
+                                    <span>45SV</span>
+                                    <span>2000-2005</span>
+                                </div>
+                                <div class="teach-db-row">
+                                    <span>T5K6</span>
+                                    <span>45SV</span>
+                                    <span>2000-2005</span>
+                                </div>
+                                <div class="teach-db-row">
+                                    <span>T5K6</span>
+                                    <span>45SV</span>
+                                    <span>2000-2005</span>
+                                </div>
+
+                            </div>
+                            <img src="assets/images/teach-dashboad/teach-db-2.png " alt=" ">
+
+                        </a>
+
+                    </div>
+                    <div class="dashboad-item">
+                        <a href=" # " class="dashboad-item-box " style="border-color:#4c8d21">
+                            <div class="dashboad-item-meta">
+                                <div class="teach-dashboard-title" style="color: #4c8d21;">Tổng Thu nhập</div>
+                                <p class="mney">30.000.000 vnđ</p>
+                                <p> <span>Lương:</span>20.000.000 vnđ</p>
+                                <p> <span>Thưởng:</span>10.000.000 vnđ</p>
+                            </div>
+                            <img src="assets/images/teach-dashboad/teach-db-3.png " alt=" ">
+
+                        </a>
+
+                    </div>
+                    <div class="dashboad-item">
+                        <a href=" # " class="dashboad-item-box " style="border-color:#d23c69">
+                            <div class="dashboad-item-meta">
+                                <div class="teach-dashboard-title" style="color: #d23c69;">Tổng giáo viên</div>
+                                <div class="total-teach-num">
+                                    90
+                                </div>
+                            </div>
+                            <img src="assets/images/teach-dashboad/teach-db-4.png " alt=" ">
+
+                        </a>
+
+                    </div>
+
+
+
+
+                </div>
+                <!-- end dashboad -->
+                <div class="db-container">
+                    <div class="w1/2">
+                        <div class="dashboad-about teach-calendar">
+                            <div class="left">
+                                <div class="dashboad-cate-title">
+                                    <span class="icon"></span>
+                                    <span>Lịch giảng</span>
+                                </div>
+                                <div class="line-o bg-e1"></div>
+                                <div class="calender-day">
+                                    <p class=" fw-bold" style="padding-top:20px ; margin-bottom: 8px;">Thứ 2 ngày 04/06/ 2022</p>
+                                    <div class="line-o bg-aa"></div>
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+
+                                                <th scope="col">Time</th>
+                                                <th scope="col">Môn dạy</th>
+                                                <th scope="col">Lớp dạy</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+
+                                                <td>09h - 10h </td>
+                                                <td><span>Tư thưởng Chính trị</span></td>
+                                                <td>T5K6</td>
+                                            </tr>
+                                            <tr>
+
+                                                <td>11h - 12h30 </td>
+                                                <td><span>Công nghệ sinh học</span></td>
+                                                <td>T5K6</td>
+                                            </tr>
+                                            <tr>
+
+                                                <td>13h - 14h30 </td>
+                                                <td><span>Công nghệ thông tin Việt Nhật</span></td>
+                                                <td>T5K6</td>
+                                            </tr>
+                                            <tr>
+
+                                                <td>15h - 16h </td>
+                                                <td><span>Kỹ thuật Điện tử - Viễn thông (Hệ...</span></td>
+                                                <td>T5K6</td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div class="select-month">
+                                    <select name="" id="">
+                                        <option value="">Tháng 6-2022</option>
+                                    </select>
+                                </div>
+                                <div class="line-o bg-e1"></div>
+                                <div class="calendar-block">
+                                    <img src="assets/images/teach-dashboad/calendar.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w1/2">
+                        <div class="dashboad-about dashboad-new">
+
+                            <div class="dashboad-cate-title">
+                                <span class="icon"></span>
+                                <span>Tin tức</span>
+                                <a href="" class="view-all">
+                                Xem tất cả
+                            </a>
+                            </div>
+                            <div class="news-slider dashboad-slider">
+                                <div class="slider-item">
+                                    <div class="card-news ">
+                                        <a href="" class="image-z news-img">
+                                            <img src="assets/images/news-img.png" alt="">
+                                        </a>
+                                        <a class="card-news-title" href="">Đại học Phenikaa ‘nhập khẩu’ chương trình đào tạo
+                                        hàng đầu Vương quốc Anh</a>
+                                        <p class="cart-news-short-text">
+                                            Viện Nghiên cứu Nano là một tổ chức khoa học và công nghệ ...
+                                        </p>
+
+                                    </div>
+                                </div>
+                                <div class="slider-item">
+                                    <div class="card-news ">
+                                        <a href="" class="image-z news-img">
+                                            <img src="assets/images/news-img.png" alt="">
+                                        </a>
+                                        <a class="card-news-title" href="">Đại học Phenikaa ‘nhập khẩu’ chương trình đào tạo
+                                        hàng đầu Vương quốc Anh</a>
+                                        <p class="cart-news-short-text">
+                                            Viện Nghiên cứu Nano là một tổ chức khoa học và công nghệ ...
+                                        </p>
+
+                                    </div>
+                                </div>
+                                <div class="slider-item">
+                                    <div class="card-news ">
+                                        <a href="" class="image-z news-img">
+                                            <img src="assets/images/news-img.png" alt="">
+                                        </a>
+                                        <a class="card-news-title" href="">Đại học Phenikaa ‘nhập khẩu’ chương trình đào tạo
+                                        hàng đầu Vương quốc Anh</a>
+                                        <p class="cart-news-short-text">
+                                            Viện Nghiên cứu Nano là một tổ chức khoa học và công nghệ ...
+                                        </p>
+
+                                    </div>
+                                </div>
+                                <div class="slider-item">
+                                    <div class="card-news ">
+                                        <a href="" class="image-z news-img">
+                                            <img src="assets/images/news-img.png" alt="">
+                                        </a>
+                                        <a class="card-news-title" href="">Đại học Phenikaa ‘nhập khẩu’ chương trình đào tạo
+                                        hàng đầu Vương quốc Anh</a>
+                                        <p class="cart-news-short-text">
+                                            Viện Nghiên cứu Nano là một tổ chức khoa học và công nghệ ...
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="w1/2">
+                        <div class="dashboad-about dashboad-new dashboad-friend position-relative">
+                            <div class="dashboad-cate-title">
+                                <span class="icon"></span>
+                                <span>Bạn bè</span>
+                                <a href="" class="view-all">
+                                Xem tất cả
+                            </a>
+                            </div>
+
+                            <div class=" friend-slider dashboad-slider">
+                                <a href="" class="friend-item">
+                                    <img class="friend-img" src="assets/images/news-img.png" alt="">
+                                    <span class="friend-name">Ngọc Anh Anh Ngọc</span>
+                                </a>
+                                <a href="" class="friend-item">
+                                    <img class="friend-img" src="assets/images/news-img.png" alt="">
+                                    <span class="friend-name">Ngọc Anh</span>
+                                </a>
+                                <a href="" class="friend-item">
+                                    <img class="friend-img" src="assets/images/news-img.png" alt="">
+                                    <span class="friend-name">Ngọc Anh</span>
+                                </a>
+                                <a href="" class="friend-item">
+                                    <img class="friend-img" src="assets/images/news-img.png" alt="">
+                                    <span class="friend-name">Ngọc Anh</span>
+                                </a>
+                                <a href="" class="friend-item">
+                                    <img class="friend-img" src="assets/images/news-img.png" alt="">
+                                    <span class="friend-name">Ngọc Anh</span>
+                                </a>
+                                <a href="" class="friend-item">
+                                    <img class="friend-img" src="assets/images/news-img.png" alt="">
+                                    <span class="friend-name">Ngọc Anh</span>
+                                </a>
+                                <a href="" class="friend-item">
+                                    <img class="friend-img" src="assets/images/news-img.png" alt="">
+                                    <span class="friend-name">Ngọc Anh</span>
+                                </a>
+                                <a href="" class="friend-item">
+                                    <img class="friend-img" src="assets/images/news-img.png" alt="">
+                                    <span class="friend-name">Ngọc Anh</span>
+                                </a>
+                                <a href="" class="friend-item">
+                                    <img class="friend-img" src="assets/images/news-img.png" alt="">
+                                    <span class="friend-name">Ngọc Anh</span>
+                                </a>
+                                <a href="" class="friend-item">
+                                    <img class="friend-img" src="assets/images/news-img.png" alt="">
+                                    <span class="friend-name">Ngọc Anh</span>
+                                </a>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="w1/2">
+                        <div class="dashboad-about dashboad-new dashboad-brand">
+                            <div class="dashboad-cate-title">
+                                <span class="icon"></span>
+                                <span>Dịch vụ</span>
+                                <a href="" class="view-all">
+                                Xem tất cả
+                            </a>
+                            </div>
+
+                            <div class=" brand-slider dashboad-slider">
+                                <a href="" class="brand-item">
+                                    <img class="brand-img" src="assets/images/brand-logo.png" alt="">
+                                </a>
+                                <a href="" class="brand-item">
+                                    <img class="brand-img" src="assets/images/viettal-logo.png" alt="">
+                                </a>
+                                <a href="" class="brand-item">
+                                    <img class="brand-img" src="assets/images/brand-logo.png" alt="">
+                                </a>
+                                <a href="" class="brand-item">
+                                    <img class="brand-img" src="assets/images/iig-logo.png" alt="">
+                                </a>
+                                <a href="" class="brand-item">
+                                    <img class="brand-img" src="assets/images/brand-logo.png" alt="">
+                                </a>
+                                <a href="" class="brand-item">
+                                    <img class="brand-img" src="assets/images/iig-logo.png" alt="">
+                                </a>
+                                <a href="" class="brand-item">
+                                    <img class="brand-img" src="assets/images/brand-logo.png" alt="">
+                                </a>
+                                <a href="" class="brand-item">
+                                    <img class="brand-img" src="assets/images/brand-logo.png" alt="">
+                                </a>
+                                <a href="" class="brand-item">
+                                    <img class="brand-img" src="assets/images/viettal-logo.png" alt="">
+                                </a>
+                                <a href="" class="brand-item">
+                                    <img class="brand-img" src="assets/images/brand-logo.png" alt="">
+                                </a>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end content -->
+
+            <!-- copy right -->
+            <div class="copyright ">
+                <marquee>
+                    Đơn vị phát triển: Công ty Cổ Phần dịch vụ Công nghệ APIS - Địa chỉ: Tầng 6 Tháp Tây, Tòa nhà Hancorp, Số, 72 Trần Đăng Ninh, P, Cầu Giấy, Hà Nội - Điện thoại: 024 3204 5867
+                </marquee>
+            </div>
+            <!-- end copy right -->
+
+        </div>
+    </div>
+
+
+</body>
+<script src="assets/js/bootstrap.bundle.min.js "></script>
+<script src="assets/js/swiper-bundle.min.js"></script>
+<script src="assets/js/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="assets/js/slick.js"></script>
+<script src="assets/js/custom.js"></script>
+
+</html>

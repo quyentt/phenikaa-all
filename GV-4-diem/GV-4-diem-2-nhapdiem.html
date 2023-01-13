@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education management</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+
+<body>
+    <div class="wrapper ">
+        <div class="left-sidebar">
+            <div class="sidebar-top">
+                <a href="javascript:void(0)" class="menu-icon">
+                    <i class="fal fa-indent"></i>
+                </a>
+                <a href="javascript:void(0)" class="menu-icon-mobi">
+                    <i class="fal fa-indent"></i>
+                </a>
+                <a class="logo" href="#">
+                    <img class="logo-icon" src="../assets/images/logo.png">
+                    <img class="logo-name" src="../assets/images/logo-name.png">
+                </a>
+                <div class="line-1"></div>
+                <div class="line-2"></div>
+                <div class="line-hiden"></div>
+            </div>
+
+            <div class="sidebar-menu">
+                <div class="accordion" id="sidebar-menu">
+                    <div class="sidebar-menu-item ">
+                        <a class="sidebar-menu-header" href="">
+                            <i class="fas fa-tachometer-alt item-icon"></i>
+                            <span>dashboad</span>
+                        </a>
+                    </div>
+                    <!-- siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse1" href="javascrip:void(0)">
+                            <i class="fal fa-id-card item-icon"></i>
+                            <span>Hò sơ cá nhân</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse1" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1 co the dai hon</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse2" href="javascrip:void(0)">
+                            <i class="fal fa-user-chart item-icon"></i>
+                            <span>Lịch giảng</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse2" data-bs-parent="#sidebar-menu">
+
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item active">
+                        <a class="sidebar-menu-header" data-bs-toggle="collapse" data-bs-target="#collapse3" href="javascrip:void(0)">
+                            <i class="fal fa-address-book item-icon"></i>
+                            <span>Quản lý điểm</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse show" id="collapse3" data-bs-parent="#sidebar-menu">
+                            <a class="active" href="#">Bảng điểm</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse4" href="javascrip:void(0)">
+                            <i class="fal fa-file-invoice-dollar item-icon"></i>
+                            <span>Bảng lương</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse4" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse5" href="javascrip:void(0)">
+                            <i class="fal fa-analytics item-icon"></i>
+                            <span>Báo cáo thống kê</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse5" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+
+
+
+                </div>
+
+
+            </div>
+        </div>
+        <div class="content-page ">
+            <!-- navbar -->
+            <div class="navbar">
+                <div class="search-group-in-mobi">
+                    <i class="fal fa-search mobi-search-icon"></i>
+                    <form class="search-group">
+                        <input type="email" class="search-form" placeholder="Tìm kiếm thông tin">
+                        <button><i class="fal fa-search"></i></button>
+                    </form>
+                </div>
+                <div class="in-mobi-group">
+                    <div class="nav-menu-group">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                            <i class="fal fa-ellipsis-h-alt"></i>
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-notification">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                            <i class="fal fa-bell"><span class="noti-count">3</span></i>
+
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-setting">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                            <i class="fal fa-cog"></i>
+
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-account">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                            <div class="user-image">
+                                <i class="fas fa-user user-icon"></i>
+                            </div>
+                            <span>Admin</span>
+                            <i class="fal fa-chevron-down user-arrow"></i>
+
+
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end navbar -->
+            <!-- content -->
+            <div class="content one-door">
+                <div class="overlay"></div>
+                <div class="content-tab no-tab">
+                    <div class="d-flex justify-content-between">
+                        <div class="nav-content-left">
+
+                            <p class="link"><a href="#">Quản lý điểm</a>
+                                <i class="fal fa-angle-right"></i><a href="#">Nhập điểm</a>
+                                <i class="fal fa-angle-right"></i><a href="#">MILI04 - Giáo dục quốc phòng IV</a>
+                            </p>
+
+                        </div>
+
+                        <div class="nav-content-right">
+                            <a class="d-block text-right" href=""><i class="fas fa-question-circle"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- đăng ký nguyện vọng -->
+                <div class="box-shadow register-wish pt-0">
+                    <div class="title-is-back">
+                        <a href="GV-4-diem-1-danhsach.html">
+                            <i class="fal fa-arrow-left"></i>
+                            <span>Nhập điểm</span>
+                        </a>
+                        <p>MILI04 - Giáo dục quốc phòng IV</p>
+                    </div>
+                    <div class="container-fluid px-20">
+
+                        <div class="gv-button-group row">
+                            <div class="form-item d-flex  form-add-info col-12 col-lg-2">
+                                <div class="input-group no-icon">
+
+                                    <i class="fal fa-angle-down"></i>
+                                    <select class="form-select" aria-label="Default select example">
+                                    <option selected>Chọn sắp xếp</option>
+                                    <option value="1">Công nghệ thông tin</option>
+                                    <option value="2">Kế toán</option>
+                                    <option value="3">Điện tử</option>
+                                </select>
+                                </div>
+
+                            </div>
+                            <div class="col-12 col-lg-10 d-flex justify-content-end flex-wrap">
+                                <button class="btn btn-sm btn-outline-secondary min-w-auto ms-3"><i class="fas fa-file-download me-2"></i><span>Tải bảng điểm</span></button>
+                                <button class="btn btn-sm btn-outline-primary min-w-auto ms-3"><i class="fas fa-file-upload me-2"></i><span>Nhập điểm qua file</span></button>
+                                <button class="btn btn-sm btn-outline-danger min-w-auto ms-3" data-bs-toggle="modal" data-bs-target="#announced_scores"><i class="fas fa-bullhorn me-2"></i><span>Công bố</span></button>
+                                <button class="btn btn-sm btn-outline-success min-w-auto ms-3" data-bs-toggle="modal" data-bs-target="#confirm_scores"><i class="fas fa-check-circle me-2"></i><span>Xác nhận</span></button>
+                                <button class="btn btn-sm btn-outline-info min-w-auto ms-3"><i class="fas fa-calculator me-2"></i><span>Tính lại</span></button>
+                                <button class="btn btn-sm btn-dask-blue min-w-auto ms-3"><i class="fas fa-save me-2"></i><span>Lưu</span></button>
+                            </div>
+                        </div>
+
+                        <table class="table transcrip-table tabs-scores table-bordered small-table">
+                            <thead>
+                                <tr>
+                                    <th class="text-center" scope="col" rowspan="2">STT</th>
+                                    <th scope="col" rowspan="2">Mã sinh viên</th>
+                                    <th scope="col" rowspan="2">Họ đệm</th>
+                                    <th scope="col" rowspan="2">Tên</th>
+                                    <th scope="col" rowspan="2">Ngày sinh</th>
+                                    <th scope="col" rowspan="2">Lớp</th>
+
+                                    <th class="text-center" scope="col" rowspan="2">Lần học</th>
+                                    <th class="text-center" scope="col" rowspan="2">Lần thi</th>
+                                    <th class="text-center" scope="col" colspan="3">
+                                        THI*0.6 + KTRA*0.3 + CC*0.1 - BCE802018 - Hóa học polyme
+                                    </th>
+                                    <th class="text-center" scope="col" rowspan="2">TKHP</th>
+                                    <th class="text-center" scope="col" rowspan="2">Đánh giá</th>
+                                    <th class="text-center" scope="col" rowspan="2">Điểm chữ</th>
+                                    <th class="text-center" scope="col" rowspan="2">Điểm quy đổi</th>
+                                    <th class="text-center" scope="col" rowspan="2">Xếp loại</th>
+                                    <th class="text-center" scope="col" rowspan="2">Tài khoản</th>
+                                    <th class="text-center" scope="col" rowspan="2">Thời gian</th>
+
+
+                                </tr>
+                                <tr>
+                                    <th class="text-center" scope="col" rowspan="2">KTRA</th>
+                                    <th class="text-center" scope="col" rowspan="2">CC</th>
+                                    <th class="text-center" scope="col" rowspan="2">THI</th>
+
+
+
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr>
+                                    <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                    <td><em class="show-in-mobi">Mã sinh viên:</em><span>2057010001</span></td>
+                                    <td><em class="show-in-mobi">Họ đệm:</em><span>Nguyễn Thị</span></td>
+                                    <td><em class="show-in-mobi">Tên:</em><span>Bích</span></td>
+                                    <td><em class="show-in-mobi">Ngày sinh</em><span>15/01/1985</span></td>
+                                    <td><em class="show-in-mobi">Lớp:</em><span>INFD00_LS</span></td>
+
+                                    <td class="text-center"><em class="show-in-mobi">Lần học:</em><span>1</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Lần thi:</em><span>1</span></td>
+                                    <td class="text-center has-form"><em class="show-in-mobi">KTRA:</em>
+                                        <div class="form-item d-flex form-add-info justify-content-center">
+                                            <div class="input-group no-icon " style="width: 50px; height: 32px;">
+
+                                                <input type="email" class="form-control text-center" style="width: 50px; height: 32px;" placeholder="" value="10">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="text-center has-form"><em class="show-in-mobi">CC:</em>
+                                        <div class="form-item d-flex form-add-info justify-content-center">
+                                            <div class="input-group no-icon" style="width: 50px; height: 32px;">
+
+                                                <input type="email" class="form-control text-center" style="width: 50px; height: 32px" placeholder="" value="10">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="text-center has-form"><em class="show-in-mobi">THI:</em>
+                                        <div class="form-item d-flex form-add-info justify-content-center">
+                                            <div class="input-group no-icon" style="width: 50px; height: 32px;">
+
+                                                <input type="email" class="form-control text-center" style="width: 50px; height: 32px" placeholder="" value="10">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="text-center"><em class="show-in-mobi">TKHP:</em><span>10</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Đánh giá:</em><span>Đạt</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Điểm chữ:</em><span>A+</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Điểm quy đổi:</em><span>4</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Xếp loại:</em><span>Khá</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Tài khoản:</em><span>PU0922</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Thời gian:</em><span>1/8/2022 10:34:58</span></td>
+                                </tr>
+                                <tr>
+                                    <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                    <td><em class="show-in-mobi">Mã sinh viên:</em><span>2057010001</span></td>
+                                    <td><em class="show-in-mobi">Họ đệm:</em><span>Nguyễn Thị</span></td>
+                                    <td><em class="show-in-mobi">Tên:</em><span>Bích</span></td>
+                                    <td><em class="show-in-mobi">Ngày sinh</em><span>15/01/1985</span></td>
+                                    <td><em class="show-in-mobi">Lớp:</em><span>INFD00_LS</span></td>
+
+                                    <td class="text-center"><em class="show-in-mobi">Lần học:</em><span>1</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Lần thi:</em><span>1</span></td>
+                                    <td class="text-center has-form"><em class="show-in-mobi">KTRA:</em>
+                                        <div class="form-item d-flex form-add-info justify-content-center">
+                                            <div class="input-group no-icon " style="width: 50px; height: 32px;">
+
+                                                <input type="email" class="form-control text-center" style="width: 50px; height: 32px;" placeholder="" value="10">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="text-center has-form"><em class="show-in-mobi">CC:</em>
+                                        <div class="form-item d-flex form-add-info justify-content-center">
+                                            <div class="input-group no-icon" style="width: 50px; height: 32px;">
+
+                                                <input type="email" class="form-control text-center" style="width: 50px; height: 32px" placeholder="" value="10">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="text-center has-form"><em class="show-in-mobi">THI:</em>
+                                        <div class="form-item d-flex form-add-info justify-content-center">
+                                            <div class="input-group no-icon" style="width: 50px; height: 32px;">
+
+                                                <input type="email" class="form-control text-center" style="width: 50px; height: 32px" placeholder="" value="10">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="text-center"><em class="show-in-mobi">TKHP:</em><span>10</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Đánh giá:</em><span>Đạt</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Điểm chữ:</em><span>A+</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Điểm quy đổi:</em><span>4</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Xếp loại:</em><span>Khá</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Tài khoản:</em><span>PU0922</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Thời gian:</em><span>1/8/2022 10:34:58</span></td>
+                                </tr>
+                                <tr>
+                                    <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                    <td><em class="show-in-mobi">Mã sinh viên:</em><span>2057010001</span></td>
+                                    <td><em class="show-in-mobi">Họ đệm:</em><span>Nguyễn Thị</span></td>
+                                    <td><em class="show-in-mobi">Tên:</em><span>Bích</span></td>
+                                    <td><em class="show-in-mobi">Ngày sinh</em><span>15/01/1985</span></td>
+                                    <td><em class="show-in-mobi">Lớp:</em><span>INFD00_LS</span></td>
+
+                                    <td class="text-center"><em class="show-in-mobi">Lần học:</em><span>1</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Lần thi:</em><span>1</span></td>
+                                    <td class="text-center has-form"><em class="show-in-mobi">KTRA:</em>
+                                        <div class="form-item d-flex form-add-info justify-content-center">
+                                            <div class="input-group no-icon " style="width: 50px; height: 32px;">
+
+                                                <input type="email" class="form-control text-center" style="width: 50px; height: 32px;" placeholder="" value="10">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="text-center has-form"><em class="show-in-mobi">CC:</em>
+                                        <div class="form-item d-flex form-add-info justify-content-center">
+                                            <div class="input-group no-icon" style="width: 50px; height: 32px;">
+
+                                                <input type="email" class="form-control text-center" style="width: 50px; height: 32px" placeholder="" value="10">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="text-center has-form"><em class="show-in-mobi">THI:</em>
+                                        <div class="form-item d-flex form-add-info justify-content-center">
+                                            <div class="input-group no-icon" style="width: 50px; height: 32px;">
+
+                                                <input type="email" class="form-control text-center" style="width: 50px; height: 32px" placeholder="" value="10">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="text-center"><em class="show-in-mobi">TKHP:</em><span>10</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Đánh giá:</em><span>Đạt</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Điểm chữ:</em><span>A+</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Điểm quy đổi:</em><span>4</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Xếp loại:</em><span>Khá</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Tài khoản:</em><span>PU0922</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Thời gian:</em><span>1/8/2022 10:34:58</span></td>
+                                </tr>
+                                <tr>
+                                    <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                    <td><em class="show-in-mobi">Mã sinh viên:</em><span>2057010001</span></td>
+                                    <td><em class="show-in-mobi">Họ đệm:</em><span>Nguyễn Thị</span></td>
+                                    <td><em class="show-in-mobi">Tên:</em><span>Bích</span></td>
+                                    <td><em class="show-in-mobi">Ngày sinh</em><span>15/01/1985</span></td>
+                                    <td><em class="show-in-mobi">Lớp:</em><span>INFD00_LS</span></td>
+
+                                    <td class="text-center"><em class="show-in-mobi">Lần học:</em><span>1</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Lần thi:</em><span>1</span></td>
+                                    <td class="text-center has-form"><em class="show-in-mobi">KTRA:</em>
+                                        <div class="form-item d-flex form-add-info justify-content-center">
+                                            <div class="input-group no-icon " style="width: 50px; height: 32px;">
+
+                                                <input type="email" class="form-control text-center" style="width: 50px; height: 32px;" placeholder="" value="10">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="text-center has-form"><em class="show-in-mobi">CC:</em>
+                                        <div class="form-item d-flex form-add-info justify-content-center">
+                                            <div class="input-group no-icon" style="width: 50px; height: 32px;">
+
+                                                <input type="email" class="form-control text-center" style="width: 50px; height: 32px" placeholder="" value="10">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="text-center has-form"><em class="show-in-mobi">THI:</em>
+                                        <div class="form-item d-flex form-add-info justify-content-center">
+                                            <div class="input-group no-icon" style="width: 50px; height: 32px;">
+
+                                                <input type="email" class="form-control text-center" style="width: 50px; height: 32px" placeholder="" value="10">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="text-center"><em class="show-in-mobi">TKHP:</em><span>10</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Đánh giá:</em><span>Đạt</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Điểm chữ:</em><span>A+</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Điểm quy đổi:</em><span>4</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Xếp loại:</em><span>Khá</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Tài khoản:</em><span>PU0922</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Thời gian:</em><span>1/8/2022 10:34:58</span></td>
+                                </tr>
+                                <tr>
+                                    <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                    <td><em class="show-in-mobi">Mã sinh viên:</em><span>2057010001</span></td>
+                                    <td><em class="show-in-mobi">Họ đệm:</em><span>Nguyễn Thị</span></td>
+                                    <td><em class="show-in-mobi">Tên:</em><span>Bích</span></td>
+                                    <td><em class="show-in-mobi">Ngày sinh</em><span>15/01/1985</span></td>
+                                    <td><em class="show-in-mobi">Lớp:</em><span>INFD00_LS</span></td>
+
+                                    <td class="text-center"><em class="show-in-mobi">Lần học:</em><span>1</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Lần thi:</em><span>1</span></td>
+                                    <td class="text-center has-form"><em class="show-in-mobi">KTRA:</em>
+                                        <div class="form-item d-flex form-add-info justify-content-center">
+                                            <div class="input-group no-icon " style="width: 50px; height: 32px;">
+
+                                                <input type="email" class="form-control text-center" style="width: 50px; height: 32px;" placeholder="" value="10">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="text-center has-form"><em class="show-in-mobi">CC:</em>
+                                        <div class="form-item d-flex form-add-info justify-content-center">
+                                            <div class="input-group no-icon" style="width: 50px; height: 32px;">
+
+                                                <input type="email" class="form-control text-center" style="width: 50px; height: 32px" placeholder="" value="10">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="text-center has-form"><em class="show-in-mobi">THI:</em>
+                                        <div class="form-item d-flex form-add-info justify-content-center">
+                                            <div class="input-group no-icon" style="width: 50px; height: 32px;">
+
+                                                <input type="email" class="form-control text-center" style="width: 50px; height: 32px" placeholder="" value="10">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="text-center"><em class="show-in-mobi">TKHP:</em><span>10</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Đánh giá:</em><span>Đạt</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Điểm chữ:</em><span>A+</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Điểm quy đổi:</em><span>4</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Xếp loại:</em><span>Khá</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Tài khoản:</em><span>PU0922</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Thời gian:</em><span>1/8/2022 10:34:58</span></td>
+                                </tr>
+                                <tr>
+                                    <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                    <td><em class="show-in-mobi">Mã sinh viên:</em><span>2057010001</span></td>
+                                    <td><em class="show-in-mobi">Họ đệm:</em><span>Nguyễn Thị</span></td>
+                                    <td><em class="show-in-mobi">Tên:</em><span>Bích</span></td>
+                                    <td><em class="show-in-mobi">Ngày sinh</em><span>15/01/1985</span></td>
+                                    <td><em class="show-in-mobi">Lớp:</em><span>INFD00_LS</span></td>
+
+                                    <td class="text-center"><em class="show-in-mobi">Lần học:</em><span>1</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Lần thi:</em><span>1</span></td>
+                                    <td class="text-center has-form"><em class="show-in-mobi">KTRA:</em>
+                                        <div class="form-item d-flex form-add-info justify-content-center">
+                                            <div class="input-group no-icon " style="width: 50px; height: 32px;">
+
+                                                <input type="email" class="form-control text-center" style="width: 50px; height: 32px;" placeholder="" value="10">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="text-center has-form"><em class="show-in-mobi">CC:</em>
+                                        <div class="form-item d-flex form-add-info justify-content-center">
+                                            <div class="input-group no-icon" style="width: 50px; height: 32px;">
+
+                                                <input type="email" class="form-control text-center" style="width: 50px; height: 32px" placeholder="" value="10">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="text-center has-form"><em class="show-in-mobi">THI:</em>
+                                        <div class="form-item d-flex form-add-info justify-content-center">
+                                            <div class="input-group no-icon" style="width: 50px; height: 32px;">
+
+                                                <input type="email" class="form-control text-center" style="width: 50px; height: 32px" placeholder="" value="10">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="text-center"><em class="show-in-mobi">TKHP:</em><span>10</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Đánh giá:</em><span>Đạt</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Điểm chữ:</em><span>A+</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Điểm quy đổi:</em><span>4</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Xếp loại:</em><span>Khá</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Tài khoản:</em><span>PU0922</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Thời gian:</em><span>1/8/2022 10:34:58</span></td>
+                                </tr>
+
+
+
+                            </tbody>
+                        </table>
+
+
+                    </div>
+                </div>
+                <!-- end đăng ký nguyện vọng -->
+            </div>
+        </div>
+        <!-- end content -->
+
+        <!-- copy right -->
+        <div class="copyright ">
+            <marquee>
+                Đơn vị phát triển: Công ty Cổ Phần dịch vụ Công nghệ APIS - Địa chỉ: Tầng 6 Tháp Tây, Tòa nhà Hancorp, Số, 72 Trần Đăng Ninh, P, Cầu Giấy, Hà Nội - Điện thoại: 024 3204 5867
+            </marquee>
+        </div>
+        <!-- end copy right -->
+    </div>
+    <!-- modal công bố-->
+    <div class="modal fade finance-modal my-calendar announced_scores" id="announced_scores" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-700 ">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="finance-user-info in-modal ">
+                        <p><b>Công bố điểm cho sinh viên xem</b></p>
+
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-3">
+                    <div class="action-group">
+                        <div class="select-group">
+                            <div class="label">Trạng thái công bố</div>
+                            <div class="form-item d-flex  form-add-info">
+                                <div class="input-group no-icon">
+
+                                    <i class="fal fa-angle-down"></i>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>Chọn trạng thái công bố</option>
+                                        <option value="1">Công bố</option>
+                                        <option value="2">Hủy công bố</option>
+                                    </select>
+                                </div>
+
+                            </div>
+                        </div>
+                        <button class="btn btn-success"><i class="fal fa-check me-2"></i> <span>Đồng ý</span></button>
+                    </div>
+                    <p class="fw-bold mb-2">Lịch sử công bố</p>
+                    <table class="table transcrip-table tabs-scores fs-14">
+                        <thead>
+                            <tr>
+                                <th class="text-center" scope="col">STT</th>
+                                <th scope="col">Trạng thái công bố</th>
+                                <th scope="col">Người công bố</th>
+                                <th class="text-center" scope="col">Thời gian</th>
+
+
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                <td><em class="show-in-mobi">Trạng thái công bố:</em><span>Đã công bố</span></td>
+                                <td><em class="show-in-mobi">Người công bố:</em><span>Nguyễn Tuấn Anh</span></td>
+                                <td class="text-center"><em class="show-in-mobi">Thời gian:</em><span>20/09/2022</span></td>
+                            </tr>
+                            <tr>
+                                <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>2</span></th>
+                                <td><em class="show-in-mobi">Trạng thái công bố:</em><span>Chưa công bố</span></td>
+                                <td><em class="show-in-mobi">Người công bố:</em><span>Nguyễn Tuấn Anh</span></td>
+                                <td class="text-center"><em class="show-in-mobi">Thời gian:</em><span>20/09/2022</span></td>
+                            </tr>
+                            <tr>
+                                <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>3</span></th>
+                                <td><em class="show-in-mobi">Trạng thái công bố:</em><span>Đã công bố</span></td>
+                                <td><em class="show-in-mobi">Người công bố:</em><span>Nguyễn Tuấn Anh</span></td>
+                                <td class="text-center"><em class="show-in-mobi">Thời gian:</em><span>20/09/2022</span></td>
+                            </tr>
+                            <tr>
+                                <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>4</span></th>
+                                <td><em class="show-in-mobi">Trạng thái công bố:</em><span>Đã công bố</span></td>
+                                <td><em class="show-in-mobi">Người công bố:</em><span>Nguyễn Tuấn Anh</span></td>
+                                <td class="text-center"><em class="show-in-mobi">Thời gian:</em><span>20/09/2022</span></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- modal xác nhận-->
+    <div class="modal fade finance-modal my-calendar confirm_scores" id="confirm_scores" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-700 ">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="finance-user-info in-modal ">
+                        <p><b>Xác nhận hoàn thành nhập điểm</b></p>
+
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-3">
+                    <div class="action-group">
+                        <div class="select-group">
+                            <div class="label">Trạng thái xác nhận</div>
+                            <div class="form-item d-flex  form-add-info">
+                                <div class="input-group no-icon">
+
+                                    <i class="fal fa-angle-down"></i>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>Chọn trạng thái xác nhận</option>
+                                        <option value="1">Hoàn thành</option>
+                                        <option value="2">Đang kiểm tra</option>
+                                    </select>
+                                </div>
+
+                            </div>
+                        </div>
+                        <button class="btn btn-success"><i class="fal fa-check me-2"></i> <span>Đồng ý</span></button>
+                    </div>
+                    <p class="fw-bold mb-2">Lịch sử xác nhận</p>
+                    <table class="table transcrip-table tabs-scores fs-14">
+                        <thead>
+                            <tr>
+                                <th class="text-center" scope="col">STT</th>
+                                <th scope="col">Trạng thái xác nhận</th>
+                                <th scope="col">Người xác nhận</th>
+                                <th class="text-center" scope="col">Thời gian</th>
+
+
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                <td><em class="show-in-mobi">Trạng thái xác nhận:</em><span>Hoàn thành</span></td>
+                                <td><em class="show-in-mobi">Người xác nhận:</em><span>Nguyễn Tuấn Anh</span></td>
+                                <td class="text-center"><em class="show-in-mobi">Thời gian:</em><span>20/09/2022</span></td>
+                            </tr>
+                            <tr>
+                                <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>2</span></th>
+                                <td><em class="show-in-mobi">Trạng thái công bố:</em><span>Đang kiểm tra</span></td>
+                                <td><em class="show-in-mobi">Người công bố:</em><span>Nguyễn Tuấn Anh</span></td>
+                                <td class="text-center"><em class="show-in-mobi">Thời gian:</em><span>20/09/2022</span></td>
+                            </tr>
+                            <tr>
+                                <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>3</span></th>
+                                <td><em class="show-in-mobi">Trạng thái xác nhận:</em><span>Hoàn thành</span></td>
+                                <td><em class="show-in-mobi">Người xác nhận:</em><span>Nguyễn Tuấn Anh</span></td>
+                                <td class="text-center"><em class="show-in-mobi">Thời gian:</em><span>20/09/2022</span></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+<script src="../assets/js/bootstrap.bundle.min.js "></script>
+<script src="../assets/js/swiper-bundle.min.js"></script>
+<script src="../assets/js/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="../assets/js/slick.js"></script>
+<script src="../assets/js/jquery-searchbox.js"></script>
+<script src="../assets/js/custom.js"></script>
+<script src="../assets/js/masonry.pkgd.min.js"></script>
+
+
+</html>
