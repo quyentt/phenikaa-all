@@ -1,6 +1,6 @@
 @media (min-width: 576px) {
     .my-calendar .modal-dialog {
-        max-width: 800px;
+        /* max-width: 800px; */
         margin: auto;
         width: 100%;
     }
