@@ -1891,3 +1891,11 @@ input:checked~label {
 .w-50p {
     width: 50%;
 }
+
+.w-220p {
+    width: 220px;
+}
+
+.max-w-30 {
+    max-width: 30%;
+}

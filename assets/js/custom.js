@@ -1,5 +1,3 @@
-
-
 var swiper = new Swiper(".service-slider", {
     spaceBetween: 0,
     slidesPerView: "auto",
@@ -180,4 +178,6 @@ $(document).on('click', function(event) {
 $('#modal-total-class').on('shown.bs.modal', function(e) {
     $('.masonry-bq').masonry()
 });
-// end class modal height
+$(window).on('load', function() {
+    $('#dangkyphuckhao').modal('show');
+});
