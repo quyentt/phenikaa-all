@@ -1899,3 +1899,7 @@ input:checked~label {
 .max-w-30 {
     max-width: 30%;
 }
+
+.img-cover {
+    object-fit: cover;
+}

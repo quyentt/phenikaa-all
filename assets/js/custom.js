@@ -179,5 +179,5 @@ $('#modal-total-class').on('shown.bs.modal', function(e) {
     $('.masonry-bq').masonry()
 });
 $(window).on('load', function() {
-    $('#dangkyphuckhao').modal('show');
+    // $('#dangkyphuckhao').modal('show');
 });
