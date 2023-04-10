@@ -22,6 +22,10 @@
     font-size: 13px;
 }
 
+.fs-12 {
+    font-size: 12px;
+}
+
 .border-e1 {
     border-color: #e1e1e1;
 }
@@ -1902,4 +1906,51 @@ input:checked~label {
 
 .img-cover {
     object-fit: cover;
+}
+
+.border-left {
+    border-left: 1px solid #dee2e6!important;
+}
+
+.w-50px {
+    width: 50px;
+}
+
+.table-respo {
+    overflow: scroll;
+    height: 500px;
+    position: relative;
+}
+
+.table-respo .table {
+    width: 3500px;
+}
+
+.table-respo .table thead {
+    position: sticky;
+    top: -5px;
+}
+
+.table-respo::-webkit-scrollbar {
+    height: 8px;
+    width: 8px;
+}
+
+
+/* Track */
+
+.table-respo::-webkit-scrollbar-track {
+    background: #e4e4e4;
+}
+
+
+/* Handle */
+
+.table-respo::-webkit-scrollbar-thumb {
+    background: #cecece;
+    border-radius: 10px;
+}
+
+.w-85px {
+    width: 85px;
 }
