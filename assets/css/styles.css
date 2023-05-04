@@ -19,17 +19,21 @@
 @import "dangkyhoc-nguyenvong.css?v=1";
 @import "danhSachMonDangKyHoc.css?v=2";
 @import "select-2-custom.css?v=6";
+@import url('ld.css');
 @import "responsive.css?v=7";
 .td-center {
     text-align: center !important
 }
-table > tbody > tr:hover {
-    background-color:#eeeef0;
+
+table>tbody>tr:hover {
+    background-color: #eeeef0;
 }
+
 .btn-lg {
     padding: 0.35rem 1rem;
     font-size: 1rem;
 }
+
 .pointer {
     cursor: pointer
 }
