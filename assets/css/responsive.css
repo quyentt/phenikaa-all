@@ -105,6 +105,10 @@
 }
 
 @media (max-width: 1360px) {
+    .tb-tooltip {
+        left: auto;
+        right: 0;
+    }
     .ld-content-box-w {
         padding: 0 0.75rem;
         width: 100%;
@@ -113,6 +117,18 @@
 }
 
 @media (max-width: 1200px) {
+    .chart-wrapper.is-scroll {
+        margin-right: 50px;
+    }
+    .is-scroll .chart-content {
+        overflow-y: hidden;
+        overflow-x: scroll;
+        padding-bottom: 25px;
+        margin-bottom: -25px;
+    }
+    .is-scroll .chart-content .bar {
+        width: 26px;
+    }
     .ld-intro-container {
         flex-wrap: wrap;
     }
@@ -945,6 +961,9 @@
 }
 
 @media (max-width: 560px) {
+    .ld-content-box .register-wish .table tr td {
+        height: auto;
+    }
     .intro-menu-item {
         width: 100%;
     }
