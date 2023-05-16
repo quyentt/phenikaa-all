@@ -143,7 +143,7 @@
 /* Handle */
 
 .dk-phuckhao .table-w::-webkit-scrollbar-thumb {
-    background: #cecece;
+    background: var(--dask-blue);
     border-radius: 10px;
 }
 
