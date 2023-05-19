@@ -1960,4 +1960,5 @@ input:checked~label {
 
 .form-control {
     padding-block: 0;
+    padding-block-start: 0;
 }
