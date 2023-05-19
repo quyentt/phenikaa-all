@@ -1954,3 +1954,10 @@ input:checked~label {
 .w-85px {
     width: 85px;
 }
+
+
+/* safari */
+
+.form-control {
+    padding-block: 0;
+}
