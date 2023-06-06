@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education management</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+
+<body>
+    <div class="wrapper ">
+        <div class="left-sidebar">
+            <div class="sidebar-top">
+                <a href="javascript:void(0)" class="menu-icon">
+                    <i class="fal fa-indent"></i>
+                </a>
+                <a href="javascript:void(0)" class="menu-icon-mobi">
+                    <i class="fal fa-indent"></i>
+                </a>
+                <a class="logo" href="#">
+                    <img class="logo-icon" src="../assets/images/logo.png">
+                    <img class="logo-name" src="../assets/images/logo-name.png">
+                </a>
+                <div class="line-1"></div>
+                <div class="line-2"></div>
+                <div class="line-hiden"></div>
+            </div>
+
+            <div class="sidebar-menu">
+                <div class="accordion" id="sidebar-menu">
+                    <div class="sidebar-menu-item ">
+                        <a class="sidebar-menu-header" href="">
+                            <i class="fas fa-tachometer-alt item-icon"></i>
+                            <span>dashboad</span>
+                        </a>
+                    </div>
+                    <!-- siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse1" href="javascrip:void(0)">
+                            <i class="fal fa-id-card item-icon"></i>
+                            <span>Hò sơ cá nhân</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse1" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1 co the dai hon</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse2" href="javascrip:void(0)">
+                            <i class="fal fa-user-chart item-icon"></i>
+                            <span>Lịch giảng</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse2" data-bs-parent="#sidebar-menu">
+
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item ">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse3" href="javascrip:void(0)">
+                            <i class="fal fa-address-book item-icon"></i>
+                            <span>Quản lý điểm</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse " id="collapse3" data-bs-parent="#sidebar-menu">
+                            <a class="active" href="#">Bảng điểm</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse4" href="javascrip:void(0)">
+                            <i class="fal fa-file-invoice-dollar item-icon"></i>
+                            <span>Bảng lương</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse4" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item active">
+                        <a class="sidebar-menu-header" data-bs-toggle="collapse" data-bs-target="#collapse5" href="javascrip:void(0)">
+                            <i class="fal fa-analytics item-icon"></i>
+                            <span>Báo cáo thống kê</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse show" id="collapse5" data-bs-parent="#sidebar-menu">
+                            <a class="active" href="#">Thống kê theo <br> hệ - ngành</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+
+
+
+                </div>
+
+
+            </div>
+        </div>
+        <div class="content-page ">
+            <!-- navbar -->
+            <div class="navbar">
+                <div class="search-group-in-mobi">
+                    <i class="fal fa-search mobi-search-icon"></i>
+                    <form class="search-group">
+                        <input type="email" class="search-form" placeholder="Tìm kiếm thông tin">
+                        <button><i class="fal fa-search"></i></button>
+                    </form>
+                </div>
+                <div class="in-mobi-group">
+                    <div class="nav-menu-group">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                            <i class="fal fa-ellipsis-h-alt"></i>
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-notification">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                            <i class="fal fa-bell"><span class="noti-count">3</span></i>
+
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-setting">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                            <i class="fal fa-cog"></i>
+
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-account">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                            <div class="user-image">
+                                <i class="fas fa-user user-icon"></i>
+                            </div>
+                            <span>Admin</span>
+                            <i class="fal fa-chevron-down user-arrow"></i>
+
+
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end navbar -->
+            <!-- content -->
+            <div class="content one-door">
+                <div class="overlay"></div>
+                <div class="content-tab no-tab">
+                    <div class="d-flex justify-content-between">
+                        <div class="nav-content-left">
+
+                            <p class="link"><a href="#">Báo cáo thống kê</a><i class="fal fa-angle-right"></i><a href="#">Thống kê theo hệ - ngành</a></p>
+
+                        </div>
+
+                        <div class="nav-content-right">
+                            <a class="d-block text-right" href=""><i class="fas fa-question-circle"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- đăng ký nguyện vọng -->
+                <div class="box-shadow register-wish pt-0 min-h-full">
+                    <div class="form-top">
+                        <div class="row">
+
+
+                            <div class="col-12 col-lg-3 col-md-6 mb-15">
+
+                                <div class="form-item d-flex  form-add-info">
+                                    <div class="input-group no-icon">
+
+                                        <i class="fal fa-angle-down"></i>
+                                        <select class="form-select" aria-label="Default select example">
+                                        <option selected>Chọn hệ đào tạo</option>
+                                        <option value="1">Công nghệ thông tin</option>
+                                        <option value="2">Kế toán</option>
+                                        <option value="3">Điện tử</option>
+                                    </select>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-3 col-md-6 mb-15">
+
+                                <div class="form-item d-flex  form-add-info">
+                                    <div class="input-group no-icon">
+
+                                        <i class="fal fa-angle-down"></i>
+                                        <select class="form-select" aria-label="Default select example">
+                                        <option selected>Chọn ngành</option>
+                                        <option value="1">Công nghệ thông tin</option>
+                                        <option value="2">Kế toán</option>
+                                        <option value="3">Điện tử</option>
+                                    </select>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-lg-3 col-md-6 mb-15">
+
+                                <div class="form-item d-flex  form-add-info">
+                                    <div class="input-group no-icon">
+
+                                        <i class="fal fa-angle-down"></i>
+                                        <select class="form-select" aria-label="Default select example">
+                                        <option selected>Chọn năm</option>
+                                        <option value="1">Công nghệ thông tin</option>
+                                        <option value="2">Kế toán</option>
+                                        <option value="3">Điện tử</option>
+                                    </select>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+
+                            <div class="col-12 col-lg-3 col-md-6 mb-15  d-flex ">
+
+                                <div class="btn btn-success min-w-auto w-auto"><i class="fal fa-file-chart-line me-2"></i> Báo cáo</div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="container-fluid px-20 ">
+
+
+
+
+                    </div>
+                </div>
+                <!-- end đăng ký nguyện vọng -->
+            </div>
+        </div>
+        <!-- end content -->
+
+        <!-- copy right -->
+        <div class="copyright ">
+            <marquee>
+                Đơn vị phát triển: Công ty Cổ Phần dịch vụ Công nghệ APIS - Địa chỉ: Tầng 6 Tháp Tây, Tòa nhà Hancorp, Số, 72 Trần Đăng Ninh, P, Cầu Giấy, Hà Nội - Điện thoại: 024 3204 5867
+            </marquee>
+        </div>
+        <!-- end copy right -->
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="nhapdiem" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="finance-user-info in-modal ">
+                        <p><b>Đánh túi bài thi của đợt phách - 2022_2023_1-Học kỳ 1, Đợt 1, Năm học 2022-2023 - Ký sinh trùng 2 -Túi 1</b></p>
+
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <table class="table transcrip-table tabs-scores fs-14 content-middle table-hover">
+                        <thead>
+                            <tr>
+                                <th class="text-center" scope="col">STT</th>
+                                <th class="text-center" scope="col">Số phách</th>
+                                <th class="text-center" scope="col">Điểm</th>
+                                <th scope="col">Mức vi phạm</th>
+
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                <td class="text-center"><em class="show-in-mobi">Số phách:</em><span>1</span></td>
+                                <td class="text-center"><em class="show-in-mobi">Điểm:</em>
+                                    <div class="form-item d-flex form-add-info justify-content-center">
+                                        <div class="input-group no-icon " style="max-width: 200px; height: 32px;">
+
+                                            <input type="text" class="form-control text-center" style=" height: 32px;" placeholder="" value="10">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td><em class="show-in-mobi">Mức vi phạm:</em><span></span></td>
+
+                            </tr>
+                            <tr>
+                                <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                <td class="text-center"><em class="show-in-mobi">Số phách:</em><span>1</span></td>
+                                <td class="text-center"><em class="show-in-mobi">Điểm:</em>
+                                    <div class="form-item d-flex form-add-info justify-content-center">
+                                        <div class="input-group no-icon " style="max-width: 200px; height: 32px;">
+
+                                            <input type="text" class="form-control text-center" style=" height: 32px;" placeholder="" value="10">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td><em class="show-in-mobi">Mức vi phạm:</em><span></span></td>
+
+                            </tr>
+                            <tr>
+                                <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                <td class="text-center"><em class="show-in-mobi">Số phách:</em><span>1</span></td>
+                                <td class="text-center"><em class="show-in-mobi">Điểm:</em>
+                                    <div class="form-item d-flex form-add-info justify-content-center">
+                                        <div class="input-group no-icon " style="max-width: 200px; height: 32px;">
+
+                                            <input type="text" class="form-control text-center" style=" height: 32px;" placeholder="" value="10">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td><em class="show-in-mobi">Mức vi phạm:</em><span></span></td>
+
+                            </tr>
+                            <tr>
+                                <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                <td class="text-center"><em class="show-in-mobi">Số phách:</em><span>1</span></td>
+                                <td class="text-center"><em class="show-in-mobi">Điểm:</em>
+                                    <div class="form-item d-flex form-add-info justify-content-center">
+                                        <div class="input-group no-icon " style="max-width: 200px; height: 32px;">
+
+                                            <input type="text" class="form-control text-center" style=" height: 32px;" placeholder="" value="10">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td><em class="show-in-mobi">Mức vi phạm:</em><span></span></td>
+
+                            </tr>
+                            <tr>
+                                <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                <td class="text-center"><em class="show-in-mobi">Số phách:</em><span>1</span></td>
+                                <td class="text-center"><em class="show-in-mobi">Điểm:</em>
+                                    <div class="form-item d-flex form-add-info justify-content-center">
+                                        <div class="input-group no-icon " style="max-width: 200px; height: 32px;">
+
+                                            <input type="text" class="form-control text-center" style=" height: 32px;" placeholder="" value="10">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td><em class="show-in-mobi">Mức vi phạm:</em><span></span></td>
+
+                            </tr>
+                            <tr>
+                                <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                <td class="text-center"><em class="show-in-mobi">Số phách:</em><span>1</span></td>
+                                <td class="text-center"><em class="show-in-mobi">Điểm:</em>
+                                    <div class="form-item d-flex form-add-info justify-content-center">
+                                        <div class="input-group no-icon " style="max-width: 200px; height: 32px;">
+
+                                            <input type="text" class="form-control text-center" style=" height: 32px;" placeholder="" value="10">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td><em class="show-in-mobi">Mức vi phạm:</em><span></span></td>
+
+                            </tr>
+                            <tr>
+                                <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                <td class="text-center"><em class="show-in-mobi">Số phách:</em><span>1</span></td>
+                                <td class="text-center"><em class="show-in-mobi">Điểm:</em>
+                                    <div class="form-item d-flex form-add-info justify-content-center">
+                                        <div class="input-group no-icon " style="max-width: 200px; height: 32px;">
+
+                                            <input type="text" class="form-control text-center" style=" height: 32px;" placeholder="" value="10">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td><em class="show-in-mobi">Mức vi phạm:</em><span></span></td>
+
+                            </tr>
+                            <tr>
+                                <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                <td class="text-center"><em class="show-in-mobi">Số phách:</em><span>1</span></td>
+                                <td class="text-center"><em class="show-in-mobi">Điểm:</em>
+                                    <div class="form-item d-flex form-add-info justify-content-center">
+                                        <div class="input-group no-icon " style="max-width: 200px; height: 32px;">
+
+                                            <input type="text" class="form-control text-center" style=" height: 32px;" placeholder="" value="10">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td><em class="show-in-mobi">Mức vi phạm:</em><span></span></td>
+
+                            </tr>
+                            <tr>
+                                <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                <td class="text-center"><em class="show-in-mobi">Số phách:</em><span>1</span></td>
+                                <td class="text-center"><em class="show-in-mobi">Điểm:</em>
+                                    <div class="form-item d-flex form-add-info justify-content-center">
+                                        <div class="input-group no-icon " style="max-width: 200px; height: 32px;">
+
+                                            <input type="text" class="form-control text-center" style=" height: 32px;" placeholder="" value="10">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td><em class="show-in-mobi">Mức vi phạm:</em><span></span></td>
+
+                            </tr>
+                            <tr>
+                                <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                <td class="text-center"><em class="show-in-mobi">Số phách:</em><span>1</span></td>
+                                <td class="text-center"><em class="show-in-mobi">Điểm:</em>
+                                    <div class="form-item d-flex form-add-info justify-content-center">
+                                        <div class="input-group no-icon " style="max-width: 200px; height: 32px;">
+
+                                            <input type="text" class="form-control text-center" style=" height: 32px;" placeholder="" value="10">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td><em class="show-in-mobi">Mức vi phạm:</em><span></span></td>
+
+                            </tr>
+                            <tr>
+                                <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                <td class="text-center"><em class="show-in-mobi">Số phách:</em><span>1</span></td>
+                                <td class="text-center"><em class="show-in-mobi">Điểm:</em>
+                                    <div class="form-item d-flex form-add-info justify-content-center">
+                                        <div class="input-group no-icon " style="max-width: 200px; height: 32px;">
+
+                                            <input type="text" class="form-control text-center" style=" height: 32px;" placeholder="" value="10">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td><em class="show-in-mobi">Mức vi phạm:</em><span></span></td>
+
+                            </tr>
+                            <tr>
+                                <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                <td class="text-center"><em class="show-in-mobi">Số phách:</em><span>1</span></td>
+                                <td class="text-center"><em class="show-in-mobi">Điểm:</em>
+                                    <div class="form-item d-flex form-add-info justify-content-center">
+                                        <div class="input-group no-icon " style="max-width: 200px; height: 32px;">
+
+                                            <input type="text" class="form-control text-center" style=" height: 32px;" placeholder="" value="10">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td><em class="show-in-mobi">Mức vi phạm:</em><span></span></td>
+
+                            </tr>
+                            <tr>
+                                <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                <td class="text-center"><em class="show-in-mobi">Số phách:</em><span>1</span></td>
+                                <td class="text-center"><em class="show-in-mobi">Điểm:</em>
+                                    <div class="form-item d-flex form-add-info justify-content-center">
+                                        <div class="input-group no-icon " style="max-width: 200px; height: 32px;">
+
+                                            <input type="text" class="form-control text-center" style=" height: 32px;" placeholder="" value="10">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td><em class="show-in-mobi">Mức vi phạm:</em><span></span></td>
+
+                            </tr>
+                            <tr>
+                                <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                <td class="text-center"><em class="show-in-mobi">Số phách:</em><span>1</span></td>
+                                <td class="text-center"><em class="show-in-mobi">Điểm:</em>
+                                    <div class="form-item d-flex form-add-info justify-content-center">
+                                        <div class="input-group no-icon " style="max-width: 200px; height: 32px;">
+
+                                            <input type="text" class="form-control text-center" style=" height: 32px;" placeholder="" value="10">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td><em class="show-in-mobi">Mức vi phạm:</em><span></span></td>
+
+                            </tr>
+                            <tr>
+                                <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                <td class="text-center"><em class="show-in-mobi">Số phách:</em><span>1</span></td>
+                                <td class="text-center"><em class="show-in-mobi">Điểm:</em>
+                                    <div class="form-item d-flex form-add-info justify-content-center">
+                                        <div class="input-group no-icon " style="max-width: 200px; height: 32px;">
+
+                                            <input type="text" class="form-control text-center" style=" height: 32px;" placeholder="" value="10">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td><em class="show-in-mobi">Mức vi phạm:</em><span></span></td>
+
+                            </tr>
+                            <tr>
+                                <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                <td class="text-center"><em class="show-in-mobi">Số phách:</em><span>1</span></td>
+                                <td class="text-center"><em class="show-in-mobi">Điểm:</em>
+                                    <div class="form-item d-flex form-add-info justify-content-center">
+                                        <div class="input-group no-icon " style="max-width: 200px; height: 32px;">
+
+                                            <input type="text" class="form-control text-center" style=" height: 32px;" placeholder="" value="10">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td><em class="show-in-mobi">Mức vi phạm:</em><span></span></td>
+
+                            </tr>
+                            <tr>
+                                <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                <td class="text-center"><em class="show-in-mobi">Số phách:</em><span>1</span></td>
+                                <td class="text-center"><em class="show-in-mobi">Điểm:</em>
+                                    <div class="form-item d-flex form-add-info justify-content-center">
+                                        <div class="input-group no-icon " style="max-width: 200px; height: 32px;">
+
+                                            <input type="text" class="form-control text-center" style=" height: 32px;" placeholder="" value="10">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td><em class="show-in-mobi">Mức vi phạm:</em><span></span></td>
+
+                            </tr>
+                            <tr>
+                                <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                <td class="text-center"><em class="show-in-mobi">Số phách:</em><span>1</span></td>
+                                <td class="text-center"><em class="show-in-mobi">Điểm:</em>
+                                    <div class="form-item d-flex form-add-info justify-content-center">
+                                        <div class="input-group no-icon " style="max-width: 200px; height: 32px;">
+
+                                            <input type="text" class="form-control text-center" style=" height: 32px;" placeholder="" value="10">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td><em class="show-in-mobi">Mức vi phạm:</em><span></span></td>
+
+                            </tr>
+                            <tr>
+                                <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                <td class="text-center"><em class="show-in-mobi">Số phách:</em><span>1</span></td>
+                                <td class="text-center"><em class="show-in-mobi">Điểm:</em>
+                                    <div class="form-item d-flex form-add-info justify-content-center">
+                                        <div class="input-group no-icon " style="max-width: 200px; height: 32px;">
+
+                                            <input type="text" class="form-control text-center" style=" height: 32px;" placeholder="" value="10">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td><em class="show-in-mobi">Mức vi phạm:</em><span></span></td>
+
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="d-flex justify-content-end my-3">
+                        <button class="btn btn-success"><i class="fas fa-check me-2"></i> <span>Lưu</span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+<script src="../assets/js/bootstrap.bundle.min.js "></script>
+<script src="../assets/js/swiper-bundle.min.js"></script>
+<script src="../assets/js/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="../assets/js/slick.js"></script>
+<script src="../assets/js/jquery-searchbox.js"></script>
+<script src="../assets/js/custom.js"></script>
+<script src="../assets/js/masonry.pkgd.min.js"></script>
+
+
+</html>
