@@ -1960,7 +1960,7 @@ input:checked~label {
 
 .form-control {
     padding-block: 0 !important;
-    list-style: 14px;
+    line-height: 14px !important;
 }
 
 .min-h-full {
