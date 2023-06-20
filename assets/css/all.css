@@ -1156,6 +1156,14 @@ input::placeholder {
     background-color: #e1e1e1;
 }
 
+.bg-f1 {
+    background-color: #f1f1f1 !important;
+}
+
+.bg-f9 {
+    background-color: #f9f9f9 !important;
+}
+
 .bg-aa {
     background-color: #aaaaaa;
 }
@@ -1627,6 +1635,16 @@ input::placeholder {
     padding: 0 40px;
 }
 
+.modal-1120 {
+    max-width: 1120px;
+    padding: 0 40px;
+}
+
+.modal-900 {
+    max-width: 900px;
+    padding: 0 40px;
+}
+
 .bl-room {
     border: solid 1px #e1e1e1;
 }
@@ -1782,6 +1800,10 @@ input:checked~label {
     width: 200px;
 }
 
+.min-w-1650px-i {
+    min-width: 1650px !important;
+}
+
 .table td {
     vertical-align: middle;
 }
@@ -1916,6 +1938,10 @@ input:checked~label {
     width: 50px;
 }
 
+.w-fill-i {
+    width: -webkit-fill-available !important;
+}
+
 .table-respo {
     overflow: scroll;
     height: 500px;
@@ -1934,6 +1960,14 @@ input:checked~label {
 .table-respo::-webkit-scrollbar {
     height: 8px;
     width: 8px;
+}
+
+.right-0 {
+    right: 0;
+}
+
+.h-0 {
+    height: 0;
 }
 
 
@@ -1965,4 +1999,43 @@ input:checked~label {
 
 .min-h-full {
     min-height: calc(100% - 90px);
+}
+
+
+/* khối lượng cá nhân */
+
+.klcn-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.klcn-info .item {
+    margin-bottom: 15px;
+    margin-right: 150px;
+}
+
+.view-in-table-sticky {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: solid 1px #dee2e6;
+    background: white;
+    position: relative;
+}
+
+table>tbody>tr:hover .view-in-table-sticky {
+    background-color: var(--dask-blue);
+    color: white;
+}
+
+.th-r-sticky {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    border-left: solid 1px #dee2e6;
+    padding: 12px 0.5rem;
 }
