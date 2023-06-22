@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education management</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+
+<body>
+    <div class="wrapper ">
+        <div class="left-sidebar">
+            <div class="sidebar-top">
+                <a href="javascript:void(0)" class="menu-icon">
+                    <i class="fal fa-indent"></i>
+                </a>
+                <a href="javascript:void(0)" class="menu-icon-mobi">
+                    <i class="fal fa-indent"></i>
+                </a>
+                <a class="logo" href="#">
+                    <img class="logo-icon" src="../assets/images/logo.png">
+                    <img class="logo-name" src="../assets/images/logo-name.png">
+                </a>
+                <div class="line-1"></div>
+                <div class="line-2"></div>
+                <div class="line-hiden"></div>
+            </div>
+
+            <div class="sidebar-menu">
+                <div class="accordion" id="sidebar-menu">
+                    <div class="sidebar-menu-item ">
+                        <a class="sidebar-menu-header" href="">
+                            <i class="fas fa-tachometer-alt item-icon"></i>
+                            <span>dashboad</span>
+                        </a>
+                    </div>
+                    <!-- siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse1" href="javascrip:void(0)">
+                            <i class="fal fa-id-card item-icon"></i>
+                            <span>Hò sơ cá nhân</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse1" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1 co the dai hon</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse2" href="javascrip:void(0)">
+                            <i class="fal fa-user-chart item-icon"></i>
+                            <span>Lịch giảng</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse2" data-bs-parent="#sidebar-menu">
+
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item active">
+                        <a class="sidebar-menu-header" data-bs-toggle="collapse" data-bs-target="#collapse3" href="javascrip:void(0)">
+                            <i class="fal fa-address-book item-icon"></i>
+                            <span>Quản lý điểm</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse show" id="collapse3" data-bs-parent="#sidebar-menu">
+                            <a class="active" href="#">Bảng điểm</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse4" href="javascrip:void(0)">
+                            <i class="fal fa-file-invoice-dollar item-icon"></i>
+                            <span>Bảng lương</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse4" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse5" href="javascrip:void(0)">
+                            <i class="fal fa-analytics item-icon"></i>
+                            <span>Báo cáo thống kê</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse5" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+
+
+
+                </div>
+
+
+            </div>
+        </div>
+        <div class="content-page ">
+            <!-- navbar -->
+            <div class="navbar">
+                <div class="search-group-in-mobi">
+                    <i class="fal fa-search mobi-search-icon"></i>
+                    <form class="search-group">
+                        <input type="email" class="search-form" placeholder="Tìm kiếm thông tin">
+                        <button><i class="fal fa-search"></i></button>
+                    </form>
+                </div>
+                <div class="in-mobi-group">
+                    <div class="nav-menu-group">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                            <i class="fal fa-ellipsis-h-alt"></i>
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-notification">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                            <i class="fal fa-bell"><span class="noti-count">3</span></i>
+
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-setting">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                            <i class="fal fa-cog"></i>
+
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-account">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                            <div class="user-image">
+                                <i class="fas fa-user user-icon"></i>
+                            </div>
+                            <span>Admin</span>
+                            <i class="fal fa-chevron-down user-arrow"></i>
+
+
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end navbar -->
+            <!-- content -->
+            <div class="content one-door">
+                <div class="overlay"></div>
+                <div class="content-tab no-tab">
+                    <div class="d-flex justify-content-between">
+                        <div class="nav-content-left">
+
+                            <p class="link"><a href="#">Báo cáo thống kê</a><i class="fal fa-angle-right"></i><a href="#">Khối lượng cá nhân</a></p>
+
+                        </div>
+
+                        <div class="nav-content-right">
+                            <a class="d-block text-right" href=""><i class="fas fa-question-circle"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- đăng ký nguyện vọng -->
+                <div class="box-shadow register-wish pt-0">
+                    <div class="form-top">
+                        <div class="row">
+                            <div class="col-12 col-lg-3 col-md-6 mb-15">
+                                <div class="form-item d-flex  form-add-info flex-grow-1">
+                                    <div class="input-group no-icon">
+
+                                        <i class="fal fa-angle-down"></i>
+                                        <select class="form-select" aria-label="Default select example">
+                                        <option selected>Chọn kế hoạch khảo sát</option>
+                                        <option value="1">Công nghệ thông tin</option>
+                                        <option value="2">Kế toán</option>
+                                        <option value="3">Điện tử</option>
+                                    </select>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="col-12 col-lg-3 col-md-6 mb-15">
+                                <div class="form-item d-flex  form-add-info flex-grow-1">
+                                    <div class="input-group no-icon">
+
+                                        <i class="fal fa-angle-down"></i>
+                                        <select class="form-select" aria-label="Default select example">
+                                        <option selected>Chọn phiếu khảo sát</option>
+                                        <option value="1">Công nghệ thông tin</option>
+                                        <option value="2">Kế toán</option>
+                                        <option value="3">Điện tử</option>
+                                    </select>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="col-12 col-lg-4  mb-15">
+                                <div class="d-flex align-items-center">
+
+                                    <div class="btn btn-dask-blue min-w-auto px-4 ms-auto ms-lg-0"><i class="fal fa-table me-2"></i> Xem</div>
+                                    <div class="btn btn-success min-w-auto px-4 ms-4"><i class="fal fa-file-download me-2"></i> Báo cáo</div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                    <div class="container-fluid px-20">
+                        <div class="row fs-14 lh-1 mt-4">
+                            <div class="col-12 col-lg-6">
+                                <div class="row justify-content-between">
+                                    <div class="col-12 col-md-6 col-lg-4 w-auto">
+                                        <p>
+                                            <span class="color-66">Học phần:</span>
+                                            <b>Giải tích</b>
+                                        </p>
+                                        <p>
+                                            <span class="color-66">Giáo viên giảng dạy:</span>
+                                            <b class="d-inline-block">Đỗ Quốc Tuấn</b>
+                                        </p>
+                                        <p>
+                                            <span class="color-66">Khoá sinh viên khảo sát:</span>
+                                            <b>K14</b>
+                                        </p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4 w-auto">
+                                        <p>
+                                            <span class="color-66">Hình thức khảo sát:</span>
+                                            <b>Online</b>
+                                        </p>
+                                        <p>
+                                            <span class="color-66">Thời gian thực hiện:</span>
+                                            <b class="d-inline-block">30/7 - 20/8/2021</b>
+                                        </p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4 w-auto">
+                                        <p>
+                                            <span class="text-uppercase d-block mb-3 fw-bold">Kết quả khảo sát</span>
+                                            <span class="d-block">
+                                                <span class="color-66">Số lượng khảo sát:</span>
+                                            <b>83</b>
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <div class="d-flex align-items-center justify-content-lg-center">
+                                    <div>
+                                        <p class="fw-bold text-uppercase mb-2">Mức độ đánh giá</p>
+                                        <div class="d-flex flex-wrap">
+                                            <div class="me-4">
+                                                <p class="d-flex align-items-center mb-2">
+                                                    <span class="text-white me-2 w-16px h-16px rounded-8px bg-warning d-flex align-items-center justify-content-center lh-1">1</span>
+                                                    <span>Hoàn toàn không đồng ý</span>
+                                                </p>
+                                                <p class="d-flex align-items-center mb-2">
+                                                    <span class="text-white me-2 w-16px h-16px rounded-8px bg-danger d-flex align-items-center justify-content-center lh-1">2</span>
+                                                    <span>Không  đồng ý</span>
+                                                </p>
+                                                <p class="d-flex align-items-center mb-2">
+                                                    <span class="text-white me-2 w-16px h-16px rounded-8px bg-dask-blue d-flex align-items-center justify-content-center lh-1">3</span>
+                                                    <span>Phân vân</span>
+                                                </p>
+                                            </div>
+                                            <div class="me-4">
+                                                <p class="d-flex align-items-center mb-2">
+                                                    <span class="text-white me-2 w-16px h-16px rounded-8px bg-primary d-flex align-items-center justify-content-center lh-1">4</span>
+                                                    <span>Đồng ý</span>
+                                                </p>
+                                                <p class="d-flex align-items-center mb-2">
+                                                    <span class="text-white me-2 w-16px h-16px rounded-8px bg-success d-flex align-items-center justify-content-center lh-1">5</span>
+                                                    <span>Hoàn toàn đồng ý</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="title-is-paging">
+                            <p class="color-dask-blue fw-bold mt-3">Danh sách</p>
+                            <div class="gv-paging-group">
+                                <span class="pe-3 fs-14">Hiển thị</span>
+                                <div class="form-item d-flex  form-add-info">
+                                    <div class="input-group no-icon">
+
+                                        <i class="fal fa-angle-down"></i>
+                                        <select class="form-select" aria-label="Default select example">
+                                        <option selected>10</option>
+                                        <option value="1">20</option>
+                                        <option value="2">50</option>
+                                        <option value="3">100</option>
+                                    </select>
+                                    </div>
+
+                                </div>
+                                <span class="ms-3 me-5 fs-14">dữ liệu</span>
+                                <div class="gv-paging">
+
+                                    <ul class="gv-pagination">
+                                        <li class="gv-page-item disabled">
+                                            <a class="page-link" href="#" tabindex="-1" aria-disabled="true"><i class="fal fa-backward"></i></a>
+                                        </li>
+                                        <li class="gv-page-item active"><a class="page-link " href="#">1</a></li>
+                                        <li class="gv-page-item"><a class="page-link" href="#">2</a></li>
+                                        <li class="gv-page-item"><a class="page-link" href="#">3</a></li>
+                                        <li class="gv-page-item paging-hidden"><a class="page-link" href="#">...</a></li>
+                                        <li class="gv-page-item"><a class="page-link" href="#">99</a></li>
+                                        <li class="gv-page-item"><a class="page-link" href="#">100</a></li>
+                                        <li class="gv-page-item">
+                                            <a class="page-link" href="#"><i class="fal fa-forward"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="table-respo fs-14 thongke-khaosat h-auto overflow-y-hidden">
+                            <table class="table min-w-1600px-i w-fill-i">
+                                <thead>
+                                    <tr>
+                                        <th rowspan="2" class="text-center" scope="col">STT</th>
+                                        <th rowspan="2" class="" scope="col">Nội dung đánh giá</th>
+                                        <th colspan="5" class="text-center border-bottom border-left" scope="col">Số phiếu</th>
+                                        <th colspan="5" class="text-center border-bottom border-left" scope="col">Tỉ lệ mức độ hài lòng</th>
+
+
+                                        <th rowspan="2" class="text-center border-bottom border-left" scope="col">Điểm đánh giá</th>
+
+
+
+
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center fw-normal border-left lh-1 bg-warning text-white">1</th>
+                                        <th class="text-center fw-normal border-left lh-1 bg-danger text-white">2</th>
+                                        <th class="text-center fw-normal border-left lh-1 bg-dask-blue text-white">3</th>
+                                        <th class="text-center fw-normal border-left lh-1 bg-primary text-white">4</th>
+                                        <th class="text-center fw-normal border-left lh-1 bg-success text-white">5</th>
+                                        <th class="text-center fw-normal border-left lh-1 bg-warning text-white">1</th>
+                                        <th class="text-center fw-normal border-left lh-1 bg-danger text-white">2</th>
+                                        <th class="text-center fw-normal border-left lh-1 bg-dask-blue text-white">3</th>
+                                        <th class="text-center fw-normal border-left lh-1 bg-primary text-white">4</th>
+                                        <th class="text-center fw-normal border-left lh-1 bg-success text-white">5</th>
+
+
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></td>
+
+                                        <td><em class="show-in-mobi">Nội dung đánh giá:</em><span>Giảng viên giới thiệu đề cương chi tiết học phần, hướng dẫn phương pháp học tập, công tác kiểm tra, đánh giá học phần đầy đủ, rõ ràng ngay từ khi bắt đầu</span></td>
+                                        </td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Số phiếu 1:</em><span>0</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Số phiếu 2:</em><span>0</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Số phiếu 3:</em><span>0</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Số phiếu 4:</em><span>0</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Số phiếu 5:</em><span>0</span></td>
+
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Mức độ hài lòng 1:</em><span>0%</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Mức độ hài lòng 2:</em><span>0%</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Mức độ hài lòng 3:</em><span>0%</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Mức độ hài lòng 4:</em><span>0%</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Mức độ hài lòng 5:</em><span>0%</span></td>
+
+
+                                        <td class="text-center border-left w-150px"><em class="show-in-mobi">Điểm đánh giá:</em><span>4.49</span></td>
+
+
+
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></td>
+
+                                        <td><em class="show-in-mobi">Nội dung đánh giá:</em><span>Giảng viên giới thiệu đề cương chi tiết học phần, hướng dẫn phương pháp học tập, công tác kiểm tra, đánh giá học phần đầy đủ, rõ ràng ngay từ khi bắt đầu</span></td>
+                                        </td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Số phiếu 1:</em><span>0</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Số phiếu 2:</em><span>0</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Số phiếu 3:</em><span>0</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Số phiếu 4:</em><span>0</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Số phiếu 5:</em><span>0</span></td>
+
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Mức độ hài lòng 1:</em><span>0%</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Mức độ hài lòng 2:</em><span>0%</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Mức độ hài lòng 3:</em><span>0%</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Mức độ hài lòng 4:</em><span>0%</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Mức độ hài lòng 5:</em><span>0%</span></td>
+
+
+                                        <td class="text-center border-left w-150px"><em class="show-in-mobi">Điểm đánh giá:</em><span>4.49</span></td>
+
+
+
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></td>
+
+                                        <td><em class="show-in-mobi">Nội dung đánh giá:</em><span>Giảng viên giới thiệu đề cương chi tiết học phần, hướng dẫn phương pháp học tập, công tác kiểm tra, đánh giá học phần đầy đủ, rõ ràng ngay từ khi bắt đầu</span></td>
+                                        </td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Số phiếu 1:</em><span>0</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Số phiếu 2:</em><span>0</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Số phiếu 3:</em><span>0</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Số phiếu 4:</em><span>0</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Số phiếu 5:</em><span>0</span></td>
+
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Mức độ hài lòng 1:</em><span>0%</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Mức độ hài lòng 2:</em><span>0%</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Mức độ hài lòng 3:</em><span>0%</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Mức độ hài lòng 4:</em><span>0%</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Mức độ hài lòng 5:</em><span>0%</span></td>
+
+
+                                        <td class="text-center border-left w-150px"><em class="show-in-mobi">Điểm đánh giá:</em><span>4.49</span></td>
+
+
+
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></td>
+
+                                        <td><em class="show-in-mobi">Nội dung đánh giá:</em><span>Giảng viên giới thiệu đề cương chi tiết học phần, hướng dẫn phương pháp học tập, công tác kiểm tra, đánh giá học phần đầy đủ, rõ ràng ngay từ khi bắt đầu</span></td>
+                                        </td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Số phiếu 1:</em><span>0</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Số phiếu 2:</em><span>0</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Số phiếu 3:</em><span>0</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Số phiếu 4:</em><span>0</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Số phiếu 5:</em><span>0</span></td>
+
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Mức độ hài lòng 1:</em><span>0%</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Mức độ hài lòng 2:</em><span>0%</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Mức độ hài lòng 3:</em><span>0%</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Mức độ hài lòng 4:</em><span>0%</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Mức độ hài lòng 5:</em><span>0%</span></td>
+
+
+                                        <td class="text-center border-left w-150px"><em class="show-in-mobi">Điểm đánh giá:</em><span>4.49</span></td>
+
+
+
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></td>
+
+                                        <td><em class="show-in-mobi">Nội dung đánh giá:</em><span>Giảng viên giới thiệu đề cương chi tiết học phần, hướng dẫn phương pháp học tập, công tác kiểm tra, đánh giá học phần đầy đủ, rõ ràng ngay từ khi bắt đầu</span></td>
+                                        </td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Số phiếu 1:</em><span>0</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Số phiếu 2:</em><span>0</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Số phiếu 3:</em><span>0</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Số phiếu 4:</em><span>0</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Số phiếu 5:</em><span>0</span></td>
+
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Mức độ hài lòng 1:</em><span>0%</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Mức độ hài lòng 2:</em><span>0%</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Mức độ hài lòng 3:</em><span>0%</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Mức độ hài lòng 4:</em><span>0%</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Mức độ hài lòng 5:</em><span>0%</span></td>
+
+
+                                        <td class="text-center border-left w-150px"><em class="show-in-mobi">Điểm đánh giá:</em><span>4.49</span></td>
+
+
+
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></td>
+
+                                        <td><em class="show-in-mobi">Nội dung đánh giá:</em><span>Giảng viên giới thiệu đề cương chi tiết học phần, hướng dẫn phương pháp học tập, công tác kiểm tra, đánh giá học phần đầy đủ, rõ ràng ngay từ khi bắt đầu</span></td>
+                                        </td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Số phiếu 1:</em><span>0</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Số phiếu 2:</em><span>0</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Số phiếu 3:</em><span>0</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Số phiếu 4:</em><span>0</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Số phiếu 5:</em><span>0</span></td>
+
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Mức độ hài lòng 1:</em><span>0%</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Mức độ hài lòng 2:</em><span>0%</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Mức độ hài lòng 3:</em><span>0%</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Mức độ hài lòng 4:</em><span>0%</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Mức độ hài lòng 5:</em><span>0%</span></td>
+
+
+                                        <td class="text-center border-left w-150px"><em class="show-in-mobi">Điểm đánh giá:</em><span>4.49</span></td>
+
+
+
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></td>
+
+                                        <td><em class="show-in-mobi">Nội dung đánh giá:</em><span>Giảng viên giới thiệu đề cương chi tiết học phần, hướng dẫn phương pháp học tập, công tác kiểm tra, đánh giá học phần đầy đủ, rõ ràng ngay từ khi bắt đầu</span></td>
+                                        </td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Số phiếu 1:</em><span>0</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Số phiếu 2:</em><span>0</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Số phiếu 3:</em><span>0</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Số phiếu 4:</em><span>0</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Số phiếu 5:</em><span>0</span></td>
+
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Mức độ hài lòng 1:</em><span>0%</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Mức độ hài lòng 2:</em><span>0%</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Mức độ hài lòng 3:</em><span>0%</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Mức độ hài lòng 4:</em><span>0%</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Mức độ hài lòng 5:</em><span>0%</span></td>
+
+
+                                        <td class="text-center border-left w-150px"><em class="show-in-mobi">Điểm đánh giá:</em><span>4.49</span></td>
+
+
+
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></td>
+
+                                        <td><em class="show-in-mobi">Nội dung đánh giá:</em><span>Giảng viên giới thiệu đề cương chi tiết học phần, hướng dẫn phương pháp học tập, công tác kiểm tra, đánh giá học phần đầy đủ, rõ ràng ngay từ khi bắt đầu</span></td>
+                                        </td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Số phiếu 1:</em><span>0</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Số phiếu 2:</em><span>0</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Số phiếu 3:</em><span>0</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Số phiếu 4:</em><span>0</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Số phiếu 5:</em><span>0</span></td>
+
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Mức độ hài lòng 1:</em><span>0%</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Mức độ hài lòng 2:</em><span>0%</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Mức độ hài lòng 3:</em><span>0%</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Mức độ hài lòng 4:</em><span>0%</span></td>
+                                        <td class="text-center border-left w-64px"><em class="show-in-mobi">Mức độ hài lòng 5:</em><span>0%</span></td>
+
+
+                                        <td class="text-center border-left w-150px"><em class="show-in-mobi">Điểm đánh giá:</em><span>4.49</span></td>
+
+
+
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="col-12">
+                            <p></p>
+                            <div class="gv-paging-group justify-content-end">
+
+                                <div class="gv-paging">
+                                    <span class="me-4 fs-14 fst-italic">1 đến 10 trong 1210 dữ liệu</span>
+                                    <ul class="gv-pagination">
+                                        <li class="gv-page-item disabled">
+                                            <a class="page-link" href="#" tabindex="-1" aria-disabled="true"><i class="fal fa-backward"></i></a>
+                                        </li>
+                                        <li class="gv-page-item active"><a class="page-link " href="#">1</a></li>
+                                        <li class="gv-page-item"><a class="page-link" href="#">2</a></li>
+                                        <li class="gv-page-item"><a class="page-link" href="#">3</a></li>
+                                        <li class="gv-page-item paging-hidden"><a class="page-link" href="#">...</a></li>
+                                        <li class="gv-page-item"><a class="page-link" href="#">99</a></li>
+                                        <li class="gv-page-item"><a class="page-link" href="#">100</a></li>
+                                        <li class="gv-page-item">
+                                            <a class="page-link" href="#"><i class="fal fa-forward"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- end đăng ký nguyện vọng -->
+            </div>
+        </div>
+        <!-- end content -->
+
+        <!-- copy right -->
+        <div class="copyright ">
+            <marquee>
+                Đơn vị phát triển: Công ty Cổ Phần dịch vụ Công nghệ APIS - Địa chỉ: Tầng 6 Tháp Tây, Tòa nhà Hancorp, Số, 72 Trần Đăng Ninh, P, Cầu Giấy, Hà Nội - Điện thoại: 024 3204 5867
+            </marquee>
+        </div>
+        <!-- end copy right -->
+    </div>
+
+
+
+</body>
+<script src="../assets/js/bootstrap.bundle.min.js "></script>
+<script src="../assets/js/swiper-bundle.min.js"></script>
+<script src="../assets/js/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="../assets/js/slick.js"></script>
+<script src="../assets/js/jquery-searchbox.js"></script>
+<script src="../assets/js/custom.js"></script>
+<script src="../assets/js/masonry.pkgd.min.js"></script>
+
+
+</html>

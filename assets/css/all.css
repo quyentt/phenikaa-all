@@ -2039,3 +2039,27 @@ table>tbody>tr:hover .view-in-table-sticky {
     border-left: solid 1px #dee2e6;
     padding: 12px 0.5rem;
 }
+
+.overflow-y-hidden {
+    overflow-y: hidden;
+}
+
+.w-16px {
+    width: 16px;
+}
+
+.h-16px {
+    height: 16px;
+}
+
+.w-64px {
+    width: 64px;
+}
+
+.w-150px {
+    width: 150px;
+}
+
+.min-w-1600px-i {
+    min-width: 1600px !important;
+}

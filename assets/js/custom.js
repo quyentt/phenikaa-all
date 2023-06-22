@@ -183,5 +183,5 @@ $(window).on('load', function() {
 });
 
 $(document).ready(function() {
-    $('#dulieulichgiang').modal('show');
+    // $('#dulieulichgiang').modal('show');
 });
