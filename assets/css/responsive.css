@@ -259,6 +259,16 @@
 }
 
 @media (max-width: 768px) {
+    .kqht-modal .left {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .kqht-modal .left .table tr:nth-of-type(even) {
+        background-color: transparent;
+    }
+    .kqht-modal .left .table td:last-child {
+        border-bottom: solid 1px #061b5b;
+    }
     .ld-lage-title {
         max-width: 100%;
     }

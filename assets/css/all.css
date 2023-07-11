@@ -2063,3 +2063,33 @@ table>tbody>tr:hover .view-in-table-sticky {
 .min-w-1600px-i {
     min-width: 1600px !important;
 }
+
+.kqht-modal {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kqht-modal .left {
+    width: 260px;
+    background: #1b3276;
+    padding: 20px 12px;
+    border-bottom-left-radius: 9px;
+}
+
+.kqht-modal .left table {
+    border: solid 1px #061b5b;
+    color: white;
+}
+
+.kqht-modal .left tbody tr:hover {
+    color: #222222;
+}
+
+.kqht-modal .left th {
+    background: #061b5b !important;
+    border-bottom: solid 1px #061b5b !important;
+}
+
+.kqht-modal .right {
+    flex: 1;
+}
