@@ -183,5 +183,5 @@ $(window).on('load', function() {
 });
 
 $(document).ready(function() {
-    $('#block_detail').modal('show');
+    // $('#xacnhanthanhtoan').modal('show');
 });
