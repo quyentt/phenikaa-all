@@ -2181,3 +2181,72 @@ table>tbody>tr:hover .view-in-table-sticky {
 .fs-14-i {
     font-size: 14px !important;
 }
+
+
+/* led sự kiện */
+
+.led-event {
+    font-size: 1.2vw;
+}
+
+.led-event body {
+    font-size: 1rem;
+    font-family: 'montserrat';
+}
+
+.led-main {
+    width: 100vw;
+    height: 100vh;
+    background: url(../images/led/bg-led-event.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1rem 2.7rem 2.2rem;
+    background-position: top center;
+}
+
+.led-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.led-logo {
+    height: 4.1rem;
+}
+
+.led-header-right {
+    height: 2.5rem;
+}
+
+.led-header img {
+    height: 100%;
+}
+
+.led-header-title {
+    font-weight: 800;
+    font-size: 1.9rem;
+    text-transform: uppercase;
+    color: #ff0000;
+}
+
+.led-content {
+    background: #183885;
+    border-radius: 0.7rem;
+    border: solid 0.04rem #ffffff;
+    margin-top: 1.3rem;
+    padding: 1.3rem;
+}
+
+.led-content .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.led-content .top .left {
+    color: #fff600;
+}
