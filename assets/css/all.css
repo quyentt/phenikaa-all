@@ -2235,6 +2235,8 @@ table>tbody>tr:hover .view-in-table-sticky {
     border: solid 0.04rem #ffffff;
     margin-top: 1.3rem;
     padding: 1.3rem;
+    height: calc(100% - 5rem);
+    overflow: hidden;
 }
 
 .led-content .top {
@@ -2248,5 +2250,86 @@ table>tbody>tr:hover .view-in-table-sticky {
 }
 
 .led-content .top .left {
+    color: #fff600;
+}
+
+.led-tabl111111 {
+    background: #2a488f;
+}
+
+.led-table-head .led-table-row {
+    display: flex;
+    background: #0e2250;
+    color: #fff600;
+    font-weight: bold;
+}
+
+.led-table-body {
+    background: red;
+}
+
+.leb-table .swiper-slide {
+    height: 2.6rem;
+    display: flex;
+    width: 100%;
+}
+
+.leb-table .swiper-slide:nth-child(2n-1) {
+    background: #2a488f;
+}
+
+.leb-table .swiper {
+    height: 100%;
+    position: relative;
+}
+
+.leb-table {
+    height: calc(100% - 2rem);
+    margin-top: 1rem;
+}
+
+.led-table-cell {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    padding: 0 1rem;
+}
+
+.led-table-cell:nth-child(1) {
+    width: 10%;
+}
+
+.led-table-cell:nth-child(2) {
+    width: 12%;
+}
+
+.led-table-cell:nth-child(3) {
+    flex: 1;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+    padding-top: 0.3rem;
+    line-height: 2rem;
+}
+
+.led-table-cell:nth-child(4) {
+    width: 17%;
+}
+
+.led-table-cell:nth-child(5) {
+    width: 15%;
+}
+
+.theader {
+    display: flex;
+    height: 2.6rem;
+    background: #0e2250;
+    font-weight: bold;
+}
+
+.theader .led-table-cell {
     color: #fff600;
 }
