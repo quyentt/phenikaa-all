@@ -2211,11 +2211,12 @@ table>tbody>tr:hover .view-in-table-sticky {
 }
 
 .led-logo {
-    height: 4.1rem;
+    height: 3.3rem;
 }
 
 .led-header-right {
     height: 2.5rem;
+    width: 14rem;
 }
 
 .led-header img {
@@ -2253,19 +2254,11 @@ table>tbody>tr:hover .view-in-table-sticky {
     color: #fff600;
 }
 
-.led-tabl111111 {
-    background: #2a488f;
-}
-
 .led-table-head .led-table-row {
     display: flex;
     background: #0e2250;
     color: #fff600;
     font-weight: bold;
-}
-
-.led-table-body {
-    background: red;
 }
 
 .leb-table .swiper-slide {
