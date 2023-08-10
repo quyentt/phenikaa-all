@@ -183,5 +183,5 @@ $(window).on('load', function() {
 });
 
 $(document).ready(function() {
-    // $('#xacnhanthanhtoan').modal('show');
+    // $('#lichsu_chitiet').modal('show');
 });

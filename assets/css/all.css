@@ -2326,3 +2326,10 @@ table>tbody>tr:hover .view-in-table-sticky {
 .theader .led-table-cell {
     color: #fff600;
 }
+
+
+/* end led sự kiện */
+
+.min-h-auto {
+    min-height: auto !important;
+}
