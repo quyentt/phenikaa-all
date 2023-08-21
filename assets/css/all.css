@@ -2333,3 +2333,78 @@ table>tbody>tr:hover .view-in-table-sticky {
 .min-h-auto {
     min-height: auto !important;
 }
+
+
+/* Theo dõi nhập học */
+
+.ad-moni .led-header-title {
+    font-size: 1.4rem;
+    color: #fff600;
+}
+
+.ad-moni .led-logo {
+    height: 2rem;
+}
+
+.ad-moni .led-main {
+    background: url(../images/ad-moni/bg-ad-moni.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding: 1rem 0.5rem 0.5rem;
+}
+
+.ad-moni .led-header-right {
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.ad-moni .led-content {
+    background: white;
+    padding: 0;
+    font-size: 0.625rem;
+    height: auto;
+}
+
+.ad-moni .led-content thead {
+    border: none;
+    background: #183885;
+    color: white;
+    border: solid 1px #bbbfc8;
+}
+
+.ad-moni .led-content th {
+    border-left: solid 1px #bbbfc8;
+    padding: 0.4rem;
+    vertical-align: middle;
+    font-weight: 600;
+}
+
+.ad-moni .led-content tr:first-child th:first-child {
+    border-left: none;
+}
+
+.ad-moni .led-content td {
+    padding: 0.4rem;
+    border: none;
+    border-left: solid 1px #bbbfc8;
+}
+
+.border-ad-moni {
+    border: none !important;
+    border-bottom: solid 1px !important;
+    border-color: #bbbfc8 !important;
+}
+
+.total td {
+    background: #feeded;
+    padding: 0.6rem 0.4rem !important;
+}
+
+.ad-moni .table tbody tr:nth-child(2n-1) {
+    background: #f5f5f5;
+}
