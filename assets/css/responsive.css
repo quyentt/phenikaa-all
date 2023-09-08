@@ -723,6 +723,10 @@
 }
 
 @media (max-width: 767px) {
+    .bus-left,
+    .bus-right {
+        width: 100%;
+    }
     .khoa-sldl label {
         width: auto !important;
     }
