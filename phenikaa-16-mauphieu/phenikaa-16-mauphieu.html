@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education management</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+
+<body>
+    <div class="wrapper ">
+        <div class="left-sidebar">
+            <div class="sidebar-top">
+                <a href="javascript:void(0)" class="menu-icon">
+                    <i class="fal fa-indent"></i>
+                </a>
+                <a href="javascript:void(0)" class="menu-icon-mobi">
+                    <i class="fal fa-indent"></i>
+                </a>
+                <a class="logo" href="#">
+                    <img class="logo-icon" src="../assets/images/logo.png">
+                    <img class="logo-name" src="../assets/images/logo-name.png">
+                </a>
+                <div class="line-1"></div>
+                <div class="line-2"></div>
+                <div class="line-hiden"></div>
+            </div>
+
+            <div class="sidebar-menu">
+                <div class="accordion" id="sidebar-menu">
+                    <div class="sidebar-menu-item ">
+                        <a class="sidebar-menu-header" href="">
+                            <i class="fas fa-tachometer-alt item-icon"></i>
+                            <span>dashboad</span>
+                        </a>
+                    </div>
+                    <!-- siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse1" href="javascrip:void(0)">
+                            <i class="fal fa-id-card item-icon"></i>
+                            <span>Hò sơ cá nhân</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse1" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1 co the dai hon</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse2" href="javascrip:void(0)">
+                            <i class="fal fa-user-chart item-icon"></i>
+                            <span>Lịch giảng</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse2" data-bs-parent="#sidebar-menu">
+
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item active">
+                        <a class="sidebar-menu-header" data-bs-toggle="collapse" data-bs-target="#collapse3" href="javascrip:void(0)">
+                            <i class="fal fa-address-book item-icon"></i>
+                            <span>Quản lý điểm</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse show" id="collapse3" data-bs-parent="#sidebar-menu">
+                            <a class="active" href="#">Bảng điểm</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse4" href="javascrip:void(0)">
+                            <i class="fal fa-file-invoice-dollar item-icon"></i>
+                            <span>Bảng lương</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse4" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse5" href="javascrip:void(0)">
+                            <i class="fal fa-analytics item-icon"></i>
+                            <span>Báo cáo thống kê</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse5" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+
+
+
+                </div>
+
+
+            </div>
+        </div>
+        <div class="content-page ">
+            <!-- navbar -->
+            <div class="navbar">
+                <div class="search-group-in-mobi">
+                    <i class="fal fa-search mobi-search-icon"></i>
+                    <form class="search-group">
+                        <input type="email" class="search-form" placeholder="Tìm kiếm thông tin">
+                        <button><i class="fal fa-search"></i></button>
+                    </form>
+                </div>
+                <div class="in-mobi-group">
+                    <div class="nav-menu-group">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                                <i class="fal fa-ellipsis-h-alt"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-notification">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                                <i class="fal fa-bell"><span class="noti-count">3</span></i>
+
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-setting">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                                <i class="fal fa-cog"></i>
+
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-account">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                                <div class="user-image">
+                                    <i class="fas fa-user user-icon"></i>
+                                </div>
+                                <span>Admin</span>
+                                <i class="fal fa-chevron-down user-arrow"></i>
+
+
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end navbar -->
+            <!-- content -->
+            <div class="content one-door">
+                <div class="overlay"></div>
+                <div class="content-tab no-tab">
+                    <div class="d-flex justify-content-between">
+                        <div class="nav-content-left">
+
+                            <p class="link"><a href="#">Đăng ký học</a><i class="fal fa-angle-right"></i><a href="#">Mẫu
+                                    phiếu</a></p>
+
+                        </div>
+
+                        <div class="nav-content-right">
+                            <a class="d-block text-right" href=""><i class="fas fa-question-circle"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- đăng ký nguyện vọng -->
+                <div class="box-shadow sample-note">
+                    <div class="spn-head d-flex align-items-center justify-content-between">
+                        <p class="text-uppercase text-center">
+                            <span class="fs-14">Bộ giáo dục và đào tạo</span>
+                            <br>
+                            <span class="fw-bold">Trường đại học CMC</span>
+                        </p>
+                        <p class="text-center">
+                            <span class="text-uppercase fw-bold">Cộng hòa xã hội chủ nghĩa việt nam</span>
+                            <br>
+                            <span class="fw-bold">Độc lập - Tự do - Hạnh phúc</span>
+                        </p>
+                    </div>
+                    <div class="fs-18 fw-bold text-uppercase text-center mt-4">Phiếu đánh giá kết quả rèn luyện cho sinh viên
+                    </div>
+                    <p class="fst-italic text-center">
+                        (Ban hành kèm theo Quyết định số: <b>10</b>/QĐ- ĐHCMC-CTSN ngày <b>10</b> tháng <b>10</b> năm2023)
+                    </p>
+                    <div class="row spn-info lh-lg">
+                        <div class="col-4">
+                            Họ tên: <b>Trần Hoàng Bảo</b>
+                        </div>
+                        <div class="col-4">
+                            Ngày sinh: <b>15/02/2020</b>
+                        </div>
+                        <div class="col-4">
+                            Mã số SV: <b>SV000001</b>
+                        </div>
+                        <div class="col-4">
+                            Lớp: <b>T5K6</b>
+                        </div>
+                        <div class="col-4">
+                            Khoa: <b>CNTT</b>
+                        </div>
+                        <div class="col-4">
+                            Khóa: 2022 - 2026<b></b>
+                        </div>
+                        <div class="col-4">
+                            Học kỳ: <b>1</b>
+                        </div>
+                        <div class="col-4">
+                            Năm học: <b>2023</b>
+                        </div>
+                    </div>
+                    <table class="table table-bordered mt-3">
+                        <thead>
+                            <tr class="bg-f4">
+
+                                <th scope="col">Nội dung đánh giá</th>
+                                <th scope="col" class="text-center lh-1">SV tự <br> đánh giá</th>
+                                <th scope="col" class="text-center lh-1">HĐ cấp khoa <br> đánh giá</th>
+                                <th scope="col" class="text-center lh-1">HĐ cấp trường<br> đánh giá</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colspan="4" class="lh-1">
+                                    <p class="mb-1 fw-bold ">
+                                        I. <span class="text-decoration-underline">Đánh giá về ý thức và kết quả học
+                                            tập</span>
+                                    </p>
+                                    <p class="mb-1">
+                                        (Tính điểm thi lần 1. Tổng điểm: 0-20 điểm)
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="4" class="lh-1">
+                                    <p class="mb-1 fw-bold ">
+                                        1. Phần cộng điểm
+                                        <p class="mb-1">
+                                            (Tổng điểm có thể chấm quá 30 khi SV đạt giải NCKH, thi Olympic cấp Bộ hoặc cấp Quốc gia)
+                                        </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    a) Kết quả học tập ( áp dụng với học phần chuyên môn):
+                                </td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class="">
+                                    <div class="d-flex justify-content-between spn-ctrow">
+                                        <span>- Điểm TBCHT > 3.6:</span> <span>(+10đ)</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="input-group no-icon " style="height: 32px;">
+
+                                        <input type="text" class="form-control text-center" style="width: 50px; height: 32px;" placeholder="" value="">
+                                    </div>
+                                </td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class="">
+                                    <div class="d-flex justify-content-between spn-ctrow">
+                                        <span>- Điểm TBCHT từ 3,2 đến 3,59:</span> <span>(+8đ)</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="input-group no-icon " style="height: 32px;">
+
+                                        <input type="text" class="form-control text-center" style="width: 50px; height: 32px;" placeholder="" value="">
+                                    </div>
+                                </td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <!-- phần điểm trừ -->
+                            <tr>
+                                <td colspan="4" class="lh-1">
+                                    <p class="mb-1 fw-bold ">
+                                        1. Phần cộng trừ
+                                        <p class="mb-1">
+                                            (Tổng điểm có thể chấm quá 30 khi SV đạt giải NCKH, thi Olympic cấp Bộ hoặc cấp Quốc gia)
+                                        </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="">
+                                    <div class="d-flex justify-content-between spn-ctrow">
+                                        <span>- Điểm TBCHT > 3.6:</span> <span>(-10đ)</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="input-group no-icon " style="height: 32px;">
+
+                                        <input type="text" class="form-control text-center" style="width: 50px; height: 32px;" placeholder="" value="">
+                                    </div>
+                                </td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class="">
+                                    <div class="d-flex justify-content-between spn-ctrow">
+                                        <span>- Điểm TBCHT từ 3,2 đến 3,59:</span> <span>(-8đ)</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="input-group no-icon " style="height: 32px;">
+
+                                        <input type="text" class="form-control text-center" style="width: 50px; height: 32px;" placeholder="" value="">
+                                    </div>
+                                </td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- end đăng ký nguyện vọng -->
+            </div>
+        </div>
+        <!-- end content -->
+
+        <!-- copy right -->
+        <div class="copyright ">
+            <marquee>
+                Đơn vị phát triển: Công ty Cổ Phần dịch vụ Công nghệ APIS - Địa chỉ: Tầng 6 Tháp Tây, Tòa nhà Hancorp, Số, 72 Trần Đăng Ninh, P, Cầu Giấy, Hà Nội - Điện thoại: 024 3204 5867
+            </marquee>
+        </div>
+        <!-- end copy right -->
+    </div>
+
+
+</body>
+<script src="../assets/js/bootstrap.bundle.min.js "></script>
+<script src="../assets/js/swiper-bundle.min.js"></script>
+<script src="../assets/js/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="../assets/js/slick.js"></script>
+<script src="../assets/js/jquery-searchbox.js"></script>
+<script src="../assets/js/custom.js"></script>
+<script src="../assets/js/masonry.pkgd.min.js"></script>
+
+
+</html>

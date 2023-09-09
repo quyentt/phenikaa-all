@@ -2532,3 +2532,46 @@ table>tbody>tr:hover .view-in-table-sticky {
     flex: 1;
     margin-right: 30px;
 }
+
+
+/* mẫu phiếu  */
+
+.sample-note {
+    width: 1000px;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 30px 30px 5px 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.spn-info {
+    padding: 0 100px;
+    margin-top: 30px;
+}
+
+.bg-f4 {
+    background: #f4f4f4;
+}
+
+.spn-ctrow {
+    position: relative;
+}
+
+.spn-ctrow span {
+    background: white;
+    position: relative;
+    z-index: 1;
+}
+
+.spn-ctrow::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: repeating-linear-gradient(to right, rgba(0, 0, 0, 0.5) 0, rgba(0, 0, 0, 0.5) 1px, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0) 2px);
+    left: 0;
+    position: absolute;
+    left: 0;
+    bottom: 6px;
+}
