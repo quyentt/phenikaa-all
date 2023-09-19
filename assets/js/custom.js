@@ -183,5 +183,5 @@ $(window).on('load', function() {
 });
 
 $(document).ready(function() {
-    // $('#lichsu_chitiet').modal('show');
+    // $('#khaicm').modal('show');
 });
