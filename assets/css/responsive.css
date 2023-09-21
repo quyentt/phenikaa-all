@@ -105,6 +105,16 @@
 }
 
 @media (max-width: 1360px) {
+    .report-content {
+        flex-wrap: wrap;
+    }
+    .rp-left,
+    .rp-right {
+        width: 100% !important;
+    }
+    .rp-right {
+        margin-top: 40px;
+    }
     .tb-tooltip {
         left: auto;
         right: 0;
@@ -975,6 +985,13 @@
 }
 
 @media (max-width: 560px) {
+    .baocap-kq-hoctap {
+        flex-wrap: wrap;
+    }
+    .baocap-kq-hoctap .left,
+    .baocap-kq-hoctap .right {
+        width: 100%;
+    }
     .ld-content-box .register-wish .table tr td {
         height: auto;
     }

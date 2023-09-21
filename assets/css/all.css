@@ -2579,3 +2579,53 @@ table>tbody>tr:hover .view-in-table-sticky {
     left: 0;
     bottom: 6px;
 }
+
+
+/* báo cáo kết quả học tập */
+
+.baocap-kq-hoctap {}
+
+.baocap-kq-hoctap .left {
+    width: 360px;
+    padding: 20px;
+}
+
+.baocap-kq-hoctap .right {
+    width: calc(100% - 360px);
+    padding: 20px;
+}
+
+.report-list {
+    flex-direction: column;
+}
+
+.report-list .item {
+    border: solid 1px #e1e1e1;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 9px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.report-list .item:hover {
+    background: #f9f9f9;
+}
+
+.report-list .item.active {
+    background: var(--dask-blue);
+    color: white;
+}
+
+.border-right {
+    border-right: 1px solid #dee2e6!important;
+}
+
+.report-content .rp-left {
+    width: 34%;
+    padding-bottom: 35px;
+}
+
+.report-content .rp-right {
+    width: 66%;
+}
