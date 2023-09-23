@@ -269,6 +269,13 @@
 }
 
 @media (max-width: 768px) {
+    .logo-single img {
+        position: fixed;
+        top: 5px;
+        left: calc(50% - 55px);
+        z-index: 1;
+        height: 44px;
+    }
     .kqht-modal .left {
         width: 100%;
         margin-top: 20px;

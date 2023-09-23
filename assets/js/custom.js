@@ -183,5 +183,5 @@ $(window).on('load', function() {
 });
 
 $(document).ready(function() {
-    // $('#khaicm').modal('show');
+    // $('#danhsachdangky').modal('show');
 });
