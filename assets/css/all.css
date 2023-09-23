@@ -2429,7 +2429,7 @@ table>tbody>tr:hover .view-in-table-sticky {
 }
 
 .bus-wrp {
-    height: 323px;
+    max-height: 323px;
     overflow-y: scroll;
     position: relative;
 }
