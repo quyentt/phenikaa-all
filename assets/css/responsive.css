@@ -992,6 +992,9 @@
 }
 
 @media (max-width: 560px) {
+    .title-btn-gr {
+        flex-wrap: wrap;
+    }
     .baocap-kq-hoctap {
         flex-wrap: wrap;
     }
