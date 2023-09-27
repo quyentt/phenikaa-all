@@ -2432,6 +2432,8 @@ table>tbody>tr:hover .view-in-table-sticky {
     max-height: 323px;
     overflow-y: scroll;
     position: relative;
+    border-bottom: solid 1px #e1e1e1;
+    position: relative;
 }
 
 .bus-wrp thead {
@@ -2443,7 +2445,7 @@ table>tbody>tr:hover .view-in-table-sticky {
 /* width */
 
 .bus-wrp::-webkit-scrollbar {
-    width: 3px;
+    width: 8px;
 }
 
 
@@ -2457,7 +2459,9 @@ table>tbody>tr:hover .view-in-table-sticky {
 /* Handle */
 
 .bus-wrp::-webkit-scrollbar-thumb {
-    background: transparent;
+    /* background: transparent; */
+    background: rgba(0, 0, 0, .5);
+    border-radius: 5px;
 }
 
 .bus-wrp:hover::-webkit-scrollbar-thumb {
