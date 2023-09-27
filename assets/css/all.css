@@ -1837,6 +1837,7 @@ input:checked~label {
 }
 
 .accep-point .tab-list {
+    display: flex !important;
     padding: 15px 60px 0;
     position: relative;
     z-index: 1;
