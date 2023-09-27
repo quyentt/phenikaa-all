@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education management</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+
+<body>
+    <div class="wrapper ">
+        <div class="left-sidebar">
+            <div class="sidebar-top">
+                <a href="javascript:void(0)" class="menu-icon">
+                    <i class="fal fa-indent"></i>
+                </a>
+                <a href="javascript:void(0)" class="menu-icon-mobi">
+                    <i class="fal fa-indent"></i>
+                </a>
+                <a class="logo" href="#">
+                    <img class="logo-icon" src="../assets/images/logo.png">
+                    <img class="logo-name" src="../assets/images/logo-name.png">
+                </a>
+                <div class="line-1"></div>
+                <div class="line-2"></div>
+                <div class="line-hiden"></div>
+            </div>
+
+            <div class="sidebar-menu">
+                <div class="accordion" id="sidebar-menu">
+                    <div class="sidebar-menu-item ">
+                        <a class="sidebar-menu-header" href="">
+                            <i class="fas fa-tachometer-alt item-icon"></i>
+                            <span>dashboad</span>
+                        </a>
+                    </div>
+                    <!-- siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse1" href="javascrip:void(0)">
+                            <i class="fal fa-id-card item-icon"></i>
+                            <span>Hò sơ cá nhân</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse1" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1 co the dai hon</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse2" href="javascrip:void(0)">
+                            <i class="fal fa-user-chart item-icon"></i>
+                            <span>Lịch giảng</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse2" data-bs-parent="#sidebar-menu">
+
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item active">
+                        <a class="sidebar-menu-header" data-bs-toggle="collapse" data-bs-target="#collapse3" href="javascrip:void(0)">
+                            <i class="fal fa-address-book item-icon"></i>
+                            <span>Quản lý điểm</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse show" id="collapse3" data-bs-parent="#sidebar-menu">
+                            <a class="active" href="#">Bảng điểm</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse4" href="javascrip:void(0)">
+                            <i class="fal fa-file-invoice-dollar item-icon"></i>
+                            <span>Bảng lương</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse4" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse5" href="javascrip:void(0)">
+                            <i class="fal fa-analytics item-icon"></i>
+                            <span>Báo cáo thống kê</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse5" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+
+
+
+                </div>
+
+
+            </div>
+        </div>
+        <div class="content-page ">
+            <!-- navbar -->
+            <div class="navbar">
+                <div class="search-group-in-mobi">
+                    <i class="fal fa-search mobi-search-icon"></i>
+                    <form class="search-group">
+                        <input type="email" class="search-form" placeholder="Tìm kiếm thông tin">
+                        <button><i class="fal fa-search"></i></button>
+                    </form>
+                </div>
+                <div class="in-mobi-group">
+                    <div class="nav-menu-group">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                            <i class="fal fa-ellipsis-h-alt"></i>
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-notification">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                            <i class="fal fa-bell"><span class="noti-count">3</span></i>
+
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-setting">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                            <i class="fal fa-cog"></i>
+
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-account">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                            <div class="user-image">
+                                <i class="fas fa-user user-icon"></i>
+                            </div>
+                            <span>Admin</span>
+                            <i class="fal fa-chevron-down user-arrow"></i>
+
+
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end navbar -->
+            <!-- content -->
+            <div class="content one-door fake-modal">
+                <!-- <div class="modal-backdrop fade show"></div> -->
+                <div class="overlay"></div>
+
+                <!-- đăng ký nguyện vọng -->
+                <div class="box-shadow register-wish pt-0 z-index-9999 position-relative">
+                    <div class="d-flex justify-content-between pt-3 px-20">
+                        <div class="nav-content-left">
+
+                            <p class="link"><a href="#">Chỉnh sửa - kế hoạch</a></p>
+
+                        </div>
+
+                        <div class="nav-content-right mt">
+                            <a class="d-block text-right fs-20 color-66" href=""><i class="fal fa-times-circle"></i></a>
+                        </div>
+                    </div>
+                    <div class="form-top rounded-0 border-top">
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="form-item d-flex mb-15 form-add-info">
+                                    <label class="form-label">Mã kế hoạch</label>
+                                    <div class="input-group">
+                                        <input type="email" class="form-control" placeholder="" value="Xet đi thực tập TNK13D6D_HK_23-24(Đợt 1)">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="form-item d-flex mb-15 form-add-info">
+                                    <label class="form-label">Tên kế hoạch</label>
+                                    <div class="input-group">
+                                        <input type="email" class="form-control" placeholder="" value="Xet đi thực tập TNK13D6D_HK_23-24(Đợt 1)">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="form-item d-flex mb-15 form-add-info no-icon">
+                                    <label class="form-label">Học kỳ</label>
+                                    <div class="input-group">
+                                        <i class="fal fa-angle-down"></i>
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected="">2023_2024_1</option>
+                                            <option value="1">Công nghệ thông tin</option>
+                                            <option value="2">Kế toán</option>
+                                            <option value="3">Điện tử</option>
+                                        </select>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="form-item d-flex mb-15 form-add-info no-icon">
+                                    <label class="form-label">Phân loại xét</label>
+                                    <div class="input-group">
+                                        <i class="fal fa-angle-down"></i>
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected="">Xét thực tập tốt nghiệp</option>
+                                            <option value="1">Công nghệ thông tin</option>
+                                            <option value="2">Kế toán</option>
+                                            <option value="3">Điện tử</option>
+                                        </select>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="form-item d-flex mb-15 form-add-info">
+                                    <label class="form-label">Từ ngày</label>
+                                    <div class="input-group">
+                                        <input type="email" class="form-control" placeholder="" value="13/9/2023">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="form-item d-flex mb-15 form-add-info">
+                                    <label class="form-label">Đến ngày</label>
+                                    <div class="input-group">
+                                        <input type="email" class="form-control" placeholder="" value="13/9/2023">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="container-fluid px-20">
+                        <div class="row">
+                            <div class="col-12 col-lg-4 mt-4">
+                                <div class="d-flex align-items-center">
+                                    <span class="fw-bold text-success">Học phần</span>
+                                    <button class="btn-sm btn btn-outline-secondary min-w-auto px-3 ms-auto"><i class="fal fa-trash me-1"></i> Xóa</button>
+                                    <button class="btn-sm btn btn-outline-success min-w-auto px-3 ms-2"><i class="fal fa-plus me-1"></i> Thêm</button>
+                                </div>
+                                <div class="mt-2">
+                                    <table class="table transcrip-table tabs-scores ">
+                                        <thead>
+                                            <tr>
+                                                <th class="text-center" scope="col">STT</th>
+                                                <th scope="col">Mã học phần</th>
+                                                <th scope="col">Tên học phần</th>
+                                                <th class="text-center" scope="col">
+                                                    <input class="form-check-input" type="checkbox" value="" id="1">
+
+                                                </th>
+
+
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                                <td><em class="show-in-mobi">Mã học phần:</em><span>CNTT-T1K1</span></td>
+                                                <td><em class="show-in-mobi">Tên học phần:</em><span>Công nghệ thông tin-T2K1</span></td>
+                                                <td class="text-center"><em class="show-in-mobi">Chọn:</em><span><input class="form-check-input" type="checkbox" value="" id="1"></span></td>
+
+                                            </tr>
+                                            <tr>
+                                                <td colspan="4" class="text-center"> Không tìm thấy dữ liệu!</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="d-flex align-items-center mt-5">
+                                    <span class="fw-bold text-danger">Cán bộ phân công xét</span>
+                                    <button class="btn-sm btn btn-outline-danger min-w-auto px-3 ms-auto"><i class="fal fa-plus me-1"></i> Thêm cán bộ</button>
+
+                                </div>
+                                <div class="mt-2">
+                                    <table class="table transcrip-table tabs-scores ">
+                                        <thead>
+                                            <tr>
+                                                <th class="text-center" scope="col">STT</th>
+                                                <th scope="col">Mã số</th>
+                                                <th scope="col">Họ tên</th>
+                                                <th class="text-center" scope="col">
+                                                    Xóa
+
+                                                </th>
+
+
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                                <td><em class="show-in-mobi">Mã số:</em><span>CNTT-T1K1</span></td>
+                                                <td><em class="show-in-mobi">Họ tên:</em><span>Nguyễn Thu Hương</span></td>
+                                                <td class="text-center"><em class="show-in-mobi">Xóa:</em>
+                                                    <a class="color-66 hover-danger" href=""><i class="fal fa-trash"></i></a>
+                                                </td>
+
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-8 mt-3">
+                                <div class="d-flex  title-btn-gr">
+                                    <span class="fw-bold color-dask-blue flex-shrink-0 mt-2 pt-1">Danh sách học sinh - sinh viên xét duyệt</span>
+                                    <div class="ms-auto d-flex justify-content-end flex-wrap">
+                                        <button class="btn-sm btn btn-outline-secondary min-w-auto px-3 mt-2"><i class="fal fa-trash me-1"></i> Xóa</button>
+                                        <button class="btn-sm btn btn-outline-dask-blue min-w-auto px-3 ms-2 mt-2"><i class="fal fa-plus me-1"></i> Thêm từ kế hoạch tốt nghiệp khác</button>
+                                        <button class="btn-sm btn btn-outline-dask-blue min-w-auto px-3 ms-2 mt-2"><i class="fal fa-plus me-1"></i> Thêm từ đăng ký học</button>
+                                        <button class="btn-sm btn btn-outline-dask-blue min-w-auto px-3 ms-2 mt-2"><i class="fal fa-plus me-1"></i> Thêm thành viên</button>
+                                    </div>
+                                </div>
+                                <div class="mt-2 border border-dask-blue">
+                                    <table class="table transcrip-table tabs-scores border-l-0 border-right-0 border-top-0">
+                                        <thead>
+                                            <tr>
+                                                <th class="text-center bg-dask-blue text-white" scope="col">STT</th>
+                                                <th class="text-center bg-dask-blue text-white" scope="col">Hình ảnh</th>
+                                                <th class="bg-dask-blue text-white" scope="col">Mã số</th>
+                                                <th class="bg-dask-blue text-white" scope="col">Họ tên</th>
+                                                <th class="bg-dask-blue text-white" scope="col">Lớp</th>
+                                                <th class="bg-dask-blue text-white" scope="col">Chương trình</th>
+                                                <th class="bg-dask-blue text-white" scope="col">Khóa</th>
+                                                <th class="text-center bg-dask-blue text-white" scope="col">
+                                                    <input class="form-check-input" type="checkbox" value="" id="1">
+
+                                                </th>
+
+
+                                            </tr>
+
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                                <td class="text-center py-1" scope="row"><em class="show-in-mobi">Hình ảnh</em>
+                                                    <span class="user-avata-50">
+                                                        <i class="fas fa-user fs-20 color-66"></i>
+                                                    </span>
+                                                </td>
+                                                <td><em class="show-in-mobi">Mã số:</em><span>19010352</span></td>
+                                                <td><em class="show-in-mobi">Họ tên:</em><span>Nguyên Quang Chiêu</span></td>
+                                                <td><em class="show-in-mobi">Lớp:</em><span>K13D6D</span></td>
+                                                <td><em class="show-in-mobi">Chương trình:</em><span>Dược học</span></td>
+                                                <td><em class="show-in-mobi">Khóa:</em><span>Đại học chính quy Khóa 13_4 Năm (CT)</span></td>
+                                                <td class="text-center"><em class="show-in-mobi">Chọn:</em><span><input class="form-check-input" type="checkbox" value="" id="1"></span></td>
+
+                                            </tr>
+                                            <tr>
+                                                <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                                <td class="text-center py-1" scope="row"><em class="show-in-mobi">Hình ảnh</em>
+                                                    <span class="user-avata-50">
+                                                        <i class="fas fa-user fs-20 color-66"></i>
+                                                    </span>
+                                                </td>
+                                                <td><em class="show-in-mobi">Mã số:</em><span>19010352</span></td>
+                                                <td><em class="show-in-mobi">Họ tên:</em><span>Nguyên Quang Chiêu</span></td>
+                                                <td><em class="show-in-mobi">Lớp:</em><span>K13D6D</span></td>
+                                                <td><em class="show-in-mobi">Chương trình:</em><span>Dược học</span></td>
+                                                <td><em class="show-in-mobi">Khóa:</em><span>Đại học chính quy Khóa 13_4 Năm (CT)</span></td>
+                                                <td class="text-center"><em class="show-in-mobi">Chọn:</em><span><input class="form-check-input" type="checkbox" value="" id="1"></span></td>
+
+                                            </tr>
+                                            <tr>
+                                                <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                                <td class="text-center py-1" scope="row"><em class="show-in-mobi">Hình ảnh</em>
+                                                    <span class="user-avata-50">
+                                                        <i class="fas fa-user fs-20 color-66"></i>
+                                                    </span>
+                                                </td>
+                                                <td><em class="show-in-mobi">Mã số:</em><span>19010352</span></td>
+                                                <td><em class="show-in-mobi">Họ tên:</em><span>Nguyên Quang Chiêu</span></td>
+                                                <td><em class="show-in-mobi">Lớp:</em><span>K13D6D</span></td>
+                                                <td><em class="show-in-mobi">Chương trình:</em><span>Dược học</span></td>
+                                                <td><em class="show-in-mobi">Khóa:</em><span>Đại học chính quy Khóa 13_4 Năm (CT)</span></td>
+                                                <td class="text-center"><em class="show-in-mobi">Chọn:</em><span><input class="form-check-input" type="checkbox" value="" id="1"></span></td>
+
+                                            </tr>
+                                            <tr>
+                                                <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                                <td class="text-center py-1" scope="row"><em class="show-in-mobi">Hình ảnh</em>
+                                                    <span class="user-avata-50">
+                                                        <i class="fas fa-user fs-20 color-66"></i>
+                                                    </span>
+                                                </td>
+                                                <td><em class="show-in-mobi">Mã số:</em><span>19010352</span></td>
+                                                <td><em class="show-in-mobi">Họ tên:</em><span>Nguyên Quang Chiêu</span></td>
+                                                <td><em class="show-in-mobi">Lớp:</em><span>K13D6D</span></td>
+                                                <td><em class="show-in-mobi">Chương trình:</em><span>Dược học</span></td>
+                                                <td><em class="show-in-mobi">Khóa:</em><span>Đại học chính quy Khóa 13_4 Năm (CT)</span></td>
+                                                <td class="text-center"><em class="show-in-mobi">Chọn:</em><span><input class="form-check-input" type="checkbox" value="" id="1"></span></td>
+
+                                            </tr>
+                                            <tr>
+                                                <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                                <td class="text-center py-1" scope="row"><em class="show-in-mobi">Hình ảnh</em>
+                                                    <span class="user-avata-50">
+                                                        <i class="fas fa-user fs-20 color-66"></i>
+                                                    </span>
+                                                </td>
+                                                <td><em class="show-in-mobi">Mã số:</em><span>19010352</span></td>
+                                                <td><em class="show-in-mobi">Họ tên:</em><span>Nguyên Quang Chiêu</span></td>
+                                                <td><em class="show-in-mobi">Lớp:</em><span>K13D6D</span></td>
+                                                <td><em class="show-in-mobi">Chương trình:</em><span>Dược học</span></td>
+                                                <td><em class="show-in-mobi">Khóa:</em><span>Đại học chính quy Khóa 13_4 Năm (CT)</span></td>
+                                                <td class="text-center"><em class="show-in-mobi">Chọn:</em><span><input class="form-check-input" type="checkbox" value="" id="1"></span></td>
+
+                                            </tr>
+                                            <tr>
+                                                <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                                <td class="text-center py-1" scope="row"><em class="show-in-mobi">Hình ảnh</em>
+                                                    <span class="user-avata-50">
+                                                        <i class="fas fa-user fs-20 color-66"></i>
+                                                    </span>
+                                                </td>
+                                                <td><em class="show-in-mobi">Mã số:</em><span>19010352</span></td>
+                                                <td><em class="show-in-mobi">Họ tên:</em><span>Nguyên Quang Chiêu</span></td>
+                                                <td><em class="show-in-mobi">Lớp:</em><span>K13D6D</span></td>
+                                                <td><em class="show-in-mobi">Chương trình:</em><span>Dược học</span></td>
+                                                <td><em class="show-in-mobi">Khóa:</em><span>Đại học chính quy Khóa 13_4 Năm (CT)</span></td>
+                                                <td class="text-center"><em class="show-in-mobi">Chọn:</em><span><input class="form-check-input" type="checkbox" value="" id="1"></span></td>
+
+                                            </tr>
+                                            <!-- <tr>
+                                                <td colspan="4" class="text-center"> Không tìm thấy dữ liệu!</td>
+                                            </tr> -->
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="d-flex align-items-center mt-4 flex-wrap mb-4">
+
+                                    <div class="btn btn-success  px-4 ms-auto min-w-auto px-4"><i class="fal fa-save me-2"></i> Lưu</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end đăng ký nguyện vọng -->
+            </div>
+        </div>
+        <!-- end content -->
+
+        <!-- copy right -->
+        <div class="copyright ">
+            <marquee>
+                Đơn vị phát triển: Công ty Cổ Phần dịch vụ Công nghệ APIS - Địa chỉ: Tầng 6 Tháp Tây, Tòa nhà Hancorp, Số, 72 Trần Đăng Ninh, P, Cầu Giấy, Hà Nội - Điện thoại: 024 3204 5867
+            </marquee>
+        </div>
+        <!-- end copy right -->
+    </div>
+
+
+</body>
+<script src="../assets/js/bootstrap.bundle.min.js "></script>
+<script src="../assets/js/swiper-bundle.min.js"></script>
+<script src="../assets/js/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="../assets/js/slick.js"></script>
+<script src="../assets/js/jquery-searchbox.js"></script>
+<script src="../assets/js/custom.js"></script>
+<script src="../assets/js/masonry.pkgd.min.js"></script>
+
+
+</html>
