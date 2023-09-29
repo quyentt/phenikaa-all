@@ -2669,3 +2669,64 @@ table>tbody>tr:hover .view-in-table-sticky {
     box-shadow: 0px 0px 30px 15px rgba(0, 0, 0, 0.4);
     min-height: calc(100% - 40px);
 }
+
+.select2-selection--multiple {
+    border-color: #acbeec !important;
+    padding: 0 !important;
+    min-height: 38px !important;
+    padding-top: 4px !important;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__rendered li {
+    height: 28px !important;
+    display: flex;
+    align-items: center;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__rendered {
+    border-radius: 4px !important;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.inputs-wr {
+    display: flex;
+    flex: 1;
+    margin: 0 -7px;
+}
+
+.inputs-tksv {
+    align-items: flex-end;
+}
+
+.inputs-tksv .btn {
+    flex-shrink: 0;
+    margin-left: 14px !important;
+    margin-bottom: 16px;
+}
+
+.inputs-wr .item {
+    width: 20%;
+    padding: 0 7px 15px;
+}
+
+.list-title-first p {
+    width: 110px;
+}
+
+.list-title-first .lists {
+    width: calc(100% - 110px);
+    padding-top: 7px;
+}
+
+.list-title-first .lists .form-check {
+    font-size: 14px;
+    min-width: 205px;
+    padding-left: 35px;
+}
+
+.list-title-first .lists .form-check input:checked~label {
+    font-weight: normal;
+}

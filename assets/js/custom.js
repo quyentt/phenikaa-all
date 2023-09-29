@@ -183,5 +183,5 @@ $(window).on('load', function() {
 });
 
 $(document).ready(function() {
-    // $('#danhsachdangky').modal('show');
+    $('#themmoi').modal('show');
 });

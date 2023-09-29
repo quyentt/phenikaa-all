@@ -155,6 +155,13 @@
 }
 
 @media (max-width: 1024px) {
+    .inputs-wr {
+        flex-wrap: wrap;
+        justify-content: end;
+    }
+    .inputs-wr .item {
+        width: 33.333333%;
+    }
     .btn-g-inlist {
         width: 385px;
     }
@@ -992,6 +999,23 @@
 }
 
 @media (max-width: 560px) {
+    .btn-on-paging {
+        width: auto !important;
+        margin-top: 10px;
+    }
+    .register-wish .btn {
+        width: 100%;
+        margin-left: 0 !important;
+    }
+    .inputs-tksv {
+        flex-wrap: wrap;
+    }
+    .inputs-wr {
+        width: 100%;
+    }
+    .inputs-wr .item {
+        width: 100%;
+    }
     .title-btn-gr {
         flex-wrap: wrap;
     }
