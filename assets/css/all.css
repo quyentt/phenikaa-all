@@ -2440,6 +2440,11 @@ table>tbody>tr:hover .view-in-table-sticky {
 .bus-wrp thead {
     position: sticky;
     top: 0;
+    z-index: 1;
+}
+
+.bus-wrp .table {
+    margin-bottom: -1px;
 }
 
 
@@ -2729,4 +2734,25 @@ table>tbody>tr:hover .view-in-table-sticky {
 
 .list-title-first .lists .form-check input:checked~label {
     font-weight: normal;
+}
+
+.title-center-line {
+    font-weight: bold;
+    position: relative;
+    align-items: center;
+    display: flex;
+}
+
+.title-center-line::before {
+    height: 1px;
+    width: 100%;
+    content: "";
+    background: #e1e1e1;
+    position: absolute;
+}
+
+.title-center-line span {
+    position: relative;
+    background: white;
+    padding-right: 10px;
 }
