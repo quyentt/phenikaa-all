@@ -1241,7 +1241,7 @@ input::placeholder {
 .form-top {
     padding: 20px 20px 5px 20px;
     border-radius: 10px 10px 0 0;
-    background: #e4e4e4;
+    background: #f4f4f4;
     border: solid 1px #e1e1e1;
 }
 
@@ -2755,4 +2755,36 @@ table>tbody>tr:hover .view-in-table-sticky {
     position: relative;
     background: white;
     padding-right: 10px;
+}
+
+.max-w-100 {
+    max-width: 100% !important;
+}
+
+.form-top .title-center-line::before {
+    background: #e1e1e1;
+}
+
+.form-top .title-center-line span {
+    background: #f4f4f4;
+}
+
+.position-initial {
+    position: initial !important;
+}
+
+.-right-1 {
+    right: -1px;
+}
+
+.w-100px {
+    width: 100px;
+}
+
+.w-130px {
+    width: 130px;
+}
+
+.w-120px {
+    width: 120px;
 }
