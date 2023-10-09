@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education management</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+
+<body>
+    <div class="wrapper ">
+        <div class="left-sidebar">
+            <div class="sidebar-top">
+                <a href="javascript:void(0)" class="menu-icon">
+                    <i class="fal fa-indent"></i>
+                </a>
+                <a href="javascript:void(0)" class="menu-icon-mobi">
+                    <i class="fal fa-indent"></i>
+                </a>
+                <div class="logo-single">
+                    <img src="../assets/images/CMC/logo.png" alt="">
+                </div>
+                <div class="line-1"></div>
+                <div class="line-2"></div>
+                <div class="line-hiden"></div>
+            </div>
+
+            <div class="sidebar-menu">
+                <div class="accordion" id="sidebar-menu">
+                    <div class="sidebar-menu-item ">
+                        <a class="sidebar-menu-header" href="">
+                            <i class="fas fa-tachometer-alt item-icon"></i>
+                            <span>dashboad</span>
+                        </a>
+                    </div>
+                    <!-- siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse1" href="javascrip:void(0)">
+                            <i class="fal fa-id-card item-icon"></i>
+                            <span>Hò sơ cá nhân</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse1" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1 co the dai hon</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse2" href="javascrip:void(0)">
+                            <i class="fal fa-user-chart item-icon"></i>
+                            <span>Lịch giảng</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse2" data-bs-parent="#sidebar-menu">
+
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item active">
+                        <a class="sidebar-menu-header" data-bs-toggle="collapse" data-bs-target="#collapse3" href="javascrip:void(0)">
+                            <i class="fal fa-address-book item-icon"></i>
+                            <span>Quản lý điểm</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse show" id="collapse3" data-bs-parent="#sidebar-menu">
+                            <a class="active" href="#">Bảng điểm</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse4" href="javascrip:void(0)">
+                            <i class="fal fa-file-invoice-dollar item-icon"></i>
+                            <span>Bảng lương</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse4" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse5" href="javascrip:void(0)">
+                            <i class="fal fa-analytics item-icon"></i>
+                            <span>Báo cáo thống kê</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse5" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+
+
+
+                </div>
+
+
+            </div>
+        </div>
+        <div class="content-page ">
+            <!-- navbar -->
+            <div class="navbar">
+                <div class="search-group-in-mobi">
+                    <i class="fal fa-search mobi-search-icon"></i>
+                    <form class="search-group">
+                        <input type="email" class="search-form" placeholder="Tìm kiếm thông tin">
+                        <button><i class="fal fa-search"></i></button>
+                    </form>
+                </div>
+                <div class="in-mobi-group">
+                    <div class="nav-menu-group">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                            <i class="fal fa-ellipsis-h-alt"></i>
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-notification">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                            <i class="fal fa-bell"><span class="noti-count">3</span></i>
+
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-setting">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                            <i class="fal fa-cog"></i>
+
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-account">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                            <div class="user-image">
+                                <i class="fas fa-user user-icon"></i>
+                            </div>
+                            <span>Admin</span>
+                            <i class="fal fa-chevron-down user-arrow"></i>
+
+
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end navbar -->
+            <!-- content -->
+            <div class="content one-door">
+                <div class="overlay"></div>
+                <div class="content-tab no-tab">
+                    <div class="d-flex justify-content-between">
+                        <div class="nav-content-left">
+
+                            <p class="link"><a href="#">quản lý chung</a><i class="fal fa-angle-right"></i><a href="#">Thực hiện kiểm tra & checkIn</a></p>
+
+                        </div>
+
+                        <div class="nav-content-right">
+                            <a class="d-block text-right" href=""><i class="fas fa-question-circle"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- đăng ký nguyện vọng -->
+                <div class="box-shadow register-wish pt-0">
+                    <div class="form-top">
+                        <div class="d-flex flex-wrap ft-row-check align-items-center">
+                            <!-- <p class="ft-label">Thông tin sự kiện:</p> -->
+                            <p class="mb-0 fw-bold">Ngày hội nhập học dành cho Tân sinh viên Trường Đại học CMC Khóa 2 năm 2023</p>
+                        </div>
+                        <div class="d-flex ft-row-check align-items-center flex-wrap">
+                            <div class="d-flex align-items-center flex-wrap iform">
+                                <p class="ft-label">Tìm theo mã số đăng ký:</p>
+                                <div class="form-item d-flex form-add-info">
+                                    <div class="input-group no-icon">
+
+                                        <input type="text" class="form-control" placeholder="Nhập mã đăng ký">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center flex-wrap iform">
+                                <p class="ft-label text-right pe-3">Tìm theo mã số sinh viên:</p>
+                                <div class="form-item d-flex form-add-info">
+                                    <div class="input-group no-icon">
+
+                                        <input type="text" class="form-control" placeholder="Nhập mã sinh viên">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="btn btn-dask-blue "><i class="fal fa-check me-2"></i> Kiểm tra</div>
+
+                        </div>
+
+                    </div>
+                    <div class="container-fluid px-20">
+                        <p class="color-dask-blue fw-bold mt-3 mb-1">Thông tin sinh viên</p>
+                        <div class="st-info-row">
+                            <div class="image">
+                                <img src="../assets/images/avata-form.jpg" alt="">
+                            </div>
+                            <div class="info">
+
+                                <div class="info-row">
+                                    <p class="st-info-label">
+                                        Họ và tên:
+                                    </p>
+                                    <p class="fw-bold">Trần Hoàng việt</p>
+                                </div>
+                                <div class="info-row">
+                                    <p class="st-info-label">
+                                        Hệ đào tạo:
+                                    </p>
+                                    <p class="fw-bold">Đại học</p>
+                                </div>
+                                <div class="info-row">
+                                    <p class="st-info-label">
+                                        Khóa đào tạo:
+                                    </p>
+                                    <p class="fw-bold">K-51</p>
+                                </div>
+                                <div class="info-row">
+                                    <p class="st-info-label">
+                                        Chương trình đào tạo:
+                                    </p>
+                                    <p class="fw-bold">--Tên trương trình đào tạo</p>
+                                </div>
+                                <div class="info-row">
+                                    <p class="st-info-label">
+                                        Lớp quản lý:
+                                    </p>
+                                    <p class="fw-bold">--Tên Lớp quản ký</p>
+                                </div>
+                                <div class="info-row">
+                                    <p class="st-info-label">
+                                        Tình trạng:
+                                    </p>
+                                    <p class="fw-bold"></p>
+                                </div>
+
+                            </div>
+                            <div class="info">
+                                <div class="info-row">
+                                    <p class="st-info-label">
+                                        Tình trạng đăng ký tham gia:
+                                    </p>
+                                    <p><span class="rounded border text-success px-2 py-1 border-success">Đã đăng ký</span></p>
+                                </div>
+                                <div class="info-row">
+                                    <p class="st-info-label">
+                                        Mã số đăng ký:
+                                    </p>
+                                    <p class="fw-bold">ABC-123456789</p>
+                                </div>
+                                <div class="info-row">
+                                    <p class="st-info-label">
+                                        Mã số:
+                                    </p>
+                                    <p class="fw-bold">123456789</p>
+                                </div>
+                                <div class="mt-5">
+                                    <div class="btn btn-success "><i class="fal fa-map-marker-check me-2"></i> Check In</div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <p class="color-dask-blue fw-bold mt-3 mb-1">Danh sách check In</p>
+                        <table class="table transcrip-table tabs-scores h-auto">
+                            <thead>
+                                <tr>
+                                    <th class="text-center w-50px" scope="col">STT</th>
+
+                                    <th class="" scope="col">Mã số</th>
+                                    <th class="" scope="col">Họ tên</th>
+                                    <th class="text-center" scope="col">Thời gian</th>
+                                    <th class="text-center" scope="col">Đã đang ký tham gia</th>
+                                    <th class="text-center" scope="col">Người check in</th>
+
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                    <td><em class="show-in-mobi"> Mã số:</em><span>123456789</span></td>
+                                    <td><em class="show-in-mobi"> Họ tên:</em><span>Hoàng Đình Phong</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Thời gian:</em><span>29/08/2023</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Đã đăng ký tham gia:</em><span class="border border-success rounded px-3 text-success">Đã đăng ký</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Người check in:</em><span>Tên người check in</span></td>
+
+                                </tr>
+                                <tr>
+                                    <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                    <td><em class="show-in-mobi"> Mã số:</em><span>123456789</span></td>
+                                    <td><em class="show-in-mobi"> Họ tên:</em><span>Hoàng Đình Phong</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Thời gian:</em><span>29/08/2023</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Đã đăng ký tham gia:</em><span class="border border-danger rounded px-3 text-danger">Chưa đăng ký</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Người check in:</em><span>Tên người check in</span></td>
+
+                                </tr>
+                                <tr>
+                                    <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                    <td><em class="show-in-mobi"> Mã số:</em><span>123456789</span></td>
+                                    <td><em class="show-in-mobi"> Họ tên:</em><span>Hoàng Đình Phong</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Thời gian:</em><span>29/08/2023</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Đã đăng ký tham gia:</em><span class="border border-success rounded px-3 text-success">Đã đăng ký</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Người check in:</em><span>Tên người check in</span></td>
+
+                                </tr>
+                                <tr>
+                                    <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                    <td><em class="show-in-mobi"> Mã số:</em><span>123456789</span></td>
+                                    <td><em class="show-in-mobi"> Họ tên:</em><span>Hoàng Đình Phong</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Thời gian:</em><span>29/08/2023</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Đã đăng ký tham gia:</em><span class="border border-danger rounded px-3 text-danger">Chưa đăng ký</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Người check in:</em><span>Tên người check in</span></td>
+
+                                </tr>
+
+                            </tbody>
+                        </table>
+
+
+
+
+                    </div>
+                </div>
+                <!-- end đăng ký nguyện vọng -->
+            </div>
+        </div>
+        <!-- end content -->
+
+        <!-- copy right -->
+        <div class="copyright ">
+            <marquee>
+                Đơn vị phát triển: Công ty Cổ Phần dịch vụ Công nghệ APIS - Địa chỉ: Tầng 6 Tháp Tây, Tòa nhà Hancorp, Số, 72 Trần Đăng Ninh, P, Cầu Giấy, Hà Nội - Điện thoại: 024 3204 5867
+            </marquee>
+        </div>
+        <!-- end copy right -->
+    </div>
+    <!-- modal đăng ký -->
+    <div class="modal fade register-wish " id="danhsachdangky" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-1440">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="finance-user-info in-modal ">
+                        <p><b>Danh sách đã đăng ký tham gia</b></p>
+
+
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="col-12">
+                        <table class="table tabs-scores  transcrip-table border-l-0 border-right-0">
+                            <thead>
+                                <tr>
+                                    <th class="text-center" scope="col">STT</th>
+                                    <th scope="col">Mã số</th>
+                                    <th class="" scope="col">Họ đệm</th>
+                                    <th class="" scope="col">Tên</th>
+                                    <th class="" scope="col">Lớp</th>
+                                    <th class="" scope="col">Ngành</th>
+                                    <th class="" scope="col">Khóa</th>
+                                    <th class="text-center" scope="col">Xác nhận tham gia</th>
+                                    <th class="text-center" scope="col">Thời gian xác nhận</th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span class="fw-normal">1</span></th>
+                                    <td><em class="show-in-mobi">Mã số:</em><span class="truncate-1">BCE702018</span></td>
+                                    <td><em class="show-in-mobi">Họ đê:</em><span class="truncate-1">Trần Văn</span></td>
+                                    <td><em class="show-in-mobi">Tên:</em><span class="truncate-1">Quang</span></td>
+                                    <td><em class="show-in-mobi">Lớp:</em><span class="truncate-1">CNTT-1234</span></td>
+                                    <td><em class="show-in-mobi">Ngành:</em><span class="truncate-1">Khoa học máy tính</span></td>
+                                    <td><em class="show-in-mobi">Khóa:</em><span class="truncate-1">K-11</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Xác nhận tham gia:</em>
+                                        <span><input class="form-check-input" type="checkbox" value="" id="1"></span>
+                                    </td>
+                                    <td class="text-center"><em class="show-in-mobi">Thời gian xác nhận:</em>
+                                        <span>22/09/2023</span>
+
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span class="fw-normal">2</span></th>
+                                    <td><em class="show-in-mobi">Mã số:</em><span class="truncate-1">BCE702018</span></td>
+                                    <td><em class="show-in-mobi">Họ đê:</em><span class="truncate-1">Lê Hoàng Bảo</span></td>
+                                    <td><em class="show-in-mobi">Tên:</em><span class="truncate-1">Trâm</span></td>
+                                    <td><em class="show-in-mobi">Lớp:</em><span class="truncate-1">CNTT-1234</span></td>
+                                    <td><em class="show-in-mobi">Ngành:</em><span class="truncate-1">Khoa học máy tính</span></td>
+                                    <td><em class="show-in-mobi">Khóa:</em><span class="truncate-1">K-11</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Xác nhận tham gia:</em>
+                                        <span><input class="form-check-input" type="checkbox" value="" id="1"></span>
+                                    </td>
+                                    <td class="text-center"><em class="show-in-mobi">Thời gian xác nhận:</em>
+                                        <span>22/09/2023</span>
+
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span class="fw-normal">3</span></th>
+                                    <td><em class="show-in-mobi">Mã số:</em><span class="truncate-1">BCE702018</span></td>
+                                    <td><em class="show-in-mobi">Họ đê:</em><span class="truncate-1">Đặng Hoàng</span></td>
+                                    <td><em class="show-in-mobi">Tên:</em><span class="truncate-1">Anh</span></td>
+                                    <td><em class="show-in-mobi">Lớp:</em><span class="truncate-1">CNTT-1234</span></td>
+                                    <td><em class="show-in-mobi">Ngành:</em><span class="truncate-1">Khoa học máy tính</span></td>
+                                    <td><em class="show-in-mobi">Khóa:</em><span class="truncate-1">K-11</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Xác nhận tham gia:</em>
+                                        <span><input class="form-check-input" type="checkbox" value="" id="1"></span>
+                                    </td>
+                                    <td class="text-center"><em class="show-in-mobi">Thời gian xác nhận:</em>
+                                        <span>22/09/2023</span>
+
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span class="fw-normal">4</span></th>
+                                    <td><em class="show-in-mobi">Mã số:</em><span class="truncate-1">BCE702018</span></td>
+                                    <td><em class="show-in-mobi">Họ đê:</em><span class="truncate-1">Trần Văn</span></td>
+                                    <td><em class="show-in-mobi">Tên:</em><span class="truncate-1">Quang</span></td>
+                                    <td><em class="show-in-mobi">Lớp:</em><span class="truncate-1">CNTT-1234</span></td>
+                                    <td><em class="show-in-mobi">Ngành:</em><span class="truncate-1">Khoa học máy tính</span></td>
+                                    <td><em class="show-in-mobi">Khóa:</em><span class="truncate-1">K-11</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Xác nhận tham gia:</em>
+                                        <span><input class="form-check-input" type="checkbox" value="" id="1"></span>
+                                    </td>
+                                    <td class="text-center"><em class="show-in-mobi">Thời gian xác nhận:</em>
+                                        <span>22/09/2023</span>
+
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span class="fw-normal">5</span></th>
+                                    <td><em class="show-in-mobi">Mã số:</em><span class="truncate-1">BCE702018</span></td>
+                                    <td><em class="show-in-mobi">Họ đê:</em><span class="truncate-1">Trần Văn</span></td>
+                                    <td><em class="show-in-mobi">Tên:</em><span class="truncate-1">Quang</span></td>
+                                    <td><em class="show-in-mobi">Lớp:</em><span class="truncate-1">CNTT-1234</span></td>
+                                    <td><em class="show-in-mobi">Ngành:</em><span class="truncate-1">Khoa học máy tính</span></td>
+                                    <td><em class="show-in-mobi">Khóa:</em><span class="truncate-1">K-11</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Xác nhận tham gia:</em>
+                                        <span><input class="form-check-input" type="checkbox" value="" id="1"></span>
+                                    </td>
+                                    <td class="text-center"><em class="show-in-mobi">Thời gian xác nhận:</em>
+                                        <span>22/09/2023</span>
+
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="d-flex align-items-center mt-4 flex-wrap mb-4">
+
+                        <div class="btn btn-dask-blue  px-4 ms-auto "><i class="fal fa-save me-2"></i> Lưu</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script src="../assets/js/bootstrap.bundle.min.js "></script>
+<script src="../assets/js/swiper-bundle.min.js"></script>
+<script src="../assets/js/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="../assets/js/slick.js"></script>
+<script src="../assets/js/jquery-searchbox.js"></script>
+<script src="../assets/js/custom.js"></script>
+<script src="../assets/js/masonry.pkgd.min.js"></script>
+
+
+</html>

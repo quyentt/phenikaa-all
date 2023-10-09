@@ -2788,3 +2788,80 @@ table>tbody>tr:hover .view-in-table-sticky {
 .w-120px {
     width: 120px;
 }
+
+
+/* lịch giảng full screen */
+
+.lect-sche {
+    font-size: 0.8vw;
+}
+
+.lect-sche .led-main {
+    padding: 1rem;
+}
+
+.lect-left,
+.lect-right {
+    width: 20%;
+    background: white;
+}
+
+.lect-center {
+    flex: 1;
+    padding: 0 1rem;
+}
+
+.ft-label {
+    margin-bottom: 0;
+    color: #666666;
+    font-size: 14px;
+    width: 200px;
+}
+
+.ft-row-check {
+    margin-bottom: 15px;
+}
+
+.ft-row-check .form-item {
+    width: 270px;
+    margin-right: 15px;
+}
+
+.st-info-row {
+    display: flex;
+    font-style: 14px;
+}
+
+.st-info-row .info-row {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    padding: 8px 7px;
+}
+
+.st-info-row .info-row:hover {
+    background: #f4f4f4;
+}
+
+.st-info-row .info-row p {
+    margin-bottom: 0;
+}
+
+.st-info-row .info-row .st-info-label {
+    color: #666666;
+    width: 180px;
+}
+
+.st-info-row .info {
+    width: calc((100% - 230px) / 2);
+    padding: 0 15px;
+}
+
+.st-info-row .image img {
+    width: 190px;
+    height: 190px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-right: 40px;
+    margin-top: 15px;
+}

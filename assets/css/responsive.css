@@ -105,6 +105,12 @@
 }
 
 @media (max-width: 1360px) {
+    .ft-row-check .iform {
+        margin-bottom: 15px;
+    }
+    .ft-row-check .btn {
+        margin-left: auto;
+    }
     .report-content {
         flex-wrap: wrap;
     }
@@ -276,6 +282,16 @@
 }
 
 @media (max-width: 768px) {
+    .st-info-row {
+        flex-wrap: wrap;
+    }
+    .st-info-row .info {
+        width: 100%;
+        padding: 0;
+    }
+    .st-info-row .image {
+        margin-bottom: 20px;
+    }
     .logo-single img {
         position: fixed;
         top: 5px;
@@ -999,6 +1015,10 @@
 }
 
 @media (max-width: 560px) {
+    .ft-row-check .form-item {
+        width: 100%;
+        margin-right: 0;
+    }
     .btn-on-paging {
         width: auto !important;
         margin-top: 10px;
