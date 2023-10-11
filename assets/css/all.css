@@ -2789,28 +2789,6 @@ table>tbody>tr:hover .view-in-table-sticky {
     width: 120px;
 }
 
-
-/* lịch giảng full screen */
-
-.lect-sche {
-    font-size: 0.8vw;
-}
-
-.lect-sche .led-main {
-    padding: 1rem;
-}
-
-.lect-left,
-.lect-right {
-    width: 20%;
-    background: white;
-}
-
-.lect-center {
-    flex: 1;
-    padding: 0 1rem;
-}
-
 .ft-label {
     margin-bottom: 0;
     color: #666666;
@@ -2864,4 +2842,607 @@ table>tbody>tr:hover .view-in-table-sticky {
     overflow: hidden;
     margin-right: 40px;
     margin-top: 15px;
+}
+
+
+/* lịch giảng full screen */
+
+.lect-sche {
+    font-size: 0.64vw;
+}
+
+.lect-sche .led-main {
+    padding: 1rem 0;
+}
+
+.lect-sche .led-header {
+    padding: 0 1.7rem;
+}
+
+.lect-left,
+.lect-right {
+    width: 20%;
+    padding: 0 1.1rem;
+    height: calc(100vh - 30rem);
+}
+
+.lect-sche .led-content {
+    background: #183885;
+    border-radius: 0;
+    border: none;
+    margin-top: 1.3rem;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 5.6rem);
+}
+
+.lect-block-title {
+    color: #fff600;
+    font-size: 1.4rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.lect-box-group {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.7rem 0;
+    margin: 0 -0.3rem;
+}
+
+.lect-box-item {
+    padding: 0.3rem;
+    width: 33.333333%;
+}
+
+.lect-box-item .wr {
+    height: 3.7rem;
+    border: solid 0.08rem #5970a7;
+    border-radius: 0.3rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0.6rem;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.lect-box-item .wr span:first-child {
+    font-size: 1.15rem;
+    font-weight: bold;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+}
+
+.lect-box-item .wr span:last-child {
+    font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+    opacity: 0.6;
+}
+
+.lect-box-item:hover .wr,
+.lect-box-item.active .wr {
+    background: white;
+    color: #183885;
+}
+
+.lect-block-btn {
+    width: 100%;
+    display: block;
+    background: #5e74aa;
+    color: #bfc7dd;
+    display: flex;
+    align-items: center;
+    border-radius: 0.4rem;
+    justify-content: center;
+    height: 2.5rem;
+    border: solid 0.08rem #3d5899;
+    margin: 0.4rem;
+}
+
+.lect-block-btn i {
+    margin-left: 0.4rem;
+}
+
+.lect-block-btn:hover {
+    color: #fff600;
+    background: #0e2250;
+}
+
+.lect-block-title.second {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+    margin-top: 0;
+}
+
+.lect-search-input {
+    margin-top: 0.4rem;
+    margin-bottom: 0.7rem;
+}
+
+.lect-text-input {
+    height: 2.5rem;
+    border: solid 0.08rem #3d5899;
+    background: transparent;
+    width: 100%;
+    height: 2.5rem;
+    font-size: 0.9rem;
+    border-radius: 0.4rem;
+    color: white;
+    padding: 0 1rem;
+}
+
+.lect-text-input::placeholder {
+    font-size: 0.9rem;
+    opacity: 0.6;
+}
+
+.lect-search-input i {
+    position: absolute;
+    right: 1rem;
+    top: 0.8rem;
+    pointer-events: none;
+    color: white;
+    opacity: 0.6;
+}
+
+.lect-table {}
+
+.lect-table .theader,
+.lect-table .lect-table-row {
+    height: 2.7rem;
+}
+
+.lect-table .led-table-cell:first-child {
+    width: 13%;
+    justify-content: center;
+}
+
+.lect-table .led-table-cell:nth-child(2) {
+    width: 24%;
+    justify-content: center;
+}
+
+.lect-table .led-table-cell:nth-child(3) {
+    flex: 1;
+    text-align: center;
+}
+
+.lect-table .led-table-cell:last-child {
+    width: 17%;
+    justify-content: center;
+}
+
+
+/* The container */
+
+.lect-checkbox {
+    display: flex;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Hide the browser's default checkbox */
+
+.lect-checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+
+/* Create a custom checkbox */
+
+.lect-checkbox .checkmark {
+    position: absolute;
+    height: 1.15rem;
+    width: 1.15rem;
+    background-color: transparent;
+    border: solid 0.08rem #92a0c4;
+    border-radius: 0.3rem;
+}
+
+
+/* On mouse-over, add a grey background color */
+
+.lect-checkbox:hover input~.checkmark {
+    background-color: #fff600;
+}
+
+
+/* When the checkbox is checked, add a blue background */
+
+.lect-checkbox input:checked~.checkmark {
+    background-color: #2196F3;
+}
+
+
+/* Create the checkmark/indicator (hidden when not checked) */
+
+.lect-checkbox .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+/* Show the checkmark when checked */
+
+.lect-checkbox input:checked~.checkmark:after {
+    display: block;
+}
+
+
+/* Style the checkmark/indicator */
+
+.lect-checkbox .checkmark:after {
+    left: 0.3rem;
+    top: 0.rem;
+    width: 0.43rem;
+    height: 0.7rem;
+    border: solid white;
+    border-width: 0 0.15rem 0.15rem 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.lect-table .lect-table-row:nth-child(2n-1) {
+    background: #2a488f;
+}
+
+.lect-inputs {
+    background: #132d6a;
+    height: 4.6rem;
+    align-items: center;
+    margin-bottom: 0.3rem;
+}
+
+.lect-date-input {
+    height: 2.45rem;
+    position: relative;
+    font-size: 1rem;
+    width: 10.4rem;
+}
+
+.lect-date-input input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 0.3rem;
+    padding: 0 4rem 0 1rem;
+    text-align: right;
+}
+
+.lect-date-input i {
+    position: absolute;
+    right: 1rem;
+    top: 0.6rem;
+    font-size: 1.2rem;
+    color: var(--dask-blue);
+    pointer-events: none;
+}
+
+.lect-date-label {
+    color: white;
+    width: 7.7rem;
+    display: block;
+    padding-left: 2rem;
+}
+
+.lect-inputs .btn {
+    height: 2.6rem;
+    border-width: 0.08rem;
+    margin-left: 1.2rem;
+    padding: 0 1.5rem;
+}
+
+.lect-sche .hour-row {
+    height: 3.8rem;
+}
+
+.lect-sche .task-header {
+    max-height: 3rem;
+}
+
+.lect-sche .task-header .title {
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+
+.lect-sche .task-header .student-num {
+    width: 1.9rem;
+    height: 1.9rem;
+    font-size: 1rem;
+}
+
+.lect-sche .task-header .task-date,
+.lect-sche .day-of-week .task .task-description,
+.lect-sche .date-header .text {
+    font-size: 0.9rem;
+    line-height: 1rem;
+}
+
+.lect-sche .date .hour-row {
+    font-size: 1rem;
+}
+
+.lect-sche .date-header .day {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: 600
+}
+
+.lect-sche .date-header i.day {
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+
+.lect-student-list .led-table-cell:nth-child(1) {
+    width: 3%;
+}
+
+.lect-student-list .led-table-cell:nth-child(2) {
+    width: 5%;
+}
+
+.lect-student-list .led-table-cell:nth-child(3) {
+    width: 10%;
+    flex: none;
+}
+
+.lect-student-list .led-table-cell:nth-child(4) {
+    width: 4.5%;
+}
+
+.lect-student-list .led-table-cell:nth-child(5) {
+    flex: 1;
+}
+
+.lect-student-list .led-table-cell:nth-child(6) {
+    width: 10%;
+}
+
+.lect-student-list .led-table-cell:nth-child(7) {
+    width: 10%;
+}
+
+.lect-student-list .led-table-cell:nth-child(8) {
+    width: 15%;
+}
+
+.lect-student-list .led-table-cell:nth-child(9) {
+    width: 15%;
+}
+
+.stdt-list {
+    background: #132d6a;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    margin-top: auto;
+    margin-left: 1.1rem;
+    margin-right: 1.1rem;
+}
+
+.lect-center {
+    flex: 1;
+    margin-top: 2.5rem;
+    height: calc(100vh - 30rem);
+}
+
+.lect-sche .calendar-week-table {
+    height: calc(100% - 2rem);
+}
+
+.lect-sche .box-shadow {
+    height: calc(100% - 16rem);
+}
+
+.lect-sche .date-body {
+    height: calc(100% - 2rem);
+}
+
+
+/*************** SCROLLBAR BASE CSS ***************/
+
+.scroll-wrapper {
+    overflow: hidden !important;
+    padding: 0 !important;
+    position: relative;
+}
+
+.scroll-wrapper>.scroll-content {
+    border: none !important;
+    box-sizing: content-box !important;
+    height: auto;
+    left: 0;
+    margin: 0;
+    max-height: none;
+    max-width: none !important;
+    overflow: scroll !important;
+    padding: 0;
+    position: relative !important;
+    top: 0;
+    width: auto !important;
+}
+
+.scroll-wrapper>.scroll-content::-webkit-scrollbar {
+    height: 0;
+    width: 0;
+}
+
+.scroll-element {
+    display: none;
+}
+
+.scroll-element,
+.scroll-element div {
+    box-sizing: content-box;
+}
+
+.scroll-element.scroll-x.scroll-scrollx_visible,
+.scroll-element.scroll-y.scroll-scrolly_visible {
+    display: block;
+}
+
+.scroll-element .scroll-bar,
+.scroll-element .scroll-arrow {
+    cursor: default;
+}
+
+.scroll-textarea {
+    border: 1px solid #cccccc;
+    border-top-color: #999999;
+}
+
+.scroll-textarea>.scroll-content {
+    overflow: hidden !important;
+}
+
+.scroll-textarea>.scroll-content>textarea {
+    border: none !important;
+    box-sizing: border-box;
+    height: 100% !important;
+    margin: 0;
+    max-height: none !important;
+    max-width: none !important;
+    overflow: scroll !important;
+    outline: none;
+    padding: 2px;
+    position: relative !important;
+    top: 0;
+    width: 100% !important;
+}
+
+.scroll-textarea>.scroll-content>textarea::-webkit-scrollbar {
+    height: 0;
+    width: 0;
+}
+
+
+/*************** SIMPLE INNER SCROLLBAR ***************/
+
+.scroll-element,
+.scroll-element div {
+    border: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    z-index: 10;
+}
+
+.scroll-element div {
+    display: block;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.scroll-element.scroll-x {
+    bottom: 2px;
+    height: 8px;
+    left: 0;
+    width: 100%;
+}
+
+.scroll-element.scroll-y {
+    height: 100%;
+    right: 2px;
+    top: 0;
+    width: 8px;
+}
+
+.scroll-element .scroll-element_outer {
+    overflow: hidden;
+}
+
+.scroll-element .scroll-element_outer,
+.scroll-element .scroll-element_track,
+.scroll-element .scroll-bar {
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.scroll-element .scroll-element_track,
+.scroll-element .scroll-bar {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+    filter: alpha(opacity=40);
+    opacity: 0.4;
+}
+
+.scroll-element .scroll-element_track {
+    background-color: #e0e0e0;
+}
+
+.scroll-element .scroll-bar {
+    background-color: #c2c2c2;
+}
+
+.scroll-element:hover .scroll-bar {
+    background-color: #919191;
+}
+
+.scroll-element.scroll-draggable .scroll-bar {
+    background-color: #919191;
+}
+
+
+/* update scrollbar offset if both scrolls are visible */
+
+.scroll-element.scroll-x.scroll-scrolly_visible .scroll-element_track {
+    left: -12px;
+}
+
+.scroll-element.scroll-y.scroll-scrollx_visible .scroll-element_track {
+    top: -12px;
+}
+
+.scroll-element.scroll-x.scroll-scrolly_visible .scroll-element_size {
+    left: -12px;
+}
+
+.scroll-element.scroll-y.scroll-scrollx_visible .scroll-element_size {
+    top: -12px;
+}
+
+.scrollbar-inner {
+    max-height: calc(2.7rem * 5);
+}
+
+.scrollbar-inner-r {
+    max-height: calc(100% - 3rem);
+}
+
+.lect-right .lect-table,
+.lect-left .lect-table {
+    height: calc(100% - 25rem);
 }
