@@ -3446,3 +3446,354 @@ table>tbody>tr:hover .view-in-table-sticky {
 .lect-left .lect-table {
     height: calc(100% - 25rem);
 }
+
+
+/* cmc khảo sát */
+
+.cmc-page {
+    font-family: 'Mulish', sans-serif;
+    color: #222222;
+}
+
+.cmc-page .container {
+    max-width: calc(1170px + 1.5rem);
+}
+
+.cmc-ks-header {
+    padding: 25px 0;
+}
+
+.cmc-ks-header .btn {
+    height: 44px;
+    width: 155px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #018ED5;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+}
+
+.cmc-ks-header .btn i {
+    margin-right: 12px;
+}
+
+.cmc-ks-header .btn:first-child {
+    background: transparent;
+    color: #002958;
+}
+
+.cmc-ks-header .btn:hover {
+    color: white;
+    background: #002958;
+}
+
+.cmc-st-1 {
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+.cmc-st-1 .con .hi {
+    color: #002958;
+    font-size: 24px;
+    font-style: italic;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.cmc-st-1 .con .title {
+    color: #018ED5;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px;
+    max-width: 635px;
+}
+
+.cmc-st-1 .con .title span {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.cmc-st-1 .con p {
+    font-size: 18px;
+    font-style: normal;
+    line-height: 28px;
+    max-width: 525px;
+    margin-top: 18px;
+}
+
+.cmc-st-1 .con {
+    padding: 75px 0;
+}
+
+img.st-1-img {
+    position: absolute;
+    top: 0;
+    left: 605px;
+}
+
+.cmc-st-1-button-gr {
+    display: flex;
+    margin-top: 25px;
+}
+
+.cmc-st-1-button-gr .btn {
+    border-radius: 90px;
+    background: linear-gradient(90deg, #0180C4 0%, #002958 102.28%);
+    box-shadow: 4px 4px 15px 0px rgba(0, 0, 0, 0.20);
+    height: 60px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 0 45px;
+}
+
+.cmc-st-1-button-gr .btn svg {
+    margin-right: 9px;
+}
+
+.cmc-st-1-button-gr .btn:first-child {
+    border-radius: 90px;
+    background: linear-gradient(90deg, #EC3B3B 0%, #C22525 100%);
+    box-shadow: 8px 8px 15px 0px rgba(0, 0, 0, 0.20);
+    margin-right: 28px;
+}
+
+.cmc-st-2 {
+    min-height: 798px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wave {
+    background: url("../images/cmc-khaosat/bg-1.png");
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    animation: wave1 10s -3s linear infinite;
+    transform: translate3d(0, 0, 0);
+    background-repeat: repeat-x;
+    background-position: left;
+    background-size: 100%;
+}
+
+@keyframes wave {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-25%);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.map {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+
+.cmc-st-2 .con {
+    height: 100%;
+    position: relative;
+    max-width: 1800px;
+    width: 100%;
+    padding: 0 .75rem;
+    display: flex;
+}
+
+.cmc-st-2 .con .part {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.cmc-st-2 .con .part img {
+    max-width: 100%;
+}
+
+.cmc-st-2 .con .part .title {
+    color: #FFF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 55px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.cmc-st-3 .container {
+    background: url("../images/cmc-khaosat/bg-2.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: contain;
+    padding-top: 55px;
+    margin-top: 40px;
+}
+
+.cmc-st-3-title {
+    color: #018ED5;
+    text-align: center;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 55px;
+    text-transform: uppercase;
+}
+
+.cmc-st-3-title span {
+    font-weight: 500;
+    text-transform: initial;
+}
+
+.cmc-st-3 .image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cmc-st-3 .image img {
+    max-width: 100%;
+}
+
+.cmc-st-4 {
+    min-height: 650px;
+    display: flex;
+    flex-wrap: wrap;
+    background: #F9F9F9;
+    margin-top: 145px;
+}
+
+.cmc-st-4 .left,
+.cmc-st-4 .right {
+    width: 50%;
+}
+
+.cmc-st-4 .left img {
+    width: 100%;
+    height: 100%;
+}
+
+.cmc-st-4 .right {
+    display: flex;
+    align-items: center;
+}
+
+.cmc-st-4 .right .container {
+    max-width: calc((1170px + 1.5rem) / 2);
+    margin-left: 0;
+}
+
+.cmc-st-button-gr-outline {
+    display: flex;
+    margin-top: 40px;
+}
+
+.cmc-st-button-gr-outline .btn {
+    border-radius: 90px;
+    border: 1px solid #018ED5;
+    background: #FFF;
+    box-shadow: 4px 4px 15px 0px rgba(0, 0, 0, 0.20);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    color: #018ED5;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 0 45px;
+}
+
+.cmc-st-button-gr-outline .btn svg {
+    margin-right: 9px;
+}
+
+.cmc-st-button-gr-outline .btn:first-child {
+    border: 1px solid #EC3B3B;
+    color: #EC3B3B;
+    margin-right: 25px;
+}
+
+.cmc-st-search-gr {
+    width: 960px;
+    max-width: 100%;
+    display: flex;
+    margin: 40px 0;
+}
+
+.cmc-st-search-gr input {
+    flex: 1;
+    height: 44px;
+    border-radius: 6px;
+    border: solid 1px #e1e1e1;
+    padding: 0 20px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.cmc-st-search-gr button {
+    height: 44px;
+    width: 44px;
+    flex-shrink: 0;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border: solid 1px #e1e1e1;
+    border-left: 0;
+}
+
+.cmc-footer .link {
+    color: #5F6368;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 30px;
+    margin-bottom: 35px;
+}
+
+.cmc-footer .link i {
+    color: #5F6368;
+}
+
+.cmc-footer .copy-right {
+    color: #5F6368;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.cmc-footer .social span {
+    margin-bottom: 35px;
+    margin-right: 15px;
+}
+
+.cmc-footer .social .link {
+    margin-right: 0;
+}
+
+.cmc-footer .link:hover,
+.cmc-footer .link i:hover {
+    color: #018ED5;
+}
+
+.logo-mobi {
+    display: none;
+}
