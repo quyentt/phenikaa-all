@@ -3555,6 +3555,11 @@ img.st-1-img {
     font-style: normal;
     font-weight: 700;
     padding: 0 45px;
+    transition: all 0.5s;
+}
+
+.cmc-st-1-button-gr .btn:hover {
+    background: linear-gradient(90deg, #002958 0%, #0180C4 102.28%);
 }
 
 .cmc-st-1-button-gr .btn svg {
@@ -3566,6 +3571,10 @@ img.st-1-img {
     background: linear-gradient(90deg, #EC3B3B 0%, #C22525 100%);
     box-shadow: 8px 8px 15px 0px rgba(0, 0, 0, 0.20);
     margin-right: 28px;
+}
+
+.cmc-st-1-button-gr .btn:hover:first-child {
+    background: linear-gradient(90deg, #C22525 0%, #EC3B3B 100%);
 }
 
 .cmc-st-2 {
@@ -3719,6 +3728,20 @@ img.st-1-img {
     font-style: normal;
     font-weight: 700;
     padding: 0 45px;
+}
+
+.cmc-st-button-gr-outline .btn:hover {
+    background: #018ED5;
+    color: white;
+}
+
+.cmc-st-button-gr-outline .btn:hover:first-child {
+    background: #EC3B3B;
+    color: white;
+}
+
+.cmc-st-button-gr-outline .btn:hover svg path {
+    fill: white;
 }
 
 .cmc-st-button-gr-outline .btn svg {
