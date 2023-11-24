@@ -183,5 +183,5 @@ $(window).on('load', function() {
 });
 
 $(document).ready(function() {
-    $('#themmoi').modal('show');
+    $('#taophieumau').modal('show');
 });

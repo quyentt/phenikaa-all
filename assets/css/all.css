@@ -3464,8 +3464,9 @@ table>tbody>tr:hover .view-in-table-sticky {
 }
 
 .cmc-ks-header .btn {
+    padding-left: 20px;
+    padding-right: 20px;
     height: 44px;
-    width: 155px;
     flex-shrink: 0;
     border-radius: 6px;
     background: #018ED5;
@@ -3482,7 +3483,7 @@ table>tbody>tr:hover .view-in-table-sticky {
     font-size: 18px;
 }
 
-.cmc-ks-header .btn:first-child {
+.cmc-ks-header .btn.trans {
     background: transparent;
     color: #002958;
 }
@@ -3854,4 +3855,187 @@ img.st-1-img {
 #button.show {
     opacity: 1;
     visibility: visible;
+}
+
+.cmc-breadcrumb {
+    background: #f1f1f1;
+}
+
+.cmc-breadcrumb ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    padding: 16px 0 14px;
+}
+
+.cmc-breadcrumb ul li {
+    margin-right: 18px;
+}
+
+.cmc-breadcrumb ul li a {
+    color: #aaaaaa;
+    margin-right: 16px;
+}
+
+.cmc-breadcrumb ul li i {
+    font-size: 10px;
+}
+
+.cmc-main-title {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px;
+}
+
+.cmc-con-before {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 28px;
+    margin-bottom: 11px;
+}
+
+.cmc-con-before .btn {
+    border: solid 1px #018ED5;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+    font-weight: 700;
+    color: #018ED5;
+    margin-left: auto;
+}
+
+.cmc-con-before .btn i {
+    margin-right: 10px;
+}
+
+.cmc-con-before .btn:hover {
+    color: white;
+    background: #018ED5;
+}
+
+.cmc-con-table .table thead {
+    background: #018ED5;
+    color: white;
+}
+
+.cmc-con-table .table thead th {
+    padding-top: 15px;
+    padding-bottom: 14px;
+    vertical-align: middle;
+}
+
+.max-w-200 {
+    max-width: 200px;
+}
+
+.cmc-con-table a {
+    color: #018ED5;
+}
+
+.cmc-paging ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.cmc-paging ul li {
+    border-radius: 3px;
+    border: 1px solid #DEE2E6;
+    background: #FFF;
+    width: 34px;
+    height: 34px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+}
+
+.cmc-paging ul li a {
+    font-size: 14px;
+    color: #222222;
+}
+
+.cmc-paging ul li:hover {
+    background: #e1e1e1;
+}
+
+.cmc-paging ul li.active {
+    border: 1px solid #018ED5;
+    background: #018ED5;
+}
+
+.cmc-paging ul li.active a {
+    color: white;
+    font-weight: 700;
+}
+
+.cmc-paging ul li.disabled {
+    opacity: 0.6;
+}
+
+.cmc-paging ul li.disabled:hover {
+    pointer-events: none;
+    background: transparent;
+}
+
+.cmc-con-after {
+    margin-top: 30px;
+}
+
+.cmc-con-after .btn {
+    margin-left: auto;
+}
+
+.cmc-modal .input-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.cmc-modal .input-row .form-control {
+    height: 44px;
+    padding: 20px;
+}
+
+.cmc-modal .input-row span {
+    width: 150px;
+    font-size: 14px;
+}
+
+.cmc-modal .input-row:first-child {
+    margin-top: 30px;
+}
+
+.cmc-button-gr {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: 60px;
+}
+
+.btn-cmc-outline {
+    border: solid 1px #018ED5;
+    color: #018ED5;
+    height: 44px;
+    width: 150px;
+    border-radius: 6px;
+}
+
+.btn-cmc {
+    border: solid 1px #018ED5;
+    background: #018ED5;
+    color: white;
+    height: 44px;
+    width: 150px;
+    border-radius: 6px;
+    margin-left: 15px;
 }
