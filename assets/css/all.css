@@ -3885,10 +3885,12 @@ img.st-1-img {
 }
 
 .cmc-main-title {
+    margin-right: 15px;
     font-size: 20px;
     font-style: normal;
     font-weight: 800;
     line-height: 60px;
+    text-transform: uppercase;
 }
 
 .cmc-con-before {
@@ -4028,6 +4030,21 @@ img.st-1-img {
     height: 44px;
     width: 150px;
     border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-cmc-outline i,
+.btn-cmc i {
+    margin-right: 10px;
+}
+
+.cmc-modal .btn:hover,
+.btn-cmc:hover,
+.btn-cmc-outline:hover {
+    color: white;
+    background: #002958;
 }
 
 .btn-cmc {
@@ -4038,4 +4055,118 @@ img.st-1-img {
     width: 150px;
     border-radius: 6px;
     margin-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cmc-modal .modal-header .btn-close {
+    border: solid 1px #018ED5;
+    border-radius: 100%;
+}
+
+.form-add-info .fa-sort-down {
+    font-size: 18px;
+    margin-right: 12px;
+    margin-top: -1px;
+    display: block;
+    right: 0px !important;
+    left: auto;
+    position: absolute;
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.input-gr-before {
+    display: flex;
+    margin-left: auto;
+    flex: 1;
+    align-items: center;
+}
+
+.input-gr-before .form-item {
+    flex: 1;
+    max-width: 480px;
+    margin-left: auto;
+}
+
+.input-gr-before .form-item .form-select {
+    height: 44px;
+}
+
+.cmc-con-before .input-gr-before .btn {
+    margin-left: 15px;
+}
+
+.btn.cmc-main {
+    background: #018ED5;
+    color: white;
+}
+
+.-mt-6 {
+    margin-top: -6px !important;
+}
+
+.cmc-form .form-add-info .form-control,
+.cmc-form .form-add-info .form-select {
+    border-color: #e1e1e1;
+}
+
+.text-init {
+    text-transform: initial;
+}
+
+.cmc-con-table .checkmark {
+    background: white;
+}
+
+.cmc-tabs {
+    border-color: #018ED5;
+    margin-top: 45px;
+    justify-content: center;
+}
+
+.cmc-tabs .nav-link {
+    color: #222222;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 20px;
+    border-color: #f1f1f1;
+    padding: 12px 40px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    margin-bottom: 0;
+}
+
+.cmc-tabs .nav-item {
+    padding: 0 8px;
+}
+
+.cmc-tabs .nav-link span {
+    color: #888;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.cmc-tabs .nav-link:hover {
+    background: #f1f1f1;
+}
+
+.cmc-tabs .nav-link.active {
+    background: #018ED5;
+    color: #ffffff;
+    line-height: 20px;
+    border-color: #018ED5;
+}
+
+.cmc-tabs .nav-link.active span {
+    color: #ffffff;
+}
+
+.text-22 {
+    color: #222222 !important;
+}
+
+.mb-100p {
+    margin-bottom: 100px;
 }

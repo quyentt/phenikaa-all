@@ -310,6 +310,12 @@
 }
 
 @media (max-width: 768px) {
+    .logo-mobi {
+        display: block;
+    }
+    .logo-desk {
+        display: none;
+    }
     .st-info-row {
         flex-wrap: wrap;
     }
@@ -1070,12 +1076,6 @@
     .cmc-st-1 .con .title {
         font-size: 26px;
         line-height: 35px;
-    }
-    .logo-mobi {
-        display: block;
-    }
-    .logo-desk {
-        display: none;
     }
     .cmc-ks-header .btn {
         width: 50px;
