@@ -4170,3 +4170,61 @@ img.st-1-img {
 .mb-100p {
     margin-bottom: 100px;
 }
+
+.cmc-suvery-head .tern-name {
+    margin-bottom: 15px;
+}
+
+.cmc-suvery-head p {
+    margin-right: auto;
+    font-weight: 700;
+}
+
+.cmc-suvery-head .btn {
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+
+.cmc-suvery-group {
+    margin-top: 20px;
+}
+
+.cmc-suvery-group .title {
+    background: #018ED5;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.question-text {
+    font-weight: bold;
+}
+
+.cmc-suvery-item {
+    margin-bottom: 25px;
+}
+
+.cmc-suvery-question {
+    margin-bottom: 10px;
+}
+
+.cmc-suvery-answer .answer-l {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cmc-suvery-answer .answer-l .form-check {
+    margin-right: 30px;
+}
+
+.cmc-con-before {
+    position: sticky;
+    top: 0;
+    background: white;
+    border-bottom: solid 1px #e1e1e1;
+    z-index: 9999;
+}
