@@ -2,7 +2,7 @@
 @import url('fonts.css');
 @import "awesome-5.min.css";
 @import "all.css?v=3";
-/*@import "config.css";*/
+@import "config.css";
 @import "login.css";
 @import "file-SV.css";
 @import "select2.min.css";
