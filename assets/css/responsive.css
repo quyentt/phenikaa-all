@@ -336,6 +336,21 @@
 }
 
 @media (max-width: 768px) {
+    .cmc-question-group {
+        padding: 0;
+    }
+    .cmc-question-title {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .cmc-nav-title {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .cmc-nav-title p {
+        font-size: 18px;
+        line-height: 20px;
+    }
     .cmc-question-group .modal-header,
     .cmc-question-group .modal-body {
         padding: 12px !important;
@@ -1100,6 +1115,28 @@
 }
 
 @media (max-width: 560px) {
+    .complate-ratio {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .complate-ratio p {
+        width: fit-content;
+        margin-top: 0 !important;
+        margin-right: 10px;
+    }
+    .cmc-emulator-user {
+        flex-wrap: wrap;
+    }
+    .cmc-nav-title p {
+        margin-bottom: 0;
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 20px;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
     .cmc-st-1 .con {
         padding: 25px 0;
     }
