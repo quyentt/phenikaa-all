@@ -4228,3 +4228,213 @@ img.st-1-img {
     border-bottom: solid 1px #e1e1e1;
     z-index: 9999;
 }
+
+.cmc-question-page {
+    display: flex;
+}
+
+.cmc-question-nav {
+    width: 35%;
+    flex-shrink: 0;
+    background: #f1f1f1;
+    min-width: 450px;
+    max-width: 100%;
+}
+
+.cmc-emulator-user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #027CBA;
+    color: #ffffff;
+    padding: 20px 10px 20px 30px;
+}
+
+.complate-ratio {
+    width: 130px;
+    text-align: center;
+}
+
+.complate-ratio p {
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.complate-ratio .ratio {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+.user-object {
+    display: flex;
+    align-items: center;
+}
+
+.user-object .avata {
+    width: 68px;
+    height: 68px;
+    background: #ffffff;
+    border-radius: 100%;
+    flex-shrink: 0;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.user-object .avata img {
+    object-fit: cover;
+}
+
+.user-object p {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 0;
+}
+
+.user-object p.name {
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.cmc-nav-title {
+    background: #018ED5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding-left: 30px;
+    padding-right: 60px;
+}
+
+.cmc-nav-title p {
+    margin-bottom: 0;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.cmc-nav-title a {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.cmc-question-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.cmc-question-list a {
+    display: flex;
+    color: #666;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    align-items: center;
+    background: #f1f1f1;
+    border-bottom: solid 1px white;
+    padding: 16px 30px 13px;
+}
+
+.cmc-question-list a p {
+    margin-bottom: 0;
+}
+
+.cmc-question-list a .num {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 60px;
+    letter-spacing: -3.24px;
+    flex-shrink: 0;
+    margin-right: 18px;
+}
+
+.cmc-question-list a .status {
+    width: 90px;
+    height: 26px;
+    flex-shrink: 0;
+    font-size: 11px;
+    font-weight: 500;
+    color: white;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.3px;
+    justify-content: center;
+}
+
+.cmc-question-list a .status.not-complate {
+    background: #FFBC49;
+}
+
+.cmc-question-list a .status.complate {
+    background: #00A65A;
+}
+
+.cmc-question-item.active a,
+.cmc-question-item:hover a {
+    color: #222222;
+    background: #e1e1e1;
+}
+
+.cmc-question-item:first-child {
+    border-top: solid 1px white;
+}
+
+.cmc-question-title {
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.cmc-teacher {
+    color: #666;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+.cmc-question-group {
+    padding: 38px;
+}
+
+.cmc-question-group .modal-body {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.cmc-question-group .title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+    margin-bottom: 18px;
+}
+
+.question-group {
+    margin-bottom: 10px;
+}
+
+.question-group .question {
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.question-group .student-choose {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.cmc-question-content .cmc-breadcrumb {
+    padding: 0 38px;
+}

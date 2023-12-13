@@ -22,6 +22,32 @@
      ::-webkit-scrollbar-thumb {
         background: var(--dask-blue);
     }
+    .cmc-question-group .modal {
+        display: block !important;
+        background: transparent;
+        position: relative;
+    }
+    .cmc-question-group .fade:not(.show) {
+        opacity: 1;
+    }
+    .question-grs .modal-backdrop {
+        position: relative;
+        height: auto;
+    }
+    .question-grs .modal.fade .modal-dialog {
+        transition: transform .3s ease-out;
+        transform: translate(0);
+    }
+    .question-grs {
+        overflow-y: scroll !important;
+        padding-right: 0 !important;
+    }
+    .question-grs .modal-fullscreen {
+        width: 100%;
+    }
+    .modal.fade .btn-close {
+        display: none;
+    }
 }
 
 @media (max-width: 1600px) {
@@ -310,6 +336,31 @@
 }
 
 @media (max-width: 768px) {
+    .cmc-question-group .modal-header,
+    .cmc-question-group .modal-body {
+        padding: 12px !important;
+        padding-bottom: 0 !important;
+    }
+    .cmc-question-page {
+        flex-wrap: wrap;
+    }
+    .question-grs,
+    .modal {
+        padding-right: 0 !important;
+    }
+    .modal-fullscreen {
+        width: 100%;
+    }
+    .cmc-question-content {
+        width: 100%;
+    }
+    .cmc-question-content .cmc-breadcrumb {
+        display: none;
+    }
+    .cmc-question-nav {
+        width: 100%;
+        min-width: 100%;
+    }
     .logo-mobi {
         display: block;
     }
