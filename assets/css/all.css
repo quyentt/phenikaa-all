@@ -4355,6 +4355,15 @@ img.st-1-img {
     letter-spacing: -3.24px;
     flex-shrink: 0;
     margin-right: 18px;
+    color: #aaaaaa;
+}
+
+.cmc-question-item.active a .num {
+    color: #222;
+}
+
+.cmc-question-content {
+    flex: 1;
 }
 
 .cmc-question-list a .status {
@@ -4369,6 +4378,7 @@ img.st-1-img {
     align-items: center;
     letter-spacing: -0.3px;
     justify-content: center;
+    margin-left: auto;
 }
 
 .cmc-question-list a .status.not-complate {
