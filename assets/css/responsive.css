@@ -45,7 +45,7 @@
     .question-grs .modal-fullscreen {
         width: 100%;
     }
-    .modal.fade .btn-close {
+    .question-grs .modal.fade .btn-close {
         display: none;
     }
 }
