@@ -105,7 +105,8 @@ a:hover {
 }
 
 .left-sidebar a {
-  color: var(--light-blue-text);
+  /* color: var(--light-blue-text); */
+  color: #d2ddfd;
 }
 
 .left-sidebar a:hover {
