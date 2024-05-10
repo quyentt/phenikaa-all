@@ -1172,6 +1172,7 @@
   position: absolute;
   width: 100%;
   bottom: 5px;
+  left: 0;
 }
 
 .rate i {
@@ -1183,4 +1184,142 @@
   font-size: 13px;
   color: #999;
   margin-left: 10px;
+}
+
+.n-post-comment {
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.n-post-comment .item {
+  border-top: solid 1px #f4f4f4;
+  padding: 15px 0;
+}
+
+.n-post-comment .item .info {
+  display: flex;
+  align-items: center;
+}
+
+.n-post-comment .item .info .avatar {
+  flex-shrink: 0;
+  margin-right: 10px;
+}
+
+.n-post-comment .item .info img {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+  border-radius: 100%;
+  padding: 0;
+}
+
+.n-post-comment .item .info .name {
+  font-weight: 700;
+}
+
+.n-post-comment .item .info .position {
+  color: #666666;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word;
+}
+
+.n-post-comment .item .comment-content {
+  margin-top: 15px;
+}
+
+.n-post-comment .item .comment-content p {
+  margin-bottom: 10px;
+}
+
+.n-post-comment .item .date-time {
+  font-size: 13px;
+  color: #888888;
+  display: flex;
+  align-items: center;
+}
+
+.n-post-comment .item .date-time i {
+  margin-right: 8px;
+}
+
+.n-post-comment .item.gv-comment {
+  background: #f4f4f4;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.n-post-comment .item.gv-comment .info {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+.n-post-comment .item.gv-comment .info .avatar {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.n-post-comment .item.gv-comment p {
+  text-align: right;
+}
+
+.n-post-comment .item.gv-comment .date-time {
+  justify-content: end;
+}
+
+.n-post-comment .chat-form {
+  height: 35px;
+  border-radius: 18px;
+  box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.n-post-comment .chat-form input {
+  flex: 1;
+  font-size: 13px;
+}
+
+.n-post-comment .chat-form input,
+.n-post-comment .chat-form button {
+  border: none;
+  background: transparent;
+}
+
+.n-post-commnet-st2 .item {
+  border: none;
+}
+
+.n-post-commnet-st2 .item .comment-content {
+  background: #f4f4f4;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.n-post-commnet-st2 .item.gv-comment {
+  background: none;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.n-post-commnet-st2 .item.gv-comment .comment-content {
+  background: none;
+  padding: 0;
+}
+
+.n-post-commnet-st2 .item.gv-comment .comment-content p {
+  background: #d26f50;
+  width: fit-content;
+  text-align: right;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: #fff;
 }
