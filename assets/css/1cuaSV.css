@@ -1199,6 +1199,28 @@
 .n-post-comment .item .info {
   display: flex;
   align-items: center;
+  position: relative;
+}
+
+.n-post-comment .item .info .action {
+  position: absolute;
+  align-items: center;
+  background: #fff;
+  box-shadow: 1px 1px 5px 0px rgb(0, 0, 0, 0.1);
+  padding: 5px 15px;
+  border-radius: 15px;
+  overflow: hidden;
+  gap: 20px;
+  right: 0;
+  display: none;
+}
+
+.n-post-comment .item .info:hover .action {
+  display: flex;
+}
+
+.n-post-comment .item .info .action .btn {
+  padding: 0;
 }
 
 .n-post-comment .item .info .avatar {
@@ -1257,6 +1279,12 @@
 .n-post-comment .item.gv-comment .info {
   flex-direction: row-reverse;
   text-align: right;
+  width: 100%;
+}
+
+.n-post-comment .item.gv-comment .info .action {
+  right: auto;
+  left: 0;
 }
 
 .n-post-comment .item.gv-comment .info .avatar {
