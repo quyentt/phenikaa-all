@@ -4410,3 +4410,39 @@ img.st-1-img {
 .cmc-question-content .cmc-breadcrumb {
   padding: 0 38px;
 }
+
+.led-don-sv-select-list {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  padding: 0.5rem 0 0 0;
+}
+
+.led-don-sv-select-item {
+  display: flex;
+  align-items: center;
+}
+
+.led-don-sv-select-item .label {
+  font-weight: 600;
+  color: #1b9ad6;
+  flex-shrink: 0;
+  margin-right: 1rem;
+}
+
+.led-don-sv-select-item .form-select {
+  height: 2.2rem;
+  background-size: 0.8rem;
+  background-color: transparent;
+  border: solid 0.05rem #1b9ad6 !important;
+  color: #fff;
+  background-image: url(../images/Chevron-icon-drop-down-menu-WHITE.png);
+  background-repeat: no-repeat;
+  background-position: top 0.8rem right 0.8rem;
+  min-width: 15rem;
+  font-size: 1rem;
+}
+
+.led-don-sv-select-item .form-select option {
+  color: #222222;
+}

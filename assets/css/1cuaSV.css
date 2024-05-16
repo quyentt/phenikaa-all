@@ -323,19 +323,21 @@
 }
 
 .letters-item-content .content-short-desc {
-  display: -webkit-box;
+  /* display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
-  word-break: break-word;
+  word-break: break-word; */
 }
 
 .title-loan {
-  white-space: nowrap;
-  overflow: hidden;
+  /* white-space: nowrap; */
+  /* overflow: hidden;
   text-overflow: ellipsis;
-  max-width: 74%;
+  max-width: 74%; */
+  margin-bottom: 5px;
+  line-height: 22px;
 }
 
 .dashboad-search-filter {
