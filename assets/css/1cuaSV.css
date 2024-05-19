@@ -221,12 +221,34 @@
 
 .one-door .dashboad .dashboad-item {
   /* width: 25%; */
-  width: 411px;
-  margin-top: 70px;
+  width: 274px;
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.one-door .dv-sort-select {
+  min-width: 300px;
+  max-width: 100%;
+}
+
+.tab-list-group {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.tab-list-group .tab-list {
+  margin: 0;
+}
+
+.one-door .dashboad .image img {
+  /* max-width: 163px; */
+  width: auto;
+  height: 85px;
+  bottom: 40%;
 }
 
 .one-door .dashboad-item-box {
