@@ -207,31 +207,53 @@
                 <!-- đăng ký nguyện vọng -->
                 <div class="box-shadow register-wish pt-0">
                     <div class="form-top">
-                        <div class="row">
-                            <div class="col-12 col-lg-3 col-md-6 mb-15">
-                                <div class="form-item d-flex  form-add-info flex-grow-1">
-                                    <div class="input-group no-icon">
+                        <div class="form-in-row-wrap ">
+                            <div class="form-in-row">
+                                <div class="item">
+                                    <div class="label-l">Kế hoạch đăng ký thi</div>
+                                    <div class="form-item d-flex  form-add-info">
+                                        <div class="input-group no-icon">
 
-                                        <i class="fal fa-angle-down"></i>
-                                        <select class="form-select" aria-label="Default select example">
-                                        <option selected>Kế hoạch đăng ký thi</option>
-                                        <option value="1">Công nghệ thông tin</option>
-                                        <option value="2">Kế toán</option>
-                                        <option value="3">Điện tử</option>
-                                    </select>
+                                            <i class="fal fa-angle-down"></i>
+                                            <select class="form-select" aria-label="Default select example">
+                                            <option selected="">Chọn kế hoạch đăng ký</option>
+                                            <option value="1">Công nghệ thông tin</option>
+                                            <option value="2">Kế toán</option>
+                                            <option value="3">Điện tử</option>
+                                        </select>
+                                        </div>
+
                                     </div>
-
                                 </div>
-
-                            </div>
-
-                            <div class="col-12 col-lg-4 col-md-3 mb-15">
-                                <div class="d-flex align-items-center">
-
-                                    <div class="btn btn-dask-blue min-w-auto px-4 ms-auto ms-lg-0"><i class="fal fa-table me-2"></i> Xem </div>
+                                <div class="item">
+                                    <div class="label-l">Thời hạn đăng ký</div>
+                                    <div class="date">
+                                        <div class="form-item d-flex form-add-info">
+                                            <input type="text" class="form-control" placeholder="Từ ngày">
+                                        </div>
+                                        <div class="form-item d-flex form-add-info">
+                                            <input type="text" class="form-control" placeholder="Đến ngày">
+                                        </div>
+                                    </div>
                                 </div>
+                                <div class="item">
+                                    <div class="label-l">Loại đăng ký</div>
+                                    <div class="form-item d-flex  form-add-info">
+                                        <div class="input-group no-icon">
 
+                                            <i class="fal fa-angle-down"></i>
+                                            <select class="form-select" aria-label="Default select example">
+                                            <option selected="">Thi lại</option>
+                                            <option value="1">Công nghệ thông tin</option>
+                                            <option value="2">Kế toán</option>
+                                            <option value="3">Điện tử</option>
+                                        </select>
+                                        </div>
+
+                                    </div>
+                                </div>
                             </div>
+                            <div class="btn btn-dask-blue min-w-auto px-4"><i class="fal fa-tasks-alt me-3"></i>Xem</div>
                         </div>
 
                     </div>
@@ -249,8 +271,6 @@
                                         <th class="text-center" scope="col">Điểm</th>
                                         <th class="" scope="col">Đánh giá</th>
                                         <th class="text-center" scope="col">Thời gian</th>
-
-                                        <th class="" scope="col">Chương trình</th>
                                         <th class="text-center" scope="col">Chọn <input class="form-check-input ms-1" type="checkbox" value="" id="1"></th>
 
                                 </thead>
@@ -261,12 +281,9 @@
                                         <td><em class="show-in-mobi">Tên học phần:</em><span>Chủ nghĩa Mac-Lenin, tư tưởng Hồ chí minh</span></td>
 
                                         <td class="text-center"><em class="show-in-mobi">Số tín chỉ:</em><span>3</span></td>
-                                        <td class="text-center"><em class="show-in-mobi">Điểm:</em><span>4</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">Điểm:</em><span class="fw-bold me-2">4</span><a title="Chi tiết điểm" href="#chitiet" class="text-decoration-underline" data-bs-toggle="modal">Xem chi tiết</a></td>
                                         <td><em class="show-in-mobi">Đánh giá:</em><span>Nội dung đánh giá ...</span></td>
                                         <td class="text-center"><em class="show-in-mobi">Thời gian:</em><span>30/09/2024</span></td>
-
-                                        <td><em class="show-in-mobi">Chương trình:</em><span>Tên chương trình</span></td>
-
                                         <td class="text-center w-150px"><em class="show-in-mobi">Chọn:</em><span>
                                             
                                                 <input class="form-check-input" type="checkbox" value="" id="1">
@@ -280,12 +297,9 @@
                                         <td><em class="show-in-mobi">Tên học phần:</em><span>Chủ nghĩa Mac-Lenin, tư tưởng Hồ chí minh</span></td>
 
                                         <td class="text-center"><em class="show-in-mobi">Số tín chỉ:</em><span>3</span></td>
-                                        <td class="text-center"><em class="show-in-mobi">Điểm:</em><span>4</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">Điểm:</em><span class="fw-bold me-2">4</span><a title="Chi tiết điểm" href="#chitiet" class="text-decoration-underline" data-bs-toggle="modal">Xem chi tiết</a></td>
                                         <td><em class="show-in-mobi">Đánh giá:</em><span>Nội dung đánh giá ...</span></td>
                                         <td class="text-center"><em class="show-in-mobi">Thời gian:</em><span>30/09/2024</span></td>
-
-                                        <td><em class="show-in-mobi">Chương trình:</em><span>Tên chương trình</span></td>
-
                                         <td class="text-center w-150px"><em class="show-in-mobi">Chọn:</em><span>
                                             
                                                 <input class="form-check-input" type="checkbox" value="" id="1">
@@ -299,12 +313,9 @@
                                         <td><em class="show-in-mobi">Tên học phần:</em><span>Chủ nghĩa Mac-Lenin, tư tưởng Hồ chí minh</span></td>
 
                                         <td class="text-center"><em class="show-in-mobi">Số tín chỉ:</em><span>3</span></td>
-                                        <td class="text-center"><em class="show-in-mobi">Điểm:</em><span>4</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">Điểm:</em><span class="fw-bold me-2">4</span><a title="Chi tiết điểm" href="#chitiet" class="text-decoration-underline" data-bs-toggle="modal">Xem chi tiết</a></td>
                                         <td><em class="show-in-mobi">Đánh giá:</em><span>Nội dung đánh giá ...</span></td>
                                         <td class="text-center"><em class="show-in-mobi">Thời gian:</em><span>30/09/2024</span></td>
-
-                                        <td><em class="show-in-mobi">Chương trình:</em><span>Tên chương trình</span></td>
-
                                         <td class="text-center w-150px"><em class="show-in-mobi">Chọn:</em><span>
                                             
                                                 <input class="form-check-input" type="checkbox" value="" id="1">
@@ -318,12 +329,9 @@
                                         <td><em class="show-in-mobi">Tên học phần:</em><span>Chủ nghĩa Mac-Lenin, tư tưởng Hồ chí minh</span></td>
 
                                         <td class="text-center"><em class="show-in-mobi">Số tín chỉ:</em><span>3</span></td>
-                                        <td class="text-center"><em class="show-in-mobi">Điểm:</em><span>4</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">Điểm:</em><span class="fw-bold me-2">4</span><a title="Chi tiết điểm" href="#chitiet" class="text-decoration-underline" data-bs-toggle="modal">Xem chi tiết</a></td>
                                         <td><em class="show-in-mobi">Đánh giá:</em><span>Nội dung đánh giá ...</span></td>
                                         <td class="text-center"><em class="show-in-mobi">Thời gian:</em><span>30/09/2024</span></td>
-
-                                        <td><em class="show-in-mobi">Chương trình:</em><span>Tên chương trình</span></td>
-
                                         <td class="text-center w-150px"><em class="show-in-mobi">Chọn:</em><span>
                                             
                                                 <input class="form-check-input" type="checkbox" value="" id="1">
@@ -337,12 +345,9 @@
                                         <td><em class="show-in-mobi">Tên học phần:</em><span>Chủ nghĩa Mac-Lenin, tư tưởng Hồ chí minh</span></td>
 
                                         <td class="text-center"><em class="show-in-mobi">Số tín chỉ:</em><span>3</span></td>
-                                        <td class="text-center"><em class="show-in-mobi">Điểm:</em><span>4</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">Điểm:</em><span class="fw-bold me-2">4</span><a title="Chi tiết điểm" href="#chitiet" class="text-decoration-underline" data-bs-toggle="modal">Xem chi tiết</a></td>
                                         <td><em class="show-in-mobi">Đánh giá:</em><span>Nội dung đánh giá ...</span></td>
                                         <td class="text-center"><em class="show-in-mobi">Thời gian:</em><span>30/09/2024</span></td>
-
-                                        <td><em class="show-in-mobi">Chương trình:</em><span>Tên chương trình</span></td>
-
                                         <td class="text-center w-150px"><em class="show-in-mobi">Chọn:</em><span>
                                             
                                                 <input class="form-check-input" type="checkbox" value="" id="1">
@@ -356,12 +361,9 @@
                                         <td><em class="show-in-mobi">Tên học phần:</em><span>Chủ nghĩa Mac-Lenin, tư tưởng Hồ chí minh</span></td>
 
                                         <td class="text-center"><em class="show-in-mobi">Số tín chỉ:</em><span>3</span></td>
-                                        <td class="text-center"><em class="show-in-mobi">Điểm:</em><span>4</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">Điểm:</em><span class="fw-bold me-2">4</span><a title="Chi tiết điểm" href="#chitiet" class="text-decoration-underline" data-bs-toggle="modal">Xem chi tiết</a></td>
                                         <td><em class="show-in-mobi">Đánh giá:</em><span>Nội dung đánh giá ...</span></td>
                                         <td class="text-center"><em class="show-in-mobi">Thời gian:</em><span>30/09/2024</span></td>
-
-                                        <td><em class="show-in-mobi">Chương trình:</em><span>Tên chương trình</span></td>
-
                                         <td class="text-center w-150px"><em class="show-in-mobi">Chọn:</em><span>
                                             
                                                 <input class="form-check-input" type="checkbox" value="" id="1">
@@ -375,12 +377,9 @@
                                         <td><em class="show-in-mobi">Tên học phần:</em><span>Chủ nghĩa Mac-Lenin, tư tưởng Hồ chí minh</span></td>
 
                                         <td class="text-center"><em class="show-in-mobi">Số tín chỉ:</em><span>3</span></td>
-                                        <td class="text-center"><em class="show-in-mobi">Điểm:</em><span>4</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">Điểm:</em><span class="fw-bold me-2">4</span><a title="Chi tiết điểm" href="#chitiet" class="text-decoration-underline" data-bs-toggle="modal">Xem chi tiết</a></td>
                                         <td><em class="show-in-mobi">Đánh giá:</em><span>Nội dung đánh giá ...</span></td>
                                         <td class="text-center"><em class="show-in-mobi">Thời gian:</em><span>30/09/2024</span></td>
-
-                                        <td><em class="show-in-mobi">Chương trình:</em><span>Tên chương trình</span></td>
-
                                         <td class="text-center w-150px"><em class="show-in-mobi">Chọn:</em><span>
                                             
                                                 <input class="form-check-input" type="checkbox" value="" id="1">
@@ -388,8 +387,70 @@
                                         </span></td>
 
                                     </tr>
-                                    </var>
-                                    </var>
+                                    <tr>
+                                        <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                        <td class="text-center"><em class="show-in-mobi">Mã học phần:</em><span>Ma_hoc_phan</span></td>
+                                        <td><em class="show-in-mobi">Tên học phần:</em><span>Chủ nghĩa Mac-Lenin, tư tưởng Hồ chí minh</span></td>
+
+                                        <td class="text-center"><em class="show-in-mobi">Số tín chỉ:</em><span>3</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">Điểm:</em><span class="fw-bold me-2">4</span><a title="Chi tiết điểm" href="#chitiet" class="text-decoration-underline" data-bs-toggle="modal">Xem chi tiết</a></td>
+                                        <td><em class="show-in-mobi">Đánh giá:</em><span>Nội dung đánh giá ...</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">Thời gian:</em><span>30/09/2024</span></td>
+                                        <td class="text-center w-150px"><em class="show-in-mobi">Chọn:</em><span>
+                                            
+                                                <input class="form-check-input" type="checkbox" value="" id="1">
+                                           
+                                        </span></td>
+
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                        <td class="text-center"><em class="show-in-mobi">Mã học phần:</em><span>Ma_hoc_phan</span></td>
+                                        <td><em class="show-in-mobi">Tên học phần:</em><span>Chủ nghĩa Mac-Lenin, tư tưởng Hồ chí minh</span></td>
+
+                                        <td class="text-center"><em class="show-in-mobi">Số tín chỉ:</em><span>3</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">Điểm:</em><span class="fw-bold me-2">4</span><a title="Chi tiết điểm" href="#chitiet" class="text-decoration-underline" data-bs-toggle="modal">Xem chi tiết</a></td>
+                                        <td><em class="show-in-mobi">Đánh giá:</em><span>Nội dung đánh giá ...</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">Thời gian:</em><span>30/09/2024</span></td>
+                                        <td class="text-center w-150px"><em class="show-in-mobi">Chọn:</em><span>
+                                            
+                                                <input class="form-check-input" type="checkbox" value="" id="1">
+                                           
+                                        </span></td>
+
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                        <td class="text-center"><em class="show-in-mobi">Mã học phần:</em><span>Ma_hoc_phan</span></td>
+                                        <td><em class="show-in-mobi">Tên học phần:</em><span>Chủ nghĩa Mac-Lenin, tư tưởng Hồ chí minh</span></td>
+
+                                        <td class="text-center"><em class="show-in-mobi">Số tín chỉ:</em><span>3</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">Điểm:</em><span class="fw-bold me-2">4</span><a title="Chi tiết điểm" href="#chitiet" class="text-decoration-underline" data-bs-toggle="modal">Xem chi tiết</a></td>
+                                        <td><em class="show-in-mobi">Đánh giá:</em><span>Nội dung đánh giá ...</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">Thời gian:</em><span>30/09/2024</span></td>
+                                        <td class="text-center w-150px"><em class="show-in-mobi">Chọn:</em><span>
+                                            
+                                                <input class="form-check-input" type="checkbox" value="" id="1">
+                                           
+                                        </span></td>
+
+                                    </tr>
+                                    <tr>
+                                        <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                        <td class="text-center"><em class="show-in-mobi">Mã học phần:</em><span>Ma_hoc_phan</span></td>
+                                        <td><em class="show-in-mobi">Tên học phần:</em><span>Chủ nghĩa Mac-Lenin, tư tưởng Hồ chí minh</span></td>
+
+                                        <td class="text-center"><em class="show-in-mobi">Số tín chỉ:</em><span>3</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">Điểm:</em><span class="fw-bold me-2">4</span><a title="Chi tiết điểm" href="#chitiet" class="text-decoration-underline" data-bs-toggle="modal">Xem chi tiết</a></td>
+                                        <td><em class="show-in-mobi">Đánh giá:</em><span>Nội dung đánh giá ...</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">Thời gian:</em><span>30/09/2024</span></td>
+                                        <td class="text-center w-150px"><em class="show-in-mobi">Chọn:</em><span>
+                                            
+                                                <input class="form-check-input" type="checkbox" value="" id="1">
+                                           
+                                        </span></td>
+
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
@@ -410,10 +471,7 @@
                                         <th class="text-center" scope="col">Điểm</th>
                                         <th class="" scope="col">Đánh giá</th>
                                         <th class="text-center" scope="col">Thời gian</th>
-
-                                        <th class="" scope="col">Chương trình</th>
                                         <th class="text-center" scope="col">Mức phí phải nộp</th>
-
                                         <th class="text-center" scope="col">Chọn <input class="form-check-input ms-1" type="checkbox" value="" id="1"></th>
 
                                 </thead>
@@ -424,174 +482,15 @@
                                         <td><em class="show-in-mobi">Tên học phần:</em><span>Chủ nghĩa Mac-Lenin, tư tưởng Hồ chí minh</span></td>
 
                                         <td class="text-center"><em class="show-in-mobi">Số tín chỉ:</em><span>3</span></td>
-                                        <td class="text-center"><em class="show-in-mobi">Điểm:</em><span>4</span></td>
+                                        <td class="text-center"><em class="show-in-mobi">Điểm:</em><span class="fw-bold me-2">4</span><a title="Chi tiết điểm" href="#chitiet" class="text-decoration-underline" data-bs-toggle="modal">Xem chi tiết</a></td>
                                         <td><em class="show-in-mobi">Đánh giá:</em><span>Nội dung đánh giá ...</span></td>
                                         <td class="text-center"><em class="show-in-mobi">Thời gian:</em><span>30/09/2024</span></td>
-
-                                        <td><em class="show-in-mobi">Chương trình:</em><span>Tên chương trình</span></td>
-                                        <td class="text-center"><em class="show-in-mobi">Mức phí phải nộp:</em><span>2.300.000</span></td>
-                                        <td class="text-center w-150px">
-                                            <em class="show-in-mobi">Chọn:</em>
-                                            <span>
+                                        <td class="text-center"><em class="show-in-mobi">Mức phí phải nộp:</em><span class="fw-bold color-orange">1.200.000</span></td>
+                                        <td class="text-center w-150px"><em class="show-in-mobi">Chọn:</em><span>
                                             
                                                 <input class="form-check-input" type="checkbox" value="" id="1">
                                            
-                                            </span>
-                                        </td>
-
-                                    </tr>
-                                    <tr>
-                                        <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
-                                        <td class="text-center"><em class="show-in-mobi">Mã học phần:</em><span>Ma_hoc_phan</span></td>
-                                        <td><em class="show-in-mobi">Tên học phần:</em><span>Chủ nghĩa Mac-Lenin, tư tưởng Hồ chí minh</span></td>
-
-                                        <td class="text-center"><em class="show-in-mobi">Số tín chỉ:</em><span>3</span></td>
-                                        <td class="text-center"><em class="show-in-mobi">Điểm:</em><span>4</span></td>
-                                        <td><em class="show-in-mobi">Đánh giá:</em><span>Nội dung đánh giá ...</span></td>
-                                        <td class="text-center"><em class="show-in-mobi">Thời gian:</em><span>30/09/2024</span></td>
-
-                                        <td><em class="show-in-mobi">Chương trình:</em><span>Tên chương trình</span></td>
-                                        <td class="text-center"><em class="show-in-mobi">Mức phí phải nộp:</em><span>2.300.000</span></td>
-                                        <td class="text-center w-150px">
-                                            <em class="show-in-mobi">Chọn:</em>
-                                            <span>
-                                            
-                                                <input class="form-check-input" type="checkbox" value="" id="1">
-                                           
-                                            </span>
-                                        </td>
-
-                                    </tr>
-                                    <tr>
-                                        <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
-                                        <td class="text-center"><em class="show-in-mobi">Mã học phần:</em><span>Ma_hoc_phan</span></td>
-                                        <td><em class="show-in-mobi">Tên học phần:</em><span>Chủ nghĩa Mac-Lenin, tư tưởng Hồ chí minh</span></td>
-
-                                        <td class="text-center"><em class="show-in-mobi">Số tín chỉ:</em><span>3</span></td>
-                                        <td class="text-center"><em class="show-in-mobi">Điểm:</em><span>4</span></td>
-                                        <td><em class="show-in-mobi">Đánh giá:</em><span>Nội dung đánh giá ...</span></td>
-                                        <td class="text-center"><em class="show-in-mobi">Thời gian:</em><span>30/09/2024</span></td>
-
-                                        <td><em class="show-in-mobi">Chương trình:</em><span>Tên chương trình</span></td>
-                                        <td class="text-center"><em class="show-in-mobi">Mức phí phải nộp:</em><span>2.300.000</span></td>
-                                        <td class="text-center w-150px">
-                                            <em class="show-in-mobi">Chọn:</em>
-                                            <span>
-                                            
-                                                <input class="form-check-input" type="checkbox" value="" id="1">
-                                           
-                                            </span>
-                                        </td>
-
-                                    </tr>
-                                    <tr>
-                                        <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
-                                        <td class="text-center"><em class="show-in-mobi">Mã học phần:</em><span>Ma_hoc_phan</span></td>
-                                        <td><em class="show-in-mobi">Tên học phần:</em><span>Chủ nghĩa Mac-Lenin, tư tưởng Hồ chí minh</span></td>
-
-                                        <td class="text-center"><em class="show-in-mobi">Số tín chỉ:</em><span>3</span></td>
-                                        <td class="text-center"><em class="show-in-mobi">Điểm:</em><span>4</span></td>
-                                        <td><em class="show-in-mobi">Đánh giá:</em><span>Nội dung đánh giá ...</span></td>
-                                        <td class="text-center"><em class="show-in-mobi">Thời gian:</em><span>30/09/2024</span></td>
-
-                                        <td><em class="show-in-mobi">Chương trình:</em><span>Tên chương trình</span></td>
-                                        <td class="text-center"><em class="show-in-mobi">Mức phí phải nộp:</em><span>2.300.000</span></td>
-                                        <td class="text-center w-150px">
-                                            <em class="show-in-mobi">Chọn:</em>
-                                            <span>
-                                            
-                                                <input class="form-check-input" type="checkbox" value="" id="1">
-                                           
-                                            </span>
-                                        </td>
-
-                                    </tr>
-                                    <tr>
-                                        <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
-                                        <td class="text-center"><em class="show-in-mobi">Mã học phần:</em><span>Ma_hoc_phan</span></td>
-                                        <td><em class="show-in-mobi">Tên học phần:</em><span>Chủ nghĩa Mac-Lenin, tư tưởng Hồ chí minh</span></td>
-
-                                        <td class="text-center"><em class="show-in-mobi">Số tín chỉ:</em><span>3</span></td>
-                                        <td class="text-center"><em class="show-in-mobi">Điểm:</em><span>4</span></td>
-                                        <td><em class="show-in-mobi">Đánh giá:</em><span>Nội dung đánh giá ...</span></td>
-                                        <td class="text-center"><em class="show-in-mobi">Thời gian:</em><span>30/09/2024</span></td>
-
-                                        <td><em class="show-in-mobi">Chương trình:</em><span>Tên chương trình</span></td>
-                                        <td class="text-center"><em class="show-in-mobi">Mức phí phải nộp:</em><span>2.300.000</span></td>
-                                        <td class="text-center w-150px">
-                                            <em class="show-in-mobi">Chọn:</em>
-                                            <span>
-                                            
-                                                <input class="form-check-input" type="checkbox" value="" id="1">
-                                           
-                                            </span>
-                                        </td>
-
-                                    </tr>
-                                    <tr>
-                                        <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
-                                        <td class="text-center"><em class="show-in-mobi">Mã học phần:</em><span>Ma_hoc_phan</span></td>
-                                        <td><em class="show-in-mobi">Tên học phần:</em><span>Chủ nghĩa Mac-Lenin, tư tưởng Hồ chí minh</span></td>
-
-                                        <td class="text-center"><em class="show-in-mobi">Số tín chỉ:</em><span>3</span></td>
-                                        <td class="text-center"><em class="show-in-mobi">Điểm:</em><span>4</span></td>
-                                        <td><em class="show-in-mobi">Đánh giá:</em><span>Nội dung đánh giá ...</span></td>
-                                        <td class="text-center"><em class="show-in-mobi">Thời gian:</em><span>30/09/2024</span></td>
-
-                                        <td><em class="show-in-mobi">Chương trình:</em><span>Tên chương trình</span></td>
-                                        <td class="text-center"><em class="show-in-mobi">Mức phí phải nộp:</em><span>2.300.000</span></td>
-                                        <td class="text-center w-150px">
-                                            <em class="show-in-mobi">Chọn:</em>
-                                            <span>
-                                            
-                                                <input class="form-check-input" type="checkbox" value="" id="1">
-                                           
-                                            </span>
-                                        </td>
-
-                                    </tr>
-                                    <tr>
-                                        <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
-                                        <td class="text-center"><em class="show-in-mobi">Mã học phần:</em><span>Ma_hoc_phan</span></td>
-                                        <td><em class="show-in-mobi">Tên học phần:</em><span>Chủ nghĩa Mac-Lenin, tư tưởng Hồ chí minh</span></td>
-
-                                        <td class="text-center"><em class="show-in-mobi">Số tín chỉ:</em><span>3</span></td>
-                                        <td class="text-center"><em class="show-in-mobi">Điểm:</em><span>4</span></td>
-                                        <td><em class="show-in-mobi">Đánh giá:</em><span>Nội dung đánh giá ...</span></td>
-                                        <td class="text-center"><em class="show-in-mobi">Thời gian:</em><span>30/09/2024</span></td>
-
-                                        <td><em class="show-in-mobi">Chương trình:</em><span>Tên chương trình</span></td>
-                                        <td class="text-center"><em class="show-in-mobi">Mức phí phải nộp:</em><span>2.300.000</span></td>
-                                        <td class="text-center w-150px">
-                                            <em class="show-in-mobi">Chọn:</em>
-                                            <span>
-                                            
-                                                <input class="form-check-input" type="checkbox" value="" id="1">
-                                           
-                                            </span>
-                                        </td>
-
-                                    </tr>
-                                    <tr>
-                                        <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
-                                        <td class="text-center"><em class="show-in-mobi">Mã học phần:</em><span>Ma_hoc_phan</span></td>
-                                        <td><em class="show-in-mobi">Tên học phần:</em><span>Chủ nghĩa Mac-Lenin, tư tưởng Hồ chí minh</span></td>
-
-                                        <td class="text-center"><em class="show-in-mobi">Số tín chỉ:</em><span>3</span></td>
-                                        <td class="text-center"><em class="show-in-mobi">Điểm:</em><span>4</span></td>
-                                        <td><em class="show-in-mobi">Đánh giá:</em><span>Nội dung đánh giá ...</span></td>
-                                        <td class="text-center"><em class="show-in-mobi">Thời gian:</em><span>30/09/2024</span></td>
-
-                                        <td><em class="show-in-mobi">Chương trình:</em><span>Tên chương trình</span></td>
-                                        <td class="text-center"><em class="show-in-mobi">Mức phí phải nộp:</em><span>2.300.000</span></td>
-                                        <td class="text-center w-150px">
-                                            <em class="show-in-mobi">Chọn:</em>
-                                            <span>
-                                            
-                                                <input class="form-check-input" type="checkbox" value="" id="1">
-                                           
-                                            </span>
-                                        </td>
+                                        </span></td>
 
                                     </tr>
                                 </tbody>
@@ -620,7 +519,51 @@
         </div>
         <!-- end copy right -->
     </div>
+    <!-- modal -->
+    <div class="modal fade register-wish xlts" id="chitiet" tabindex="-1" aria-labelledby="exampleModalLabel" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-800">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="finance-user-info in-modal ">
+                        <p><b>Chi tiết điểm</b></p>
 
+
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-3" style="min-height: 250px;">
+                    <div class="col-12">
+
+                        <table class="table transcrip-table tabs-scores ">
+                            <thead>
+                                <tr>
+                                    <th class="text-center" scope="col">STT</th>
+                                    <th class="text-center" scope="col">Lần học</th>
+                                    <th class="text-center" scope="col">Lần thi</th>
+                                    <th class="text-center" scope="col">KTGK</th>
+                                    <th class="text-center" scope="col">THIKTHP</th>
+                                    <th class="text-center" scope="col">BT</th>
+                                    <th class="text-center" scope="col">CC</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Lần học:</em><span>1</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Lần thi:</em><span>1</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">KTGK:</em><span>4</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">THIKTHP:</em><span>4</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">BT:</em><span>5</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">CC:</em><span>10</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
 
 </body>
 <script src="../assets/js/bootstrap.bundle.min.js "></script>
