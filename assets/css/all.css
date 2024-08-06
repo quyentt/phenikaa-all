@@ -2070,7 +2070,7 @@ table > tbody > tr:hover .view-in-table-sticky {
 
 .kqht-modal .right {
   flex: 1;
-  overflow: scroll;
+  overflow-x: scroll;
 }
 
 /* xác nhận thanh toán */
