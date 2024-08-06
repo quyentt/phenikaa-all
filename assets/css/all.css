@@ -79,7 +79,7 @@ a:hover {
   height: 100%;
   min-height: 100vh;
   background-color: var(--dask-blue);
-  background-image: url("../images/wrapper-bg.png");
+  /* background-image: url("../images/wrapper-bg.png"); */
   background-repeat: no-repeat;
   background-position: bottom left;
   background-attachment: fixed;
@@ -2070,6 +2070,7 @@ table > tbody > tr:hover .view-in-table-sticky {
 
 .kqht-modal .right {
   flex: 1;
+  overflow: scroll;
 }
 
 /* xác nhận thanh toán */
