@@ -4515,3 +4515,33 @@ img.st-1-img {
 .w-auto-i {
   width: auto !important;
 }
+
+.checkbox-circle .checkmark {
+  background: transparent;
+  width: 16px;
+  height: 16px;
+  display: block;
+  border-radius: 100%;
+  border: solid 1px #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkbox-circle .checkmark {
+  border-radius: 100%;
+}
+
+.checkbox-circle .checkmark i {
+  font-size: 11px;
+  color: transparent;
+}
+
+.checkbox-circle input {
+  display: none;
+}
+
+.checkbox-circle input:checked ~ .checkmark i {
+  display: block;
+  color: #fff;
+}
