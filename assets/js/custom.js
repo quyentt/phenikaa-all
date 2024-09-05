@@ -170,7 +170,7 @@ $("#modal-total-class").on("shown.bs.modal", function (e) {
 });
 
 $(window).on("load", function () {
-  // $('#dangkyphuckhao').modal('show');
+  // $("#tubangdiem").modal("show");
 });
 
 $(document).ready(function () {

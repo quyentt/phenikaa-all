@@ -4491,3 +4491,27 @@ img.st-1-img {
   align-items: end;
   max-width: 1604px;
 }
+
+.select-group-3item-800 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.select-group-3item-800 .item {
+  width: calc((100% - 30px) / 3);
+}
+
+.select-group-3item-800 .item .label {
+  color: #666666;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.w-auto-i {
+  width: auto !important;
+}

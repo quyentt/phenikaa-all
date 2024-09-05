@@ -1572,6 +1572,15 @@
 }
 
 @media (max-width: 600px) {
+  .select-group-3item-800 .item {
+    width: 100%;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+  }
+  .select-group-3item-800 .item .label {
+    width: 100px;
+  }
   .task-header .text {
     display: none;
   }
