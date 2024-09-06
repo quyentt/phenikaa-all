@@ -4545,3 +4545,50 @@ img.st-1-img {
   display: block;
   color: #fff;
 }
+
+.exam-reg-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 15px;
+  max-width: 890px;
+  width: 100%;
+}
+
+.exam-reg-wrap {
+  padding: 0 50px;
+  margin-bottom: 20px;
+}
+
+.exam-reg-top .form-item {
+  flex: 1;
+}
+
+.exam-reg-box-footer {
+  border-radius: 0 0 10px 10px;
+  border: solid #fff;
+  border-width: 0 2px 2px 2px;
+  overflow: hidden;
+  margin-top: auto;
+}
+
+.exrbf-cont {
+  background: #f1f1f1;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.exam-reg-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.exam-reg-item {
+  width: calc((100% - 90px) / 4);
+}
+
+.fw-500 {
+  font-weight: 500;
+}

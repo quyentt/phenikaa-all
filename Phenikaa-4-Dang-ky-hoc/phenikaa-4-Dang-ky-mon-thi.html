@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education management</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+
+<body>
+    <div class="wrapper ">
+        <div class="left-sidebar">
+            <div class="sidebar-top">
+                <a href="javascript:void(0)" class="menu-icon">
+                    <i class="fal fa-indent"></i>
+                </a>
+                <a href="javascript:void(0)" class="menu-icon-mobi">
+                    <i class="fal fa-indent"></i>
+                </a>
+                <a class="logo" href="#">
+                    <img class="logo-icon" src="../assets/images/logo.png">
+                    <img class="logo-name" src="../assets/images/logo-name.png">
+                </a>
+                <div class="line-1"></div>
+                <div class="line-2"></div>
+                <div class="line-hiden"></div>
+            </div>
+
+            <div class="sidebar-menu">
+                <div class="accordion" id="sidebar-menu">
+                    <div class="sidebar-menu-item ">
+                        <a class="sidebar-menu-header" href="">
+                            <i class="fas fa-tachometer-alt item-icon"></i>
+                            <span>dashboad</span>
+                        </a>
+                    </div>
+                    <!-- siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse1" href="javascrip:void(0)">
+                            <i class="fal fa-id-card item-icon"></i>
+                            <span>Hò sơ cá nhân</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse1" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1 co the dai hon</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse2" href="javascrip:void(0)">
+                            <i class="fal fa-user-chart item-icon"></i>
+                            <span>Lịch giảng</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse2" data-bs-parent="#sidebar-menu">
+
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item active">
+                        <a class="sidebar-menu-header" data-bs-toggle="collapse" data-bs-target="#collapse3" href="javascrip:void(0)">
+                            <i class="fal fa-address-book item-icon"></i>
+                            <span>Quản lý điểm</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse show" id="collapse3" data-bs-parent="#sidebar-menu">
+                            <a class="active" href="#">Bảng điểm</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse4" href="javascrip:void(0)">
+                            <i class="fal fa-file-invoice-dollar item-icon"></i>
+                            <span>Bảng lương</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse4" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse5" href="javascrip:void(0)">
+                            <i class="fal fa-analytics item-icon"></i>
+                            <span>Báo cáo thống kê</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse5" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+
+
+
+                </div>
+
+
+            </div>
+        </div>
+        <div class="content-page ">
+            <!-- navbar -->
+            <div class="navbar">
+                <div class="search-group-in-mobi">
+                    <i class="fal fa-search mobi-search-icon"></i>
+                    <form class="search-group">
+                        <input type="email" class="search-form" placeholder="Tìm kiếm thông tin">
+                        <button><i class="fal fa-search"></i></button>
+                    </form>
+                </div>
+                <div class="in-mobi-group">
+                    <div class="nav-menu-group">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                            <i class="fal fa-ellipsis-h-alt"></i>
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-notification">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                            <i class="fal fa-bell"><span class="noti-count">3</span></i>
+
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-setting">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                            <i class="fal fa-cog"></i>
+
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-account">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                            <div class="user-image">
+                                <i class="fas fa-user user-icon"></i>
+                            </div>
+                            <span>Admin</span>
+                            <i class="fal fa-chevron-down user-arrow"></i>
+
+
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end navbar -->
+            <!-- content -->
+            <div class="content one-door">
+                <div class="overlay"></div>
+                <div class="content-tab no-tab">
+                    <div class="d-flex justify-content-between">
+                        <div class="nav-content-left">
+
+                            <p class="link"><a href="#">Đăng ký học</a><i class="fal fa-angle-right"></i><a href="#">Gia hạn thanh toán</a></p>
+
+                        </div>
+
+                        <div class="nav-content-right">
+                            <a class="d-block text-right" href=""><i class="fas fa-question-circle"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- đăng ký môn thi -->
+
+
+                <div class="d-flex justify-content-center">
+                    <div class="exam-reg-top">
+                        <div class="form-item d-flex form-add-info">
+                            <div class="input-group no-icon align-items-center has-icon">
+                                <label class="fs-14 me-3">Chương trình đang học</label>
+
+                                <input type="text" class="form-control" placeholder="Chọn chương trình đang học">
+                            </div>
+                        </div>
+                        <div class="btn btn-dask-blue min-w-auto px-4 ms-3"><i class="fal fa-eye me-2"></i> Xem</div>
+                    </div>
+                </div>
+                <div class="exam-reg-wrap">
+                    <div class="box-shadow m-0 d-flex flex-column exam-reg-item">
+                        <div class="p-3 d-flex flex-column align-items-center">
+                            <div class=" color-orange text-uppercase fw-bolder">Tên kế hoạch X</div>
+
+                        </div>
+                        <div class="line-1 bg-f1"></div>
+                        <div class="px-3 py-4 fs-14">
+                            <div class="mb-2">
+                                <span class="fst-italic color-66">Thời gian đăng ký:</span>
+                                <span class="fw-bold">20/09/2024  đến 30/11/2024</span>
+                            </div>
+                            <div class="mb-2">
+                                <span class="fst-italic color-66">Mức phí đăng ký:</span>
+                                <span class="fw-bold color-orange">1.000.000 đ</span>
+                            </div>
+                            <div>
+                                <span class="fst-italic color-66">Hạn nộp phí:</span>
+                                <span class="fw-bold">30/11/2024</span>
+                            </div>
+
+                        </div>
+                        <div class="exam-reg-box-footer">
+                            <div class="exrbf-cont">
+                                <a href="phenikaa-4-Dang-ky-mon-thi-dangky.html" class="btn btn-success px-4">
+                                    Đăng ký
+                                </a>
+                                <a href="phenikaa-4-Dang-ky-mon-thi-ketqua.html" class="btn btn-outline-dask-blue px-4">
+                                    Kết quả
+                                </a>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-shadow m-0 d-flex flex-column exam-reg-item">
+                        <div class="p-3 d-flex flex-column align-items-center">
+                            <div class=" color-orange text-uppercase fw-bolder">Tên kế hoạch X</div>
+
+                        </div>
+                        <div class="line-1 bg-f1"></div>
+                        <div class="px-3 py-4 fs-14">
+                            <div class="mb-2">
+                                <span class="fst-italic color-66">Thời gian đăng ký:</span>
+                                <span class="fw-bold">20/09/2024  đến 30/11/2024</span>
+                            </div>
+                            <div class="mb-2">
+                                <span class="fst-italic color-66">Mức phí đăng ký:</span>
+                                <span class="fw-bold color-orange">1.000.000 đ</span>
+                            </div>
+                            <div>
+                                <span class="fst-italic color-66">Hạn nộp phí:</span>
+                                <span class="fw-bold">30/11/2024</span>
+                            </div>
+
+                        </div>
+                        <div class="exam-reg-box-footer">
+                            <div class="exrbf-cont">
+                                <a href="phenikaa-4-Dang-ky-mon-thi-dangky.html" class="btn btn-success px-4">
+                                    Đăng ký
+                                </a>
+                                <a href="phenikaa-4-Dang-ky-mon-thi-ketqua.html" class="btn btn-outline-dask-blue px-4">
+                                    Kết quả
+                                </a>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-shadow m-0 d-flex flex-column exam-reg-item">
+                        <div class="p-3 d-flex flex-column align-items-center">
+                            <div class=" color-orange text-uppercase fw-bolder">Tên kế hoạch X</div>
+
+                        </div>
+                        <div class="line-1 bg-f1"></div>
+                        <div class="px-3 py-4 fs-14">
+                            <div class="mb-2">
+                                <span class="fst-italic color-66">Thời gian đăng ký:</span>
+                                <span class="fw-bold">20/09/2024  đến 30/11/2024</span>
+                            </div>
+                            <div class="mb-2">
+                                <span class="fst-italic color-66">Mức phí đăng ký:</span>
+                                <span class="fw-bold color-orange">1.000.000 đ</span>
+                            </div>
+                            <div>
+                                <span class="fst-italic color-66">Hạn nộp phí:</span>
+                                <span class="fw-bold">30/11/2024</span>
+                            </div>
+
+                        </div>
+                        <div class="exam-reg-box-footer">
+                            <div class="exrbf-cont">
+                                <a href="phenikaa-4-Dang-ky-mon-thi-dangky.html" class="btn btn-success px-4">
+                                    Đăng ký
+                                </a>
+                                <a href="phenikaa-4-Dang-ky-mon-thi-ketqua.html" class="btn btn-outline-dask-blue px-4">
+                                    Kết quả
+                                </a>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-shadow m-0 d-flex flex-column exam-reg-item">
+                        <div class="p-3 d-flex flex-column align-items-center">
+                            <div class=" color-orange text-uppercase fw-bolder">Tên kế hoạch X</div>
+
+                        </div>
+                        <div class="line-1 bg-f1"></div>
+                        <div class="px-3 py-4 fs-14">
+                            <div class="mb-2">
+                                <span class="fst-italic color-66">Thời gian đăng ký:</span>
+                                <span class="fw-bold">20/09/2024  đến 30/11/2024</span>
+                            </div>
+                            <div class="mb-2">
+                                <span class="fst-italic color-66">Mức phí đăng ký:</span>
+                                <span class="fw-bold color-orange">1.000.000 đ</span>
+                            </div>
+
+
+                        </div>
+                        <div class="exam-reg-box-footer">
+                            <div class="exrbf-cont">
+                                <a href="phenikaa-4-Dang-ky-mon-thi-dangky.html" class="btn btn-success px-4">
+                                    Đăng ký
+                                </a>
+                                <a href="phenikaa-4-Dang-ky-mon-thi-ketqua.html" class="btn btn-outline-dask-blue px-4">
+                                    Kết quả
+                                </a>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-shadow m-0 d-flex flex-column exam-reg-item">
+                        <div class="p-3 d-flex flex-column align-items-center">
+                            <div class=" color-orange text-uppercase fw-bolder">Tên kế hoạch X</div>
+
+                        </div>
+                        <div class="line-1 bg-f1"></div>
+                        <div class="px-3 py-4 fs-14">
+                            <div class="mb-2">
+                                <span class="fst-italic color-66">Thời gian đăng ký:</span>
+                                <span class="fw-bold">20/09/2024  đến 30/11/2024</span>
+                            </div>
+                            <div class="mb-2">
+                                <span class="fst-italic color-66">Mức phí đăng ký:</span>
+                                <span class="fw-bold color-orange">1.000.000 đ</span>
+                            </div>
+                            <div>
+                                <span class="fst-italic color-66">Hạn nộp phí:</span>
+                                <span class="fw-bold">30/11/2024</span>
+                            </div>
+
+                        </div>
+                        <div class="exam-reg-box-footer">
+                            <div class="exrbf-cont">
+                                <a href="phenikaa-4-Dang-ky-mon-thi-dangky.html" class="btn btn-success px-4">
+                                    Đăng ký
+                                </a>
+                                <a href="phenikaa-4-Dang-ky-mon-thi-ketqua.html" class="btn btn-outline-dask-blue px-4">
+                                    Kết quả
+                                </a>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <!-- end đăng ký môn thi -->
+            </div>
+        </div>
+        <!-- end content -->
+
+        <!-- copy right -->
+        <div class="copyright ">
+            <marquee>
+                Đơn vị phát triển: Công ty Cổ Phần dịch vụ Công nghệ APIS - Địa chỉ: Tầng 6 Tháp Tây, Tòa nhà Hancorp, Số, 72 Trần Đăng Ninh, P, Cầu Giấy, Hà Nội - Điện thoại: 024 3204 5867
+            </marquee>
+        </div>
+        <!-- end copy right -->
+    </div>
+
+
+</body>
+<script src="../assets/js/bootstrap.bundle.min.js "></script>
+<script src="../assets/js/swiper-bundle.min.js"></script>
+<script src="../assets/js/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="../assets/js/slick.js"></script>
+<script src="../assets/js/jquery-searchbox.js"></script>
+<script src="../assets/js/custom.js"></script>
+<script src="../assets/js/masonry.pkgd.min.js"></script>
+
+
+</html>
