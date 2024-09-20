@@ -4592,3 +4592,19 @@ img.st-1-img {
 .fw-500 {
   font-weight: 500;
 }
+
+.dkcn_diem .nav-link {
+  font-size: 18px;
+  color: #222222;
+}
+
+.dkcn_diem .nav-link.active {
+  color: var(--orange);
+  font-weight: bold;
+}
+
+.dkcn-diem-chungchi .top {
+  background: #f4f4f4;
+  padding: 15px 20px 0;
+  margin-top: 20px;
+}

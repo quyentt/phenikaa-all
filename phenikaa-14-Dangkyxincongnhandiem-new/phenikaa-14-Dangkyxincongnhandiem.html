@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education management</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+
+<body>
+    <div class="wrapper ">
+        <div class="left-sidebar">
+            <div class="sidebar-top">
+                <a href="javascript:void(0)" class="menu-icon">
+                    <i class="fal fa-indent"></i>
+                </a>
+                <a href="javascript:void(0)" class="menu-icon-mobi">
+                    <i class="fal fa-indent"></i>
+                </a>
+                <a class="logo" href="#">
+                    <img class="logo-icon" src="../assets/images/logo.png">
+                    <img class="logo-name" src="../assets/images/logo-name.png">
+                </a>
+                <div class="line-1"></div>
+                <div class="line-2"></div>
+                <div class="line-hiden"></div>
+            </div>
+
+            <div class="sidebar-menu">
+                <div class="accordion" id="sidebar-menu">
+                    <div class="sidebar-menu-item ">
+                        <a class="sidebar-menu-header" href="">
+                            <i class="fas fa-tachometer-alt item-icon"></i>
+                            <span>dashboad</span>
+                        </a>
+                    </div>
+                    <!-- siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse1" href="javascrip:void(0)">
+                            <i class="fal fa-id-card item-icon"></i>
+                            <span>Hò sơ cá nhân</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse1" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1 co the dai hon</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse2" href="javascrip:void(0)">
+                            <i class="fal fa-user-chart item-icon"></i>
+                            <span>Lịch giảng</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse2" data-bs-parent="#sidebar-menu">
+
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item active">
+                        <a class="sidebar-menu-header" data-bs-toggle="collapse" data-bs-target="#collapse3" href="javascrip:void(0)">
+                            <i class="fal fa-address-book item-icon"></i>
+                            <span>Quản lý điểm</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse show" id="collapse3" data-bs-parent="#sidebar-menu">
+                            <a class="active" href="#">Bảng điểm</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse4" href="javascrip:void(0)">
+                            <i class="fal fa-file-invoice-dollar item-icon"></i>
+                            <span>Bảng lương</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse4" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse5" href="javascrip:void(0)">
+                            <i class="fal fa-analytics item-icon"></i>
+                            <span>Báo cáo thống kê</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse5" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+
+
+
+                </div>
+
+
+            </div>
+        </div>
+        <div class="content-page ">
+            <!-- navbar -->
+            <div class="navbar">
+                <div class="search-group-in-mobi">
+                    <i class="fal fa-search mobi-search-icon"></i>
+                    <form class="search-group">
+                        <input type="email" class="search-form" placeholder="Tìm kiếm thông tin">
+                        <button><i class="fal fa-search"></i></button>
+                    </form>
+                </div>
+                <div class="in-mobi-group">
+                    <div class="nav-menu-group">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                            <i class="fal fa-ellipsis-h-alt"></i>
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-notification">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                            <i class="fal fa-bell"><span class="noti-count">3</span></i>
+
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-setting">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                            <i class="fal fa-cog"></i>
+
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-account">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                            <div class="user-image">
+                                <i class="fas fa-user user-icon"></i>
+                            </div>
+                            <span>Admin</span>
+                            <i class="fal fa-chevron-down user-arrow"></i>
+
+
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end navbar -->
+            <!-- content -->
+            <div class="content one-door">
+                <div class="overlay"></div>
+                <div class="content-tab no-tab">
+                    <div class="d-flex justify-content-between">
+                        <div class="nav-content-left">
+
+                            <p class="link"><a href="#">Góc học tập</a><i class="fal fa-angle-right"></i><a href="#">Đăng ký xin công nhận điểm</a></p>
+
+                        </div>
+
+                        <div class="nav-content-right">
+                            <a class="d-block text-right" href=""><i class="fas fa-question-circle"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- đăng ký nguyện vọng -->
+                <div class="box-shadow register-wish pt-0">
+                    <div class="form-top">
+                        <div class="row">
+                            <div class="col-12 col-lg-3 col-md-6 mb-15">
+                                <div class="form-item d-flex  form-add-info flex-grow-1">
+                                    <div class="input-group no-icon">
+
+                                        <i class="fal fa-angle-down"></i>
+                                        <select class="form-select" aria-label="Default select example">
+                                        <option selected>Chọn kế hoạch công nhận điểm</option>
+                                        <option value="1">Công nghệ thông tin</option>
+                                        <option value="2">Kế toán</option>
+                                        <option value="3">Điện tử</option>
+                                    </select>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="col-12 col-lg-3 col-md-6 mb-15">
+                                <div class="form-item d-flex  form-add-info flex-grow-1">
+                                    <div class="input-group no-icon">
+
+                                        <i class="fal fa-angle-down"></i>
+                                        <select class="form-select" aria-label="Default select example">
+                                        <option selected>Chọn chương trình</option>
+                                        <option value="1">Công nghệ thông tin</option>
+                                        <option value="2">Kế toán</option>
+                                        <option value="3">Điện tử</option>
+                                    </select>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="col-12 col-lg-6  mb-15">
+                                <div class="d-flex align-items-center">
+
+                                    <div class="btn btn-dask-blue min-w-auto px-4 ms-auto ms-lg-0"><i class="fal fa-table me-2"></i> Xem học phần</div>
+                                    <div class="btn btn-success min-w-auto px-4 ms-4"><i class="fal fa-clipboard-list me-2"></i>Báo cáo</div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                    <div class="container-fluid px-20">
+
+                        <div class="dkcn_diem pt-4">
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">
+                                        Công nhận từ bảng điểm
+                                    </button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">
+                                        Công nhận từ kết quả
+                                    </button>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                    <div class="title-is-paging">
+                                        <p class="color-dask-blue fw-bold mt-3">Danh sách</p>
+                                        <div class="gv-paging-group">
+                                            <span class="pe-3 fs-14">Hiển thị</span>
+                                            <div class="form-item d-flex  form-add-info">
+                                                <div class="input-group no-icon">
+
+                                                    <i class="fal fa-angle-down"></i>
+                                                    <select class="form-select" aria-label="Default select example">
+                                                    <option selected>10</option>
+                                                    <option value="1">20</option>
+                                                    <option value="2">50</option>
+                                                    <option value="3">100</option>
+                                                </select>
+                                                </div>
+
+                                            </div>
+                                            <span class="ms-3 me-5 fs-14">dữ liệu</span>
+                                            <div class="gv-paging">
+
+                                                <ul class="gv-pagination">
+                                                    <li class="gv-page-item disabled">
+                                                        <a class="page-link" href="#" tabindex="-1" aria-disabled="true"><i class="fal fa-backward"></i></a>
+                                                    </li>
+                                                    <li class="gv-page-item active"><a class="page-link " href="#">1</a></li>
+                                                    <li class="gv-page-item"><a class="page-link" href="#">2</a></li>
+                                                    <li class="gv-page-item"><a class="page-link" href="#">3</a></li>
+                                                    <li class="gv-page-item paging-hidden"><a class="page-link" href="#">...</a></li>
+                                                    <li class="gv-page-item"><a class="page-link" href="#">99</a></li>
+                                                    <li class="gv-page-item"><a class="page-link" href="#">100</a></li>
+                                                    <li class="gv-page-item">
+                                                        <a class="page-link" href="#"><i class="fal fa-forward"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <table class="table transcrip-table tabs-scores ">
+                                        <thead>
+                                            <tr>
+                                                <th class="text-center" scope="col">STT</th>
+                                                <th scope="col">Mã học phần</th>
+                                                <th scope="col">Tên học phần</th>
+                                                <th class="text-center" scope="col">Số tín chỉ</th>
+                                                <th scope="col">Kết quả đã tích lũy tại trường</th>
+                                                <th scope="col">Kết quả được công nhận mới</th>
+                                                <th scope="col">Thông tin xác nhận</th>
+                                                <th class="text-center" scope="col">Đăng ký công nhận</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                                <td><em class="show-in-mobi">Mã học phần:</em><span>daotao_hocphan_Ma</span></td>
+                                                <td><em class="show-in-mobi">Tên học phần:</em><span>daotao_hocphan_Ten</span></td>
+                                                <td class="text-center"><em class="show-in-mobi">Số tín chỉ:</em><span>4</span></td>
+                                                <td><em class="show-in-mobi">Kết quả đã tích lũy tại trường:</em><span>Kết quả tại trường</span></td>
+                                                <td><em class="show-in-mobi">Kết quả được công nhận mới:</em><span>Kết quả công nhận mới</span></td>
+                                                <td><em class="show-in-mobi">Thông tin xác nhận:</em><span>Nội dung thông tin xác nhận</span></td>
+
+                                                <td class="text-center"><em class="show-in-mobi">Đăng ký công nhận:</em>
+                                                    <a href="#tubangdiem" data-bs-toggle="modal">Từ bảng điểm</a>
+                                                </td>
+
+
+
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                    <div class="dkcn-diem-chungchi">
+                                        <div class="top">
+                                            <div class="row">
+                                                <div class="col-12 col-md-6 col-lg-3">
+                                                    <div class="form-item d-flex mb-15 form-add-info no-icon">
+                                                        <label class="form-label text-end me-3">Loại chứng chỉ</label>
+                                                        <div class="input-group">
+                                                            <i class="fal fa-angle-down"></i>
+                                                            <select class="form-select" aria-label="Default select example">
+                                                                <option selected="">Chọn loại chứng chỉ</option>
+                                                                <option value="1">Công nghệ thông tin</option>
+                                                                <option value="2">Kế toán</option>
+                                                                <option value="3">Điện tử</option>
+                                                            </select>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-md-6 col-lg-3">
+                                                    <div class="form-item d-flex mb-15 form-add-info no-icon">
+                                                        <label class="form-label text-end me-3">Tên chứng chỉ</label>
+                                                        <div class="input-group">
+                                                            <i class="fal fa-angle-down"></i>
+                                                            <select class="form-select" aria-label="Default select example">
+                                                                <option selected="">Chọn tên chứng chỉ</option>
+                                                                <option value="1">Công nghệ thông tin</option>
+                                                                <option value="2">Kế toán</option>
+                                                                <option value="3">Điện tử</option>
+                                                            </select>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-md-6 col-lg-3">
+                                                    <div class="form-item d-flex mb-15 form-add-info no-icon">
+                                                        <label class="form-label text-end me-3">Cấp độ</label>
+                                                        <div class="input-group">
+                                                            <i class="fal fa-angle-down"></i>
+                                                            <select class="form-select" aria-label="Default select example">
+                                                                <option selected="">Chọn cấp độ</option>
+                                                                <option value="1">Công nghệ thông tin</option>
+                                                                <option value="2">Kế toán</option>
+                                                                <option value="3">Điện tử</option>
+                                                            </select>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-md-6 col-lg-3">
+                                                    <div class="d-flex gap-3">
+                                                        <a href="#" class="btn btn-dask-blue min-w-auto flex-grow-1">
+                                                            Xem thông tin
+                                                        </a>
+                                                        <a href="#" class="btn btn-orange min-w-auto flex-grow-1">
+                                                            Lưu thông tin
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="ps-0 ps-lg-3 mt-3">
+                                            <div class="row">
+                                                <div class="col-12 col-lg-3">
+                                                    <div class="form-item d-flex mb-15 form-add-info no-icon">
+                                                        <label class="form-label text-end me-3">Nơi cấp</label>
+                                                        <div class="input-group">
+                                                            <i class="fal fa-angle-down"></i>
+                                                            <select class="form-select" aria-label="Default select example">
+                                                                <option selected="">Hà Nội</option>
+                                                                <option value="1">Công nghệ thông tin</option>
+                                                                <option value="2">Kế toán</option>
+                                                                <option value="3">Điện tử</option>
+                                                            </select>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-item d-flex mb-15 form-add-info">
+                                                        <label class="form-label text-end me-3">Ngày cấp</label>
+                                                        <div class="input-group">
+                                                            <input type="email" class="form-control" placeholder="Nhập ngày cấp">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-item d-flex mb-15 form-add-info">
+                                                        <label class="form-label text-end me-3">Ngày hết hạn</label>
+                                                        <div class="input-group">
+                                                            <input type="email" class="form-control" placeholder="Nhập ngày hết hạn">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-item d-flex mb-15 form-add-info">
+                                                        <label class="form-label text-end me-3">Nhập minh chứng</label>
+                                                        <button class="btn btn-outline-primary min-w-auto px-4" style="height: 38px;">
+                                                            <i class="fal fa-upload me-2"></i>
+                                                            <span>Upfile</span>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-lg-9">
+                                                    <div class="w-100">
+                                                        <div class="title-is-paging">
+                                                            <p class="color-dask-blue fw-bold mt-2">Danh sách các đầu điểm phải nhập</p>
+
+                                                        </div>
+                                                        <table class="table has-form transcrip-table tabs-scores ">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th class="text-center" scope="col">STT</th>
+                                                                    <th class="text-center" scope="col">Tên đầu điểm nhập</th>
+                                                                    <th class="text-center" scope="col">Thang điểm</th>
+                                                                    <th scope="col">Kết quả</th>
+                                                                    <th scope="col">Ghi chú</th>
+
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                                                    <td class="text-center"><em class="show-in-mobi">Tên đầu điểm nhập:</em><span>Nghe</span></td>
+                                                                    <td class="text-center"><em class="show-in-mobi">Thang điểm:</em><span>10</span></td>
+                                                                    <td><em class="show-in-mobi">Kết quả:</em>
+                                                                        <input type="text" class="form-control kqpk-input" placeholder="Nhập điểm">
+                                                                    </td>
+                                                                    <td><em class="show-in-mobi">Ghi chú:</em>
+                                                                        <input type="text" class="form-control kqpk-input" style="max-width: 100%;" placeholder="Ghi chú">
+                                                                    </td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                    <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                                                    <td class="text-center"><em class="show-in-mobi">Tên đầu điểm nhập:</em><span>Nghe</span></td>
+                                                                    <td class="text-center"><em class="show-in-mobi">Thang điểm:</em><span>10</span></td>
+                                                                    <td><em class="show-in-mobi">Kết quả:</em>
+                                                                        <input type="text" class="form-control kqpk-input" placeholder="Nhập điểm">
+                                                                    </td>
+                                                                    <td><em class="show-in-mobi">Ghi chú:</em>
+                                                                        <input type="text" class="form-control kqpk-input" style="max-width: 100%;" placeholder="Ghi chú">
+                                                                    </td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                    <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                                                    <td class="text-center"><em class="show-in-mobi">Tên đầu điểm nhập:</em><span>Nghe</span></td>
+                                                                    <td class="text-center"><em class="show-in-mobi">Thang điểm:</em><span>10</span></td>
+                                                                    <td><em class="show-in-mobi">Kết quả:</em>
+                                                                        <input type="text" class="form-control kqpk-input" placeholder="Nhập điểm">
+                                                                    </td>
+                                                                    <td><em class="show-in-mobi">Ghi chú:</em>
+                                                                        <input type="text" class="form-control kqpk-input" style="max-width: 100%;" placeholder="Ghi chú">
+                                                                    </td>
+
+                                                                </tr>
+                                                                <tr>
+                                                                    <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                                                    <td class="text-center"><em class="show-in-mobi">Tên đầu điểm nhập:</em><span>Nghe</span></td>
+                                                                    <td class="text-center"><em class="show-in-mobi">Thang điểm:</em><span>10</span></td>
+                                                                    <td><em class="show-in-mobi">Kết quả:</em>
+                                                                        <input type="text" class="form-control kqpk-input" placeholder="Nhập điểm">
+                                                                    </td>
+                                                                    <td><em class="show-in-mobi">Ghi chú:</em>
+                                                                        <input type="text" class="form-control kqpk-input" style="max-width: 100%;" placeholder="Ghi chú">
+                                                                    </td>
+
+                                                                </tr>
+
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="line-1 my-4" style="background: #d1d1d1;"></div>
+                                        <div class="row">
+                                            <div class="col-12 col-lg-6">
+
+                                                <div class="w-100">
+                                                    <div class="title-is-paging">
+                                                        <p class="color-dask-blue fw-bold mt-2">Danh sách các học phần được xét công nhận</p>
+
+                                                    </div>
+                                                    <table class="table has-form transcrip-table tabs-scores ">
+                                                        <thead>
+                                                            <tr>
+                                                                <th class="text-center" scope="col">STT</th>
+                                                                <th scope="col">Mã học phần</th>
+                                                                <th scope="col">Tên học phần</th>
+                                                                <th class="text-center" scope="col">Số tín chỉ</th>
+                                                                <th class="text-center" scope="col">Điểm được cộng</th>
+                                                                <th class="text-center" scope="col">Chọn xác nhận</th>
+
+
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                                                <td><em class="show-in-mobi">Mã học phần:</em><span>Ma_hocphan</span></td>
+                                                                <td><em class="show-in-mobi">Tên học phần:</em><span>Ten_hocphan</span></td>
+                                                                <td class="text-center"><em class="show-in-mobi">Số tín chỉ:</em><span>3</span></td>
+                                                                <td class="text-center"><em class="show-in-mobi">Điểm được cộng:</em><span>10</span></td>
+                                                                <td class="text-center"><em class="show-in-mobi">Chọn xác nhận:</em><span><input class="form-check-input" type="checkbox" value="" id="1"></span></td>
+
+
+                                                            </tr>
+                                                            <tr>
+                                                                <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                                                <td><em class="show-in-mobi">Mã học phần:</em><span>Ma_hocphan</span></td>
+                                                                <td><em class="show-in-mobi">Tên học phần:</em><span>Ten_hocphan</span></td>
+                                                                <td class="text-center"><em class="show-in-mobi">Số tín chỉ:</em><span>3</span></td>
+                                                                <td class="text-center"><em class="show-in-mobi">Điểm được cộng:</em><span>10</span></td>
+                                                                <td class="text-center"><em class="show-in-mobi">Chọn xác nhận:</em><span><input class="form-check-input" type="checkbox" value="" id="1"></span></td>
+
+
+                                                            </tr>
+                                                            <tr>
+                                                                <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                                                <td><em class="show-in-mobi">Mã học phần:</em><span>Ma_hocphan</span></td>
+                                                                <td><em class="show-in-mobi">Tên học phần:</em><span>Ten_hocphan</span></td>
+                                                                <td class="text-center"><em class="show-in-mobi">Số tín chỉ:</em><span>3</span></td>
+                                                                <td class="text-center"><em class="show-in-mobi">Điểm được cộng:</em><span>10</span></td>
+                                                                <td class="text-center"><em class="show-in-mobi">Chọn xác nhận:</em><span><input class="form-check-input" type="checkbox" value="" id="1"></span></td>
+
+
+                                                            </tr>
+                                                            <tr>
+                                                                <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                                                <td><em class="show-in-mobi">Mã học phần:</em><span>Ma_hocphan</span></td>
+                                                                <td><em class="show-in-mobi">Tên học phần:</em><span>Ten_hocphan</span></td>
+                                                                <td class="text-center"><em class="show-in-mobi">Số tín chỉ:</em><span>3</span></td>
+                                                                <td class="text-center"><em class="show-in-mobi">Điểm được cộng:</em><span>10</span></td>
+                                                                <td class="text-center"><em class="show-in-mobi">Chọn xác nhận:</em><span><input class="form-check-input" type="checkbox" value="" id="1"></span></td>
+
+
+                                                            </tr>
+                                                            <tr>
+                                                                <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                                                <td><em class="show-in-mobi">Mã học phần:</em><span>Ma_hocphan</span></td>
+                                                                <td><em class="show-in-mobi">Tên học phần:</em><span>Ten_hocphan</span></td>
+                                                                <td class="text-center"><em class="show-in-mobi">Số tín chỉ:</em><span>3</span></td>
+                                                                <td class="text-center"><em class="show-in-mobi">Điểm được cộng:</em><span>10</span></td>
+                                                                <td class="text-center"><em class="show-in-mobi">Chọn xác nhận:</em><span><input class="form-check-input" type="checkbox" value="" id="1"></span></td>
+
+
+                                                            </tr>
+
+                                                        </tbody>
+                                                    </table>
+                                                    <div class="d-flex justify-content-end mt-3">
+                                                        <button class="btn btn-dask-blue px-4 min-w-auto">
+                                                            <i class="fas fa-check-square me-2"></i>
+                                                            <span>Xác nhận</span>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6">
+
+                                                <div class="w-100">
+                                                    <div class="title-is-paging">
+                                                        <p class="color-orange fw-bold mt-2">Danh sách các học phần đã được công nhận</p>
+
+                                                    </div>
+                                                    <table class="table has-form transcrip-table tabs-scores ">
+                                                        <thead>
+                                                            <tr>
+                                                                <th class="text-center" scope="col">STT</th>
+                                                                <th scope="col">Mã học phần</th>
+                                                                <th scope="col">Tên học phần</th>
+                                                                <th class="text-center" scope="col">Số tín chỉ</th>
+                                                                <th class="text-center" scope="col">Điểm được cộng</th>
+                                                                <th class="text-center" scope="col">Chọn xác nhận</th>
+
+
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                                                <td><em class="show-in-mobi">Mã học phần:</em><span>Ma_hocphan</span></td>
+                                                                <td><em class="show-in-mobi">Tên học phần:</em><span>Ten_hocphan</span></td>
+                                                                <td class="text-center"><em class="show-in-mobi">Số tín chỉ:</em><span>3</span></td>
+                                                                <td class="text-center"><em class="show-in-mobi">Điểm được cộng:</em><span>10</span></td>
+                                                                <td class="text-center"><em class="show-in-mobi">Chọn xác nhận:</em><span><input class="form-check-input" type="checkbox" value="" id="1"></span></td>
+
+
+                                                            </tr>
+                                                            <tr>
+                                                                <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                                                <td><em class="show-in-mobi">Mã học phần:</em><span>Ma_hocphan</span></td>
+                                                                <td><em class="show-in-mobi">Tên học phần:</em><span>Ten_hocphan</span></td>
+                                                                <td class="text-center"><em class="show-in-mobi">Số tín chỉ:</em><span>3</span></td>
+                                                                <td class="text-center"><em class="show-in-mobi">Điểm được cộng:</em><span>10</span></td>
+                                                                <td class="text-center"><em class="show-in-mobi">Chọn xác nhận:</em><span><input class="form-check-input" type="checkbox" value="" id="1"></span></td>
+
+
+                                                            </tr>
+                                                            <tr>
+                                                                <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                                                <td><em class="show-in-mobi">Mã học phần:</em><span>Ma_hocphan</span></td>
+                                                                <td><em class="show-in-mobi">Tên học phần:</em><span>Ten_hocphan</span></td>
+                                                                <td class="text-center"><em class="show-in-mobi">Số tín chỉ:</em><span>3</span></td>
+                                                                <td class="text-center"><em class="show-in-mobi">Điểm được cộng:</em><span>10</span></td>
+                                                                <td class="text-center"><em class="show-in-mobi">Chọn xác nhận:</em><span><input class="form-check-input" type="checkbox" value="" id="1"></span></td>
+
+
+                                                            </tr>
+                                                            <tr>
+                                                                <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                                                <td><em class="show-in-mobi">Mã học phần:</em><span>Ma_hocphan</span></td>
+                                                                <td><em class="show-in-mobi">Tên học phần:</em><span>Ten_hocphan</span></td>
+                                                                <td class="text-center"><em class="show-in-mobi">Số tín chỉ:</em><span>3</span></td>
+                                                                <td class="text-center"><em class="show-in-mobi">Điểm được cộng:</em><span>10</span></td>
+                                                                <td class="text-center"><em class="show-in-mobi">Chọn xác nhận:</em><span><input class="form-check-input" type="checkbox" value="" id="1"></span></td>
+
+
+                                                            </tr>
+                                                            <tr>
+                                                                <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span>1</span></th>
+                                                                <td><em class="show-in-mobi">Mã học phần:</em><span>Ma_hocphan</span></td>
+                                                                <td><em class="show-in-mobi">Tên học phần:</em><span>Ten_hocphan</span></td>
+                                                                <td class="text-center"><em class="show-in-mobi">Số tín chỉ:</em><span>3</span></td>
+                                                                <td class="text-center"><em class="show-in-mobi">Điểm được cộng:</em><span>10</span></td>
+                                                                <td class="text-center"><em class="show-in-mobi">Chọn xác nhận:</em><span><input class="form-check-input" type="checkbox" value="" id="1"></span></td>
+
+
+                                                            </tr>
+
+                                                        </tbody>
+                                                    </table>
+                                                    <div class="d-flex justify-content-end mt-3">
+                                                        <button class="btn btn-outline-orange px-4 min-w-auto">
+                                                            <i class="fas fa-times-circle me-2"></i>
+                                                            <span>Hủy xác nhận</span>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end đăng ký nguyện vọng -->
+        </div>
+    </div>
+    <!-- end content -->
+
+    <!-- copy right -->
+    <div class="copyright ">
+        <marquee>
+            Đơn vị phát triển: Công ty Cổ Phần dịch vụ Công nghệ APIS - Địa chỉ: Tầng 6 Tháp Tây, Tòa nhà Hancorp, Số, 72 Trần Đăng Ninh, P, Cầu Giấy, Hà Nội - Điện thoại: 024 3204 5867
+        </marquee>
+    </div>
+    <!-- end copy right -->
+    </div>
+    <!-- modal đăng ký công nhận từ bảng điểm -->
+    <div class="modal fade register-wish xlts" id="tubangdiem" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="finance-user-info in-modal ">
+                        <p><b>Đăng ký công nhận từ bảng điểm</b></p>
+
+
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="fs-14 mb-3 mt-2">Chọn danh sách các học phần sử dụng để công nhận điểm cho học phần <b>XXXXX</b></div>
+                    <div class="col-12 pb-3">
+                        <table class="table tabs-scores  transcrip-table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th class="text-center" scope="col">STT</th>
+                                    <th scope="col">Tên học phần</th>
+                                    <th scope="col" class="text-center">Số tín chỉ/Số đơn vị học trình</th>
+                                    <th scope="col" class="text-center">Điểm</th>
+                                    <th scope="col" class="text-center">Chọn</th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span class="fw-normal">1</span></th>
+                                    <td><em class="show-in-mobi">Tên học phần:</em><span class="truncate-1">Ten_hoc_phan</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Số tín chỉ/Số đơn vị học trình:</em><span class="truncate-1">9</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Điểm:</em><span class="truncate-1">9</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Chọn:</em>
+                                        <a class="color-orange fs-6" href="#"><i class="fal fa-trash"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span class="fw-normal">1</span></th>
+                                    <td><em class="show-in-mobi">Tên học phần:</em><span class="truncate-1">Ten_hoc_phan</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Số tín chỉ/Số đơn vị học trình:</em><span class="truncate-1">9</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Điểm:</em><span class="truncate-1">9</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Chọn:</em>
+                                        <a class="color-orange fs-6" href="#"><i class="fal fa-trash"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span class="fw-normal">1</span></th>
+                                    <td><em class="show-in-mobi">Tên học phần:</em><span class="truncate-1">Ten_hoc_phan</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Số tín chỉ/Số đơn vị học trình:</em><span class="truncate-1">9</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Điểm:</em><span class="truncate-1">9</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Chọn:</em>
+                                        <a class="color-orange fs-6" href="#"><i class="fal fa-trash"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span class="fw-normal">1</span></th>
+                                    <td><em class="show-in-mobi">Tên học phần:</em><span class="truncate-1">Ten_hoc_phan</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Số tín chỉ/Số đơn vị học trình:</em><span class="truncate-1">9</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Điểm:</em><span class="truncate-1">9</span></td>
+                                    <td class="text-center"><em class="show-in-mobi">Chọn:</em>
+                                        <a class="color-orange fs-6" href="#"><i class="fal fa-trash"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th class="text-center" scope="row"><em class="show-in-mobi">STT</em><span class="fw-normal"></span></th>
+                                    <td class="py-2"><em class="show-in-mobi">Tên học phần:</em>
+                                        <input type="text" class="form-control in-table text-start px-3" style="width: 100%; height: 30px">
+
+                                    </td>
+                                    <td class="text-center py-2"><em class="show-in-mobi">Số tín chỉ/Số đơn vị học trình:</em>
+                                        <input type="text" class="form-control in-table text-start px-3" style="width: 100%; height: 30px">
+                                    </td>
+                                    <td class="text-center py-2"><em class="show-in-mobi">Điểm:</em>
+                                        <input type="text" class="form-control in-table text-start px-3" style="width: 100%; height: 30px">
+                                    </td>
+                                    <td class="text-center"><em class="show-in-mobi">Chọn:</em>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="py-2" colspan="5">
+                                        <div class="d-flex justify-content-end">
+                                            <div class="btn btn-sm btn-outline-dask-blue min-w-auto px-4 ms-auto ms-lg-0"><i class="fal fa-plus me-2"></i> Thêm mới dòng</div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between px-3 px-sm-0">
+                        <p class="mb-0 fs-14-i"><b>Điểm quy đổi</b></p>
+                        <div class="btn btn-outline-primary min-w-auto px-4 ms-auto ms-lg-0 w-auto-i"><i class="fal fa-list-ul me-2"></i> Xem kết quả</div>
+                    </div>
+                    <div class="d-flex align-items-center flex-wrap gap-3  px-3 px-sm-0 mt-4 mb-2">
+                        <div class="item col-12 col-sm-auto">
+                            <div class="mb-1 text-66 fs-14">Cơ sở đào tạo đã học</div>
+                            <div class="form-item d-flex  form-add-info flex-grow-1">
+                                <div class="input-group no-icon">
+
+                                    <i class="fal fa-angle-down"></i>
+                                    <select class="form-select" aria-label="Default select example">
+                                    <option selected>Chọn Cơ sở đào tạo đã học</option>
+                                    <option value="1">Công nghệ thông tin</option>
+                                    <option value="2">Kế toán</option>
+                                    <option value="3">Điện tử</option>
+                                </select>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="mb-1 text-66 fs-14">Nhập minh chứng</div>
+                            <div class="d-flex align-items-center flex-wrap">
+                                <div class="btn btn-outline-primary min-w-auto px-4 ms-auto ms-lg-0"><i class="fal fa-upload me-2"></i> Upfile</div>
+                                <div class="d-flex align-items-center ms-2">
+                                    <span class="color-dask-blue fst-italic fs-14">file_minh-chung.docx</span>
+                                    <a href="#" class="text-danger ms-2 fs-14">
+                                        <i class="fal fa-trash"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="d-flex w-100 align-items-center justify-content-between flex-wrap">
+                        <div class="btn btn-outline-orange min-w-auto px-4  mb-3"><i class="fal fa-times-circle me-2"></i> Xác nhận hủy kết quả đăng ký</div>
+                        <div class="btn btn-dask-blue min-w-auto px-4  mb-3"><i class="fal fa-exchange me-2"></i> Xác nhận đồng ý quy đổi điểm</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="../assets/js/bootstrap.bundle.min.js "></script>
+<script src="../assets/js/swiper-bundle.min.js"></script>
+<script src="../assets/js/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="../assets/js/slick.js"></script>
+<script src="../assets/js/jquery-searchbox.js"></script>
+<script src="../assets/js/custom.js"></script>
+<script src="../assets/js/masonry.pkgd.min.js"></script>
+
+
+</html>
