@@ -4608,3 +4608,9 @@ img.st-1-img {
   padding: 15px 20px 0;
   margin-top: 20px;
 }
+
+.input-gray .form-add-info .form-select,
+.input-gray .form-add-info .form-control,
+.input-gray .form-control {
+  border-color: #d1d1d1;
+}
