@@ -980,7 +980,7 @@ input::placeholder {
 }
 
 .color-orange {
-  color: var(--orange);
+  color: var(--orange) !important;
 }
 
 /*user-drop*/
