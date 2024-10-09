@@ -643,6 +643,9 @@
         $(".noti-fix-close-all").click(function () {
             $(".noti-fix-screen").addClass("hidden");
         });
+        $(".action-close").click(function () {
+            $(this).parents(".noti-fix-item").addClass("close");
+        });
     })
 </script>
 

@@ -4626,6 +4626,7 @@ img.st-1-img {
   display: flex;
   flex-direction: column;
   align-items: end;
+  min-width: 60px;
 }
 .noti-fix-item{
   position: relative;
@@ -4646,6 +4647,7 @@ img.st-1-img {
   transform: scale(0);
   transition: ease-out 0.3s;
   transform-origin: right;
+  cursor: pointer;
 
 }
 .noti-fix-icon img{
@@ -4684,6 +4686,7 @@ img.st-1-img {
   gap: 6px;
   top: -11px;
   right: -11px;
+  
 }
 .noti-fix-action i{
   width: 22px;
@@ -4693,6 +4696,7 @@ img.st-1-img {
   align-items: center;
   justify-content: center;
   border: solid 1px var(--orange);
+  cursor: pointer;
 }
 .noti-fix-action .action-hidden{
   background-color: #fff;
@@ -4730,7 +4734,11 @@ img.st-1-img {
   font-size: 20px;
   border-radius: 100%;
   display: none;
+  cursor: pointer;
 }
 .noti-fix-screen:hover .noti-fix-close-all{
   display: flex;
+}
+.noti-fix-item.close{
+  display: none;
 }
