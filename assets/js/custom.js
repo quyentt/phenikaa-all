@@ -9,6 +9,7 @@ var swiper2 = new Swiper(".service-content-slider", {
   autoHeight: true,
   spaceBetween: 0,
   navigation: false,
+  noSwipingClass: ["live-doc"],
   thumbs: {
     swiper: swiper,
   },
