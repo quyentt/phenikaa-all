@@ -965,6 +965,9 @@
 }
 
 @media (max-width: 480px) {
+  .calendar-top .w-25p{
+    width: 100%;
+  }
   .date-list .table tr:nth-of-type(even) {
     background: #223771;
   }

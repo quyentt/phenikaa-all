@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education management</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+
+<body>
+    <div class="wrapper ">
+        <div class="left-sidebar">
+            <div class="sidebar-top">
+                <a href="javascript:void(0)" class="menu-icon">
+                    <i class="fal fa-indent"></i>
+                </a>
+                <a href="javascript:void(0)" class="menu-icon-mobi">
+                    <i class="fal fa-indent"></i>
+                </a>
+                <a class="logo" href="#">
+                    <img class="logo-icon" src="../assets/images/logo.png">
+                    <img class="logo-name" src="../assets/images/logo-name.png">
+                </a>
+                <div class="line-1"></div>
+                <div class="line-2"></div>
+                <div class="line-hiden"></div>
+            </div>
+    
+            <div class="sidebar-menu">
+                <div class="accordion" id="sidebar-menu">
+                    <div class="sidebar-menu-item active">
+                        <a class="sidebar-menu-header" href="">
+                            <i class="fas fa-house item-icon"></i>
+                            <span>Trang chủ</span>
+                        </a>
+                    </div>
+                    <!-- siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header" data-bs-toggle="collapse" data-bs-target="#collapse1"
+                           href="javascrip:void(0)">
+                            <i class="fal fa-id-card item-icon"></i>
+                            <span>Profile</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse show" id="collapse1" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1 co the dai hon</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse2"
+                           href="javascrip:void(0)">
+                            <i class="fal fa-book-reader item-icon"></i>
+                            <span>Góc học tập</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse2" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse3"
+                           href="javascrip:void(0)">
+                            <i class="fal fa-hospital-user item-icon"></i>
+                            <span>Ký túc xá</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse3" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse4"
+                           href="javascrip:void(0)">
+                            <i class="fal fa-users-class item-icon"></i>
+                            <span>Đăng ký học</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse4" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse5"
+                           href="javascrip:void(0)">
+                            <i class="fal fa-calendar-alt item-icon"></i>
+                            <span>Thời khóa biểu</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse5" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse6"
+                           href="javascrip:void(0)">
+                            <i class="fal fa-sack-dollar item-icon"></i>
+                            <span>Tài chính</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse6" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse7"
+                           href="javascrip:void(0)">
+                            <i class="fal fa-book item-icon"></i>
+                            <span>Thư viện</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse7" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse8"
+                           href="javascrip:void(0)">
+                            <i class="fal fa-user-graduate item-icon"></i>
+                            <span>Hệ thống 1 cửa sinh viên</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse8" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+    
+    
+                </div>
+    
+    
+            </div>
+        </div>
+        <div class="content-page ">
+            <!-- navbar -->
+            <div class="navbar">
+                <div class="search-group-in-mobi">
+                    <i class="fal fa-search mobi-search-icon"></i>
+                    <form class="search-group">
+                        <input type="email" class="search-form" placeholder="Tìm kiếm thông tin">
+                        <button><i class="fal fa-search"></i></button>
+    
+    
+                    </form>
+                </div>
+                <div class="in-mobi-group">
+                    <div class="nav-menu-group">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                                <i class="fal fa-ellipsis-h-alt"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-notification">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                                <i class="fal fa-bell"><span class="noti-count">3</span></i>
+    
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-setting">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                                <i class="fal fa-cog"></i>
+    
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-account">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                                <div class="user-image">
+                                    <i class="fas fa-user user-icon"></i>
+                                </div>
+                                <span>Admin</span>
+                                <i class="fal fa-chevron-down user-arrow"></i>
+                            </button>
+                            <ul class="dropdown-menu user-drop">
+                                <li>
+                                    <div class="img-user"><img src="../assets/images/avata-user.png" class="user-avata-img">
+                                        <span>Admin</span>
+                                        <p>Cập nhật lần cuối 28/10/2021 </p>
+                                    </div>
+                                </li>
+                                <li><a class="dropdown-item" href="#"><i class="fal fa-address-book"></i> Hồ Sơ</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="fal fa-key-skeleton"></i> Thay đổi mật khẩu</a>
+                                </li>
+                                <li><a class="dropdown-item" href="#"><i class="fal fa-comment-dots"></i> Đóng góp ý
+                                    kiến</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="fal fa-sign-out"></i> Đăng xuất</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- end navbar -->
+            <!-- content -->
+            <div class="content">
+                <div class="overlay"></div>
+                <p class="hello-user">Xin chào Admin!</p>
+                <!-- dashboad -->
+                <div class="dashboad">
+                    <div class="dashboad-item">
+                        <a href=" # " class="dashboad-item-box " style="border-color:#26465e">
+                            <img src="../assets/images/dashboad-item-1.png " alt=" ">
+                            <div class="dashboad-title ">
+                                Hồ sơ hay SYLL Online
+                            </div>
+                        </a>
+    
+                    </div>
+                    <div class="dashboad-item ">
+                        <a href="# " class="dashboad-item-box " style="border-color:#7aacf3">
+                            <img src="../assets/images/dashboad-item-2.png " alt=" ">
+                            <div class="dashboad-title ">
+                                Góc học tập
+                            </div>
+                        </a>
+    
+                    </div>
+                    <div class="dashboad-item ">
+                        <a href="# " class="dashboad-item-box " style="border-color:#d36f51">
+                            <img src="../assets/images/dashboad-item-3.png " alt=" ">
+                            <div class="dashboad-title ">
+                                Ký túc xá
+                            </div>
+                        </a>
+    
+                    </div>
+                    <div class="dashboad-item ">
+                        <a href="# " class="dashboad-item-box " style="border-color:#0232b9">
+                            <img src="../assets/images/dashboad-item-4.png " alt=" ">
+                            <div class="dashboad-title ">
+                                Đăng ký học
+                            </div>
+                        </a>
+    
+                    </div>
+                    <div class="dashboad-item ">
+                        <a href="# " class="dashboad-item-box " style="border-color:#a12529">
+                            <img src="../assets/images/dashboad-item-5.png " alt=" ">
+                            <div class="dashboad-title ">
+                                Thời khóa biểu
+                            </div>
+                        </a>
+    
+                    </div>
+                    <div class="dashboad-item ">
+                        <a href="# " class="dashboad-item-box " style="border-color:#71b636">
+                            <img src="../assets/images/dashboad-item-6.png " alt=" ">
+                            <div class="dashboad-title ">
+                                Tài chính
+                            </div>
+                        </a>
+    
+                    </div>
+                    <div class="dashboad-item ">
+                        <a href="# " class="dashboad-item-box " style="border-color:#f94341">
+                            <img src="../assets/images/dashboad-item-7.png " alt=" ">
+                            <div class="dashboad-title ">
+                                Thư viện
+                            </div>
+                        </a>
+    
+                    </div>
+                    <div class="dashboad-item ">
+                        <a href="# " class="dashboad-item-box " style="border-color:#f6c531">
+                            <img src="../assets/images/dashboad-item-8.png " alt=" ">
+                            <div class="dashboad-title ">
+                                Hệ thống 1 cửa sinh viên
+                            </div>
+                        </a>
+    
+                    </div>
+    
+    
+                </div>
+                <!-- end dashboad -->
+                <div class="db-container">
+                    <div class="w1/2">
+                        <div class="dashboad-about">
+                            <div class="image-z dashboad-about-img">
+                                <img src="../assets/images/db-about-img.png" alt="">
+                            </div>
+                            <div class="dashboad-about-content">
+                                <div class="dashboad-cate-title">
+                                    <span class="icon"></span>
+                                    <span>Giới thiệu</span>
+                                </div>
+                                <a href="" class="lage-title">
+                                    TRƯỜNG ĐẠI HỌC PHENIKAA
+                                </a>
+                                <div class="about-short-text">
+                                    <p>
+                                        Viện Nghiên cứu Nano là một tổ chức khoa học và công nghệ trực thuộc Trường Đại học
+                                        PHENIKAA được thành lập theo Nghị Quyết số 02/NQ-ĐHP-HĐQT của Chủ tịch Hội đồng quản
+                                        trị ngày 27/02/2019 và Quyết định số 53/2019/QĐ-ĐHP ngày 27/02/2019 của Hiệu trưởng
+                                        Trường Đại học PHENIKAA.
+    
+    
+                                    </p>
+                                    <p>
+                                        Viện hoạt động theo Luật khoa học và công nghệ ngày 18/6/2013, Nghị định số
+                                        08/2014/NĐ-CP ngày 27/01/2014 của Chính phủ quy định chi tiết và hướng dẫn thi hành
+                                        một số điều của Luật khoa học và công nghệ và các văn bản liên quan, chịu sự quản lý
+                                        của các cơ quan Nhà nước có thẩm quyền. Viện hoạt động theo Luật khoa học và công
+                                        nghệ ngày 18/6/2013, Nghị định số
+                                        08/2014/NĐ-CP ngày 27/01/2014 của Chính phủ quy định chi tiết và hướng dẫn thi hành
+                                        một số điều của Luật khoa học và công nghệ và các văn bản liên quan, chịu sự quản lý
+                                        của các cơ quan Nhà nước có thẩm quyền.
+                                    </p>
+                                    <p><a href="" class="view-all">
+                                        Xem chi tiết
+                                    </a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w1/2">
+                        <div class="dashboad-about dashboad-new">
+    
+                            <div class="dashboad-cate-title">
+                                <span class="icon"></span>
+                                <span>Tin tức</span>
+                                <a href="" class="view-all">
+                                    Xem tất cả
+                                </a>
+                            </div>
+                            <div class="news-slider dashboad-slider">
+                                <div class="slider-item">
+                                    <div class="card-news ">
+                                        <a href="" class="image-z news-img">
+                                            <img src="../assets/images/news-img.png" alt="">
+                                        </a>
+                                        <a class="card-news-title" href="">Đại học Phenikaa ‘nhập khẩu’ chương trình đào tạo
+                                            hàng đầu Vương quốc Anh</a>
+                                        <p class="cart-news-short-text">
+                                            Viện Nghiên cứu Nano là một tổ chức khoa học và công nghệ ...
+                                        </p>
+    
+                                    </div>
+                                </div>
+                                <div class="slider-item">
+                                    <div class="card-news ">
+                                        <a href="" class="image-z news-img">
+                                            <img src="../assets/images/news-img.png" alt="">
+                                        </a>
+                                        <a class="card-news-title" href="">Đại học Phenikaa ‘nhập khẩu’ chương trình đào tạo
+                                            hàng đầu Vương quốc Anh</a>
+                                        <p class="cart-news-short-text">
+                                            Viện Nghiên cứu Nano là một tổ chức khoa học và công nghệ ...
+                                        </p>
+    
+                                    </div>
+                                </div>
+                                <div class="slider-item">
+                                    <div class="card-news ">
+                                        <a href="" class="image-z news-img">
+                                            <img src="../assets/images/news-img.png" alt="">
+                                        </a>
+                                        <a class="card-news-title" href="">Đại học Phenikaa ‘nhập khẩu’ chương trình đào tạo
+                                            hàng đầu Vương quốc Anh</a>
+                                        <p class="cart-news-short-text">
+                                            Viện Nghiên cứu Nano là một tổ chức khoa học và công nghệ ...
+                                        </p>
+    
+                                    </div>
+                                </div>
+                                <div class="slider-item">
+                                    <div class="card-news ">
+                                        <a href="" class="image-z news-img">
+                                            <img src="../assets/images/news-img.png" alt="">
+                                        </a>
+                                        <a class="card-news-title" href="">Đại học Phenikaa ‘nhập khẩu’ chương trình đào tạo
+                                            hàng đầu Vương quốc Anh</a>
+                                        <p class="cart-news-short-text">
+                                            Viện Nghiên cứu Nano là một tổ chức khoa học và công nghệ ...
+                                        </p>
+    
+                                    </div>
+                                </div>
+                            </div>
+    
+    
+                        </div>
+                    </div>
+                    <div class="w1/2">
+                        <div class="dashboad-about dashboad-new dashboad-friend position-relative">
+                            <div class="dashboad-cate-title">
+                                <span class="icon"></span>
+                                <span>Bạn bè</span>
+                                <a href="" class="view-all">
+                                    Xem tất cả
+                                </a>
+                            </div>
+    
+                            <div class=" friend-slider dashboad-slider">
+                                <a href="" class="friend-item">
+                                    <img class="friend-img" src="../assets/images/news-img.png" alt="">
+                                    <span class="friend-name">Ngọc Anh Anh Ngọc</span>
+                                </a>
+                                <a href="" class="friend-item">
+                                    <img class="friend-img" src="../assets/images/news-img.png" alt="">
+                                    <span class="friend-name">Ngọc Anh</span>
+                                </a>
+                                <a href="" class="friend-item">
+                                    <img class="friend-img" src="../assets/images/news-img.png" alt="">
+                                    <span class="friend-name">Ngọc Anh</span>
+                                </a>
+                                <a href="" class="friend-item">
+                                    <img class="friend-img" src="../assets/images/news-img.png" alt="">
+                                    <span class="friend-name">Ngọc Anh</span>
+                                </a>
+                                <a href="" class="friend-item">
+                                    <img class="friend-img" src="../assets/images/news-img.png" alt="">
+                                    <span class="friend-name">Ngọc Anh</span>
+                                </a>
+                                <a href="" class="friend-item">
+                                    <img class="friend-img" src="../assets/images/news-img.png" alt="">
+                                    <span class="friend-name">Ngọc Anh</span>
+                                </a>
+                                <a href="" class="friend-item">
+                                    <img class="friend-img" src="../assets/images/news-img.png" alt="">
+                                    <span class="friend-name">Ngọc Anh</span>
+                                </a>
+                                <a href="" class="friend-item">
+                                    <img class="friend-img" src="../assets/images/news-img.png" alt="">
+                                    <span class="friend-name">Ngọc Anh</span>
+                                </a>
+                                <a href="" class="friend-item">
+                                    <img class="friend-img" src="../assets/images/news-img.png" alt="">
+                                    <span class="friend-name">Ngọc Anh</span>
+                                </a>
+                                <a href="" class="friend-item">
+                                    <img class="friend-img" src="../assets/images/news-img.png" alt="">
+                                    <span class="friend-name">Ngọc Anh</span>
+                                </a>
+    
+    
+                            </div>
+    
+                        </div>
+                    </div>
+                    <div class="w1/2">
+                        <div class="dashboad-about dashboad-new dashboad-brand">
+                            <div class="dashboad-cate-title">
+                                <span class="icon"></span>
+                                <span>Dịch vụ</span>
+                                <a href="" class="view-all">
+                                    Xem tất cả
+                                </a>
+                            </div>
+    
+                            <div class=" brand-slider dashboad-slider">
+                                <a href="" class="brand-item">
+                                    <img class="brand-img" src="../assets/images/brand-logo.png" alt="">
+                                </a>
+                                <a href="" class="brand-item">
+                                    <img class="brand-img" src="../assets/images/viettal-logo.png" alt="">
+                                </a>
+                                <a href="" class="brand-item">
+                                    <img class="brand-img" src="../assets/images/brand-logo.png" alt="">
+                                </a>
+                                <a href="" class="brand-item">
+                                    <img class="brand-img" src="../assets/images/iig-logo.png" alt="">
+                                </a>
+                                <a href="" class="brand-item">
+                                    <img class="brand-img" src="../assets/images/brand-logo.png" alt="">
+                                </a>
+                                <a href="" class="brand-item">
+                                    <img class="brand-img" src="../assets/images/iig-logo.png" alt="">
+                                </a>
+                                <a href="" class="brand-item">
+                                    <img class="brand-img" src="../assets/images/brand-logo.png" alt="">
+                                </a>
+                                <a href="" class="brand-item">
+                                    <img class="brand-img" src="../assets/images/brand-logo.png" alt="">
+                                </a>
+                                <a href="" class="brand-item">
+                                    <img class="brand-img" src="../assets/images/viettal-logo.png" alt="">
+                                </a>
+                                <a href="" class="brand-item">
+                                    <img class="brand-img" src="../assets/images/brand-logo.png" alt="">
+                                </a>
+    
+    
+                            </div>
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end content -->
+    
+            <!-- copy right -->
+            <div class="copyright ">
+                <marquee>
+                    Đơn vị phát triển: Công ty Cổ Phần dịch vụ Công nghệ APIS - Địa chỉ: Tầng 6 Tháp Tây, Tòa nhà Hancorp,
+                    Số, 72 Trần Đăng Ninh, P, Cầu Giấy, Hà Nội - Điện thoại: 024 3204 5867
+                </marquee>
+            </div>
+            <!-- end copy right -->
+    
+        </div>
+    </div>
+    <div class="noti-fix-screen">
+        <div class="noti-fix-close-all" title="Đóng tất cả thông báo">
+            <i class="fal fa-times"></i>
+        </div>
+        <div class="noti-fix-item">
+            <div class="noti-fix-icon">
+                <img src="../assets/images/money.png">
+            </div>
+            <div class="noti-fix-content">
+                <div class="noti-fix-action">
+                    <i class="fal fa-minus action-hidden" title="Ẩn thông báo"></i>
+                    <i class="fal fa-times action-close" title="Đóng thông báo"></i>
+                </div>
+                <img src="../assets/images/money.png">
+                <div class="">
+                    <p class="fw-bolder fs-20 text-uppercase mb-0">Thông báo hạn nộp tiền</p>
+                    <p class="mb-0">
+                        Bạn có số tiền <span class="fs-20 color-orange fw-bold">18.900,000</span>vnđ kỳ 1 cần thanh toán. Hạn nộp ngày <b>20/11/2024</b>
+                    </p>
+                </div>
+                <a href="#" class="btn btn-orange px-3">Xem chi tiết</a>
+
+            </div>
+        </div>
+        <div class="noti-fix-item">
+            <div class="noti-fix-icon">
+                <img src="../assets/images/notification-bell.png">
+            </div>
+            <div class="noti-fix-content">
+                <div class="noti-fix-action">
+                    <i class="fal fa-minus action-hidden" title="Ẩn thông báo"></i>
+                    <i class="fal fa-times action-close" title="Đóng thông báo"></i>
+                </div>
+                <img src="../assets/images/notification-bell.png">
+                <div class="">
+                    <p class="fw-bolder fs-20 text-uppercase mb-0">Thông báo hạn nộp tiền</p>
+                    <p class="mb-0">
+                       <span class="fs-20 color-orange fw-bold">18.900,000</span>vnđ kỳ 1 cần thanh toán. Hạn nộp ngày <b>20/11/2024</b>
+                    </p>
+                </div>
+                <a href="#" class="btn btn-orange px-3">Xem chi tiết</a>
+
+            </div>
+        </div>
+        <div class="noti-fix-item">
+            <div class="noti-fix-icon">
+                <img src="../assets/images/money.png">
+            </div>
+            <div class="noti-fix-content">
+                <div class="noti-fix-action">
+                    <i class="fal fa-minus action-hidden" title="Ẩn thông báo"></i>
+                    <i class="fal fa-times action-close" title="Đóng thông báo"></i>
+                </div>
+                <img src="../assets/images/money.png">
+                <div class="">
+                    <p class="fw-bolder fs-20 text-uppercase mb-0">Thông báo hạn nộp tiền</p>
+                    <p class="mb-0">
+                        Bạn có số tiền <span class="fs-20 color-orange fw-bold">18.900,000</span>vnđ kỳ 1 cần thanh toán. Hạn nộp ngày <b>20/11/2024</b>
+                    </p>
+                </div>
+                <a href="#" class="btn btn-orange px-3">Xem chi tiết</a>
+
+            </div>
+        </div>
+    </div>
+    
+    </body>
+<script src="../assets/js/bootstrap.bundle.min.js "></script>
+<script src="../assets/js/swiper-bundle.min.js"></script>
+<script src="../assets/js/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="../assets/js/slick.js"></script>
+<script src="../assets/js/jquery-searchbox.js"></script>
+<script src="../assets/js/custom.js"></script>
+<script src="../assets/js/masonry.pkgd.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $(".noti-fix-icon").click(function () {
+            $(this).parent(".noti-fix-item").removeClass("hidden")
+        });
+        $(".action-hidden").click(function () {
+            $(this).parents(".noti-fix-item").addClass("hidden");
+        });
+        $(".noti-fix-close-all").click(function () {
+            $(".noti-fix-screen").addClass("hidden");
+        });
+        $(".action-close").click(function () {
+            $(this).parents(".noti-fix-item").addClass("close");
+        });
+    })
+</script>
+
+
+</html>
