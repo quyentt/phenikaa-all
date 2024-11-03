@@ -95,7 +95,6 @@ a:hover {
 .text-right-i {
   text-align: right !important;
 }
-
 /* sidebar */
 
 .left-sidebar {
@@ -257,19 +256,16 @@ a:hover {
 .sidebar-menu-sub a:hover::before {
   background-color: var(--orange);
 }
-
 /* width */
 
 .sidebar-menu::-webkit-scrollbar {
   width: 3px;
 }
-
 /* Track */
 
 .sidebar-menu::-webkit-scrollbar-track {
   background: transparent;
 }
-
 /* Handle */
 
 .sidebar-menu::-webkit-scrollbar-thumb {
@@ -279,19 +275,16 @@ a:hover {
 .sidebar-menu:hover::-webkit-scrollbar-thumb {
   background: rgba(0, 0, 0, 0.2);
 }
-
 /* Handle on hover */
 
 .sidebar-menu::-webkit-scrollbar-thumb:hover {
   background: rgba(0, 0, 0, 0.5);
 }
-
 /* content page */
 
 .content-page {
   width: calc(100vw - 225px);
 }
-
 /* navbar */
 
 .navbar {
@@ -424,7 +417,6 @@ input::placeholder {
   width: 100%;
   display: none;
 }
-
 /* content */
 
 .content {
@@ -485,11 +477,8 @@ input::placeholder {
   transform: translateX(-50%);
   left: 50%;
 }
-
 /*.dashboad-item-box:hover img {*/
-
 /*    bottom: 40%;*/
-
 /*}*/
 
 .dashboad-item-box:hover {
@@ -781,7 +770,6 @@ input::placeholder {
 .brand-slider.dashboad-slider::after {
   content: none;
 }
-
 /* ---------------- */
 
 .slider-item {
@@ -873,7 +861,6 @@ input::placeholder {
   display: none;
   color: transparent;
 }
-
 /*------------------*/
 
 .news-slider {
@@ -888,7 +875,6 @@ input::placeholder {
 .mb-20 {
   margin-bottom: 20px;
 }
-
 /*---box-forgot-pass---*/
 
 .forgot-pass-img img {
@@ -913,7 +899,6 @@ input::placeholder {
 .btn-login {
   border-color: var(--dask-blue);
 }
-
 /*wrapper-error*/
 
 .wrapper-error {
@@ -982,7 +967,6 @@ input::placeholder {
 .color-orange {
   color: var(--orange) !important;
 }
-
 /*user-drop*/
 
 .user-drop {
@@ -1042,7 +1026,6 @@ input::placeholder {
   color: var(--orange);
   background-color: transparent;
 }
-
 /* select form */
 
 .searchBoxElement {
@@ -1072,7 +1055,6 @@ input::placeholder {
 .teach-dashboad .dashboad-item {
   width: 25%;
 }
-
 /* teacher dashboad */
 
 .teach-dashboad .dashboad-item-box {
@@ -1218,7 +1200,6 @@ input::placeholder {
 .calendar-block img {
   max-width: 100%;
 }
-
 /* ------------------------------------------ */
 
 .form-top {
@@ -1419,19 +1400,16 @@ input::placeholder {
   overflow-y: scroll;
   overflow-x: hidden;
 }
-
 /* width */
 
 .scroll-y::-webkit-scrollbar {
   width: 5px;
 }
-
 /* Track */
 
 .scroll-y::-webkit-scrollbar-track {
   background: transparent;
 }
-
 /* Handle */
 
 .scroll-y::-webkit-scrollbar-thumb {
@@ -1441,7 +1419,6 @@ input::placeholder {
 .scroll-y:hover::-webkit-scrollbar-thumb {
   background: rgba(0, 0, 0, 0.2);
 }
-
 /* Handle on hover */
 
 .sidebar-menu::-webkit-scrollbar-thumb:hover {
@@ -1867,7 +1844,6 @@ input:checked ~ label {
 .rounded-8px {
   border-radius: 8px;
 }
-
 /*  */
 
 .small-sidebar .logo-single img {
@@ -1951,13 +1927,11 @@ input:checked ~ label {
 .h-0 {
   height: 0;
 }
-
 /* Track */
 
 .table-respo::-webkit-scrollbar-track {
   background: #e4e4e4;
 }
-
 /* Handle */
 
 .table-respo::-webkit-scrollbar-thumb {
@@ -1968,7 +1942,6 @@ input:checked ~ label {
 .w-85px {
   width: 85px;
 }
-
 /* safari */
 
 .form-control {
@@ -1979,7 +1952,6 @@ input:checked ~ label {
 .min-h-full {
   min-height: calc(100% - 90px);
 }
-
 /* khối lượng cá nhân */
 
 .klcn-info {
@@ -2072,7 +2044,6 @@ table > tbody > tr:hover .view-in-table-sticky {
   flex: 1;
   overflow-x: scroll;
 }
-
 /* xác nhận thanh toán */
 
 .payment-confirm {
@@ -2159,7 +2130,6 @@ table > tbody > tr:hover .view-in-table-sticky {
 .fs-14-i {
   font-size: 14px !important;
 }
-
 /* led sự kiện */
 
 .led-event {
@@ -2303,13 +2273,11 @@ table > tbody > tr:hover .view-in-table-sticky {
 .theader .led-table-cell {
   color: #fff600;
 }
-
 /* end led sự kiện */
 
 .min-h-auto {
   min-height: auto !important;
 }
-
 /* Theo dõi nhập học */
 
 .ad-moni .led-header-title {
@@ -2387,7 +2355,6 @@ table > tbody > tr:hover .view-in-table-sticky {
 .ad-moni .table tbody tr:nth-child(2n-1) {
   background: #f5f5f5;
 }
-
 /* đăng ký bus */
 
 .bus-left {
@@ -2415,19 +2382,16 @@ table > tbody > tr:hover .view-in-table-sticky {
 .bus-wrp .table {
   margin-bottom: -1px;
 }
-
 /* width */
 
 .bus-wrp::-webkit-scrollbar {
   width: 8px;
 }
-
 /* Track */
 
 .bus-wrp::-webkit-scrollbar-track {
   background: transparent;
 }
-
 /* Handle */
 
 .bus-wrp::-webkit-scrollbar-thumb {
@@ -2439,7 +2403,6 @@ table > tbody > tr:hover .view-in-table-sticky {
 .bus-wrp:hover::-webkit-scrollbar-thumb {
   background: rgba(0, 0, 0, 0.2);
 }
-
 /* Handle on hover */
 
 .bus-wrp::-webkit-scrollbar-thumb:hover {
@@ -2511,7 +2474,6 @@ table > tbody > tr:hover .view-in-table-sticky {
   flex: 1;
   margin-right: 30px;
 }
-
 /* mẫu phiếu  */
 
 .sample-note {
@@ -2559,7 +2521,6 @@ table > tbody > tr:hover .view-in-table-sticky {
   left: 0;
   bottom: 6px;
 }
-
 /* báo cáo kết quả học tập */
 
 .baocap-kq-hoctap {
@@ -2818,7 +2779,6 @@ table > tbody > tr:hover .view-in-table-sticky {
   margin-right: 40px;
   margin-top: 15px;
 }
-
 /* lịch giảng full screen */
 
 .lect-sche {
@@ -3003,7 +2963,6 @@ table > tbody > tr:hover .view-in-table-sticky {
   width: 17%;
   justify-content: center;
 }
-
 /* The container */
 
 .lect-checkbox {
@@ -3019,7 +2978,6 @@ table > tbody > tr:hover .view-in-table-sticky {
   align-items: center;
   justify-content: center;
 }
-
 /* Hide the browser's default checkbox */
 
 .lect-checkbox input {
@@ -3029,7 +2987,6 @@ table > tbody > tr:hover .view-in-table-sticky {
   height: 0;
   width: 0;
 }
-
 /* Create a custom checkbox */
 
 .lect-checkbox .checkmark {
@@ -3040,19 +2997,16 @@ table > tbody > tr:hover .view-in-table-sticky {
   border: solid 0.08rem #92a0c4;
   border-radius: 0.3rem;
 }
-
 /* On mouse-over, add a grey background color */
 
 .lect-checkbox:hover input ~ .checkmark {
   background-color: #fff600;
 }
-
 /* When the checkbox is checked, add a blue background */
 
 .lect-checkbox input:checked ~ .checkmark {
   background-color: #2196f3;
 }
-
 /* Create the checkmark/indicator (hidden when not checked) */
 
 .lect-checkbox .checkmark:after {
@@ -3060,13 +3014,11 @@ table > tbody > tr:hover .view-in-table-sticky {
   position: absolute;
   display: none;
 }
-
 /* Show the checkmark when checked */
 
 .lect-checkbox input:checked ~ .checkmark:after {
   display: block;
 }
-
 /* Style the checkmark/indicator */
 
 .lect-checkbox .checkmark:after {
@@ -3235,7 +3187,6 @@ table > tbody > tr:hover .view-in-table-sticky {
 .lect-sche .date-body {
   height: calc(100% - 2rem);
 }
-
 /*************** SCROLLBAR BASE CSS ***************/
 
 .scroll-wrapper {
@@ -3311,7 +3262,6 @@ table > tbody > tr:hover .view-in-table-sticky {
   height: 0;
   width: 0;
 }
-
 /*************** SIMPLE INNER SCROLLBAR ***************/
 
 .scroll-element,
@@ -3379,7 +3329,6 @@ table > tbody > tr:hover .view-in-table-sticky {
 .scroll-element.scroll-draggable .scroll-bar {
   background-color: #919191;
 }
-
 /* update scrollbar offset if both scrolls are visible */
 
 .scroll-element.scroll-x.scroll-scrolly_visible .scroll-element_track {
@@ -3410,7 +3359,6 @@ table > tbody > tr:hover .view-in-table-sticky {
 .lect-left .lect-table {
   height: calc(100% - 25rem);
 }
-
 /* cmc khảo sát */
 
 .cmc-page {
@@ -4614,7 +4562,6 @@ img.st-1-img {
 .input-gray .form-control {
   border-color: #d1d1d1;
 }
-<<<<<<< HEAD
 
 .live-doc {
   max-width: 1140px;
@@ -4772,8 +4719,9 @@ img.st-1-img {
   position: relative;
   display: inline-block;
   padding-right: 5px;
-=======
-.noti-fix-screen{
+}
+
+.noti-fix-screen {
   position: fixed;
   bottom: 20px;
   right: 40px;
@@ -4787,16 +4735,15 @@ img.st-1-img {
   align-items: end;
   min-width: 60px;
 }
-.noti-fix-item{
-  position: relative;
 
+.noti-fix-item {
+  position: relative;
   display: flex;
   align-items: center;
   margin-top: 20px;
-
-
 }
-.noti-fix-icon{
+
+.noti-fix-icon {
   border-radius: 100%;
   border: solid 2px #fff;
   box-shadow: 0px 0px 15px 0px rgb(0 0 0 / 30%);
@@ -4807,20 +4754,21 @@ img.st-1-img {
   transition: ease-out 0.3s;
   transform-origin: right;
   cursor: pointer;
-
 }
-.noti-fix-icon img{
+
+.noti-fix-icon img {
   width: 48px;
   height: 48px;
 }
-.noti-fix-content{
+
+.noti-fix-content {
   display: flex;
   align-items: center;
   background-color: #fff;
   right: 0;
   position: relative;
   padding: 5px;
-  border:  solid 1px #ffbb33;
+  border: solid 1px #ffbb33;
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
   transform: scale(1);
@@ -4828,26 +4776,29 @@ img.st-1-img {
   transition: ease-out 0.3s;
   transform-origin: right;
 }
-.noti-fix-content img{
+
+.noti-fix-content img {
   width: 70px;
   height: 70px;
   margin-right: 20px;
   flex-shrink: 0;
 }
-.noti-fix-content .btn{
+
+.noti-fix-content .btn {
   margin-right: 15px;
   margin-left: 40px;
   flex-shrink: 0;
 }
-.noti-fix-action{
+
+.noti-fix-action {
   position: absolute;
-  display: flex; 
+  display: flex;
   gap: 6px;
   top: -11px;
   right: -11px;
-  
 }
-.noti-fix-action i{
+
+.noti-fix-action i {
   width: 22px;
   height: 22px;
   border-radius: 100%;
@@ -4857,29 +4808,34 @@ img.st-1-img {
   border: solid 1px var(--orange);
   cursor: pointer;
 }
-.noti-fix-action .action-hidden{
+
+.noti-fix-action .action-hidden {
   background-color: #fff;
   color: var(--orange);
 }
-.noti-fix-action .action-close{
+
+.noti-fix-action .action-close {
   background-color: var(--orange);
   color: #fff;
 }
-.noti-fix-item.hidden .noti-fix-content, 
-.noti-fix-screen.hidden{
+
+.noti-fix-item.hidden .noti-fix-content,
+.noti-fix-screen.hidden {
   opacity: 0;
   transform: scale(0);
 }
-.noti-fix-item.hidden .noti-fix-icon{
+
+.noti-fix-item.hidden .noti-fix-icon {
   opacity: 1;
   transform: scale(1);
 }
-.noti-fix-item.hidden{
+
+.noti-fix-item.hidden {
   height: 42px;
   width: 0;
-  
 }
-.noti-fix-close-all{
+
+.noti-fix-close-all {
   width: 30px;
   height: 30px;
   background-color: #fff;
@@ -4895,10 +4851,11 @@ img.st-1-img {
   display: none;
   cursor: pointer;
 }
-.noti-fix-screen:hover .noti-fix-close-all{
+
+.noti-fix-screen:hover .noti-fix-close-all {
   display: flex;
 }
-.noti-fix-item.close{
+
+.noti-fix-item.close {
   display: none;
->>>>>>> 02f783ca3c2b3dfe767e234f92d450ca3f3f3c01
 }
