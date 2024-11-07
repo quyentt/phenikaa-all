@@ -205,3 +205,37 @@ swipeScroll.forEach((slider) => {
     slider.scrollLeft = scrollLeft - walk;
   });
 });
+$(document).ready(function () {
+  // myTab-------------------------------------------------------------------------------
+
+  const myFunctionWrap = document.querySelectorAll(".card");
+
+  myFunctionWrap.forEach((funcEle) => {
+    const myTabLink = funcEle.querySelectorAll(".myTab-header-link");
+    const myTabItem = funcEle.querySelectorAll(".myTab-item");
+
+    myTabLink.forEach((el) => {
+      el.addEventListener("click", showMyTab);
+    });
+
+    function showMyTab(el) {
+      const btn = el.currentTarget;
+      const dataTarget = btn.getAttribute("data-myTab");
+      myTabItem.forEach((el) => {
+        el.classList.remove("show");
+      });
+      myTabLink.forEach((el) => {
+        el.classList.remove("active");
+      });
+      const myTabItemshow = document.querySelector("#" + dataTarget);
+      myTabItemshow.classList.add("show");
+      btn.classList.add("active");
+
+      const featureAction = myTabItemshow.querySelector(
+        ".feature-action-group "
+      ).innerHTML;
+
+      leftNav.innerHTML = featureAction;
+    }
+  });
+});
