@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education management</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="../assets/css-new/styles.css">
+</head>
+
+<body>
+    <div class="wrapper ">
+        <div class="left-sidebar">
+            <div class="sidebar-top">
+                <a href="javascript:void(0)" class="menu-icon">
+                    <i class="fal fa-indent"></i>
+                </a>
+                <a href="javascript:void(0)" class="menu-icon-mobi">
+                    <i class="fal fa-indent"></i>
+                </a>
+                <div class="logo-single">
+                    <img src="../assets/images/CMC/logo.png" alt="">
+                </div>
+                <div class="line-1"></div>
+                <div class="line-2"></div>
+                <div class="line-hiden"></div>
+            </div>
+
+            <div class="sidebar-menu">
+                <div class="accordion" id="sidebar-menu">
+                    <div class="sidebar-menu-item ">
+                        <a class="sidebar-menu-header" href="">
+                            <i class="fas fa-tachometer-alt item-icon"></i>
+                            <span>dashboad</span>
+                        </a>
+                    </div>
+                    <!-- siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse1" href="javascrip:void(0)">
+                            <i class="fal fa-id-card item-icon"></i>
+                            <span>Hò sơ cá nhân</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse1" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1 co the dai hon</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse2" href="javascrip:void(0)">
+                            <i class="fal fa-user-chart item-icon"></i>
+                            <span>Lịch giảng</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse2" data-bs-parent="#sidebar-menu">
+
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item active">
+                        <a class="sidebar-menu-header" data-bs-toggle="collapse" data-bs-target="#collapse3" href="javascrip:void(0)">
+                            <i class="fal fa-clone item-icon"></i>
+                            <span>Kế hoạch năm học</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse show" id="collapse3" data-bs-parent="#sidebar-menu">
+                            <a class="active" href="01-cosodulieuhocphan.html">Cơ sở dữ liệu học phần</a>
+                            <a href="02-daotaodukienhocphan.html">Đào tạo dự kiến học phần</a>
+                            <a href="03-khoaphanhoidukienhocphan.html">Khoa phản hồi dự kiến học phần</a>
+                            <a href="04-daotaoxacnhanmolop.html">Đào tạo xác nhận mở lớp</a>
+                            <a href="05-khoaphanconggiangvien.html">Khoa phân công giảng viên</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse4" href="javascrip:void(0)">
+                            <i class="fal fa-file-invoice-dollar item-icon"></i>
+                            <span>Bảng lương</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse4" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+                    <!-- end siderbar menu  item -->
+                    <div class="sidebar-menu-item">
+                        <a class="sidebar-menu-header collapsed" data-bs-toggle="collapse" data-bs-target="#collapse5" href="javascrip:void(0)">
+                            <i class="fal fa-analytics item-icon"></i>
+                            <span>Báo cáo thống kê</span>
+                            <i class="fal fa-chevron-right item-arrow-icon"></i>
+                            <i class="fal fa-chevron-down item-arrow-icon down"></i>
+                        </a>
+                        <div class="sidebar-menu-sub collapse" id="collapse5" data-bs-parent="#sidebar-menu">
+                            <a href="#">Profile demo 1</a>
+                            <a href="#">Profile demo 2</a>
+                            <a href="#">Profile demo 3</a>
+                        </div>
+                    </div>
+                    <!-- end siderbar menu  item -->
+
+
+
+                </div>
+
+
+            </div>
+        </div>
+        <div class="content-page ">
+            <!-- navbar -->
+            <div class="navbar">
+                <div class="search-group-in-mobi">
+                    <i class="fal fa-search mobi-search-icon"></i>
+                    <form class="search-group">
+                        <input type="email" class="search-form" placeholder="Tìm kiếm thông tin">
+                        <button><i class="fal fa-search"></i></button>
+                    </form>
+                </div>
+                <div class="in-mobi-group">
+                    <div class="nav-menu-group">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                            <i class="fal fa-ellipsis-h-alt"></i>
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-notification">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                            <i class="fal fa-bell"><span class="noti-count">3</span></i>
+
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-setting">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                            <i class="fal fa-cog"></i>
+
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-account">
+                        <div class="dropdown">
+                            <button class=" " type="button" data-bs-toggle="dropdown">
+                            <div class="user-image">
+                                <i class="fas fa-user user-icon"></i>
+                            </div>
+                            <span>Admin</span>
+                            <i class="fal fa-chevron-down user-arrow"></i>
+
+
+                        </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end navbar -->
+            <!-- content -->
+            <div class="content one-door mt-0">
+                <div class="overlay"></div>
+                <div class="content-tab no-tab">
+                    <div class="d-flex justify-content-between">
+                        <div class="nav-content-left">
+
+                            <p class="link"><a href="#">Luận văn - Luận án</a><i class="fal fa-angle-right"></i><a href="#">Kế hoạch đồ án - khóa luận - LV</a></p>
+
+                        </div>
+
+                        <div class="nav-content-right">
+                            <a class="d-block text-right" href=""><i class="fas fa-question-circle"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="function-content w-100">
+                    <div class="feature-content has-tabs">
+                        <div class="card today-card today-card-1 mb-40">
+                            <div class="card-header">
+                                <div class="myTab-header">
+                                    <div class="myTab-header-item">
+                                        <a href="#" class="myTab-header-link  active" data-myTab="csdl_hocphan">
+                                        Cơ sở dữ liệu học phần
+                                    </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="myTab-content">
+                                    <!-- Cơ sở dữ liệu học phần -->
+                                    <div class="myTab-item show" id="csdl_hocphan">
+                                        <div class="fs-15 text-gray fw-500 mb-10">Lọc theo đơn vị</div>
+                                        <div class="d-flex align-items-end flex-wrap flex-md-nowrap col-12 filter-2-item">
+                                            <div class="flex-grow-1">
+                                                <div class="row">
+                                                    <div class="col-12 col-md-6 mb-15">
+                                                        <div class="input-label-left">
+                                                            <label class="mt-5">Đơn vị</label>
+                                                            <div class="custom-select">
+                                                                <select name="" id="" class="form-select">
+                                                                <option value="">Chọn đơn vị</option>
+                                                                <option selected value="">Đơn vị selected</option>
+                                                                <option value="">Chọn thời gian</option>
+                                                                <option value="">Chọn thời gian</option>
+                                                            </select>
+                                                                <i class="fa-light fa-chevron-down"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-md-6 mb-15">
+                                                        <div class="input-label-left">
+                                                            <label class="mt-5">Thông tin</label>
+                                                            <input type="text" class="form-control" placeholder="Thông tin">
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="flex-shrink-0">
+                                                <div class="btn btn-view ms-20 mb-15">Xem danh sách</div>
+                                            </div>
+                                        </div>
+                                        <div class="fs-15 text-gray fw-500 mb-10 mt-5">Lọc theo chương trình đào tạo</div>
+                                        <div class="d-flex align-items-end flex-wrap flex-md-nowrap mb-10">
+                                            <div class="flex-grow-1">
+                                                <div class="row">
+                                                    <div class="col-12 col-md-6 col-xxl-3 mb-15">
+                                                        <div class="input-label-left">
+                                                            <label class="mt-5">Hệ đào tạo</label>
+                                                            <div class="custom-select">
+                                                                <select name="" id="" class="form-select">
+                                                                <option value="">Hệ đào tạo</option>
+                                                                <option value="">Chọn thời gian</option>
+                                                                <option value="">Chọn thời gian</option>
+                                                                <option value="">Chọn thời gian</option>
+                                                            </select>
+                                                                <i class="fa-light fa-chevron-down"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-md-6 col-xxl-3 mb-15">
+                                                        <div class="input-label-left">
+                                                            <label class="mt-5">Khóa học</label>
+                                                            <div class="custom-select">
+                                                                <select name="" id="" class="form-select">
+                                                                <option value="">Chọn Khóa học</option>
+                                                                <option value="">Chọn thời gian</option>
+                                                                <option value="">Chọn thời gian</option>
+                                                                <option value="">Chọn thời gian</option>
+                                                            </select>
+                                                                <i class="fa-light fa-chevron-down"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-12 col-md-6 col-xxl-3 mb-15">
+                                                        <div class="input-label-left">
+                                                            <label class="mt-5">Chương trình</label>
+                                                            <div class="custom-select">
+                                                                <select name="" id="" class="form-select">
+                                                                <option value="">Chọn chương trình</option>
+                                                                <option value="">Chọn thời gian</option>
+                                                                <option value="">Chọn thời gian</option>
+                                                                <option value="">Chọn thời gian</option>
+                                                            </select>
+                                                                <i class="fa-light fa-chevron-down"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-md-6 col-xxl-3 mb-15">
+                                                        <div class="input-label-left">
+                                                            <label class="mt-5">Thông tin</label>
+                                                            <input type="text" class="form-control" placeholder="Thông tin">
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="flex-shrink-0">
+                                                <div class="btn btn-view ms-20 mb-15">Xem danh sách</div>
+                                            </div>
+                                        </div>
+                                        <div class="table-wrap">
+                                            <div class="table-responsive fs-14 no-swiper">
+                                                <table class="table">
+                                                    <thead>
+                                                        <tr>
+                                                            <th colspan="5" class="text-center border-top-1 py-11">Thông tin học phần</th>
+                                                            <th colspan="2" class="text-center border-top-1 border-left-1 py-11">Quy mô theo loại lớp</th>
+                                                            <th colspan="3" class="text-center border-top-1 border-left-1 py-11">Phân loại theo nhóm</th>
+                                                            <th colspan="2" class="text-center border-top-1 border-left-1 py-11">Phân loại lớp</th>
+                                                            <th class="text-center border-top-1 border-left-1 py-11"></th>
+                                                        </tr>
+                                                        <tr>
+                                                            <th class="text-center border-top-1" scope="col">STT</th>
+                                                            <th class="min-w-60p border-top-1" scope="col">Mã</th>
+                                                            <th class="min-w-130p border-top-1" scope="col">Tên</th>
+                                                            <th class="min-w-85p border-top-1 py-11 text-center" scope="col">Số tín chỉ</th>
+                                                            <th class="min-w-130p border-top-1  py-11" scope="col">Đơn vị</th>
+                                                            <th class="min-w-120p border-top-1 border-left-1  py-11" scope="col">Lớp chính</th>
+                                                            <th class="min-w-120p border-top-1  py-11" scope="col">Lớp phụ </th>
+                                                            <th class="min-w-150p border-top-1  py-11 border-left-1" scope="col">Phân loại lớp chính</th>
+                                                            <th class="min-w-270p border-top-1  py-11" scope="col">Phân loại học phần để tính khối lượng</th>
+                                                            <th class="min-w-150p border-top-1  py-11" scope="col">Dạy bằng tiếng anh </th>
+                                                            <th class="min-w-185p border-top-1  py-11 border-left-1" scope="col">Để sử dụng giảng đường</th>
+                                                            <th class="min-w-130p border-top-1  py-11" scope="col">Để dự trù vật tư</th>
+                                                            <th class="text-center border-top-1 border-left-1  py-11 sticky-right bg-link text-white" scope="col">
+                                                                <div class="d-flex align-items-center">
+                                                                    <span>Chọn</span>
+                                                                    <label class="checkbox checkbox-green ms-5">
+                                                                    <input type="checkbox" >
+                                                                    <span class="checkmark">
+                                                                        <i class="fa-solid fa-check"></i>
+                                                                    </span>
+                                                                </label>
+                                                                </div>
+                                                            </th>
+                                                        </tr>
+
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class="text-center"><span class="d-flex align-items-center min-h-28p justify-content-center">1</span></td>
+                                                            <td>123456789</td>
+                                                            <td>Công nghệ thông tin</td>
+                                                            <td class="text-center">1</td>
+                                                            <td>Tên Đơn vị</td>
+                                                            <td class="border-left-1">Tên lớp chính</td>
+                                                            <td>Tên lớp phụ</td>
+                                                            <td class="border-left-1"> Phân loại lớp chính</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td>Thân Loại để sử dụng giảng đường</td>
+                                                            <td> Để sử dụng vật tư</td>
+                                                            <td class="text-center border-left-1 sticky-right bg-link">
+                                                                <label class="checkbox checkbox-green ms-5">
+                                                            <input type="checkbox" >
+                                                            <span class="checkmark">
+                                                                <i class="fa-solid fa-check"></i>
+                                                            </span>
+                                                        </label>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-center"><span class="d-flex align-items-center min-h-28p justify-content-center">1</span></td>
+                                                            <td>123456789</td>
+                                                            <td>Công nghệ thông tin</td>
+                                                            <td class="text-center">1</td>
+                                                            <td>Tên Đơn vị</td>
+                                                            <td class="border-left-1">Tên lớp chính</td>
+                                                            <td>Tên lớp phụ</td>
+                                                            <td class="border-left-1"> Phân loại lớp chính</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td>Thân Loại để sử dụng giảng đường</td>
+                                                            <td> Để sử dụng vật tư</td>
+                                                            <td class="text-center border-left-1 sticky-right bg-link">
+                                                                <label class="checkbox checkbox-green ms-5">
+                                                            <input type="checkbox" >
+                                                            <span class="checkmark">
+                                                                <i class="fa-solid fa-check"></i>
+                                                            </span>
+                                                        </label>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-center"><span class="d-flex align-items-center min-h-28p justify-content-center">1</span></td>
+                                                            <td>123456789</td>
+                                                            <td>Công nghệ thông tin</td>
+                                                            <td class="text-center">1</td>
+                                                            <td>Tên Đơn vị</td>
+                                                            <td class="border-left-1">Tên lớp chính</td>
+                                                            <td>Tên lớp phụ</td>
+                                                            <td class="border-left-1"> Phân loại lớp chính</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td>Thân Loại để sử dụng giảng đường</td>
+                                                            <td> Để sử dụng vật tư</td>
+                                                            <td class="text-center border-left-1 sticky-right bg-link">
+                                                                <label class="checkbox checkbox-green ms-5">
+                                                            <input type="checkbox" >
+                                                            <span class="checkmark">
+                                                                <i class="fa-solid fa-check"></i>
+                                                            </span>
+                                                        </label>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                            <div class="my-paging mt-20">
+                                                <div class="my-paging_static">
+                                                    1 đến 10 trong 1210 dữ liệu
+                                                </div>
+                                                <div class="my-paging_quantity">
+                                                    <span>Hiển thị</span>
+                                                    <div class="input-wrap">
+                                                        <select name="" id="" class="form-select">
+                                                        <option value="">10</option>
+                                                        <option value="">10</option>
+                                                        <option value="">10</option>
+                                                        <option value="">10</option>
+                                                    </select>
+                                                        <i class="fa-light fa-chevron-down icon-end"></i>
+                                                    </div>
+                                                </div>
+                                                <ul class="my-paging_wrap">
+                                                    <li><a href=""><i class="fa-light fa-chevron-left"></i></a></li>
+                                                    <li><a class="active" href="">1</a></li>
+                                                    <li><a href="">2</a></li>
+                                                    <li><a href="">3</a></li>
+                                                    <li><a href="">4</a></li>
+                                                    <li><a href="">5</a></li>
+                                                    <li><a href="">...</a></li>
+                                                    <li><a href="">101</a></li>
+                                                    <li><a href="">102</a></li>
+                                                    <li><a href="">103</a></li>
+                                                    <li><a href="">104</a></li>
+                                                    <li><a href="">105</a></li>
+                                                    <li><a href=""><i class="fa-light fa-chevron-right"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-end">
+                                            <div class="action-function">
+                                                <button class="btn btn-save btn-opacity">
+                                                <i class="fal fa-check-circle"></i>
+                                                <span>Đồng ý </span>
+                                            </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end content -->
+
+            <!-- copy right -->
+            <div class="copyright ">
+                <marquee>
+                    Đơn vị phát triển: Công ty Cổ Phần dịch vụ Công nghệ APIS - Địa chỉ: Tầng 6 Tháp Tây, Tòa nhà Hancorp, Số, 72 Trần Đăng Ninh, P, Cầu Giấy, Hà Nội - Điện thoại: 024 3204 5867
+                </marquee>
+            </div>
+            <!-- end copy right -->
+        </div>
+
+</body>
+<script src="../assets/js/bootstrap.bundle.min.js "></script>
+<script src="../assets/js/swiper-bundle.min.js"></script>
+<script src="../assets/js/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="../assets/js/slick.js"></script>
+<script src="../assets/js/jquery-searchbox.js"></script>
+<script src="../assets/js/custom.js"></script>
+<script src="../assets/js/masonry.pkgd.min.js"></script>
+
+
+</html>
