@@ -239,3 +239,31 @@ $(document).ready(function () {
     }
   });
 });
+
+// style cho table chi tiết điểm theo khối kiến thức
+
+$(document).ready(function () {
+  const colors = ["#ffffff", "#faebd7"]; // Mảng màu
+  let colorIndex = 0; // Chỉ số màu trong mảng
+
+  $("#table_chitietdiem_theokhoikienthuc tbody tr").each(function () {
+    const td = $(this).find("td[rowspan]");
+    if (td.length > 0) {
+      const rowspan = parseInt(td.attr("rowspan")) || 1; // Lấy số rowspan
+      const bgColor = colors[colorIndex % colors.length]; // Chọn màu
+      
+      // Đặt màu cho chính thẻ <tr>
+      $(this).css("background-color", bgColor);
+
+      // Đặt màu cho các hàng tiếp theo
+      let nextRow = $(this).next();
+      for (let i = 1; i < rowspan; i++) {
+        nextRow.css("background-color", bgColor);
+        nextRow = nextRow.next(); // Chuyển sang hàng tiếp theo
+      }
+
+      colorIndex++; // Chuyển sang màu tiếp theo trong mảng
+    }
+  });
+});
+
