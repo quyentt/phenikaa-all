@@ -253,12 +253,22 @@ $(document).ready(function () {
       const bgColor = colors[colorIndex % colors.length]; // Chọn màu
       
       // Đặt màu cho chính thẻ <tr>
-      $(this).css("background-color", bgColor);
+      $(this).css({
+        "background-color": bgColor,
+        "border-color": " #aaaaaa"
+      });
+      $(this).find('td:nth-child(2)').css({
+        "background-color": bgColor,
+        "border-right": "1px solid #aaaaaa"
+      })
 
       // Đặt màu cho các hàng tiếp theo
       let nextRow = $(this).next();
       for (let i = 1; i < rowspan; i++) {
-        nextRow.css("background-color", bgColor);
+        nextRow.css({
+          "background-color": bgColor,
+          "border-color": " #aaaaaa"
+        });
         nextRow = nextRow.next(); // Chuyển sang hàng tiếp theo
       }
 
