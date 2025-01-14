@@ -1765,6 +1765,7 @@ input:checked ~ label {
 
 .table td {
   vertical-align: middle;
+  border-color: #cccccc;
 }
 
 .color-red {
