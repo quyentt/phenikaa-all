@@ -4860,3 +4860,101 @@ img.st-1-img {
 .noti-fix-item.close {
   display: none;
 }
+
+.day-of-week .task .task-description{
+ 
+}
+.day-of-week .task .task-description .eval{
+  position: absolute;
+  height: 24px;
+  width: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 3px;
+  right: 3px;
+  background: #fff;
+  border: solid 1px #e8e8e8;
+  border-radius: 12px;
+  font-size: 12px;
+  gap: 4px;
+  z-index: 100;
+  color: #999999;
+}
+.day-of-week .task .task-description .eval .eval-minus:hover,
+.day-of-week .task .task-description .eval .eval-plus:hover{
+  color: #222222;
+}
+
+.day-of-week .task .task-description .eval img{
+  height: 18px;
+}
+
+.day-of-week .task .task-description .eval .eval-icon{
+  position: relative;
+}
+.day-of-week .task .task-description .eval .eval-icon .eval-icon-list{
+  position: absolute;
+  width: 54px;
+  border: solid 1px #e8e8e8;
+  border-radius: 12px;
+  bottom: -3px;
+  background: #fff;
+  z-index: -1;
+  left: -18px;
+  display: none;
+  flex-direction: column;
+  padding-bottom: 25px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+
+
+}
+.day-of-week .task .task-description .eval .eval-icon .eval-icon-list .item{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+
+ gap: 5px;
+  font-size: 16px;
+  color: #222222;
+ height: 30px;
+
+ 
+}
+
+.day-of-week .task .task-description .eval .eval-icon .eval-icon-list .item img{
+  height: 24px;
+  transition: ease-in-out 0.3s;
+}
+.day-of-week .task .task-description .eval .eval-icon .eval-icon-list .item:hover img{
+ transform: scale(1.2);
+}
+.day-of-week .task .task-description .eval .eval-icon:hover .eval-icon-list{
+  display: flex;
+ }
+ .day-of-week .task .task-description .eval-gv{
+  width: auto;
+  height: auto;
+
+ }
+ .day-of-week .task .task-description .eval-gv .eval-gv-list{
+  display: flex;
+  flex-direction: row;
+  padding: 3px;
+
+  gap: 6px;
+  justify-content: center;
+ }
+ .day-of-week .task .task-description .eval-gv .eval-gv-list .item{
+  display: flex;
+
+  font-size: 16px;
+  color: #222222;
+  flex-shrink: 0;
+ }
+ .day-of-week .task .task-description .eval-gv .eval-gv-list .item span{
+  flex-shrink: 0;
+ }
