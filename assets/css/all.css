@@ -5082,6 +5082,7 @@ border: solid 1px #e8e8e8;
 }
 .sv-request-list .left .form .form-select{
   height: 40px;
+  border-radius: 6px !important;
 
 }
 .sv-request-list .left .form .p-btn{
@@ -5096,6 +5097,7 @@ border: solid 1px #e8e8e8;
   font-weight: 500;
   padding-left: 100px;
   padding-right: 100px;
+  border-radius: 6px;
 }
 .sv-request-list .right{
 height: 100%;
@@ -5211,10 +5213,12 @@ padding: 10px;
   height: 100%;
   width: 130px;
   text-align: right;
+  font-weight: bold;
   
 }
 .sv-request-status .item p{
   margin-right: 10px !important;
+  padding-top: 1px;
 }
 .modal-680{
   max-width: 680px;
