@@ -49,8 +49,26 @@
     display: none;
   }
 }
+@media (max-width: 1900px){
+  .sv-request-status {
+    height: 125px;
+  }
+  .sv-request-list {
+    height: calc(100% - 145px);
+}
 
+}
 @media (max-width: 1600px) {
+  .sv-request-short .image {
+    width: 210px;
+}
+  .sv-request-list .left {
+    padding: 30px;
+}
+.sv-request-list .left .form .p-btn .btn {
+  padding-left: 50px;
+  padding-right: 50px;
+}
   .teach-dashboad .dashboad-item {
     width: 50%;
     margin-bottom: 20px;
@@ -140,6 +158,16 @@
 }
 
 @media (max-width: 1360px) {
+  .sv-request-list .left .form .p-btn {
+    flex-direction: column-reverse;
+    gap: 15px;
+}
+  .sv-request-list .left h1 {
+    font-size: 35px;
+}
+.sv-request-list .left h2 {
+  font-size: 24px;
+}
   .exam-reg-wrap {
     padding: 0 30px;
   }
@@ -174,6 +202,20 @@
 }
 
 @media (max-width: 1200px) {
+  .sv-request-list .left .form .p-btn {
+    flex-direction: row;
+}
+ .sv-request-list .right {
+   padding-top: 0;
+    padding-left: 25px;
+}
+  .sv-request-list {
+    height: auto;
+    flex-wrap: wrap;
+}
+.sv-request-list .left, .sv-request-list .right {
+  width: 100%;
+}
   .chart-wrapper.is-scroll {
     margin-right: 50px;
   }
