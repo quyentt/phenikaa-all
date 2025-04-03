@@ -1,4 +1,32 @@
 @import "fonts.css";
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/Roboto-Regular.ttf) format("true type font");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-display: swap;
+  src: url(../fonts/Roboto-Medium.ttf) format("true type font");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-display: swap;
+  src: url(../fonts/Roboto-Bold.ttf) format("true type font");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 800;
+  font-display: swap;
+  src: url(../fonts/Roboto-Black.ttf) format("true type font");
+}
 :root {
   --dask-blue: #223771;
   --light-gray: #f0f3fd;
@@ -5246,4 +5274,8 @@ padding: 10px;
 }
 .gv-request-btn-list .btn.btn-info:hover{
   background: rgb(52, 183, 235) !important;
+}
+.sv-request-list .title-h1,
+.sv-request-list .title-h2{
+  font-family: "Roboto", sans-serif !important; 
 }
