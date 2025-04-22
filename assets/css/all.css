@@ -5294,3 +5294,9 @@ img.st-1-img {
 .sv-request-list .title-h2 {
   font-family: "Roboto", "Helvetica Neue", Arial, sans-serif !important;
 }
+.table tr:nth-child(even) {
+  background: #f9f9f9;
+}
+.table tr:nth-child(even):hover {
+  background: #f8f8f8;
+}
