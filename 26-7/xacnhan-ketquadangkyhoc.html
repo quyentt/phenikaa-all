@@ -1,0 +1,1312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Education management</title>
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="left-sidebar">
+        <div class="sidebar-top">
+          <a href="javascript:void(0)" class="menu-icon">
+            <i class="fal fa-indent"></i>
+          </a>
+          <a href="javascript:void(0)" class="menu-icon-mobi">
+            <i class="fal fa-indent"></i>
+          </a>
+          <a class="logo" href="#">
+            <img class="logo-icon" src="../assets/images/logo.png" />
+            <img class="logo-name" src="../assets/images/logo-name.png" />
+          </a>
+          <div class="line-1"></div>
+          <div class="line-2"></div>
+          <div class="line-hiden"></div>
+        </div>
+
+        <div class="sidebar-menu">
+          <div class="accordion" id="sidebar-menu">
+            <div class="sidebar-menu-item">
+              <a class="sidebar-menu-header" href="">
+                <i class="fas fa-house item-icon"></i>
+                <span>Trang chủ</span>
+              </a>
+            </div>
+            <!-- siderbar menu  item -->
+            <div class="sidebar-menu-item">
+              <a
+                class="sidebar-menu-header"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse1"
+                href="javascrip:void(0)"
+              >
+                <i class="fal fa-id-card item-icon"></i>
+                <span>Profile</span>
+                <i class="fal fa-chevron-right item-arrow-icon"></i>
+                <i class="fal fa-chevron-down item-arrow-icon down"></i>
+              </a>
+              <div
+                class="sidebar-menu-sub collapse"
+                id="collapse1"
+                data-bs-parent="#sidebar-menu"
+              >
+                <a href="#">Profile demo 1 co the dai hon</a>
+                <a href="#">Profile demo 2</a>
+                <a href="#">Profile demo 3</a>
+              </div>
+            </div>
+            <!-- end siderbar menu  item -->
+            <!-- siderbar menu  item -->
+            <div class="sidebar-menu-item">
+              <a
+                class="sidebar-menu-header collapsed"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse2"
+                href="javascrip:void(0)"
+              >
+                <i class="fal fa-book-reader item-icon"></i>
+                <span>Góc học tập</span>
+                <i class="fal fa-chevron-right item-arrow-icon"></i>
+                <i class="fal fa-chevron-down item-arrow-icon down"></i>
+              </a>
+              <div
+                class="sidebar-menu-sub collapse"
+                id="collapse2"
+                data-bs-parent="#sidebar-menu"
+              >
+                <a href="#">Profile demo 1</a>
+                <a href="#">Profile demo 2</a>
+                <a href="#">Profile demo 3</a>
+              </div>
+            </div>
+            <!-- end siderbar menu  item -->
+            <div class="sidebar-menu-item">
+              <a
+                class="sidebar-menu-header collapsed"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse3"
+                href="javascrip:void(0)"
+              >
+                <i class="fal fa-hospital-user item-icon"></i>
+                <span>Ký túc xá</span>
+                <i class="fal fa-chevron-right item-arrow-icon"></i>
+                <i class="fal fa-chevron-down item-arrow-icon down"></i>
+              </a>
+              <div
+                class="sidebar-menu-sub collapse"
+                id="collapse3"
+                data-bs-parent="#sidebar-menu"
+              >
+                <a href="#">Profile demo 1</a>
+                <a href="#">Profile demo 2</a>
+                <a href="#">Profile demo 3</a>
+              </div>
+            </div>
+            <!-- end siderbar menu  item -->
+            <!-- end siderbar menu  item -->
+            <div class="sidebar-menu-item active">
+              <a
+                class="sidebar-menu-header"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse4"
+                href="javascrip:void(0)"
+              >
+                <i class="fal fa-users-class item-icon"></i>
+                <span>Đăng ký học</span>
+                <i class="fal fa-chevron-right item-arrow-icon"></i>
+                <i class="fal fa-chevron-down item-arrow-icon down"></i>
+              </a>
+              <div
+                class="sidebar-menu-sub collapse show"
+                id="collapse4"
+                data-bs-parent="#sidebar-menu"
+              >
+                <a href="#">Đăng ký</a>
+                <a href="#">Nguyện vọng</a>
+                <a href="#" class="active">Danh sách môn đăng ký học</a>
+              </div>
+            </div>
+            <!-- end siderbar menu  item -->
+            <!-- end siderbar menu  item -->
+            <div class="sidebar-menu-item">
+              <a
+                class="sidebar-menu-header collapsed"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse5"
+                href="javascrip:void(0)"
+              >
+                <i class="fal fa-calendar-alt item-icon"></i>
+                <span>Thời khóa biểu</span>
+                <i class="fal fa-chevron-right item-arrow-icon"></i>
+                <i class="fal fa-chevron-down item-arrow-icon down"></i>
+              </a>
+              <div
+                class="sidebar-menu-sub collapse"
+                id="collapse5"
+                data-bs-parent="#sidebar-menu"
+              >
+                <a href="#">Profile demo 1</a>
+                <a href="#">Profile demo 2</a>
+                <a href="#">Profile demo 3</a>
+              </div>
+            </div>
+            <!-- end siderbar menu  item -->
+            <!-- end siderbar menu  item -->
+            <div class="sidebar-menu-item">
+              <a
+                class="sidebar-menu-header collapsed"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse6"
+                href="javascrip:void(0)"
+              >
+                <i class="fal fa-sack-dollar item-icon"></i>
+                <span>Tài chính</span>
+                <i class="fal fa-chevron-right item-arrow-icon"></i>
+                <i class="fal fa-chevron-down item-arrow-icon down"></i>
+              </a>
+              <div
+                class="sidebar-menu-sub collapse"
+                id="collapse6"
+                data-bs-parent="#sidebar-menu"
+              >
+                <a href="#">Profile demo 1</a>
+                <a href="#">Profile demo 2</a>
+                <a href="#">Profile demo 3</a>
+              </div>
+            </div>
+            <!-- end siderbar menu  item -->
+            <!-- end siderbar menu  item -->
+            <div class="sidebar-menu-item">
+              <a
+                class="sidebar-menu-header collapsed"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse7"
+                href="javascrip:void(0)"
+              >
+                <i class="fal fa-book item-icon"></i>
+                <span>Thư viện</span>
+                <i class="fal fa-chevron-right item-arrow-icon"></i>
+              </a>
+              <div
+                class="sidebar-menu-sub collapse"
+                id="collapse7"
+                data-bs-parent="#sidebar-menu"
+              >
+                <a href="#">Profile demo 1</a>
+                <a href="#">Profile demo 2</a>
+                <a href="#">Profile demo 3</a>
+              </div>
+            </div>
+            <!-- end siderbar menu  item -->
+            <!-- end siderbar menu  item -->
+            <div class="sidebar-menu-item">
+              <a
+                class="sidebar-menu-header collapsed"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapse8"
+                href="javascrip:void(0)"
+              >
+                <i class="fal fa-user-graduate item-icon"></i>
+                <span>Hệ thống 1 cửa sinh viên</span>
+                <i class="fal fa-chevron-right item-arrow-icon"></i>
+                <i class="fal fa-chevron-down item-arrow-icon down"></i>
+              </a>
+              <div
+                class="sidebar-menu-sub collapse"
+                id="collapse8"
+                data-bs-parent="#sidebar-menu"
+              >
+                <a href="#">Profile demo 1</a>
+                <a href="#">Profile demo 2</a>
+                <a href="#">Profile demo 3</a>
+              </div>
+            </div>
+            <!-- end siderbar menu  item -->
+          </div>
+        </div>
+      </div>
+      <div class="content-page">
+        <!-- navbar -->
+        <div class="navbar">
+          <div class="search-group-in-mobi">
+            <i class="fal fa-search mobi-search-icon"></i>
+            <form class="search-group">
+              <input
+                type="email"
+                class="search-form"
+                placeholder="Tìm kiếm thông tin"
+              />
+              <button><i class="fal fa-search"></i></button>
+            </form>
+          </div>
+          <div class="in-mobi-group">
+            <div class="nav-menu-group">
+              <div class="dropdown">
+                <button class=" " type="button" data-bs-toggle="dropdown">
+                  <i class="fal fa-ellipsis-h-alt"></i>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="nav-notification">
+              <div class="dropdown">
+                <button class=" " type="button" data-bs-toggle="dropdown">
+                  <i class="fal fa-bell"><span class="noti-count">3</span></i>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="nav-setting">
+              <div class="dropdown">
+                <button class=" " type="button" data-bs-toggle="dropdown">
+                  <i class="fal fa-cog"></i>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="nav-account">
+              <div class="dropdown">
+                <button class=" " type="button" data-bs-toggle="dropdown">
+                  <div class="user-image">
+                    <i class="fas fa-user user-icon"></i>
+                  </div>
+                  <span>Admin</span>
+                  <i class="fal fa-chevron-down user-arrow"></i>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end navbar -->
+        <!-- content -->
+        <div class="content one-door">
+          <div class="overlay"></div>
+          <div class="content-tab no-tab">
+            <p class="link">
+              <a href="#">Đăng ký học</a><i class="fal fa-angle-right"></i>
+              <a href="#">Danh sách môn đăng ký học</a>
+            </p>
+          </div>
+          <!--Danh sách môn đăng ký học-->
+          <div class="row class-reg-search">
+            <div class="col-12 col-lg-8">
+              <div class="row">
+                <div class="col-12 col-md-4 lable te">Kế hoạch đăng ký hoc</div>
+                <div class="col-12 col-md-4">
+                  <div class="form-item form-add-info">
+                    <div class="input-group">
+                      <i class="fal fa-angle-down"></i>
+                      <select
+                        class="form-select"
+                        aria-label="Default select example"
+                      >
+                        <option selected>Chọn kế hoạch đăng ký hoc</option>
+                        <option value="1">Công nghệ thông tin</option>
+                        <option value="2">Kế toán</option>
+                        <option value="3">Điện tử</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-4">
+                  <div class="form-item form-add-info">
+                    <div class="input-group">
+                      <i class="fal fa-angle-down"></i>
+                      <select
+                        class="form-select"
+                        aria-label="Default select example"
+                      >
+                        <option selected>Chọn kế hoạch đăng ký hoc</option>
+                        <option value="1">Công nghệ thông tin</option>
+                        <option value="2">Kế toán</option>
+                        <option value="3">Điện tử</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 class-reg-search-btn">
+              <div class="d-flex gap-3 flex-wrap">
+                <div class="btn btn-dask-blue">
+                  <i class="fal fa-eye me-2"></i> Xem
+                </div>
+                <div class="btn btn-success">
+                  <i class="fal fa-check me-2"></i> Xác nhận tất cả
+                </div>
+                <div class="dropdown">
+                  <div
+                    class="btn btn-outline-success d-flex align-items-center"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <i class="fal fa-file-chart-line me-2"></i> Báo cáo
+                    <i class="fal fa-chevron-down me-2 ms-3 fs-13"></i>
+                  </div>
+                  <ul
+                    class="dropdown-menu fs-13 lh-base"
+                    aria-labelledby="dropdownMenuButton1"
+                    style=""
+                  >
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        >1. Phụ lục văn bản 01</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        >2. Bảng điểm cá nhân 01(tất cả bao gồm cả phần thừa
+                        theo khối)</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        >3. Bảng điểm cá nhân 01(tính điểm)</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        >4. Bảng điểm cá nhân 01(tính điểm | không tính điểm)</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Total class-->
+          <div id="class-reg-list" class="class-group">
+            <div class="classroom-section-list masonry-class-reg-1">
+              <div class="subject-item">
+                <div class="d-flex align-items-center">
+                  <h4 class="truncate-1" title="Môn Chủ nghĩa xã hội khoa học">
+                    Môn Chủ nghĩa xã hội khoa học
+                  </h4>
+                  <div
+                    class="d-flex mb-2 mt-1 justify-content-end flex-shrink-0 ms-auto"
+                  >
+                    <button
+                      class="btn btn-white btn-on-title"
+                      data-bs-toggle="modal"
+                      data-bs-target="#confirm_scores"
+                    >
+                      Xác nhận kết quả đăng ký
+                    </button>
+                  </div>
+                </div>
+
+                <div class="classroom-section-item">
+                  <div class="box-classroom-section box-shadow">
+                    <div class="lable">
+                      <a
+                        href="#"
+                        title="Chủ nghĩa xã hội khoa học-1-2-21(N04)/CNTY 52Pohe"
+                        data-bs-toggle="modal"
+                        data-bs-target="#detail-classroom"
+                        >Chủ nghĩa xã hội khoa học-1-2-21(N04)/CNTY 52Pohe</a
+                      >
+                    </div>
+                    <div class="classroom-detail d-flex">
+                      <div class="classroom-detail-sum">
+                        <p>Thực hành</p>
+                        <p>Tổng số: 30</p>
+                        <p>Đã đăng ký: 30</p>
+                      </div>
+                      <div class="classroom-day">
+                        <p>10/03/2022 - 20/04/2022</p>
+                        <p>Thứ: 2,4,5</p>
+                        <p></p>
+                      </div>
+                    </div>
+                    <div
+                      class="classroom-button d-flex justify-content-between"
+                    >
+                      <div class="price"><b>119.000.000</b> đ</div>
+                      <div class="btn-group">
+                        <button
+                          class="btn btn-view-detail"
+                          data-bs-toggle="modal"
+                          data-bs-target="#diem_danh"
+                        >
+                          Điểm danh
+                        </button>
+                        <button
+                          class="btn btn-view-detail"
+                          data-bs-toggle="modal"
+                          data-bs-target="#diem_qua_trinh"
+                        >
+                          Điểm quá trình
+                        </button>
+                        <button
+                          class="btn btn-view-detail"
+                          data-bs-toggle="modal"
+                          data-bs-target="#detail-classroom"
+                        >
+                          Chi tiết
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="classroom-section-item">
+                  <div class="box-classroom-section box-shadow">
+                    <div class="lable">
+                      <a
+                        href="#"
+                        title="Chủ nghĩa xã hội khoa học-1-2-21(N04)/CNTY 52Pohe"
+                        data-bs-toggle="modal"
+                        data-bs-target="#detail-classroom"
+                        >Chủ nghĩa xã hội khoa học-1-2-21(N04)/CNTY 52Pohe</a
+                      >
+                    </div>
+                    <div class="classroom-detail d-flex">
+                      <div class="classroom-detail-sum">
+                        <p>Thực hành</p>
+                        <p>Tổng số: 30</p>
+                        <p>Đã đăng ký: 30</p>
+                      </div>
+                      <div class="classroom-day">
+                        <p>10/03/2022 - 20/04/2022</p>
+                        <p>Thứ: 2,4,5</p>
+                        <p></p>
+                      </div>
+                    </div>
+                    <div
+                      class="classroom-button d-flex justify-content-between"
+                    >
+                      <div class="price"><b>119.000.000</b> đ</div>
+                      <div class="btn-group">
+                        <button
+                          class="btn btn-view-detail"
+                          data-bs-toggle="modal"
+                          data-bs-target="#diem_danh"
+                        >
+                          Điểm danh
+                        </button>
+                        <button
+                          class="btn btn-view-detail"
+                          data-bs-toggle="modal"
+                          data-bs-target="#diem_qua_trinh"
+                        >
+                          Điểm quá trình
+                        </button>
+                        <button
+                          class="btn btn-view-detail"
+                          data-bs-toggle="modal"
+                          data-bs-target="#detail-classroom"
+                        >
+                          Chi tiết
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end content -->
+
+      <!-- copy right -->
+      <div class="copyright">
+        <marquee>
+          Đơn vị phát triển: Công ty Cổ Phần dịch vụ Công nghệ APIS - Địa chỉ:
+          Tầng 6 Tháp Tây, Tòa nhà Hancorp, Số, 72 Trần Đăng Ninh, P, Cầu Giấy,
+          Hà Nội - Điện thoại: 024 3204 5867
+        </marquee>
+      </div>
+      <!-- end copy right -->
+    </div>
+
+    <!-- Modal Phenikaa-4-Dang-ky-m2-xem-chi-thiet-->
+    <div
+      class="modal fade detail-classroom"
+      id="detail-classroom"
+      tabindex="-1"
+      aria-labelledby="zoomfileLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="zoomfileLabel">
+              Chi tiết - Kỹ năng tư duy sáng tạo và phản biện-1-1-22(N01)
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <table class="table table-classroom tabs-scores">
+              <thead>
+                <tr style="background: #f1f1f1">
+                  <th class="text-center">STT</th>
+                  <th class="">Buổi học</th>
+                  <th class="">Ngày bắt đầu</th>
+                  <th>Ngày kết thúc</th>
+                  <th>Thứ</th>
+                  <th class="text-center">Số tiết</th>
+                  <th class="text-center">Tiết bắt đầu</th>
+                  <th class="text-center">Tiết kết thúc</th>
+                  <th>Phòng học</th>
+                  <th>Giảng viên</th>
+                  <th>Kiểu học</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="text-center">1</td>
+                  <td>Sáng</td>
+                  <td>07/02/2022</td>
+                  <td>07/02/2022</td>
+                  <td>6-07/02/2022</td>
+                  <td class="text-center">2</td>
+                  <td class="text-center">1</td>
+                  <td class="text-center">1</td>
+                  <td>Sân bãi KNN5</td>
+                  <td>Trần Quyền</td>
+                  <td>Lý thuyết</td>
+                </tr>
+                <tr>
+                  <td class="text-center">2</td>
+                  <td>Sáng</td>
+                  <td>07/02/2022</td>
+                  <td>07/02/2022</td>
+                  <td>6-07/02/2022</td>
+                  <td class="text-center">2</td>
+                  <td class="text-center">1</td>
+                  <td class="text-center">1</td>
+                  <td>Sân bãi KNN5</td>
+                  <td>Trần Quyền</td>
+                  <td>Lý thuyết</td>
+                </tr>
+                <tr>
+                  <td class="text-center">3</td>
+                  <td>Sáng</td>
+                  <td>07/02/2022</td>
+                  <td>07/02/2022</td>
+                  <td>6-07/02/2022</td>
+                  <td class="text-center">2</td>
+                  <td class="text-center">1</td>
+                  <td class="text-center">1</td>
+                  <td>Sân bãi KNN5</td>
+                  <td>Trần Quyền</td>
+                  <td>Lý thuyết</td>
+                </tr>
+                <tr>
+                  <td class="text-center">4</td>
+                  <td>Sáng</td>
+                  <td>07/02/2022</td>
+                  <td>07/02/2022</td>
+                  <td>6-07/02/2022</td>
+                  <td class="text-center">2</td>
+                  <td class="text-center">1</td>
+                  <td class="text-center">1</td>
+                  <td>Sân bãi KNN5</td>
+                  <td>Trần Quyền</td>
+                  <td>Lý thuyết</td>
+                </tr>
+                <tr>
+                  <td class="text-center">5</td>
+                  <td>Sáng</td>
+                  <td>07/02/2022</td>
+                  <td>07/02/2022</td>
+                  <td>6-07/02/2022</td>
+                  <td class="text-center">2</td>
+                  <td class="text-center">1</td>
+                  <td class="text-center">1</td>
+                  <td>Sân bãi KNN5</td>
+                  <td>Trần Quyền</td>
+                  <td>Lý thuyết</td>
+                </tr>
+                <tr>
+                  <td class="text-center">6</td>
+                  <td>Sáng</td>
+                  <td>07/02/2022</td>
+                  <td>07/02/2022</td>
+                  <td>6-07/02/2022</td>
+                  <td class="text-center">2</td>
+                  <td class="text-center">1</td>
+                  <td class="text-center">1</td>
+                  <td>Sân bãi KNN5</td>
+                  <td>Trần Quyền</td>
+                  <td>Lý thuyết</td>
+                </tr>
+                <tr>
+                  <td class="text-center">7</td>
+                  <td>Sáng</td>
+                  <td>07/02/2022</td>
+                  <td>07/02/2022</td>
+                  <td>6-07/02/2022</td>
+                  <td class="text-center">2</td>
+                  <td class="text-center">1</td>
+                  <td class="text-center">1</td>
+                  <td>Sân bãi KNN5</td>
+                  <td>Trần Quyền</td>
+                  <td>Lý thuyết</td>
+                </tr>
+                <tr>
+                  <td class="text-center">8</td>
+                  <td>Sáng</td>
+                  <td>07/02/2022</td>
+                  <td>07/02/2022</td>
+                  <td>6-07/02/2022</td>
+                  <td class="text-center">2</td>
+                  <td class="text-center">1</td>
+                  <td class="text-center">1</td>
+                  <td>Sân bãi KNN5</td>
+                  <td>Trần Quyền</td>
+                  <td>Lý thuyết</td>
+                </tr>
+                <tr>
+                  <td class="text-center">9</td>
+                  <td>Sáng</td>
+                  <td>07/02/2022</td>
+                  <td>07/02/2022</td>
+                  <td>6-07/02/2022</td>
+                  <td class="text-center">2</td>
+                  <td class="text-center">1</td>
+                  <td class="text-center">1</td>
+                  <td>Sân bãi KNN5</td>
+                  <td>Trần Quyền</td>
+                  <td>Lý thuyết</td>
+                </tr>
+                <tr>
+                  <td class="text-center">10</td>
+                  <td>Sáng</td>
+                  <td>07/02/2022</td>
+                  <td>07/02/2022</td>
+                  <td>6-07/02/2022</td>
+                  <td class="text-center">2</td>
+                  <td class="text-center">1</td>
+                  <td class="text-center">1</td>
+                  <td>Sân bãi KNN5</td>
+                  <td>Trần Quyền</td>
+                  <td>Lý thuyết</td>
+                </tr>
+                <tr>
+                  <td class="text-center">11</td>
+                  <td>Sáng</td>
+                  <td>07/02/2022</td>
+                  <td>07/02/2022</td>
+                  <td>6-07/02/2022</td>
+                  <td class="text-center">2</td>
+                  <td class="text-center">1</td>
+                  <td class="text-center">1</td>
+                  <td>Sân bãi KNN5</td>
+                  <td>Trần Quyền</td>
+                  <td>Lý thuyết</td>
+                </tr>
+                <tr>
+                  <td class="text-center">12</td>
+                  <td>Sáng</td>
+                  <td>07/02/2022</td>
+                  <td>07/02/2022</td>
+                  <td>6-07/02/2022</td>
+                  <td class="text-center">2</td>
+                  <td class="text-center">1</td>
+                  <td class="text-center">1</td>
+                  <td>Sân bãi KNN5</td>
+                  <td>Trần Quyền</td>
+                  <td>Lý thuyết</td>
+                </tr>
+                <tr>
+                  <td class="text-center">13</td>
+                  <td>Sáng</td>
+                  <td>07/02/2022</td>
+                  <td>07/02/2022</td>
+                  <td>6-07/02/2022</td>
+                  <td class="text-center">2</td>
+                  <td class="text-center">1</td>
+                  <td class="text-center">1</td>
+                  <td>Sân bãi KNN5</td>
+                  <td>Trần Quyền</td>
+                  <td>Lý thuyết</td>
+                </tr>
+                <tr>
+                  <td class="text-center">14</td>
+                  <td>Sáng</td>
+                  <td>07/02/2022</td>
+                  <td>07/02/2022</td>
+                  <td>6-07/02/2022</td>
+                  <td class="text-center">2</td>
+                  <td class="text-center">1</td>
+                  <td class="text-center">1</td>
+                  <td>Sân bãi KNN5</td>
+                  <td>Trần Quyền</td>
+                  <td>Lý thuyết</td>
+                </tr>
+                <tr>
+                  <td class="text-center">15</td>
+                  <td>Sáng</td>
+                  <td>07/02/2022</td>
+                  <td>07/02/2022</td>
+                  <td>6-07/02/2022</td>
+                  <td class="text-center">2</td>
+                  <td class="text-center">1</td>
+                  <td class="text-center">1</td>
+                  <td>Sân bãi KNN5</td>
+                  <td>Trần Quyền</td>
+                  <td>Lý thuyết</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-back" data-toggle="modal">
+              <i class="fal fa-arrow-left"></i> Quay lại
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Phenikaa-4-Dang-ky-m2-diem-danh-->
+    <div
+      class="modal fade detail-classroom"
+      id="diem_danh"
+      tabindex="-1"
+      aria-labelledby="zoomfileLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-700">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="zoomfileLabel">
+              Điểm quá trình Môn Chủ Nghĩa xã hội khoa học
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <table class="table table-classroom tabs-scores">
+              <thead>
+                <tr style="background: #f1f1f1">
+                  <th class="text-center">STT</th>
+                  <th class="">Loại điểm</th>
+                  <th class="">Kết quả</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="text-center" scope="row">
+                    <em class="show-in-mobi">STT</em><span>1</span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi">Loại điểm:</em
+                    ><span>Loại điểm 1</span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi">Kết quả:</em><span>Kết quả 1</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-center" scope="row">
+                    <em class="show-in-mobi">STT</em><span>1</span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi">Loại điểm:</em
+                    ><span>Loại điểm 1</span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi">Kết quả:</em><span>Kết quả 1</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-center" scope="row">
+                    <em class="show-in-mobi">STT</em><span>1</span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi">Loại điểm:</em
+                    ><span>Loại điểm 1</span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi">Kết quả:</em><span>Kết quả 1</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-center" scope="row">
+                    <em class="show-in-mobi">STT</em><span>1</span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi">Loại điểm:</em
+                    ><span>Loại điểm 1</span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi">Kết quả:</em><span>Kết quả 1</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-center" scope="row">
+                    <em class="show-in-mobi">STT</em><span>1</span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi">Loại điểm:</em
+                    ><span>Loại điểm 1</span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi">Kết quả:</em><span>Kết quả 1</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-center" scope="row">
+                    <em class="show-in-mobi">STT</em><span>1</span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi">Loại điểm:</em
+                    ><span>Loại điểm 1</span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi">Kết quả:</em><span>Kết quả 1</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-center" scope="row">
+                    <em class="show-in-mobi">STT</em><span>1</span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi">Loại điểm:</em
+                    ><span>Loại điểm 1</span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi">Kết quả:</em><span>Kết quả 1</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-center" scope="row">
+                    <em class="show-in-mobi">STT</em><span>1</span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi">Loại điểm:</em
+                    ><span>Loại điểm 1</span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi">Kết quả:</em><span>Kết quả 1</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-center" scope="row">
+                    <em class="show-in-mobi">STT</em><span>1</span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi">Loại điểm:</em
+                    ><span>Loại điểm 1</span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi">Kết quả:</em><span>Kết quả 1</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-center" scope="row">
+                    <em class="show-in-mobi">STT</em><span>1</span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi">Loại điểm:</em
+                    ><span>Loại điểm 1</span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi">Kết quả:</em><span>Kết quả 1</span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Phenikaa-4-Dang-ky-m2-diem-qua-trinh-->
+    <div
+      class="modal fade detail-classroom"
+      id="diem_qua_trinh"
+      tabindex="-1"
+      aria-labelledby="zoomfileLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-700">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="zoomfileLabel">
+              Điểm quá trình Môn Chủ Nghĩa xã hội khoa học
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <table class="table table-classroom tabs-scores">
+              <thead>
+                <tr style="background: #f1f1f1">
+                  <th class="text-center">STT</th>
+                  <th class="">Ngày học</th>
+                  <th class="">
+                    Tiết bắt đầu <i class="fas fa-arrow-right"></i>Tiết kết thúc
+                  </th>
+                  <th class="">Trạng thái</th>
+                  <th class="">Số tiết</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="text-center" scope="row">
+                    <em class="show-in-mobi">STT</em><span>1</span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi">Ngày học:</em
+                    ><span>12/10/2022</span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi"
+                      >Tiết bắt đầu <i class="fas fa-arrow-right"></i>Tiết kết
+                      thúc:</em
+                    ><span></span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi">Trạng thái:</em><span></span>
+                  </td>
+                  <td><em class="show-in-mobi">Số tiết:</em><span></span></td>
+                </tr>
+                <tr>
+                  <td class="text-center" scope="row">
+                    <em class="show-in-mobi">STT</em><span>1</span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi">Ngày học:</em
+                    ><span>12/10/2022</span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi"
+                      >Tiết bắt đầu <i class="fas fa-arrow-right"></i>Tiết kết
+                      thúc:</em
+                    ><span></span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi">Trạng thái:</em><span></span>
+                  </td>
+                  <td><em class="show-in-mobi">Số tiết:</em><span></span></td>
+                </tr>
+                <tr>
+                  <td class="text-center" scope="row">
+                    <em class="show-in-mobi">STT</em><span>1</span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi">Ngày học:</em
+                    ><span>12/10/2022</span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi"
+                      >Tiết bắt đầu <i class="fas fa-arrow-right"></i>Tiết kết
+                      thúc:</em
+                    ><span></span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi">Trạng thái:</em><span></span>
+                  </td>
+                  <td><em class="show-in-mobi">Số tiết:</em><span></span></td>
+                </tr>
+                <tr>
+                  <td class="text-center" scope="row">
+                    <em class="show-in-mobi">STT</em><span>1</span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi">Ngày học:</em
+                    ><span>12/10/2022</span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi"
+                      >Tiết bắt đầu <i class="fas fa-arrow-right"></i>Tiết kết
+                      thúc:</em
+                    ><span></span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi">Trạng thái:</em><span></span>
+                  </td>
+                  <td><em class="show-in-mobi">Số tiết:</em><span></span></td>
+                </tr>
+                <tr>
+                  <td class="text-center" scope="row">
+                    <em class="show-in-mobi">STT</em><span>1</span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi">Ngày học:</em
+                    ><span>12/10/2022</span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi"
+                      >Tiết bắt đầu <i class="fas fa-arrow-right"></i>Tiết kết
+                      thúc:</em
+                    ><span></span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi">Trạng thái:</em><span></span>
+                  </td>
+                  <td><em class="show-in-mobi">Số tiết:</em><span></span></td>
+                </tr>
+                <tr>
+                  <td class="text-center" scope="row">
+                    <em class="show-in-mobi">STT</em><span>1</span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi">Ngày học:</em
+                    ><span>12/10/2022</span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi"
+                      >Tiết bắt đầu <i class="fas fa-arrow-right"></i>Tiết kết
+                      thúc:</em
+                    ><span></span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi">Trạng thái:</em><span></span>
+                  </td>
+                  <td><em class="show-in-mobi">Số tiết:</em><span></span></td>
+                </tr>
+                <tr>
+                  <td class="text-center" scope="row">
+                    <em class="show-in-mobi">STT</em><span>1</span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi">Ngày học:</em
+                    ><span>12/10/2022</span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi"
+                      >Tiết bắt đầu <i class="fas fa-arrow-right"></i>Tiết kết
+                      thúc:</em
+                    ><span></span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi">Trạng thái:</em><span></span>
+                  </td>
+                  <td><em class="show-in-mobi">Số tiết:</em><span></span></td>
+                </tr>
+                <tr>
+                  <td class="text-center" scope="row">
+                    <em class="show-in-mobi">STT</em><span>1</span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi">Ngày học:</em
+                    ><span>12/10/2022</span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi"
+                      >Tiết bắt đầu <i class="fas fa-arrow-right"></i>Tiết kết
+                      thúc:</em
+                    ><span></span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi">Trạng thái:</em><span></span>
+                  </td>
+                  <td><em class="show-in-mobi">Số tiết:</em><span></span></td>
+                </tr>
+                <tr>
+                  <td class="text-center" scope="row">
+                    <em class="show-in-mobi">STT</em><span>1</span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi">Ngày học:</em
+                    ><span>12/10/2022</span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi"
+                      >Tiết bắt đầu <i class="fas fa-arrow-right"></i>Tiết kết
+                      thúc:</em
+                    ><span></span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi">Trạng thái:</em><span></span>
+                  </td>
+                  <td><em class="show-in-mobi">Số tiết:</em><span></span></td>
+                </tr>
+                <tr>
+                  <td class="text-center" scope="row">
+                    <em class="show-in-mobi">STT</em><span>1</span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi">Ngày học:</em
+                    ><span>12/10/2022</span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi"
+                      >Tiết bắt đầu <i class="fas fa-arrow-right"></i>Tiết kết
+                      thúc:</em
+                    ><span></span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi">Trạng thái:</em><span></span>
+                  </td>
+                  <td><em class="show-in-mobi">Số tiết:</em><span></span></td>
+                </tr>
+                <tr>
+                  <td colspan="2" class="pt-3 border-0">
+                    Quy định: <b>80%</b>
+                  </td>
+                  <td colspan="3" class="pt-3 text-center border-0">
+                    Thực hiện: <b>90%</b>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal xác nhận-->
+    <div
+      class="modal fade finance-modal my-calendar confirm_scores"
+      id="confirm_scores"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-700">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="finance-user-info in-modal">
+              <p><b>Xác nhận kết quả đăng ký</b></p>
+            </div>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body p-3">
+            <div class="action-group">
+              <div class="select-group">
+                <div class="label">Trạng thái xác nhận</div>
+                <div class="form-item d-flex form-add-info">
+                  <div class="input-group no-icon">
+                    <i class="fal fa-angle-down"></i>
+                    <select
+                      class="form-select"
+                      aria-label="Default select example"
+                    >
+                      <option selected>Chọn trạng thái xác nhận</option>
+                      <option value="1">Hoàn thành</option>
+                      <option value="2">Đang kiểm tra</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <button class="btn btn-success">
+                <i class="fal fa-check me-2"></i> <span>Đồng ý</span>
+              </button>
+            </div>
+            <p class="fw-bold mb-2">Lịch sử xác nhận</p>
+            <table class="table transcrip-table tabs-scores fs-14">
+              <thead>
+                <tr>
+                  <th class="text-center" scope="col">STT</th>
+                  <th scope="col">Trạng thái xác nhận</th>
+                  <th scope="col">Người xác nhận</th>
+                  <th class="text-center" scope="col">Thời gian</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th class="text-center" scope="row">
+                    <em class="show-in-mobi">STT</em><span>1</span>
+                  </th>
+                  <td>
+                    <em class="show-in-mobi">Trạng thái xác nhận:</em
+                    ><span>Hoàn thành</span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi">Người xác nhận:</em
+                    ><span>Nguyễn Tuấn Anh</span>
+                  </td>
+                  <td class="text-center">
+                    <em class="show-in-mobi">Thời gian:</em
+                    ><span>20/09/2022</span>
+                  </td>
+                </tr>
+                <tr>
+                  <th class="text-center" scope="row">
+                    <em class="show-in-mobi">STT</em><span>2</span>
+                  </th>
+                  <td>
+                    <em class="show-in-mobi">Trạng thái công bố:</em
+                    ><span>Đang kiểm tra</span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi">Người công bố:</em
+                    ><span>Nguyễn Tuấn Anh</span>
+                  </td>
+                  <td class="text-center">
+                    <em class="show-in-mobi">Thời gian:</em
+                    ><span>20/09/2022</span>
+                  </td>
+                </tr>
+                <tr>
+                  <th class="text-center" scope="row">
+                    <em class="show-in-mobi">STT</em><span>3</span>
+                  </th>
+                  <td>
+                    <em class="show-in-mobi">Trạng thái xác nhận:</em
+                    ><span>Hoàn thành</span>
+                  </td>
+                  <td>
+                    <em class="show-in-mobi">Người xác nhận:</em
+                    ><span>Nguyễn Tuấn Anh</span>
+                  </td>
+                  <td class="text-center">
+                    <em class="show-in-mobi">Thời gian:</em
+                    ><span>20/09/2022</span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="../assets/js/bootstrap.bundle.min.js "></script>
+  <script src="../assets/js/swiper-bundle.min.js"></script>
+  <script
+    src="../assets/js/jquery-2.2.0.min.js"
+    type="text/javascript"
+  ></script>
+  <script src="../assets/js/slick.js"></script>
+  <script src="../assets/js/masonry.pkgd.min.js"></script>
+  <script src="../assets/js/custom.js"></script>
+</html>

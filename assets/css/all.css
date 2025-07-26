@@ -5300,3 +5300,15 @@ img.st-1-img {
 .table tr:nth-child(even):hover {
   background: #f8f8f8;
 }
+.btn-white {
+  background: white;
+}
+.btn-on-title {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 14px;
+}
+.btn-white:hover {
+  color: white;
+  background: var(--dask-blue);
+}
