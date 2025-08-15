@@ -5315,3 +5315,8 @@ img.st-1-img {
 .tab-pane .finance-dashboard-item {
   box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
 }
+.logo-single-icon img {
+  width: 80px;
+  top: 8px !important;
+  left: 85px;
+}
