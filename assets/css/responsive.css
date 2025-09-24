@@ -477,6 +477,10 @@
     z-index: 1;
     height: 44px;
   }
+  .logo-single-icon img {
+    width: auto;
+    left: calc(50% - 25px);
+  }
   .kqht-modal .left {
     width: 100%;
     margin-top: 20px;
@@ -1430,6 +1434,9 @@
     position: relative;
     margin-bottom: 20px;
   }
+  .tabs-scores {
+    margin-top: 0;
+  }
   .table td:last-child {
     border: none;
   }
@@ -1458,9 +1465,45 @@
     text-align: left !important;
     padding: 0.4rem 1rem;
   }
+  .tabs-scores td {
+    display: flex;
+  }
+  /* fix  thanh toán */
+  .tabs-scores#tblThanhToan tr,
+  .tabs-scores td,
+  .tabs-scores th {
+    display: block;
+    text-align: left !important;
+    padding: 0.4rem !important;
+    border: none;
+    background: transparent !important;
+  }
+  .tabs-scores#tblThanhToan tr {
+    border-bottom: solid 5px #e1e1e1 !important;
+    background: transparent !important;
+  }
+  .tabs-scores#tblThanhToan tr:last-child {
+    border-bottom: solid 5px #e1e1e1 !important;
+  }
+  .tabs-scores#tblThanhToan input {
+    text-align: left !important;
+    border: none;
+    background: transparent;
+  }
+  .show-in-mobi {
+    color: #666666;
+  }
+  .tabs-scores#tblThanhToan {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  /* end fix  thanh toán */
+
   .show-in-mobi {
     display: inline-block;
     width: 100px;
+    flex-shrink: 0;
   }
   .modal-change-calendar .classroom-section-item {
     width: 100%;
@@ -1657,23 +1700,7 @@
     overflow-x: scroll;
     overflow-y: hidden;
   }
-  .table tr:nth-of-type(even) {
-    background-color: #f0f3fb;
-  }
-  .tabs-scores thead {
-    display: none;
-  }
-  .tabs-scores tr,
-  .tabs-scores td,
-  .tabs-scores th {
-    display: block;
-    text-align: left !important;
-    padding: 0.4rem 1rem;
-  }
-  .show-in-mobi {
-    display: inline-block;
-    width: 100px;
-  }
+
   .modal-change-calendar .classroom-section-item {
     width: 100%;
     display: grid;

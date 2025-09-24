@@ -5320,3 +5320,17 @@ img.st-1-img {
   top: 8px !important;
   left: 85px;
 }
+tr:last-child .d-flex.gap-3 {
+  flex-wrap: wrap;
+}
+/* fix thanh toán */
+#modalKhoanNopTruoc .row {
+  margin: 0;
+  padding: 0;
+}
+#modalKhoanNopTruoc .row .row {
+  margin-bottom: 15px;
+}
+#modalKhoanNopTruoc .row .row:last-of-type {
+  margin-bottom: 0;
+}
