@@ -5334,3 +5334,15 @@ tr:last-child .d-flex.gap-3 {
 #modalKhoanNopTruoc .row .row:last-of-type {
   margin-bottom: 0;
 }
+
+.my-calendar .news-search-form .btn.btn-outline-primary {
+  color: var(--bs-primary);
+  border-color: var(--bs-primary);
+}
+.my-calendar .news-search-form .btn.btn-outline-success {
+  color: var(--bs-success);
+  border-color: var(--bs-success);
+}
+.modal-body .caledar-input .input-group {
+  height: 38px;
+}
