@@ -2056,13 +2056,20 @@ table > tbody > tr:hover .view-in-table-sticky {
   border-bottom-left-radius: 9px;
 }
 
-.kqht-modal .left table {
-  border: solid 1px #061b5b;
+.kqht-modal .left .table {
+  border: solid 1px transparent;
   color: white;
 }
 
 .kqht-modal .left tbody tr:hover {
-  color: #222222;
+  /* color: #222222; */
+  background: rgba(6, 27, 91, 0.5);
+}
+.kqht-modal .left tbody tr {
+  background: transparent;
+}
+.kqht-modal .left tbody tr td {
+  border-color: rgba(6, 27, 91, 0.5);
 }
 
 .kqht-modal .left th {
